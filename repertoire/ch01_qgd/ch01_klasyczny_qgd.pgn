@@ -1,0 +1,819 @@
+[Event "Repertuar Bialych — Ch1: Klasyczny Gambit Hetmanski (QGD)"]
+[Site "Chess Analysis Architect"]
+[Date "2026.11.21"]
+[Round "1"]
+[White "1.1 Ortodoksyjna: 13. Bb3 exd4 — Plan Karpowa na linii e"]
+[Black ""]
+[Result "*"]
+
+{ Kręgosłup rozdziału: Klasyczny Gambit Hetmański w kolejności 3. Nc3 -> 4. Bg5 -> 5. e3 przed Nf3 (twarda reguła repertuarowa — omijamy Wiedeński, klasycznego Ragozina i Botwinnika). W linii 1.1 czarne wyzwalają się w centrum przez ...e5 i rozładowują napięcie ruchem 13... exd4, a my gramy dokładnie planem Anatolija Karpowa z partii modelowej Karpov–Campora 1997. } 1. d4 d5 2. c4 e6 3. Nc3 Nf6 4. Bg5 $1 { Kolejność 4. Bg5 przed Nf3 jest kluczowym bezpiecznikiem całego rozdziału. Dlaczego NIE oczywiste 4. Nf3? Bo po 4. Nf3 czarne dostają dostęp do ostrego Ragozina 4... Bb4, Wiedeńskiego 4... dxc4 oraz — po 4... c6 — całego lasu Botwinnika. Ruch 4. Bg5 zmusza czarne do zadeklarowania struktury zanim ruszymy skoczka g1. [%csl Yf6] [%cal Bg5f6,Ge2e3] } ( 4. Nf3 Bb4 { Tego dokładnie unikamy naszą kolejnością — klasyczny Ragozin z niepotrzebnym rozbudowaniem drzewa teorii. } ) 4... Be7 5. e3 O-O 6. Nf3 Nbd7 7. Rc1 $1 { Kluczowy ruch profilaktyczno-rozwojowy. Dlaczego NIE naturalne 7. Bd3? Po natychmiastowym 7. Bd3 czarne biją 7... dxc4 8. Bxc4, zmuszając gońca f1 do wykonania dwóch ruchów jeszcze przed pełną mobilizacją. Ruch 7. Rc1 to klasyczne tempo wyczekujące: wieża i tak należy na linię c, a czarne muszą pokazać, jak rozwiązują problem gońca c8. Po 7... c6 nasz goniec na d3 będzie miał już gotowe wsparcie wieży na linii c. [%csl Yc1] [%cal Bf1d3,Bc1c6] } ( 7. Bd3 dxc4 8. Bxc4 { Oddanie pełnego tempa gońcem — wariant 7. Rc1 pozwala nam utrzymać maksymalną elastyczność i karze przedwczesne 7... b6. } ) 7... c6 8. Bd3 dxc4 9. Bxc4 Nd5 10. Bxe7 Qxe7 11. O-O Nxc3 12. Rxc3 e5 13. Bb3 $1 { Ruch podpisowy Karpowa (SF19 #1, +0.49 po 14. exd4). Warstwa 1 (refutacja odruchu): dlaczego NIE automatyczne 13. dxe5 Nxe5 14. Nxe5 Qxe5? Taka seria wymian uwalnia gońca c8 i oddaje czarnym równą, bezproblemową grę, mimo że na pierwszy rzut oka wygląda czysto. Warstwa 2 (ustępstwo rywala): czarne grając 12... e5 otworzyły przekątną a2-g8 i linię e przy wciąż nierozwiniętym gońcu c8 i wieży a8. Warstwa 3 (mapa adresów): 13. Bb3 chowa gońca przed tempem ...e4 lub ...Nb6, celuje w punkt f7 i przygotowuje Re1 oraz Ne5. Warstwa 4 (profilaktyka): odbieramy czarnym wszelkie taktyki na odkrytym gońcu c4 i zmuszamy je do decyzji w centrum — albo oddają linię e (13... exd4), albo tworzą cel ataku (13... e4 w linii 1.2). [%csl Yf7,Ye5] [%cal Bb3f7,Bf1e1,Bf3e5] } ( 13. dxe5 Nxe5 14. Nxe5 Qxe5 { Przedwczesne rozładowanie — czarne bez trudu rozwijają gońca na f5 lub e6 i całkowicie wyrównują. } ) 13... exd4 14. exd4 { BRAMA DO GRY ŚRODKOWEJ:
+1. Diagnoza pozycji: Symetryczna struktura bez piona c i e, ale z wyraźną przewagą rozwojową i inicjatywą białych po otwartej linii e oraz przekątnej a2-g8. Stockfish 19 daje uczciwe +0.49 (WDL 7.8% / 92.1% / 0.1%), a w Masters białe zdobywają 59.1% po 14. exd4 — czarne muszą bronić się bardzo dokładnie.
+2. Mapa pionów [G]: Pion d4 kontroluje pole e5 i w przyszłości może ruszyć d4-d5 w taktycznym momencie (patrz partia Karpov–Campora); w grze środkowej planujemy a2-a3/h2-h3 dla higieny króla oraz ewentualne f2-f4 po ustawieniu skoczka na e5.
+3. Mapa figur [B]: Wieża f1 natychmiast idzie na e1 z tempem na hetmana e7; skoczek f3 wskakuje na placówkę e5; wieża c3 ma otwarty lift na trzecią linię (Rc3-e3 lub Rf3 z naciskiem na f7); goniec b3 paraliżuje punkt f7.
+4. Kontrgra czarnych [R]: Czarne chcą zagrać ...Nf6, ...Qd6 i wyprowadzić gońca c8 (np. ...Bf5 lub ...Bg4) oraz zakwestionować linię e przez ...Rae8. Nasza profilaktyka to tempo 15. Re1 przed ...Nf6-...Be6 oraz gotowość na Rf3 lub Qc2.
+5. Wymiany i końcówka: Unikamy przedwczesnej wymiany lekkich figur (skoczek e5 vs skoczek f6), dopóki nie uzyskamy konkretnego zysku strukturalnego lub nie zyskamy otwartej linii e. Końcówka wieżowa z aktywną wieżą na 6./7. linii (jak w Karpov–Campora) jest wysoce korzystna dla białych.
+
+Przykładowe kontynuacje (PV Stockfish 19 / wzorce):
+• 14... Nf6 15. Re1 Qd6 16. Ne5 Bf5 17. Rf3 — Dokładny plan z partii modelowej Karpov–Campora 1997 (1-0) — natychmiastowa presja na f7 i goniec f5 pod obstrzałem. [%csl Ge5,Rf7] [%cal Gd4d5,Bf1e1,Bf3e5,Bc3f3,Bb3f7,Rd7f6] } *
+
+[Event "Repertuar Bialych — Ch1: Klasyczny Gambit Hetmanski (QGD)"]
+[Site "Chess Analysis Architect"]
+[Date "2026.11.21"]
+[Round "2"]
+[White "1.2 Ortodoksyjna: 13. Bb3 e4 — Zamknięcie centrum i podważenie f3"]
+[Black ""]
+[Result "*"]
+
+{ Druga główna reakcja czarnych po 13. Bb3 (40% w Masters): zamiast otwierać linię e, czarne zamykają centrum ruchem 13... e4, próbując zyskać przestrzeń na skrzydle królewskim. Klasyczny plan Karpowa polega na spokojnym odejściu 14. Nd2 i metodycznym rozbiciu klina e4. } 1. d4 d5 2. c4 e6 3. Nc3 Nf6 4. Bg5 Be7 5. e3 O-O 6. Nf3 Nbd7 7. Rc1 c6 8. Bd3 dxc4 9. Bxc4 Nd5 10. Bxe7 Qxe7 11. O-O Nxc3 12. Rxc3 e5 13. Bb3 e4 { Ruch 13... e4 wygląda agresywnie i jest bardzo popularny wśród zawodników 1800–2200, bo zyskuje przestrzeń i przegania skoczka f3. Ustępstwo czarnych polega jednak na tym, że pion e4 staje się nadmiernie wysunięty bez wsparcia piona d5, a pole f5 zostaje osłabione pod przyszły podkop f2-f3. [%csl Ye4] [%cal Bf3d2] } 14. Nd2 $1 { Jedynie 14. Nd2! (SF19 #1, +0.33, WDL 3.8% / 96.0% / 0.2%). Warstwa 1 (refutacja odruchu): po pasywnym 14. Ne1?! skoczek traci kontakt z polem c4 i e4, oddając czarnym swobodne ...Nf6-...Be6-...Bd5. Warstwa 2 (ustępstwo): czarny goniec c8 i skoczek d7 mają problem z jednoczesną obroną e4 i powstrzymaniem podkopu f2-f3. Warstwa 3 (mapa adresów): skoczek d2 wraca do gry przez c4 (atakując b6/d6) lub wspiera f2-f3, a goniec b3 może przegrupować się przez c2 z naciskiem na e4. Warstwa 4 (profilaktyka): jeśli czarne zagrają ...Nf6, natychmiast uderzamy 15. f3! lub najpierw 15. Qc2 i 16. f3, rozbijając centrum zanim czarne zdążą przeprowadzić ...f5.
+
+BRAMA DO GRY ŚRODKOWEJ:
+1. Diagnoza pozycji: Zablokowany klin czarnych na e4 daje białym wyraźny, stały cel strategiczny. Stockfish 19 ocenia pozycję na +0.33 (WDL 3.8% / 96.0% / 0.2%) — obiektywnie umiarkowana przewaga białych, ale w praktyce czarne stoją pod długotrwałą presją na e4 i po linii f.
+2. Mapa pionów [G]: Główny przełom to f2-f3 (często poprzedzone Qc2 lub a2-a4), by zlikwidować klin e4 i otworzyć linię f; w odpowiedzi na ...Kh8 i ...f5 zatrzymujemy skrzydło hetmańskie ruchem a4-a5, paraliżując ...b6/...c5.
+3. Mapa figur [B]: Skoczek d2 celuje w c4 (a po ...c5 nawet d6), goniec b3 przechodzi na c2 (nacisk na e4) lub zostaje na przekątnej a2-g8; wieża c3 pilnuje 3. linii i po otwarciu linii f współgra z Rf1.
+4. Kontrgra czarnych [R]: Plan czarnych to ...Kh8, ...f5 (wzmocnienie e4) oraz ...Nf6-...Be6-...Bd5 albo atak ...f4. Gasimy to szybkim f2-f3 zanim ...f5 stanie się stabilne, lub ruchem a4-a5 wiążącym czarne na skrzydle hetmańskim.
+5. Wymiany i końcówka: Wymiana pary wież na linii f po f2-f3 zwykle sprzyja białym, bo goniec b3 i skoczek c4 są bardziej elastyczne niż bierki czarnych; unikamy natomiast wymiany naszego dobrego gońca b3 za słabego gońca c8 na polu d5 bez zysku strukturalnego.
+
+Przykładowe kontynuacje (PV Stockfish 19 / wzorce):
+• 14... Nf6 15. Qc2 Bf5 16. f3 — Bezpośredni podkop klina e4 — czarne tracą kontrolę nad centrum.
+• 14... Kh8 15. a4 f5 16. a5 — Plan profilaktyczny (PV Stockfisha 19): najpierw zamrażamy skrzydło hetmańskie przed ...f5, zachowując f3 na dogodny moment. [%csl Ge4,Yf3] [%cal Gf2f3,Bb3c2,Bd2c4,Rd7f6] } ( 14. Ne1 Nf6 15. f3 Bf5 { Zbyt pasywne — skoczek na e1 stoi gorzej niż na d2, nie kontroluje c4 ani e4. } ) *
+
+[Event "Repertuar Bialych — Ch1: Klasyczny Gambit Hetmanski (QGD)"]
+[Site "Chess Analysis Architect"]
+[Date "2026.11.21"]
+[Round "3"]
+[White "1.3 Ortodoksyjna: 8... h6 9. Bh4 dxc4 — Ekspansja ...b5/...c5 i precyzyjne 13. a4!"]
+[Black ""]
+[Result "*"]
+
+{ Najbardziej ambitna próba czarnych po 8. Bd3 (12% w Masters): wtrącenie 8... h6 9. Bh4 pozwala im zagrać całą sekwencję Merano-podobną ...dxc4, ...b5, ...a6, ...c5. Ważna korekta audytorska po Bramce 1: zamiast 13. Ne4 (które wpada w 13... c4! z oceną -0.24 i tylko 16.7% białych w Masters) wybieramy główne, solidne 13. a4! (SF19 0.00, 54.8% białych w Masters). } 1. d4 d5 2. c4 e6 3. Nc3 Nf6 4. Bg5 Be7 5. e3 O-O 6. Nf3 Nbd7 7. Rc1 c6 8. Bd3 h6 9. Bh4 dxc4 10. Bxc4 b5 11. Bd3 { Odejście 11. Bd3 (zamiast pasywnego 11. Be2) utrzymuje maksymalny nacisk na przekątnej b1-h7 i kontrolę pola e4. Czarne zyskały przestrzeń na skrzydle hetmańskim, ale ich struktura b5/a6 jest jeszcze nieustabilizowana, a goniec c8 wciąż nie gra. [%csl Yb5,Yc5] [%cal Bd3h7] } 11... a6 12. O-O c5 13. a4 $1 { Kluczowe uderzenie w podstawę łańcucha b5 (SF19 #1, -0.09 / Cloud d43 0.00; Masters #1: 48.4% częstości i 54.8% wyniku białych). Warstwa 1 (refutacja odruchu): dlaczego NIE kuszące 13. Ne4? Po 13. Ne4 czarne grają zimnokrwiste 13... c4! 14. Bb1 Bb7 i okazuje się, że zyskały bezpieczną przewagę przestrzeni na skrzydle hetmańskim przy parze gońców po wymianie na f6 (SF19 -0.24, w Masters czarne wygrały 83% po 13... c4!). Warstwa 2 (ustępstwo): czarny pion b5 wisi bez obrony piona c6, a wieża a8 jest przywiązana do a6. Warstwa 3 (mapa adresów): 13. a4 natychmiast rozbija łańcuch — na 13... bxa4 bijemy 14. Nxa4 z miażdżącym naciskiem na c5, a na 13... c4 14. Be2 czarne oddały napięcie w centrum i zostawiły słabe pole d4 oraz b5. Warstwa 4 (profilaktyka): uczciwa ocena — to obiektywna równość (0.00, WDL 1.1% / 96.6% / 2.3%), ale białe dyktują strukturę i zmuszają czarne do dokładnej obrony osłabionych pól na skrzydle hetmańskim.
+
+BRAMA DO GRY ŚRODKOWEJ:
+1. Diagnoza pozycji: Dynamiczna równowaga strukturalna — Stockfish 19 ocenia pozycję na -0.09 / 0.00 (WDL 1.1% / 96.6% / 2.3%). Nie sprzedajemy jej jako wygranej: to czysta, złożona gra środkowa, w której białe rozbijają pionowy mur czarnych na skrzydle hetmańskim (54.8% w Masters).
+2. Mapa pionów [G]: Pion a4 atakuje b5 — po 13... bxa4 mamy zdrowe wyspy pionowe i cel c5; po 13... c4 14. Be2 planujemy b2-b3 lub otwarcie linii a po axb5.
+3. Mapa figur [B]: Skoczek c3 przechodzi na a4 (po ...bxa4) lub e4/d2; wieża c1 kontroluje półotwartą linię c; po 13... bxa4 14. Nxa4 cxd4 15. Nxd4 skoczek ląduje na idealnej placówce d4 lub c6, a goniec h4 wraca na g3.
+4. Kontrgra czarnych [R]: Czarne liczą na ...Bb7 (przekątna a8-h1), ...cxd4 i ...Rc8 lub zamknięcie 13... c4 z szybkim ...Nd5. Naszą profilaktyką jest kontrola przekątnej po ...cxd4 (Nxd4! zamiast exd4 gdy możliwe) i nieoddawanie pola c4 bez zysku na linii a.
+5. Wymiany i końcówka: W wariancie 13... bxa4 14. Nxa4 cxd4 15. Nxd4 Bb7 wymiana jednej pary lekkich figur zmniejsza atak czarnych na długiej przekątnej i uwydatnia słabość piona a6 w końcówce.
+
+Przykładowe kontynuacje (PV Stockfish 19 / wzorce):
+• 13... bxa4 14. Nxa4 cxd4 15. Nxd4 Bb7 16. Bg3 — Główna linia SF19 — biały skoczek na a4 i d4 kontroluje kluczowe pola c5/c6, a czarny pion a6 jest trwałym celem.
+• 13... c4 14. Be2 Nd5 15. Bxe7 Qxe7 16. axb5 Nxc3 17. Rxc3 axb5 18. b3 — Po zamknięciu 13... c4 białe podkopują łańcuch ruchem b2-b3 i rozbijają wyspę c4/b5. [%csl Yb5,Ya4] [%cal Rc5c4,Rb5a4,Bc3a4] } ( 13. Ne4 c4 14. Bb1 Bb7 { Korekta z Bramki 1: 13. Ne4 daje czarnym łatwą przewagę po 13... c4! (SF19 -0.24, 83% dla czarnych w Masters). Wybieramy precyzyjniejsze 13. a4!. } ) ( 13. Qe2 Bb7 14. Rfd1 Qb6 { Zbyt wolne — czarne kończą rozwój gońca na b7 bez presji na b5. } ) *
+
+[Event "Repertuar Bialych — Ch1: Klasyczny Gambit Hetmanski (QGD)"]
+[Site "Chess Analysis Architect"]
+[Date "2026.11.21"]
+[Round "4"]
+[White "1.4 Ortodoksyjna: 8. Bd3 Re8 — Kara za opóźnienie ...dxc4 (9. O-O!)"]
+[Black ""]
+[Result "*"]
+
+{ Popularny ruch klubowy i mistrzowski (5% po 8. Bd3): czarne grają 8... Re8 w nadziei na spokojne przejście do wariantu z ...Nf8 lub ...e5. W bazie Masters białe zdobywają tu aż 71.1% po naturalnym 9. O-O! } 1. d4 d5 2. c4 e6 3. Nc3 Nf6 4. Bg5 Be7 5. e3 O-O 6. Nf3 Nbd7 7. Rc1 c6 8. Bd3 Re8 9. O-O $1 { Spokojna roszada 9. O-O (98.5% w Masters, 71.1% wyniku białych, Cloud d30 +0.53). Dlaczego NIE przedwczesne 9. cxd5? Ponieważ po 8... Re8 czarne nie mają jeszcze kontrgry na linii c ani ...b5 — roszada utrzymuje pełne napięcie i zmusza czarne do oddania centrum ruchem 9... dxc4 (po 9... h6 10. Bh4 dxc4 11. Bxc4 b5 12. Bd3 a6 13. a4 czarne zmarnowały tempo na ...Re8 zamiast ...c5). [%csl Ye8] [%cal Bc1c6] } 9... dxc4 10. Bxc4 Nd5 11. Bxe7 Qxe7 12. Ne4 $1 { Kluczowy ruch przewagi przestrzennej (SF19 #1, +0.43, WDL 7.2% / 92.6% / 0.2%). Warstwa 1 (refutacja odruchu): dlaczego NIE automatyczne 12. e4?! Bo po 12... Nxc3 13. Rxc3 e5 czarne dokładnie uzyskują aktywną kontrgre w centrum. Natomiast po 12. Ne4! czarne nie mogą grać ...Nxc3 bez straty kontroli nad d6, a ruch ...e5 wisi taktycznie lub osłabia f6/d6. Warstwa 2 (ustępstwo): wieża na e8 zamiast c8 zostawiła skrzydło hetmańskie bez ochrony i osłabiła punkt f7. Warstwa 3 (mapa adresów): skoczek e4 idzie na g3 (lub c5/d6), białe grają Bb3/Re1 i przygotowują e3-e4 w idealnych warunkach. Warstwa 4 (profilaktyka): po 12... N5f6 13. Ng3! unikamy upraszczających wymian i zachowujemy przewagę przestrzeni.
+
+BRAMA DO GRY ŚRODKOWEJ:
+1. Diagnoza pozycji: Wyraźna, zdrowa przewaga białych w centrum i rozwoju — Stockfish 19 daje +0.43 (WDL 7.2% / 92.6% / 0.2%), a czarna wieża na e8 nie pomaga w obronie skrzydła hetmańskiego.
+2. Mapa pionów [G]: Przygotowujemy kontrolowane e3-e4 (gdy skoczek d5 odejdzie lub po Re1), a po ewentualnym ...c5 możemy rozważyć d4-d5 lub przejście w izolowanego piona rywala.
+3. Mapa figur [B]: Skoczek e4 ma dwa genialne adresy: g3 (z planem e4/Bb1/Qd3) lub c5 (gdy czarne zagrają ...b6); wieża f1 idzie na e1; goniec c4 może odejść na b3/d3.
+4. Kontrgra czarnych [R]: Czarne próbują ...N5f6 (wymiana par skoczków i ...e5) albo ...Rd8 + ...b6 + ...c5. Na ...N5f6 odpowiadamy 13. Ng3!, nie oddając przestrzeni; na ...b6 pilnujemy przekątnej i pola c6.
+5. Wymiany i końcówka: Białe unikają wymiany skoczków (każda wymiana łagodzi ciasnotę czarnych z wieżą na e8). Gdy czarne zmusimy do osłabienia d6 lub c6, końcówka z białym gońcem przeciw pasywnemu gońcowi c8 jest silnie korzystna dla białych.
+
+Przykładowe kontynuacje (PV Stockfish 19 / wzorce):
+• 12... Rd8 13. Re1 b6 14. Ng3 — Główna linia SF19 — pełna kontrola pola e4 i gotowość na e3-e4 lub Bxd5. [%csl Yd6,Ye4] [%cal Be4g3,Be4d6,Re6e5] } ( 12. e4 Nxc3 13. Rxc3 e5 { Zbyt pospieszne — czarne dostają dokładnie tę samą uwalniającą wymianę co w głównej linii, tracąc nasz bonus za bezużyteczne ...Re8. } ) *
+
+[Event "Repertuar Bialych — Ch1: Klasyczny Gambit Hetmanski (QGD)"]
+[Site "Chess Analysis Architect"]
+[Date "2026.11.21"]
+[Round "5"]
+[White "1.5 Ortodoksyjna: Wczesne 7... a6 (oraz transpozycja 8. Bd3 a6) — Czysty Karlsbad"]
+[Black ""]
+[Result "*"]
+
+{ Druga najpopularniejsza odpowiedź czarnych po 7. Rc1 (26.4% w Masters!). Czarne szykują wczesne ...dxc4 i ...b5 z zyskiem tempa na gońcu. Nasza odpowiedź 8. cxd5! (53% Masters, 55.8% białych) natychmiast gasi ten plan i przekształca grę w podręcznikowy Karlsbad, gdzie ...a6 okazuje się stratą tempa. Uwaga: ta linia wchłania dokładną transpozycję po 7... c6 8. Bd3 a6 9. cxd5 exd5 10. O-O Re8 11. Qc2 (identyczna pozycja po 11. ruchu). } 1. d4 d5 2. c4 e6 3. Nc3 Nf6 4. Bg5 Be7 5. e3 O-O 6. Nf3 Nbd7 7. Rc1 a6 8. cxd5 $1 { Natychmiastowe 8. cxd5! (Cloud d44 +0.37, Masters #1 53.0% / 55.8%W). Warstwa 1 (refutacja odruchu): dlaczego NIE rozwojowe 8. Bd3? Bo po 8. Bd3 dxc4 9. Bxc4 b5 10. Bd3 c5 czarne dostają dokładnie swój wymarzony kontratak na skrzydle hetmańskim w jednym tempie. Warstwa 2 (ustępstwo): grając 7... a6 czarne poświęciły tempo na skrzydle, które w zamkniętej strukturze Karlsbadu wręcz osłabia punkt b6 przed naszym atakiem mniejszości b4-b5. Warstwa 3 (mapa adresów): Bd3, O-O, Qc2, a po ...Re8 klasyczny atak mniejszości b4-b5 albo centralny manewr f3 + e4 (w zależności od tego, gdzie czarne ustawią skoczka d7). Warstwa 4 (profilaktyka): 8. cxd5 zamyka czarnym drogę do ...dxc4 + ...b5 na zawsze. [%csl Ya6,Yb6] [%cal Ga2a3,Gb2b4,Rb7b5] } ( 8. Bd3 dxc4 9. Bxc4 b5 10. Bd3 c5 { Wchodzimy prosto w plan czarnych — 8. cxd5! całkowicie im to odbiera. } ) 8... exd5 9. Bd3 c6 10. O-O Re8 11. Qc2 { BRAMA DO GRY ŚRODKOWEJ:
+1. Diagnoza pozycji: Podręcznikowa struktura Karlsbadu z darmowym osłabieniem ...a6 u czarnych (cel dla przełomu b4-b5). Stockfish 19 ocenia pozycję na +0.33 (WDL 6.1% / 93.5% / 0.4%), dając białym bardzo klarowny, wolny od ryzyka plan strategiczny — lustrzane odbicie struktur, które grasz też czarnymi w Półsłowiańskiej.
+2. Mapa pionów [G]: Klasyczny atak mniejszości a2-a3, b2-b4-b5 (po ...cxb5 czarne zostają z izolowanym pionem d5, a po ...a6xb5 otwiera się linia a i wisi c6). Alternatywnie, jeśli czarne zagrają ...Nf8 i ...Ne6, przechodzimy na h2-h3 oraz f2-f3 + e3-e4.
+3. Mapa figur [B]: Hetman na c2 kontroluje e4 i wspiera linię c; wieża c1 może przejść na b1 (pod b4-b5), a wieża f1 na e1 lub c1; po ...h6 goniec wycofuje się na f4 (wymiana dobrych gońców nie służy czarnym, bo zostają ze słabymi białymi polami) albo na h4.
+4. Kontrgra czarnych [R]: Plan czarnych to ...Nf8, ...Ne6, ...g6, ...Ng7-...Bf5 (wymiana białopolowych gońców) albo skok ...Ne4. Na ...Ne4 odpowiadamy 12. Bf4! (lub Bxe7 Qxe7 Bxe4), a na ...Nf8 przygotowujemy szybkie b4 albo h3 + Bf4.
+5. Wymiany i końcówka: Wymiana czarnopolowych gońców na e7 lub wymiana par skoczków na e4 zbliża nas do wygranej technicznie końcówki z wieczną słabością na c6/d5 po ataku mniejszości.
+
+Przykładowe kontynuacje (PV Stockfish 19 / wzorce):
+• 11... h6 12. Bf4 Nh5 13. Be5 — Białe utrzymują kontrolę nad polami białymi i przekątną b1-h7. [%csl Yc6,Yb6] [%cal Gb2b4,Bc1b1,Bf1e1,Bg5f4,Rd7f8] } *
+
+[Event "Repertuar Bialych — Ch1: Klasyczny Gambit Hetmanski (QGD)"]
+[Site "Chess Analysis Architect"]
+[Date "2026.11.21"]
+[Round "6"]
+[White "1.6 Ortodoksyjna: Wczesne 7... dxc4 — Aktywny IQP z pełnym rozwojem"]
+[Black ""]
+[Result "*"]
+
+{ Czarne oddają centrum już w 7. ruchu (10.4% w Masters), licząc na szybkie ...c5 i klasyczną walkę przeciw naszemu izolowanemu pionowi hetmańskiemu (IQP). Dzięki temu, że nasz goniec od razu wyszedł na c4 jednym tempem, a wieża stoi już na c1, uzyskujemy modelową, dynamiczną wersję IQP. } 1. d4 d5 2. c4 e6 3. Nc3 Nf6 4. Bg5 Be7 5. e3 O-O 6. Nf3 Nbd7 7. Rc1 dxc4 8. Bxc4 c5 9. O-O cxd4 10. exd4 $1 { Zdecydowanie 10. exd4! (SF19 +0.27, WDL 4.3% / 95.2% / 0.5%). Warstwa 1 (refutacja odruchu): dlaczego NIE bezpieczne 10. Nxd4? Po 10. Nxd4 czarne wymieniają pary figur przez 10... Ne5 11. Be2 Nd5 i partia wysycha w całkowitą równość. Warstwa 2 (ustępstwo): oddając centrum w 7. ruchu, czarne pozwoliły nam oszczędzić tempo na gońcu (Bxc4 w jednym ruchu) i zdobyć pełną kontrolę nad polami e5 i c5. Warstwa 3 (mapa adresów): Re1, Ne5, Qe2/Qd3 oraz przełom d4-d5 w momencie, gdy czarne zagrają ...a6/...b5. Warstwa 4 (profilaktyka): pilnujemy blokady d5 (po ...Nb6 cofamy gońca na b3, a nie na d3, żeby nie zasłaniać hetmana i trzymać f7 na muszce).
+
+BRAMA DO GRY ŚRODKOWEJ:
+1. Diagnoza pozycji: Podręcznikowy, wysoce aktywny IQP białych z pełną mobilizacją wszystkich figur lekkich i wieżą na c1. Stockfish 19 daje +0.27 (WDL 4.3% / 95.2% / 0.5%) — świetna pozycja treningowa do ćwiczenia gry z przewagą przestrzeni i ataku figurowego.
+2. Mapa pionów [G]: Centralny taran d4-d5 (zwłaszcza gdy czarne zagrają ...b6/...Bb7 lub ...a6/...b5 i zostawią linię e oraz pole e6 otwarte); h2-h3 jako higiena przed ...Bg4.
+3. Mapa figur [B]: Wieża f1 idzie na e1; skoczek f3 zajmuje placówkę e5; goniec c4 po ...Nb6 wraca na b3 (a stamtąd na c2 w baterii z Qd3 na h7); hetman wybiera e2 lub d3.
+4. Kontrgra czarnych [R]: Czarne dążą do żelaznej blokady pola d5 (...Nb6, ...Nfd5, ...Bd7-...Bc6) i masowych wymian lekkich figur. Nasza profilaktyka to aktywne Ne5, utrzymywanie figur na szachownicy i szybkie uderzenie d4-d5 zanim blokada okrzepnie.
+5. Wymiany i końcówka: W IQP unikamy wymian lekkich figur w grze środkowej (końcówka z izolowanym d4 bez inicjatywy jest dla białych nieprzyjemna). Jedyna korzystna wymiana to oddanie czarnopolowego gońca g5 za obrońcę pola d5 lub e5, gdy otwiera nam to natychmiastowy atak lub przełom d4-d5.
+
+Przykładowe kontynuacje (PV Stockfish 19 / wzorce):
+• 10... a6 11. Ne5 Nb6 12. Bb3 Nfd5 13. Bxe7 Qxe7 14. Ne4 — Aktywna gra figurowa białych z mocnymi placówkami na e5 i c5. [%csl Ye5,Yd5] [%cal Gd4d5,Bf3e5,Bf1e1,Bc4b3] } ( 10. Nxd4 Ne5 11. Be2 Nd5 { Pasywne — czarne bez trudu upraszczają pozycję i niwelują naszą przewagę rozwojową. } ) *
+
+[Event "Repertuar Bialych — Ch1: Klasyczny Gambit Hetmanski (QGD)"]
+[Site "Chess Analysis Architect"]
+[Date "2026.11.21"]
+[Round "7"]
+[White "1.7 Ortodoksyjna: Wczesne 7... h6 8. Bh4 c5 — Kara za przedwczesny przełom"]
+[Black ""]
+[Result "*"]
+
+{ Czarne grają 7... h6 8. Bh4 (do tej pozycji może też dojść z kolejności 6... h6 7. Bh4 Nbd7 8. Rc1 — 5.2% w Masters!). Na naturalne, lecz przedwczesne 8... c5 (32% po 8. Bh4) odpowiadamy konkretną sekwencją wymian, która pozostawia czarne ze słabym izolowanym pionem d5 (SF19 +0.91!). Na 8... c6 po prostu gramy 9. Bd3 z transpozycją do linii 1.3. } 1. d4 d5 2. c4 e6 3. Nc3 Nf6 4. Bg5 Be7 5. e3 O-O 6. Nf3 Nbd7 7. Rc1 h6 8. Bh4 c5 { Główne rozwidlenie po 8. Bh4 (972 partie Masters): 8... c6 (37.3%) transponuje po 9. Bd3 bezpośrednio do linii 1.3; 8... a6 (10.4%) jest omówione w osobnej linii 1.8; poniżej w podwariantach RAV pokryte są też 8... dxc4 (8.0%) i 8... b6 (6.6%). Ruch 8... c5 jest ostry, ale taktycznie przedwczesny przez słabość punktu d5. [%csl Yd5] [%cal Gc4d5] } ( 8... c6 9. Bd3 { 37.3% w Masters — czysta transpozycja do linii 1.3. } ) ( 8... dxc4 9. Bxc4 c5 10. O-O { 8.0% w Masters — aktywny IQP, czarne dodatkowo osłabiły skrzydło królewskie ruchem ...h6. } ) ( 8... b6 9. cxd5 exd5 10. Bd3 Bb7 11. O-O { 6.6% w Masters — analogia do Tartakowera 8... exd5 (linia 2.2), z łatwym planem Qe2 i Ba6. } ) 9. cxd5 Nxd5 10. Bxe7 Qxe7 11. Nxd5 exd5 12. dxc5 $1 { Konkretne 12. dxc5! (SF19 #1, +0.91, WDL 39.1% / 60.9% / 0.0%). Warstwa 1 (refutacja odruchu): dlaczego NIE pasywne 12. Be2?! Po 12. Be2 c4 czarne zamykają skrzydło hetmańskie i tworzą zdrową większość 3 na 2 bez żadnych słabości. Warstwa 2 (ustępstwo): czarne zagrały 8... c5 zanim rozwinęły gońca c8 i zanim ubezpieczyły punkt d5; teraz odbicie 12... Nxc5 zostawia d5 bez żadnego obrońcy (13. Qxd5!). Warstwa 3 (mapa adresów): po 12... Nxc5 13. Qxd5 Ne4 (lub Rd8 14. Qxc5) białe albo zachowują zdrowego piona więcej, albo dostają miażdżącą przewagę strukturalną i rozwojową po 13. Qxd5 Ne4 14. a3 Rd8 15. Qe5. Warstwa 4 (profilaktyka): nie dajemy czarnym odzyskać piona c5 za darmo — a jeśli oddadzą d5, konsolidujemy króla przez Be2 i O-O.
+
+BRAMA DO GRY ŚRODKOWEJ:
+1. Diagnoza pozycji: Duża, konkretna przewaga białych — Stockfish 19 daje aż +0.91 (WDL 39.1% / 60.9% / 0.0%). Czarne tracą piona d5 (po 12... Nxc5 13. Qxd5!) albo muszą oddać c5 na długo, grając z izolowanym pionem d5.
+2. Mapa pionów [G]: Pion c5 rozbija strukturę czarnych; po 12... Nxc5 13. Qxd5 Ne4 pilnujemy skrzydła hetmańskiego ruchem a2-a3 (przed ...Qb4+ lub ...Rd8) i zachowujemy czyste 4 na 3 na skrzydle królewskim.
+3. Mapa figur [B]: Hetman zbiera d5 (13. Qxd5!) i ucieka przed tempami przez e5 (proponując wymianę hetmanów w wygranej końcówce!); goniec f1 idzie na e2 (lub d3 po wycofaniu hetmana) i szybko robimy O-O.
+4. Kontrgra czarnych [R]: Jedyna szansa czarnych to szybka aktywność po linii d (...Rd8) oraz skok ...Ne4/...Qb4+ zanim białe zrobią roszadę. Profilaktyczne a2-a3 i wymiana hetmanów (Qe5!) całkowicie gaszą tę inicjatywę.
+5. Wymiany i końcówka: Z pionem przewagi i bez słabości każda wymiana — zwłaszcza hetmanów (Qe5!) — prowadzi do wygranej technicznie końcówki.
+
+Przykładowe kontynuacje (PV Stockfish 19 / wzorce):
+• 12... Nxc5 13. Qxd5 Ne4 14. a3 Rd8 15. Qe5 Qxe5 16. Nxe5 — Wzorcowe wygaszenie kontrgry (PV SF19) — białe wchodzą w końcówkę z czystym pionem więcej. [%csl Yc5,Yd5] [%cal Bd1d5,Rd7c5] } ( 12. Be2 c4 13. O-O Nf6 { Błąd strategiczny — pozwalamy czarnym zamknąć skrzydło hetmańskie i zamienić słabość c5 w zdrową większość. } ) *
+
+[Event "Repertuar Bialych — Ch1: Klasyczny Gambit Hetmanski (QGD)"]
+[Site "Chess Analysis Architect"]
+[Date "2026.11.21"]
+[Round "8"]
+[White "1.8 Ortodoksyjna: Wczesne 7... h6 8. Bh4 a6 — Profilaktyczne 9. cxd5!"]
+[Black ""]
+[Result "*"]
+
+{ Luka pokrycia wykryta w Bramce 1: po 7... h6 8. Bh4 aż 10.4% partii Masters to sprytne 8... a6 (czarne zdobywają tu 51% przeciw nieprzygotowanym białym!). Analogicznie do linii 1.5, natychmiastowe 9. cxd5! (63.6% w Masters, 55.1% białych) zamienia ...a6 i ...h6 w darmowe osłabienia w czystym Karlsbadzie. } 1. d4 d5 2. c4 e6 3. Nc3 Nf6 4. Bg5 Be7 5. e3 O-O 6. Nf3 Nbd7 7. Rc1 h6 8. Bh4 a6 9. cxd5 $1 { Konkretne 9. cxd5! (SF19 #1, +0.36 po 11. Qc2). Warstwa 1 (refutacja odruchu): dlaczego NIE automatyczne 9. Bd3? Po 9. Bd3 dxc4 10. Bxc4 b5 11. Bd3 c5 czarne oszczędziły ruch ...c6 i grają jeszcze bardziej dynamiczną wersję linii 1.3. Warstwa 2 (ustępstwo): zmuszone do 9... exd5, czarne zostają ze strukturą Karlsbadu, w której oba posunięcia skrajne (...a6 i ...h6) ułatwiają nam ataki b4-b5 oraz przełomy na skrzydle królewskim. Warstwa 3 (mapa adresów): 10. Bd3, 11. Qc2 (przed roszadą, by zachować elastyczność i utrudnić ...Ne4), potem O-O, h3 i atak mniejszości. Warstwa 4 (profilaktyka): po 11... Re8 12. O-O Ne4 13. Bxe4 Bxh4 14. Bh7+! zyskujemy ważne tempo z szachem (PV SF19!). [%csl Ya6,Yh6] [%cal Bf1d3,Bd1c2,Rb7b5] } ( 9. Bd3 dxc4 10. Bxc4 b5 11. Bd3 c5 { Czarne osiągają aktywny kontratak w jednym tempie — dokładnie temu zapobiega 9. cxd5!. } ) 9... exd5 10. Bd3 c6 11. Qc2 { BRAMA DO GRY ŚRODKOWEJ:
+1. Diagnoza pozycji: Bardzo przyjemny, ulepszony Karlsbad dla białych — Stockfish 19 daje +0.36 (WDL 6.7% / 92.9% / 0.4%). Ruch ...a6 daje zaczep dla ataku mniejszości b4-b5, a goniec h4 w razie ...Ne4 ma taktyczne motywy na przekątnej b1-h7.
+2. Mapa pionów [G]: Plan A to klasyczny atak mniejszości a2-a3, b2-b4-b5 (po ...a6xb5 otwiera się linia a i wisi c6); Plan B (gdy czarne zagrają ...Nf8-...g6) to h2-h3 i centralne f2-f3 + e3-e4.
+3. Mapa figur [B]: Po 11... Re8 12. O-O wieża f1 idzie na b1 lub e1; goniec h4 po ...Ne4 może zostać wymieniony przez Bxe4 Bxh4 Bh7+ lub cofnąć się na g3, walcząc o przekątną h2-b8.
+4. Kontrgra czarnych [R]: Czarne szukają wyzwolenia przez ...Ne4 (uproszczenia) lub ...Nh5 (polowanie na gońca h4) albo ...Nf8-...Ne6-...g6-...Ng7-...Bf5. Naszą profilaktyką jest trzymanie kontroli nad e4 hetmanem c2 i gońcem d3 oraz szybkie Bg3 po ...Nh5.
+5. Wymiany i końcówka: Wymiana czarnopolowych gońców nie przeszkadza białym, o ile utrzymamy parę skoczków lub przewagę w strukturze po b4-b5; w końcówce piony a6/c6 są trwałymi celami białych wież.
+
+Przykładowe kontynuacje (PV Stockfish 19 / wzorce):
+• 11... Re8 12. O-O Ne4 13. Bxe4 Bxh4 14. Bh7+ Kh8 15. Nxh4 Qxh4 16. Bf5 — Taktczny detal SF19 — szach 14. Bh7+ pozwala białym utrzymać inicjatywę po białych polach. [%csl Yc6,Ye4] [%cal Gb2b4,Bd3h7,Be1g1,Rf6e4] } *
+
+[Event "Repertuar Bialych — Ch1: Klasyczny Gambit Hetmanski (QGD)"]
+[Site "Chess Analysis Architect"]
+[Date "2026.11.21"]
+[Round "9"]
+[White "1.9 Ortodoksyjna: Wczesne 7... b6 bez ...h6 — Pułapka 8... Nxd5?? i plan Ba6"]
+[Black ""]
+[Result "*"]
+
+{ Częsta pomyłka kolejnościowa na poziomie 1800–2200: czarne chcą zagrać Tartakowera (7... b6), ale zapominają o wtrąceniu ...h6 8. Bh4 i pozwalają nam na natychmiastowe 8. cxd5!. W tej kolejności 8... Nxd5?? przegrywa piona taktycznie, więc czarne muszą odbić pasywnie 8... exd5. } 1. d4 d5 2. c4 e6 3. Nc3 Nf6 4. Bg5 Be7 5. e3 O-O 6. Nf3 Nbd7 7. Rc1 b6 8. cxd5 exd5 { Czarne są zmuszone do pasywnego 8... exd5 (100% w Masters, wynik czarnych to zaledwie 29%!). Główna pointa kolejności 7. Rc1 b6 (bez ...h6) leży w taktycznej pułapce 8... Nxd5?? — zobacz podwariant RAV. [%csl Yc7,Yd5] [%cal Bc1c7] } ( 8... Nxd5 9. Nxd5 exd5 10. Bxe7 Qxe7 11. Rxc7 { Klasyczna pułapka taktyczna! Ponieważ biały goniec został na g5 (czarne nie zagrały ...h6), po wymianie na d5 i e7 biała wieża c1 natychmiast bije bezbronnego piona c7 z atakiem na gońca/skoczka! } ) 9. Bd3 Bb7 10. O-O c5 11. Qe2 $1 { Spokojne, karpowowskie 11. Qe2! (z planem Ba6). Warstwa 1 (refutacja odruchu): dlaczego NIE natychmiastowe 11. dxc5 bxc5? Taka wymiana oddaje czarnym zdrowe wiszące piony z aktywnym gońcem na b7 celującym w g2. Warstwa 2 (ustępstwo): czarny goniec b7 jest jedyną aktywną figurą czarnych, a pole a6 jest niechronione. Warstwa 3 (mapa adresów): 11. Qe2 szykuje 12. Ba6 (wymiana najlepszej figury czarnych), a także uwalnia pole d1 dla wieży f1 (Rfd1 z rentgenem na d5). Warstwa 4 (profilaktyka): uczciwa ocena SF19 to +0.09 (WDL 2.3% / 96.6% / 1.1%) — czarne mogą się wybronić tylko bardzo aktywnym 11... Ne4! 12. Bxe7 Qxe7; w praktyce ludzie grają tu pasywne ...a6 lub ...Rc8 i wpadają pod presję po Ba6.
+
+BRAMA DO GRY ŚRODKOWEJ:
+1. Diagnoza pozycji: Klasyczna struktura z półotwartą linią c i potencjalnymi wiszącymi pionami c5/d5 u czarnych. Stockfish 19 daje uczciwe +0.09 (WDL 2.3% / 96.6% / 1.1%) przy najlepszej obronie czarnych (11... Ne4!), ale w praktyce 1800–2200 białe mają dużo łatwiejszą grę i 71% wyniku po 8. cxd5 w bazie Masters.
+2. Mapa pionów [G]: Utrzymujemy napięcie d4 vs c5, nie spiesząc się z dxc5, dopóki nie ustawimy wieży na d1 lub nie wymienimy gońca b7 przez Ba6; gdy czarne zagrają ...c4, przechodzimy do przełomu e3-e4.
+3. Mapa figur [B]: Goniec d3 celuje w wymianę na a6 (Ba6!); wieża f1 idzie na d1 (rentgen na d5); po 11... Ne4 12. Bxe7 Qxe7 13. Ba6 Bxa6 14. Qxa6 białe kontrolują linię c i naciskają na a7/d5.
+4. Kontrgra czarnych [R]: Czarne szukają uproszczeń przez 11... Ne4! lub zamknięcia ...c4 z kontratakiem na skrzydle hetmańskim (...a6, ...b5). Na ...c4 cofamy gońca na b1 i gramy e3-e4 + Nd2-f1-g3.
+5. Wymiany i końcówka: Wymiana białopolowych gońców (Ba6!) zostawia czarne z osłabionymi polami na skrzydle hetmańskim (c6/b5) i słabym pionem d5/c5; w końcówce białe wieże dominują na liniach c i d.
+
+Przykładowe kontynuacje (PV Stockfish 19 / wzorce):
+• 11... Ne4 12. Bxe7 Qxe7 13. Ba6 Bxa6 14. Qxa6 — Wymiana najlepszego gońca czarnych — białe utrzymują długotrwały nacisk na c5 i a7. [%csl Ya6,Yd5] [%cal Bd3a6,Bf1d1,Rf6e4] } ( 11. dxc5 bxc5 { Uwalnia wiszące piony czarnych bez walki o gońca b7. } ) *
+
+[Event "Repertuar Bialych — Ch1: Klasyczny Gambit Hetmanski (QGD)"]
+[Site "Chess Analysis Architect"]
+[Date "2026.11.21"]
+[Round "10"]
+[White "1.10 Wczesne 6... b6 — Precyzyjne 7. Bd3! (bez oddawania darmowego Tartakowera)"]
+[Black ""]
+[Result "*"]
+
+{ Czarne grają wczesne 6... b6 (7.7% po 6. Nf3), zanim jeszcze zagrały ...Nbd7 i ...h6. Ważna lekcja z Bramki 1: w przeciwieństwie do linii 1.9, tutaj NIE mamy wieży na c1, więc natychmiastowe 7. cxd5?! pozwala na 7... Nxd5! (czarne dostają ulepszonego Tartakowera bez straty tempa na ...h6!). Dlatego gramy spokojne, silne 7. Bd3! (Masters 60.8% białych). } 1. d4 d5 2. c4 e6 3. Nc3 Nf6 4. Bg5 Be7 5. e3 O-O 6. Nf3 b6 7. Bd3 $1 { Kluczowy ruch rozwojowy 7. Bd3! (SF19 #1, +0.21; Masters 60.8% białych na 116 partiach). Warstwa 1 (refutacja odruchu): dlaczego NIE automatyczne 7. cxd5? Ponieważ bez wieży na c1 nie grozi Rxc7 — czarne odbijają 7... Nxd5! 8. Bxe7 Qxe7 9. Nxd5 exd5 i dostały czysty, ulepszony wariant Tartakowera za darmo! Warstwa 2 (ustępstwo): 6... b6 bez ...h6 pozwala białym zachować gońca na aktywnej przekątnej d8-h4 i spokojnie skończyć rozwój zanim otworzą centrum. Warstwa 3 (mapa adresów): 8. O-O, 9. Rc1, 10. Qe2, a w kolejnym ruchu cxd5 + Ba6 albo Rfd1. Warstwa 4 (profilaktyka): po 7... Bb7 8. O-O Nbd7 9. Rc1 c5 unikamy ...Ne4 z tempem i szykujemy walkę przeciw wiszącym pionom. [%csl Yd3,Yb7] [%cal Be1g1,Ba1c1,Rf6d5] } ( 7. cxd5 Nxd5 8. Bxe7 Qxe7 { Błąd kolejnościowy wykryty w Bramce 1: bez wieży na c1 nie ma pułapki Rxc7, więc czarne dostają ulepszonego Tartakowera bez ruchu ...h6 (SF19 +0.08). } ) 7... Bb7 8. O-O Nbd7 9. Rc1 c5 10. Qe2 { BRAMA DO GRY ŚRODKOWEJ:
+1. Diagnoza pozycji: Bogata, symetryczno-dynamiczna pozycja z pełnym napięciem w centrum. Stockfish 19 ocenia ją uczciwie na -0.06 / 0.00 (WDL 1.5% / 96.2% / 2.3%) przy najlepszym 10... Rc8, natomiast praktycznie 7. Bd3 przynosi białym aż 60.8% w Masters dzięki prostemu planowi cxd5 + Ba6.
+2. Mapa pionów [G]: Utrzymujemy napięcie c4/d4 vs c5/d5 i bijemy cxd5 w momencie, gdy zyskamy dostęp do wymiany Ba6 lub odizolujemy czarne piony w centrum.
+3. Mapa figur [B]: Hetman na e2 szykuje manewr Ba6 (wymiana gońca b7) i łączy wieże; wieża f1 idzie na d1 z rentgenem na d5; skoczek f3 kontroluje e5 i po ...Ne4 może zostać wsparty przez Bxe7 lub Rfd1.
+4. Kontrgra czarnych [R]: Czarne celują w 10... Rc8 (wsparcie c5) lub 10... Ne4 11. Bxe7 Qxe7 12. cxd5 Nxc3 13. Rxc3 Bxd5, walcząc o aktywność gońca b7. Profilaktyczne cxd5 + Ba6 (po 10... Rc8 11. cxd5 Nxd5 12. Bxe7 Qxe7 13. Ba6!) gasi przekątną a8-h1.
+5. Wymiany i końcówka: Wymiana gońców białopolowych na a6 faworyzuje białe w strukturach z wiszącymi pionami c5/d5; czarne muszą stale pilnować, by nie zostać z pasywnym skoczkiem na d7 przeciw silnej białej parze wież.
+
+Przykładowe kontynuacje (PV Stockfish 19 / wzorce):
+• 10... Rc8 11. cxd5 Nxd5 12. Bxe7 Qxe7 13. Ba6 Bxa6 14. Qxa6 — Główna linia SF19 — wymiana silnego gońca b7 i presja na skrzydle hetmańskim. [%csl Ya6,Yc5] [%cal Bd3a6,Bf1d1,Gc4d5,Ra8c8] } *
+
+[Event "Repertuar Bialych — Ch1: Klasyczny Gambit Hetmanski (QGD)"]
+[Site "Chess Analysis Architect"]
+[Date "2026.11.21"]
+[Round "11"]
+[White "2.1 Tartakower: Główna 8... Nxd5 — Oblężenie wiszących pionów (14. Be2!)"]
+[Black ""]
+[Result "*"]
+
+{ Najważniejszy klasyk struktur z wiszącymi pionami c5/d5 (72% po 7. Bh4!). Ważna, szczera korekta audytorska z Bramki 1: zamiast 14. Bb5?! z pierwotnego szkicu (które po dokładnym 14... Qb7! daje czarnym inicjatywę, SF19 -0.30, 64% dla czarnych w Masters) gramy 14. Be2! (SF19 #1 0.00, Masters #1 61.2%). Patrz partia wzorcowa Kasimdzhanov–Bologan 2002 (1-0), dokładnie pokrywająca ruchy 1–14. } 1. d4 d5 2. c4 e6 3. Nc3 Nf6 4. Bg5 Be7 5. e3 O-O 6. Nf3 h6 7. Bh4 b6 8. cxd5 Nxd5 9. Bxe7 Qxe7 10. Nxd5 exd5 11. Rc1 Be6 12. Qa4 $1 { Kultowy manewr Karpowa i Spasskiego: 12. Qa4! z ideą 13. Qa3! wiąże czarnego piona c5 po przekątnej a3-f8 na hetmana e7. Warstwa 1 (refutacja odruchu): dlaczego NIE rutynowe 12. Bd3? Po 12. Bd3 c5 13. O-O c4! czarne natychmiast tworzą niebezpieczną większość na skrzydle hetmańskim z tempem na gońcu. Warstwa 2 (ustępstwo): czarne zdecydowały się na strukturę wiszących pionów bez rozwoju skoczka b8 — piony c5 i d5 wymagają teraz ciągłej ochrony figurami. Warstwa 3 (mapa adresów): 12. Qa4 -> 13. Qa3 wiąże c5, następnie 14. Be2, O-O, dxc5 i gra przeciw izolowanemu d5 lub słabym polom c5/d4. Warstwa 4 (profilaktyka): zmuszamy czarne do pasywnego 13... Rc8, odbierając im szybkie ...c4. [%csl Yc5,Ye7] [%cal Ba4a3,Rc7c5] } ( 12. Bd3 c5 13. O-O c4 14. Bb1 { Zbyt bezproblemowe dla czarnych — dostają ruchomą większość 3 na 2 bez presji na c5. } ) 12... c5 13. Qa3 Rc8 14. Be2 $1 { Korekta z Bramki 1: 14. Be2! (SF19 #1, -0.07 / Cloud d34 0.00; Masters #1 61.2%). Dlaczego NIE 14. Bb5 z notatek wstępnych? Bo po 14. Bb5 czarne grają 14... Qb7! (grożąc ...a6 i ...c4!), zmuszając białe do ustępstwa 15. dxc5 (SF19 -0.30, a po 15. O-O? c4! białe stoją już -0.95!). Natomiast spokojne 14. Be2 kończy rozwój, szykuje O-O i dxc5 bez narażania gońca na tempa ...Qb7/...a6.
+
+BRAMA DO GRY ŚRODKOWEJ:
+1. Diagnoza pozycji: Szczerość audytorska — obiektywnie to pełna równowaga (SF19 -0.07 / 0.00, WDL 0.6% / 98.3% / 1.1%; w Masters 8... Nxd5 daje czarnym równe szanse). Dlaczego mimo to gramy ten wariant? Ponieważ w przedziale 1800–2200 FIDE gra wiszącymi pionami jest ekstremalnie trudna i czarne nagminnie popełniają błędy strategiczne (jak w partii Kasimdzhanov–Bologan).
+2. Mapa pionów [G]: Kluczowa decyzja to moment bicia dxc5! (jak po 14... a5 15. dxc5 Rxc5 16. O-O) — wtedy zamieniamy wiszące piony czarnych w osłabione białe pola i izolowanego piona d5; unikamy bezmyślnego b2-b3 bez pełnej kontroli nad przekątną.
+3. Mapa figur [B]: Król idzie na g1 (O-O), skoczek f3 celuje w blokadę pola d4 (Nf3-d4 po wymianie par wież i zejściu piona c5), a goniec e2 przechodzi na b5 (gdy czarne zagrają ...Nc6) lub d3 (celując w h7).
+4. Kontrgra czarnych [R]: Czarne próbują rozplątać wiązanie przez 14... a5 (i ...Na6-b4), 14... Kf8 (wyjście z przekątnej a3-f8) lub 14... Qf8. Na 14... a5 odpowiadamy natychmiast 15. dxc5 Rxc5 16. O-O z kontrolą d4; na 14... Kf8 również 15. dxc5 bxc5 16. O-O.
+5. Wymiany i końcówka: Każda wymiana wież na linii c osłabia dynamikę wiszących pionów czarnych. Docelowa końcówka z białym skoczkiem zabetonowanym na d4 przeciw czarnemu gońcowi e6 (uwięzionemu za własnym pionem d5) jest karpowowskim ideałem.
+
+Przykładowe kontynuacje (PV Stockfish 19 / wzorce):
+• 14... a5 15. dxc5 Rxc5 16. O-O Nc6 17. Qa4 — Dokładna kontynuacja z partii modelowej Kasimdzhanov–Bologan 2002 (1-0) — biała kontrola nad linią c i polem d4. [%csl Ye2,Yc5] [%cal Be1g1,Gd4c5,Ba3e7] } ( 14. Bb5 Qb7 15. dxc5 Rxc5 16. Rxc5 bxc5 17. Qxc5 Na6 { Korekta audytorska z Bramki 1: po 14. Bb5?! czarne mają silne 14... Qb7! (SF19 -0.30, 64% dla czarnych w Masters). 14. Be2! unika tego problemu. } ) *
+
+[Event "Repertuar Bialych — Ch1: Klasyczny Gambit Hetmanski (QGD)"]
+[Site "Chess Analysis Architect"]
+[Date "2026.11.21"]
+[Round "12"]
+[White "2.2 Tartakower: Pasywne 8... exd5 — Wymiana gońca b7 przez Ba6!"]
+[Black ""]
+[Result "*"]
+
+{ Drugie odbicie w Tartakowerze (16% w Masters, ale bardzo częste u graczy 1800–2100 bojących się wiszących pionów po 8... Nxd5). Czarne dostają solidną, ale nieco pasywną strukturę, w której ich jedynym atutem jest goniec b7 — i dokładnie tę figurę likwidujemy ruchem 12. Ba6!. } 1. d4 d5 2. c4 e6 3. Nc3 Nf6 4. Bg5 Be7 5. e3 O-O 6. Nf3 h6 7. Bh4 b6 8. cxd5 exd5 9. Bd3 Bb7 { Najpopularniejsze 9... Bb7, rozwijające gońca na długą przekątną. Na rzadsze 9... Be6 (18.5% na małej próbie Masters) czarne dobrowolnie stawiają gońca pasywniej — zobacz RAV. [%csl Yb7] [%cal Bd3a6] } ( 9... Be6 10. O-O c5 11. Rc1 Nbd7 12. Qe2 { 18.5% w Masters (czarne zdobywają tylko 36.7%) — białe uzyskują łatwą grę przeciw c5/d5 bez presji na długiej przekątnej. } ) 10. O-O Nbd7 11. Qe2 c5 12. Ba6 $1 { Książkowa wymiana strategiczna 12. Ba6! (SF19 +0.06, WDL 2.0% / 96.7% / 1.3%). Warstwa 1 (refutacja odruchu): dlaczego NIE 12. Rfd1?! Pozwoliłoby to czarnym zagrać 12... Ne4 13. Bxe7 Qxe7 z pełną aktywnością obu lekkich figur i bezproblemową obroną. Warstwa 2 (ustępstwo): czarny goniec b7 broni kluczowych białych pól c6 i d5; po 12... Bxa6 13. Qxa6 (lub 12... Qc8 13. Bxb7 Qxb7) czarne tracą kontrolę nad białymi polami skrzydła hetmańskiego. Warstwa 3 (mapa adresów): po 12... Qc8 13. Bxb7 Qxb7 białe grają Rfd1, dxc5 bxc5 i zaczynają klasyczne oblężenie wiszących pionów (b3/Rc1 lub Rab1). Warstwa 4 (profilaktyka): w razie 12... Bxa6 13. Qxa6 biały hetman paraliżuje skrzydło hetmańskie czarnych, blokując ...a6 i naciskając na d5.
+
+BRAMA DO GRY ŚRODKOWEJ:
+1. Diagnoza pozycji: Strategicznie bardzo przejrzysta walka — Stockfish 19 ocenia pozycję na +0.06 (WDL 2.0% / 96.7% / 1.3%), ale po likwidacji gońca b7 białe mają prosty, długotrwały plan nacisku na piony c5/d5 i białe pola skrzydła hetmańskiego.
+2. Mapa pionów [G]: W dogodnym momencie bijemy dxc5 (zmuszając do ...bxc5 — powstają wiszące piony bez gońca białopolowego!) albo pozwalamy na ...c4, na co szykujemy centralny podkop b3 lub e3-e4.
+3. Mapa figur [B]: Wieże zajmują linie d i c (Rfd1, Rac1); po 12... Qc8 13. Bxb7 Qxb7 14. dxc5 bxc5 15. Rab1 białe szykują b2-b4 lub Rfd1 + Ne5/Na4 z naciskiem na c5.
+4. Kontrgra czarnych [R]: Czarne liczą na ...Ne4 (wymiany), ...c4 (przewaga przestrzeni na skrzydle hetmańskim) lub ...Rfe8 + ...Rad8. Profilaktycznie pilnujemy, by przed zagraniem dxc5 mieć gotowe wieże na c1/d1 oraz kontrolę nad polem d4.
+5. Wymiany i końcówka: Wymiana gońców białopolowych jest już naszym sukcesem; w końcówce bez hetmanów i gońców białopolowych białe skoczki (e5/d4/a4) dominują nad nieruchomymi pionami c5/d5.
+
+Przykładowe kontynuacje (PV Stockfish 19 / wzorce):
+• 12... Qc8 13. Bxb7 Qxb7 14. dxc5 bxc5 15. Rab1 — Główna linia SF19 — presja na wiszące piony c5/d5 i przygotowanie b2-b4. [%csl Ya6,Yb7] [%cal Ba6b7,Bf1d1,Gd4c5] } ( 12. Rfd1 Ne4 13. Bxe7 Qxe7 { Czarne bez przeszkód upraszczają pozycję i zachowują silnego gońca b7. } ) *
+
+[Event "Repertuar Bialych — Ch1: Klasyczny Gambit Hetmanski (QGD)"]
+[Site "Chess Analysis Architect"]
+[Date "2026.11.21"]
+[Round "13"]
+[White "2.3 Tartakower: Boczne 11... Bb7 — Szybki rozwój i presja na wiszące piony"]
+[Black ""]
+[Result "*"]
+
+{ Boczna alternatywa czarnych po 11. Rc1 (5% w Masters): zamiast bronić c7 gońcem z e6, czarne stawiają gońca na b7, licząc na aktywniejszą przekątną a8-h1 po ...c5. Bez gońca na e6 czarny punkt c5 jest słabiej chroniony, więc spokojny rozwój 12. Bd3 + 13. O-O daje białym komfortową grę. } 1. d4 d5 2. c4 e6 3. Nc3 Nf6 4. Bg5 Be7 5. e3 O-O 6. Nf3 h6 7. Bh4 b6 8. cxd5 Nxd5 9. Bxe7 Qxe7 10. Nxd5 exd5 11. Rc1 Bb7 12. Bd3 $1 { Aktywne 12. Bd3! Warstwa 1 (refutacja odruchu): dlaczego NIE powtórzenie 12. Qa4 z linii 2.1? Ponieważ po 11... Bb7 (zamiast 11... Be6) czarny skoczek b8 swobodnie wychodzi na d7 lub c6 z obroną c5, więc 12. Qa4 c5 13. Qa3 nie wiąże czarnych tak dotkliwie (zobacz RAV). Warstwa 2 (ustępstwo): ustawiając gońca na b7 zamiast na e6, czarne zostawiły słabiej chronione punkty f7/h7 i przekątną b1-h7. Warstwa 3 (mapa adresów): 12. Bd3, 13. O-O, a po zamknięciu ...c4 odejście Bb1 + bateria Qc2 wymuszająca ...g6. Warstwa 4 (profilaktyka): nie spieszymy się z 13. dxc5 bxc5, żeby nie aktywować czarnego gońca b7 przed pełną mobilizacją. [%csl Yc5,Yd3] [%cal Bd3h7,Bc1c5] } ( 12. Qa4 c5 13. Qa3 Nc6 { Bez gońca na e6 czarne łatwiej rozplątują skrzydło hetmańskie — 12. Bd3 + 13. O-O jest bardziej elastyczne i bezpośrednio celuje w skrzydło królewskie. } ) 12... c5 13. O-O { BRAMA DO GRY ŚRODKOWEJ:
+1. Diagnoza pozycji: Zbalansowana gra środkowa z wiszącymi pionami c5/d5 (SF19 -0.05, WDL 0.7% / 98.3% / 1.0%; w Masters czarne zdobywają tu tylko 42% vs 50% po 11... Be6!). Goniec na b7 często uderza w próżnię, gdy czarne zamkną centrum ruchem ...c4.
+2. Mapa pionów [G]: Jeśli czarne zagrają 13... c4 14. Bb1, naszym głównym planem jest b2-b3 (rozbicie bazy c4) albo centralne e3-e4 po przygotowaniu Re1 i Qc2; jeśli utrzymują napięcie (...Nd7), bijemy dxc5 w dobrym momencie lub gramy Bb1 + Qd3 (groźby na h7!).
+3. Mapa figur [B]: Po 13... c4 goniec wraca na b1 (bateria Qc2 z groźbą mata na h7 wymusza osłabiające ...g6!); wieże ustawiamy na e1 i c1; skoczek f3 kontroluje e5 i w razie otwarcia centrum wskakuje na d4.
+4. Kontrgra czarnych [R]: Czarne po 13... c4 planują ...Nd7, ...b5, ...a5 i marsz większości na skrzydle hetmańskim. Naszą profilaktyką jest natychmiastowa bateria Bb1 + Qc2 (wymuszająca ...g6, co osłabia ciemne pola wokół króla!) oraz szybkie b2-b3 lub e3-e4.
+5. Wymiany i końcówka: W wariancie z 13... c4 unikamy wymian, dopóki nie otworzymy skrzydła królewskiego (e3-e4 / f2-f4); jeśli natomiast czarne zostaną przy wiszących pionach po dxc5 bxc5, wymiana pary wież i blokada d4 faworyzują białe.
+
+Przykładowe kontynuacje (PV Stockfish 19 / wzorce):
+• 13... c4 14. Bb1 Nd7 15. Qc2 g6 16. Rfe1 — Główna linia SF19 — bateria Bb1+Qc2 wymusza osłabiające ...g6, po czym białe przygotowują e3-e4 lub b2-b3. [%csl Yh7,Yc4] [%cal Bd3b1,Bd1c2,Gb2b3,Rc5c4,Bf1e1] } *
+
+[Event "Repertuar Bialych — Ch1: Klasyczny Gambit Hetmanski (QGD)"]
+[Site "Chess Analysis Architect"]
+[Date "2026.11.21"]
+[Round "14"]
+[White "3.1 Lasker: Główna 11... Rd8 — Taran 12. c4! (Wzorzec Kramnika)"]
+[Black ""]
+[Result "*"]
+
+{ Obrona Laskera (21% po 7. Bh4) ma opinię ultra-solidnej broni remisowej. Nasz plan 9. cxd5! Nxc3 10. bxc3 exd5 11. Qb3! + 12. c4! (75% czarnych gra tu 11... Rd8) natychmiast rozbija centrum, likwiduje zdwojonego piona c i stawia czarnym realne problemy praktyczne (56.3% białych w Masters!). Patrz partia modelowa Kramnik–Lutz 1994 (1-0). } 1. d4 d5 2. c4 e6 3. Nc3 Nf6 4. Bg5 Be7 5. e3 O-O 6. Nf3 h6 7. Bh4 Ne4 8. Bxe7 Qxe7 9. cxd5 Nxc3 10. bxc3 exd5 11. Qb3 $1 { Kluczowy ruch profilaktyczno-aktywny 11. Qb3! — atakuje jednocześnie d5 i b7, zmuszając czarne do decyzji: pasywne 11... c6 (linia 3.2), osłabiające 11... Qd6 (linia 3.3) albo główne 11... Rd8. Dlaczego NIE natychmiastowe 11. c4? Bo po 11. c4 czarne mają nieprzyjemne 11... Qb4+! 12. Qd2 Qxd2+ z szybkim uproszczeniem do remisowej końcówki. [%csl Yd5,Yb7] [%cal Bb3d5,Bb3b7,Re7b4] } ( 11. c4 Qb4+ 12. Qd2 Qxd2+ 13. Kxd2 { Przedwczesne — szach na b4 pozwala czarnym od razu wymienić hetmany i wyrównać bez wysiłku. } ) 11... Rd8 12. c4 $1 { Centralny taran 12. c4! (Masters #1: 68.0% częstości, 56.3% białych; SF19 -0.08 / 0.00, WDL 0.6% / 98.2% / 1.2%). Warstwa 1 (refutacja odruchu): dlaczego NIE bierne 12. Be2? Owszem, 12. Be2 ma tę samą ocenę silnikową (+0.02), ale pozwala czarnym zagrać 12... c5 i zabetonować nam słabego piona c3. Natomiast 12. c4! od razu rozwiązuje strukturę i wymusza konkretne decyzje. Warstwa 2 (ustępstwo): czarna wieża poszła na d8, więc po 12... dxc4 13. Bxc4 czarne muszą dopiero rozwiązać problem rozwoju skrzydła hetmańskiego (...Nc6-...Na5 lub ...b6-...Bb7). Warstwa 3 (mapa adresów): na 12... dxc4 gramy 13. Bxc4 Nc6 14. Be2 (lub O-O) z kontrolą centrum i linią c; na 12... Be6 zamykamy 13. c5! (lub 13. Qxb7) zdobywając przestrzeń. Warstwa 4 (profilaktyka): uczciwa diagnoza — Lasker jest obiektywnie równy (0.00), ale 12. c4! daje otwartą, żywą pozycję, gdzie silniejszy gracz wygrywa techniką (jak Kramnik przeciw Lutzowi).
+
+BRAMA DO GRY ŚRODKOWEJ:
+1. Diagnoza pozycji: Obiektywnie równa (SF19 -0.08 / 0.00, WDL 0.6% / 98.2% / 1.2%), ale strategicznie bogata i żywa pozycja — czarne nie mogą spać, bo białe zlikwidowały słabość c3 i przejmują otwartą linię c (56.3% białych w Masters).
+2. Mapa pionów [G]: Po 12... dxc4 13. Bxc4 nasz pion d4 staje się fundamentem centrum; na ...c5 odpowiadamy dxc5! w momencie, gdy wieże zajmą linię c (patrz Kramnik–Lutz). Na 12... Be6 zamykamy 13. c5!, tworząc klin na skrzydle hetmańskim.
+3. Mapa figur [B]: Goniec f1 bije na c4 (13. Bxc4), a po ...Nc6 często wycofuje się na e2 (chroniąc przed ...Na5) lub idzie na f3 po wymianach; wieże lądują na c1 (Rac1) i d1; skoczek f3 ma świetną trasę na d4-c6.
+4. Kontrgra czarnych [R]: Główny plan czarnych to 12... dxc4 13. Bxc4 Nc6 14. Be2 b6 15. O-O Bb7 16. Rac1 Na5 17. Qb2 c5 (rozbicie centrum) albo 12... Be6 13. c5 b6. Pilnujemy, by po ...c5 zdominować linię c i zająć pole d4/c6 skoczkiem.
+5. Wymiany i końcówka: W typowej końcówce po wymianie pary wież na linii c i gońców białopolowych (Kramnik–Lutz) biały skoczek na d4/c6 i aktywna wieża na 6. linii stwarzają czarnym poważne kłopoty praktyczne.
+
+Przykładowe kontynuacje (PV Stockfish 19 / wzorce):
+• 12... dxc4 13. Bxc4 Nc6 14. Be2 b6 15. O-O Bb7 16. Rac1 — Dokładna linia z partii modelowej Kramnik–Lutz 1994 (1-0) — biała kontrola nad linią c i polem d4.
+• 12... Be6 13. c5 b6 14. Qc2 — Klin c5 po 12... Be6 — białe budują nacisk na c6 i skrzydło hetmańskie. [%csl Yd5,Yc4] [%cal Gc4d5,Bf1c4,Rd5c4] } ( 12. Be2 c5 13. O-O Nc6 { Równe obiektywnie (+0.02), ale czarne łatwo kontrolują centrum bez presji na d5. } ) *
+
+[Event "Repertuar Bialych — Ch1: Klasyczny Gambit Hetmanski (QGD)"]
+[Site "Chess Analysis Architect"]
+[Date "2026.11.21"]
+[Round "15"]
+[White "3.2 Lasker: Pasywne 11... c6 — Klin 13. c5! i presja po liniach b i c"]
+[Black ""]
+[Result "*"]
+
+{ Druga najczęstsza odpowiedź po 11. Qb3 (22% w Masters, bardzo popularna na poziomie klubowym 1800–2000). Czarne bronią d5 pionem c6, co zamyka im drogę do aktywnego ...c5 i pozwala białym wbić nieprzyjemny klin 13. c5!. } 1. d4 d5 2. c4 e6 3. Nc3 Nf6 4. Bg5 Be7 5. e3 O-O 6. Nf3 h6 7. Bh4 Ne4 8. Bxe7 Qxe7 9. cxd5 Nxc3 10. bxc3 exd5 11. Qb3 c6 12. c4 Be6 { Po 12. c4 czarne mają dwie drogi: oddanie centrum 12... dxc4 13. Bxc4 (co daje białym świetny rozwój bez wysiłku) albo obronę 12... Be6, na którą wbijamy klin 13. c5!. Zobacz RAV na 12... dxc4. [%csl Yc5] [%cal Gc4c5] } ( 12... dxc4 13. Bxc4 b5 14. Be2 Be6 15. Qc2 { 47% po 12. c4 (czarne zdobywają tylko 33% w Masters!) — marsz ...b5 zostawia ogromną dziurę na c5 i słabego piona c6. } ) 13. c5 $1 { Strategiczny klin 13. c5! (SF19 -0.12 / 0.00 przy precyzyjnym 13... b6!, ale 60%+ dla białych przeciw ludzkim błędom). Warstwa 1 (refutacja odruchu): dlaczego NIE bezbarwne 13. cxd5 Bxd5? Taka wymiana oddaje czarnym piękną centralną placówkę dla gońca d5 i natychmiast je wyzwala. Warstwa 2 (ustępstwo): czarny goniec e6 jest zablokowany za własnym łańcuchem d5/c6, a skoczek b8 nie ma naturalnego pola c6. Warstwa 3 (mapa adresów): białe grają Rb1 (lub Rc1), Bd3, O-O, celując w punkt b7 i linię b; jeśli czarne ruszą 13... b6, po 14. Rc1 bxc5 15. dxc5 nasze piony tworzą mocny klin c5, a pole d4 jest idealną placówką dla skoczka f3! Warstwa 4 (profilaktyka): pilnujemy kontrataku ...b6 oraz ...d4, dlatego rozwijamy szybko Bd3/Be2 i O-O.
+
+BRAMA DO GRY ŚRODKOWEJ:
+1. Diagnoza pozycji: Zamknięta struktura ze strategicznym klinem c5 paraliżującym skrzydło hetmańskie czarnych. Obiektywnie Stockfish 19 ocenia pozycję jako równą (-0.12, WDL 0.5% / 98.0% / 1.5%), o ile czarne zagrają natychmiastowe, konkretne 13... b6!; przeciw pasywnej grze (...Qc7/...Nd7) białe uzyskują dławiącą przewagę.
+2. Mapa pionów [G]: Pion c5 wiąże skrzydło hetmańskie; po 13... b6 14. Rc1 bxc5 15. dxc5 utrzymujemy klin na c5 (uważając na ...d4!) i szykujemy a2-a4 albo e3-e4 w grze środkowej.
+3. Mapa figur [B]: Wieża a1 idzie na c1 (przeciw 13... b6) lub b1 (nacisk na b7 po pasywnym ...Qc7); goniec f1 rozwija się na d3 lub c4 (po ...bxc5 dxc5); skoczek f3 pilnuje pola d4 i e5.
+4. Kontrgra czarnych [R]: Jedyny poprawny plan czarnych to szybkie 13... b6! (podkop klina c5 zanim białe skończą rozwój) z ideą ...bxc5 i ...d4 lub ...Nd7-...Rab8. Naszą profilaktyką jest 14. Rc1 (zamiast 14. cxb6 axb6, które otwiera czarnym linię a!).
+5. Wymiany i końcówka: Gdy klin c5 utrzyma się do końcówki, słabości czarnych na c6/b7 oraz pasywność gońca e6 czynią końcówkę skoczkową lub wieżową wyraźnie przyjemniejszą dla białych.
+
+Przykładowe kontynuacje (PV Stockfish 19 / wzorce):
+• 13... b6 14. Rc1 bxc5 15. dxc5 d4 16. Bc4 Bxc4 17. Qxc4 — Główna linia SF19 — białe nie oddają inicjatywy i zachowują silny nacisk na c6 oraz linię b/d. [%csl Yc5,Yb7] [%cal Ba1b1,Bf1d3,Rb7b6] } ( 13. cxd5 Bxd5 14. Bc4 Bxc4 15. Qxc4 { Ułatwia czarnym obronę — goniec c8 zamienia się z pasywnej figury w aktywną bez walki. } ) *
+
+[Event "Repertuar Bialych — Ch1: Klasyczny Gambit Hetmanski (QGD)"]
+[Site "Chess Analysis Architect"]
+[Date "2026.11.21"]
+[Round "16"]
+[White "3.3 Lasker: Wczesne 11... Qd6 — Kara za wystawienie hetmana (12. c4!)"]
+[Black ""]
+[Result "*"]
+
+{ Częsta reakcja praktyczna na poziomie klubowym (wyróżniona też w prompt.md): czarne bronią jednocześnie b7 i d5 ruchem 11... Qd6. Problem polega na tym, że hetman na d6 stoi niezręcznie wobec naszych figur lekkich i pozwala białym bez przeszkód rozbić centrum ruchem 12. c4! (SF19 +0.34, 75% białych w Masters). } 1. d4 d5 2. c4 e6 3. Nc3 Nf6 4. Bg5 Be7 5. e3 O-O 6. Nf3 h6 7. Bh4 Ne4 8. Bxe7 Qxe7 9. cxd5 Nxc3 10. bxc3 exd5 11. Qb3 Qd6 12. c4 dxc4 13. Bxc4 $1 { Naturalne 13. Bxc4! (SF19 #1, +0.34, WDL 3.9% / 96.0% / 0.1%). Warstwa 1 (refutacja odruchu): dlaczego NIE 13. Qxc4? Po 13. Qxc4 czarne natychmiast zyskują tempo na rozwój gońca przez 13... Be6 14. Qc3 Nd7, a nasz goniec f1 nadal stoi w domu. Warstwa 2 (ustępstwo): hetman na d6 zasłania piona d5 (który już zniknął), nie kontroluje linii e i przeszkadza własnemu skoczkowi b8 oraz gońcowi c8; ponadto czarne nie mają już obrony przed szybkim O-O i e3-e4. Warstwa 3 (mapa adresów): 14. O-O, następnie Rac1/Rfd1, e3-e4 (budowa pełnego centrum d4+e4) oraz powrót gońca na e2/d3 gdy czarne zagrają ...Nc6-...Na5. Warstwa 4 (profilaktyka): pilnujemy tempa ...Qb4 lub ...Nc6-...Na5 — na 13... Nc6 możemy spokojnie zrobić 14. O-O lub 14. Be2.
+
+BRAMA DO GRY ŚRODKOWEJ:
+1. Diagnoza pozycji: Bardzo komfortowa, czysta przewaga rozwojowa i centralna białych — Stockfish 19 daje +0.34 (WDL 3.9% / 96.0% / 0.1%), a w bazie Masters białe punktują tu 75%.
+2. Mapa pionów [G]: Centralny duet d4 + e3 gotowy do ekspansji e3-e4 (gdy skoczek f3 ma oparcie), a na skrzydle królewskim spokojne h2-h3 dla higieny.
+3. Mapa figur [B]: Roszada (O-O), wieże na c1 i d1 (lub e1); goniec c4 w razie ...Nb6/...Na5 wraca na e2, zostawiając pole c4 wolne pod przyszły manewr lub kontrolując przekątną d1-h5; hetman b3 przenosi się na c2 (kontrola e4 i c5).
+4. Kontrgra czarnych [R]: Czarne próbują dogonić rozwój przez 13... Nd7 14. O-O Nb6 15. Be2 Be6 (z tempem na hetmana b3) i ...c5. Na 15... Be6 spokojnie cofamy 16. Qc2 (z kontrolą c5 i e4) lub 16. Qb2.
+5. Wymiany i końcówka: Białe nie boją się wymiany czarnopolowych (już zniknęły) ani wymiany hetmanów, dopóki zachowujemy silniejsze centrum d4/e4 i lepszą aktywność wież na liniach c i d.
+
+Przykładowe kontynuacje (PV Stockfish 19 / wzorce):
+• 13... Nd7 14. O-O Nb6 15. Be2 Be6 16. Qc2 — Główna linia SF19 — pełna harmonia białych figur, gotowość na Rfd1 i e3-e4. [%csl Yc4,Ye4] [%cal Be1g1,Ge3e4,Ba1c1,Rb8c6] } ( 13. Qxc4 Be6 14. Qc3 Nd7 { Oddaje czarnym darmowe tempo rozwojowe 13... Be6 — bicie 13. Bxc4! jest o niebo szybsze. } ) *
+
+[Event "Repertuar Bialych — Ch1: Klasyczny Gambit Hetmanski (QGD)"]
+[Site "Chess Analysis Architect"]
+[Date "2026.11.21"]
+[Round "17"]
+[White "4.1 Cambridge Springs: Główna 9... h6 — Ujednolicone 11. a3! (i pułapka 9... Qxa2??)"]
+[Black ""]
+[Result "*"]
+
+{ Główna linia Obrony Cambridge Springs (77% po 4... Nbd7 5. e3 c6 6. Nf3, potem 83% 7... Nxd5 i 62% 9... h6). Ta linia ma podwójną wartość: grasz ją zarówno białymi, jak i czarnymi w Półsłowiańskiej! Po Bramce 1 ujednoliciliśmy ruch 11. a3! (SF19 +0.50 vs +0.31 dla 11. Bd3) ze wszystkimi pozostałymi gałęziami Cambridge Springs (4.2, 4.4), natychmiast zdobywając parę gońców zanim czarne uderzą ...e5!. Patrz też partia modelowa Anand–Shirov 2011 (1-0) po 10... c5. } 1. d4 d5 2. c4 e6 3. Nc3 Nf6 4. Bg5 Nbd7 5. e3 c6 6. Nf3 Qa5 { Główne odejście 6... Qa5 wiążące skoczka c3 i grożące ...Ne4/Bb4. Na boczne 6... h6 (5.3% w Masters) spokojnie cofamy 7. Bh4, przechodząc w pozycje z przewagą przestrzeni (zobacz RAV). [%csl Yc3,Ya5] [%cal Ra5c3,Gc4d5] } ( 6... h6 7. Bh4 Be7 8. Rc1 O-O 9. Bd3 { 5.3% w Masters — czysta transpozycja do Ortodoksyjnej (linia 1.3). } ) 7. cxd5 Nxd5 8. Qd2 Bb4 9. Rc1 $1 { Obowiązkowe 9. Rc1! broniące skoczka c3 i zastawiające słynną pułapkę taktyczną na piona a2. Warstwa 1 (refutacja odruchu): po pasywnym 9. a3?! czarne biją 9... Nxc3 i mają taktyki z ...Bxc3/...Ne4. Natomiast 9. Rc1 zostawia piona a2 celowo „zatrutego” — bicie 9... Qxa2?? przegrywa figurę od ręki po 10. Nxa2 Bxd2+ 11. Kxd2!. Warstwa 2 (ustępstwo): czarne musiały wyciągnąć hetmana na a5 i gońca na b4, zaniedbując roszadę i rozwój gońca c8. [%csl Ya2,Yc3] [%cal Bc1c3,Ra5a2] } ( 9. a3 Nxc3 10. axb4 Qxa1+ { Gruby błąd taktyczny — wisi wieża a1! Zawsze najpierw 9. Rc1!. } ) 9... h6 { Główna odpowiedź 9... h6 (62% w Masters), wypędzająca gońca na h4 przed roszadą. W RAV przypomnienie klasycznej pułapki 9... Qxa2?? (której musisz unikać również grając Cambridge Springs czarnymi!). [%csl Ya2] [%cal Bg5h4] } ( 9... Qxa2 10. Nxa2 Bxd2+ 11. Kxd2 { Klasyczna pułapka Cambridge Springs! Białe wygrywają czystą figurę (gońca b4 nie da się uratować bez straty hetmana). } ) 10. Bh4 O-O 11. a3 $1 { Ujednolicone, najostrzejsze 11. a3! (SF19 #1, +0.50, WDL 11.3% / 88.5% / 0.2%). Warstwa 1 (refutacja odruchu): dlaczego NIE 11. Bd3 z pierwotnego szkicu? Bo po 11. Bd3 (+0.31) czarne mają natychmiastowe 11... e5! (lub 11... c5!), rozbijając centrum zanim białe zdążą wykorzystać parę gońców. Warstwa 2 (ustępstwo): goniec na b4 nie ma dobrego odwrotu (po 11... Bd6?! 12. Ne4! goniec i hetman stoją pod ogniem), więc czarne muszą oddać cennego czarnopolowego gońca na c3. Warstwa 3 (mapa adresów): po 11... Bxc3 12. bxc3 N5f6 13. Bd3 białe mają potężne centrum (e4 + c4), parę gońców i otwartą linię b; hetman wchodzi na e2/b2, a wieża f1 na d1/e1. Warstwa 4 (profilaktyka): wymuszając natychmiastowe 11... Bxc3, odbieramy czarnym wszelkie motywy wiązania na c3 przed naszym O-O i c3-c4.
+
+BRAMA DO GRY ŚRODKOWEJ:
+1. Diagnoza pozycji: Wyraźna, długoterminowa przewaga białych z parą gońców i potężnym centrum pionowym — Stockfish 19 daje +0.50 (WDL 11.3% / 88.5% / 0.2%). Uwaga dla Twojego repertuaru czarnymi: to jest dokładnie ten krytyczny test, na który musisz znać precyzyjną obronę 11... Bxc3 12. bxc3 N5f6 13. Bd3 b6.
+2. Mapa pionów [G]: Po 11... Bxc3 12. bxc3 pion c3 wzmacnia centrum i przygotowuje c3-c4 (gdy hetman a5 odejdzie) oraz e3-e4 (ekspansja przestrzeni w centrum).
+3. Mapa figur [B]: Goniec f1 idzie na d3 (celując w h7), król na g1 (O-O), hetman na e2 lub c2 (wsparcie e4), a wieża c1 wspiera przełom c3-c4 lub przechodzi na b1 z naciskiem na b7.
+4. Kontrgra czarnych [R]: Czarne muszą walczyć o aktywność przez ...N5f6, ...b6 (lub ...c5), ...Ba6/...Bb7 oraz nacisk na c3/a3. Naszą profilaktyką jest szybkie Bd3 + O-O i niedopuszczenie do zablokowania naszych gońców na zamkniętych przekątnych (dlatego szykujemy c3-c4 / e3-e4).
+5. Wymiany i końcówka: Pilnujemy pary gońców jak oka w głowie — nie oddajemy gońca h4 za skoczka f6 bez konkretnego zysku (np. zniszczenia struktury g7/f6). W otwartej grze środkowej i końcówce dwa gońce + masa pionowa c4/d4/e4 dominują nad parą skoczków czarnych.
+
+Przykładowe kontynuacje (PV Stockfish 19 / wzorce):
+• 11... Bxc3 12. bxc3 N5f6 13. Bd3 b6 14. O-O — Główna linia SF19 — para gońców, mocne centrum i pełny rozwój białych. [%csl Yb4,Yc3] [%cal Rb4c3,Gb2c3,Bf1d3,Ge3e4] } ( 11. Bd3 e5 12. O-O Nxc3 13. bxc3 Ba3 14. Rb1 { Grywalne (+0.31), ale pozwala czarnym na szybkie ...e5! — 11. a3! (+0.50) jest znacznie dokładniejsze i ujednolica wszystkie linie Cambridge Springs. } ) *
+
+[Event "Repertuar Bialych — Ch1: Klasyczny Gambit Hetmanski (QGD)"]
+[Site "Chess Analysis Architect"]
+[Date "2026.11.21"]
+[Round "18"]
+[White "4.2 Cambridge Springs: Szybkie 9... O-O — Taktyczne 10. a3 i 11. e4!"]
+[Black ""]
+[Result "*"]
+
+{ Druga najczęstsza odpowiedź po 9. Rc1 (15% w Masters): czarne robią roszadę bez wtrącenia ...h6. Natychmiastowe 10. a3! (66.7% białych w Masters) + poprawka z Bramki 1: taktyczne 11. e4! (+0.66, zamiast powolnego 11. Bd3 +0.23) stawia czarne na skraju katastrofy. } 1. d4 d5 2. c4 e6 3. Nc3 Nf6 4. Bg5 Nbd7 5. e3 c6 6. Nf3 Qa5 7. cxd5 Nxd5 8. Qd2 Bb4 9. Rc1 O-O 10. a3 $1 { Ponownie nasz ujednolicony temat 10. a3! (Masters 66.7% białych). Po 10... Bxc3 11. bxc3 biały goniec został na g5 (bez ...h6), a na odejście 10... Bd6 czarne wpadają w taktyczne widełki po 11. e4!. [%csl Yd6] [%cal Rb4d6,Ge3e4] } 10... Bd6 11. e4 $1 { Poprawka taktyczna z Bramki 1: 11. e4! (SF19 #1, +0.66, WDL 19.5% / 80.4% / 0.1%). Warstwa 1 (refutacja odruchu): dlaczego NIE naturalne 11. Bd3?! Po 11. Bd3 (+0.23, utrata aż 50 cp!) czarne natychmiast rozbijają centrum ruchem 11... e5! i rozwiązują problemy. Warstwa 2 (ustępstwo): czarny goniec na d6 stoi na tej samej przekątnej i w zasięgu widełek piona e4-e5 ze skoczkiem d5 (a po 11... Nxc3 12. e5! czarne tracą strukturę lub figurę!). Warstwa 3 (mapa adresów): na 11... Nxc3 bijemy 12. e5! f6 13. exd6 fxg5 14. h3! (nie 14. Rxc3?! g4! z zaledwie +0.24) z wielką przewagą (+0.72); na jedyne 11... f6 (PV SF19) odpowiadamy 12. exd5 fxg5 13. Ne4! z atakiem na hetmana i gońca d6. Warstwa 4 (profilaktyka): zmuszamy czarne do ciężkiej defensywy zanim zdążą rozwinąć gońca c8.
+
+BRAMA DO GRY ŚRODKOWEJ:
+1. Diagnoza pozycji: Silna, konkretna przewaga białych — Stockfish 19 daje +0.66 (WDL 19.5% / 80.4% / 0.1%). Czarne stoją przed przymusem taktycznym: 11... N5b6?? i 11... h6?? przegrywają od razu po 12. e5! (+2.30+).
+2. Mapa pionów [G]: Natychmiastowa groźba e4-e5 (widełki na skoczka i gońca d6 po 11... Nxc3); po 11... f6 12. exd5 białe rozbijają strukturę króla czarnych.
+3. Mapa figur [B]: Po 11... Nxc3 12. e5! f6 13. exd6 fxg5 wieża z c1 bije c3, goniec wchodzi na d3/c4, a pion d6 paraliżuje czarne; po 11... f6 12. exd5 fxg5 skoczek c3 wskakuje z tempem na e4! (13. Ne4 Qxd5 14. Nxd6 Qxd6).
+4. Kontrgra czarnych [R]: Jedyne ratunki czarnych to 11... f6 (z otwarciem linii f dla wieży) albo 11... Nxc3 12. e5! f6 13. exd6 fxg5 14. h3!. Pilnujemy, by nie stracić koordynacji przy odsłoniętym królu e1 — szybkie Bd3/Be2 i O-O pieczętują przewagę.
+5. Wymiany i końcówka: Po 11... f6 12. exd5 fxg5 13. Ne4 Qxd5 14. Nxd6 Qxd6 białe zlikwidowały dobrego gońca czarnych i zostawiły czarnym rozbite piony g5/g7 oraz biernego gońca c8 — końcówka jest strategicznie wygrana dla białych.
+
+Przykładowe kontynuacje (PV Stockfish 19 / wzorce):
+• 11... Nxc3 12. e5 f6 13. exd6 fxg5 14. h3 — Widełki 12. e5! — białe zdobywają zabójczego klina na d6 i druzgocącą przewagę pozycyjną (+0.72).
+• 11... f6 12. exd5 fxg5 13. Ne4 Qxd5 14. Nxd6 Qxd6 — Najlepsza obrona czarnych — mimo to białe mają +0.69 i zdewastowaną strukturę przeciwnika. [%csl Ye5,Yd6] [%cal Ge4e5,Rd5c3,Bc3e4] } ( 11. Bd3 e5 12. O-O Re8 { Zbyt wolne (-50 cp w Bramce 1) — wypuszcza taktyczne widełki e4-e5 i pozwala czarnym na wyrównujące ...e5!. } ) *
+
+[Event "Repertuar Bialych — Ch1: Klasyczny Gambit Hetmanski (QGD)"]
+[Site "Chess Analysis Architect"]
+[Date "2026.11.21"]
+[Round "19"]
+[White "4.3 Cambridge Springs: Wymiana 9... Nxc3 — Opanowanie linii b i centrum"]
+[Black ""]
+[Result "*"]
+
+{ Trzecia typowa opcja po 9. Rc1 (7% w Masters): czarne od razu biją na c3, by wypędzić wieżę z c1 ruchem 10... Ba3. W praktyce to prezent dla białych: po 10. bxc3! (100% Masters, 62.5% białych) i 11. Rb1 dostajemy potężne centrum pionowe i półotwartą linię b. } 1. d4 d5 2. c4 e6 3. Nc3 Nf6 4. Bg5 Nbd7 5. e3 c6 6. Nf3 Qa5 7. cxd5 Nxd5 8. Qd2 Bb4 9. Rc1 Nxc3 10. bxc3 Ba3 11. Rb1 $1 { Spokojne, aktywne 11. Rb1! (SF19 #1, +0.39, WDL 6.2% / 93.6% / 0.2%). Warstwa 1 (refutacja odruchu): dlaczego NIE pasywne 11. Rc2? Wieża na c2 blokuje przekątne i nie naciska na piona b7, a po 11. Rb1 zyskujemy od razu półotwartą linię b przeciw skrzydłu hetmańskiemu czarnych. Warstwa 2 (ustępstwo): czarny goniec na a3 stoi poza grą, nie broni skrzydła królewskiego i wkrótce zostanie odrzucony lub zamieniony; ponadto wymiana 9... Nxc3 wzmocniła białe centrum (piony c3+d4+e3). Warstwa 3 (mapa adresów): 12. Bd3 (lub 12. Qd3 po ...b6), O-O, c3-c4 oraz e3-e4! tworzące potężny walec centralny. Warstwa 4 (profilaktyka): pilnujemy tylko, by na 11... b6 zagrać 12. Qd3 lub 12. Bd3 zanim czarne zdążą wymienić czarnopolowych przez ...Ba6.
+
+BRAMA DO GRY ŚRODKOWEJ:
+1. Diagnoza pozycji: Bardzo przyjemna, strukturalnie zdrowa przewaga białych — Stockfish 19 daje +0.39 (WDL 6.2% / 93.6% / 0.2%), a w Masters białe zdobywają 62.5% po 10. bxc3.
+2. Mapa pionów [G]: Kluczowy cel to ekspansja w centrum c3-c4 (z tempem po odejściu hetmana lub po Be2/Bd3) oraz e3-e4, zamieniająca nasz środek w ruchomą masę pionową.
+3. Mapa figur [B]: Wieża b1 naciska na b7; goniec f1 rozwija się na d3 (lub e2); hetman przechodzi na d3 lub c2; po O-O wieża f1 wchodzi na e1/d1.
+4. Kontrgra czarnych [R]: Czarne grają 11... b6 (z planem ...Ba6 wymieniającym naszego dobrego gońca d3) lub 11... O-O i ...e5/...c5. Przeciw 11... b6 dobrze działa 12. Qd3! (PV SF19, kontrola a6 i e4) lub 12. Bd3 Ba6 13. O-O Bxd3 14. Qxd3 z pełną kontrolą nad e4.
+5. Wymiany i końcówka: Wymiana hetmanów po ewentualnym ...b6/...Ba6/...c5 nie jest groźna, o ile utrzymamy przewagę przestrzeni w centrum (c4/d4/e4) i aktywną wieżę na b1.
+
+Przykładowe kontynuacje (PV Stockfish 19 / wzorce):
+• 11... b6 12. Qd3 h6 13. Bh4 Be7 14. Bxe7 Kxe7 — Główna linia SF19 — biały hetman na d3 kontroluje a6 i e4, a czarny król zostaje bez roszady. [%csl Yb7,Ya3] [%cal Bb1b7,Bf1d3,Gc3c4,Ge3e4] } ( 11. Rc2 b6 12. Bd3 Ba6 { Zbyt bierne — wieża na b1 stoi znacznie aktywniej i utrudnia rozwój skrzydła hetmańskiego czarnych. } ) *
+
+[Event "Repertuar Bialych — Ch1: Klasyczny Gambit Hetmanski (QGD)"]
+[Site "Chess Analysis Architect"]
+[Date "2026.11.21"]
+[Round "20"]
+[White "4.4 Cambridge Springs: Przełom 9... c5 — Natychmiastowe 10. a3!"]
+[Black ""]
+[Result "*"]
+
+{ Ostra próba czarnych po 9. Rc1 (7% w Masters): natychmiastowy cios 9... c5 bez roszady. Ponownie stosujemy nasz ujednolicony, druzgocący motyw 10. a3! (60.5% Masters, 67.3% białych!), wymuszający oddanie pary gońców. } 1. d4 d5 2. c4 e6 3. Nc3 Nf6 4. Bg5 Nbd7 5. e3 c6 6. Nf3 Qa5 7. cxd5 Nxd5 8. Qd2 Bb4 9. Rc1 c5 10. a3 $1 { Najostrzejsze i najczystsze 10. a3! (SF19 #1, +0.25 po 11. bxc3; Masters 67.3% białych!). Warstwa 1 (refutacja odruchu): dlaczego NIE 10. Bd3? Po 10. Bd3 cxd4 11. exd4 O-O czarne utrzymują nacisk na c3 bez oddawania pary gońców. Warstwa 2 (ustępstwo): zmuszone do 10... Bxc3 11. bxc3, czarne oddały parę gońców w otwierającej się pozycji, a ich goniec c8 jest wciąż zamknięty. Warstwa 3 (mapa adresów): po 11. bxc3 szykujemy c3-c4 (po odejściu hetmana lub po Be2/Bd3), O-O i wykorzystanie dwóch gońców oraz linii b/c. Warstwa 4 (profilaktyka): na 11... Qxa3?! 12. e4! N5f6 13. Bd3 c4 14. Bc2 (SF19 +0.45) białe przejmują inicjatywę w centrum przy dwóch gońcach, a hetman czarnych traci czas na powrót. [%csl Yc3,Yb4] [%cal Rb4c3,Gb2c3,Bf1d3] } ( 10. Bd3 cxd4 11. exd4 O-O { Daje czarnym zbyt wygodną grę przeciw pionowi d4 bez zyskania pary gońców. } ) 10... Bxc3 11. bxc3 { BRAMA DO GRY ŚRODKOWEJ:
+1. Diagnoza pozycji: Dynamiczna przewaga białych z parą gońców w otwartym centrum — Stockfish 19 daje +0.25 (WDL 3.4% / 96.2% / 0.4%), a praktyczny wynik w Masters po 10. a3 to aż 67.3% dla białych.
+2. Mapa pionów [G]: Główny cios to c3-c4! (gdy skoczek d5 nie ma dobrego pola — zmusza do wymiany hetmanów lub utraty centrum) oraz e3-e4 w odpowiednim tempie.
+3. Mapa figur [B]: Goniec f1 idzie na e2 lub d3 (zależnie od ...b6/...Ba6 — po 11... h6 12. Bh4 b6 13. Be2 Ba6 gramy 14. c4! zyskując czas na hetmanie!); wieża c1 wspiera przełom c3-c4.
+4. Kontrgra czarnych [R]: Czarne grają 11... h6 12. Bh4 b6 (chcąc wymienić białopolowego gońca przez ...Ba6) albo 11... cxd4 12. cxd4 Qxd2+ 13. Nxd2 (gdzie białe w końcówce z dwoma gońcami i skoczkiem na c4 mają trwałą przewagę). Naszą profilaktyką przeciw ...Ba6 jest c3-c4! (zamykające przekątną a6-f1 z tempem na hetmana a5!).
+5. Wymiany i końcówka: Nawet wymiana hetmanów (po 11... cxd4 12. cxd4 Qxd2+ 13. Nxd2 lub po 14. c4!) jest wysoce korzystna dla białych dzięki parze gońców, mocnemu centrum i polu c4/d6.
+
+Przykładowe kontynuacje (PV Stockfish 19 / wzorce):
+• 11... h6 12. Bh4 b6 13. Be2 Ba6 14. c4 Qxd2+ 15. Nxd2 — Główna linia SF19 — ruch 14. c4! odcina gońca a6 i wprowadza białe w wysoce korzystną końcówkę z parą gońców. [%csl Yc4,Yd6] [%cal Gc3c4,Bf1e2,Bg5h4,Ra5a3,Rc5d4] } *
+
+[Event "Repertuar Bialych — Ch1: Klasyczny Gambit Hetmanski (QGD)"]
+[Site "Chess Analysis Architect"]
+[Date "2026.11.21"]
+[Round "21"]
+[White "4.5 Cambridge Springs: Odbicie 7... exd5 — Czysty Karlsbad z błędnie ustawionym hetmanem a5"]
+[Black ""]
+[Result "*"]
+
+{ Drugie najczęstsze odbicie w Cambridge Springs (15% w Masters, bardzo częste w turniejach 1800–2000 FIDE): czarne rezygnują z ostrego 7... Nxd5 i odbijają 7... exd5. Efekt? Dostajemy wymarzony Karlsbad, w którym czarny hetman na a5 stoi zupełnie poza grą (SF19 aż +0.83!). } 1. d4 d5 2. c4 e6 3. Nc3 Nf6 4. Bg5 Nbd7 5. e3 c6 6. Nf3 Qa5 7. cxd5 exd5 8. Bd3 $1 { Spokojny, podręcznikowy rozwój 8. Bd3! (Masters #1: 53.1% częstości, 60.8% białych; w 10. ruchu SF19 daje już +0.83!). Warstwa 1 (refutacja odruchu): dlaczego NIE nerwowe 8. Bxf6 Nxf6? Oddanie dobrego gońca za skoczka bez powodu łagodzi ciasnotę czarnych. Warstwa 2 (ustępstwo): po 7... exd5 czarny hetman na a5 stracił cały sens (nie ma już nacisku na c3 w połączeniu z ...Nxd5), a ruch ...Bd6 pozwala nam później na a2-a3 + b2-b4 z tempem albo na klasyczny plan Qc2 + Rae1 + e3-e4. Warstwa 3 (mapa adresów): 8. Bd3, 9. O-O, 10. Qc2 (łączymy wieże, kontrolujemy e4 i celujemy w h7!), następnie a2-a3, b2-b4 (z tempem na hetmana a5!) lub Rfe1 i e3-e4. [%csl Ya5,Yh7] [%cal Bd1c2,Ga2a3,Gb2b4,Ra5c3] } ( 8. Bxf6 Nxf6 9. Bd3 Bd6 { Zupełnie zbędne oddanie pary gońców — z 8. Bd3 białe zachowują wszystkie figury i uzyskują +0.83. } ) 8... Bd6 9. O-O O-O 10. Qc2 { BRAMA DO GRY ŚRODKOWEJ:
+1. Diagnoza pozycji: Duża, książkowa przewaga pozycyjna białych w strukturze Karlsbadu — Stockfish 19 daje aż +0.83 (WDL 33.4% / 66.5% / 0.1%). Czarny hetman na a5 marnuje tempa, bo wkrótce i tak musi wrócić na d8 lub c7.
+2. Mapa pionów [G]: Mamy dwa równie mocne plany: (A) natychmiastowy atak mniejszości a2-a3 + b2-b4 (wygrywający tempo na hetmanie a5!) i b4-b5; (B) centralny przełom e3-e4 po Rfe1 i ewentualnym h3/Bh4.
+3. Mapa figur [B]: Hetman c2 i goniec d3 tworzą baterię na h7; wieża f1 idzie na e1 (lub b1 pod atak mniejszości); goniec g5 po ...h6 cofa się na h4 i pilnuje pola e7/f6.
+4. Kontrgra czarnych [R]: Czarne muszą ratować się cofnięciem hetmana (10... Re8 11. a3 h6 12. Bh4 Qd8) i próbą wyzwolenia przez ...Nf8-...Ne6 lub ...Ne4. Nasza profilaktyka to konsekwentne a2-a3 + Rfe1 / b2-b4, nie pozwalając czarnym spokojnie się przegrupować.
+5. Wymiany i końcówka: W tej wersji Karlsbadu czarne mają gorszego gońca c8 i rozluźnione skrzydło hetmańskie — po ataku mniejszości b4-b5 wymiana hetmanów i wejście w końcówkę z celem na c6/d5 jest dla białych bardzo korzystne.
+
+Przykładowe kontynuacje (PV Stockfish 19 / wzorce):
+• 10... Re8 11. a3 h6 12. Bh4 Qd8 13. Rfe1 — Główna linia SF19 (+0.83) — czarne musiały przyznać się do straty dwóch temp hetmanem (Qd8-a5-d8). [%csl Ya5,Yc6] [%cal Ga2a3,Gb2b4,Bf1e1,Bd3h7,Ra5d8] } *
+
+[Event "Repertuar Bialych — Ch1: Klasyczny Gambit Hetmanski (QGD)"]
+[Site "Chess Analysis Architect"]
+[Date "2026.11.21"]
+[Round "22"]
+[White "4.6 Opóźniony Ragozin: 6... Bb4 — Konsolidacja 9. Qc2! (z RAV na 8... O-O)"]
+[Black ""]
+[Result "*"]
+
+{ Rzadki, ale podchwytliwy zjazd (1.5% po 6. Nf3): czarne najpierw wiążą c3 ruchem 6... Bb4, a dopiero po 7. cxd5 exd5 8. Bd3 grają 8... Qa5 (lub spokojne 8... O-O — wchłonięte w podwariancie RAV poniżej, co oszczędza slot SRS). Nasze 9. Qc2! + 10. O-O daje aż +0.77 w Stockfishu 19 i 90.9% białych w Masters po 8... Qa5! } 1. d4 d5 2. c4 e6 3. Nc3 Nf6 4. Bg5 Nbd7 5. e3 c6 6. Nf3 Bb4 7. cxd5 exd5 8. Bd3 Qa5 { Ostre 8... Qa5 (37% po 8. Bd3, gdzie czarne zdobywają tylko 9% w Masters!) próbuje połączyć pomysły Ragozina i Cambridge Springs, ale bez presji na d5 hetman na a5 tylko traci czas. Spokojne 8... O-O (43%) jest pokryte w podwariancie RAV poniżej. [%csl Ya5,Yb4] [%cal Bd1c2] } ( 8... O-O 9. O-O Re8 10. Qc2 { 43% po 8. Bd3 (SF19 +0.44) — identyczna bateria Qc2+Bd3 i czysty Karlsbad, gdzie czarny goniec na b4 nie ma dobrego uzasadnienia i musi wrócić na e7 albo oddać parę gońców po a3. } ) 9. Qc2 $1 { Kluczowe 9. Qc2! (SF19 +0.77 po 10. O-O). Warstwa 1 (refutacja odruchu): dlaczego NIE natychmiastowe 9. a3?! Po 9. a3 Bxc3+ 10. bxc3 czarne dostają 10... Qxc3+! z utratą piona i szachem, a po 9. O-O Bxc3 10. bxc3 niepotrzebnie oddajemy piona c3 bez ochrony hetmanem. Warstwa 2 (ustępstwo): czarny hetman na a5 nie zagraża realnie królowi białych, a goniec b4 jest już na muszce przyszłego a2-a3. Warstwa 3 (mapa adresów): 9. Qc2 broni c3, kontroluje e4 i buduje baterię na h7, po czym 10. O-O, a2-a3 i c3-c4 rozbijają pozycję czarnych. Warstwa 4 (profilaktyka): po 9. Qc2 czarne nie mogą wygrać piona c3 ani powstrzymać a2-a3 -> c3-c4. [%csl Yc2,Yb4] [%cal Bd3h7,Be1g1,Rb4c3] } ( 9. a3 Bxc3+ 10. bxc3 Qxc3+ { Błąd taktyczny — przed a2-a3 musimy najpierw obronić c3 ruchem 9. Qc2!. } ) 9... O-O 10. O-O { BRAMA DO GRY ŚRODKOWEJ:
+1. Diagnoza pozycji: Bardzo mocna, modelowa przewaga białych — Stockfish 19 daje +0.77 (WDL 27.7% / 72.2% / 0.1%). Czarne stoją znacznie gorzej niż w normalnym Karlsbadzie, bo goniec b4 jest wystawiony na a2-a3, a hetman a5 stoi na uboczu.
+2. Mapa pionów [G]: Plan to h2-h3 (profilaktyka przed ...Bg4/...Ne4), potem a2-a3! (wymuszające ...Bxc3 bxc3) i następnie centralno-skrzydłowy marsz c3-c4 lub e3-e4 z parą gońców.
+3. Mapa figur [B]: Po wymianie na c3 mamy potężną parę gońców (d3 + g5/h4/f4), otwartą linię b dla wieży a1 (Rab1) i hetmana c2 kontrolującego c4 i e4.
+4. Kontrgra czarnych [R]: Czarne grają 10... h6 11. Bh4 Re8 i próbują się bronić przez ...Bxc3 bxc3 + ...Ne4. Po 10... h6 11. Bh4 Re8 12. h3 (lub 12. a3 Bxc3 13. bxc3 Ne4 14. c4!) białe otwierają przekątne dla dwóch gońców i rozbijają centrum.
+5. Wymiany i końcówka: Zachowujemy parę gońców i otwieramy pozycję przez c3-c4 — w grze środkowej i końcówce nasze dwa gońce + przewaga przestrzeni całkowicie dominują nad pasywnym skoczkiem d7 i gońcem c8.
+
+Przykładowe kontynuacje (PV Stockfish 19 / wzorce):
+• 10... h6 11. Bh4 Re8 12. h3 Bxc3 13. bxc3 Ne4 14. c4 — Książkowy plan z prompt.md i PV SF19 — para gońców + natychmiastowe otwarcie centrum ruchem 14. c4!. [%csl Yb4,Yc4] [%cal Ga2a3,Gh2h3,Rb4c3,Bd3h7,Ba1b1] } *
+
+[Event "Repertuar Bialych — Ch1: Klasyczny Gambit Hetmanski (QGD)"]
+[Site "Chess Analysis Architect"]
+[Date "2026.11.21"]
+[Round "23"]
+[White "5.1 Bezpiecznik vs Półsłowiańska: 4... c6 5. e3! (Zakaz 5. Nf3?)"]
+[Black ""]
+[Result "*"]
+
+{ TWARDA REGUŁA REPERTUAROWA (Sekcja 4, punkt 1): po 4... c6 (7.8% po 4. Bg5) ZAWSZE gramy bezpiecznik 5. e3! i NIGDY 5. Nf3?, które wpuszcza wielkie teoretyczne drzewa Botwinnika (5... dxc4 6. e4 b5) oraz Anty-Moskwy (5... h6 6. Bh4 dxc4). Po 5. e3! czarne muszą albo transponować do naszej Ortodoksyjnej (jak w linii głównej), albo do naszego Cambridge Springs (6... Qa5 — linie 4.1–4.5). Nota transpozycyjna dla ruchu 3: na 3... Bb4 (4.9% po 3. Nc3) gramy 4. e3 z czystą transpozycją do Rozdziału 2 (Obrona Nimzowitscha — System Rubinsteina 4... d5). } 1. d4 d5 2. c4 e6 3. Nc3 Nf6 4. Bg5 c6 5. e3 $1 { Obowiązkowy bezpiecznik 5. e3! (SF19 +0.14). Warstwa 1 (refutacja odruchu): dlaczego absolutnie NIE automatyczne 5. Nf3? Po 5. Nf3 czarne biją 5... dxc4! i zmuszają Cię do gry 25-ruchowej teorii Botwinnika (6. e4 b5) albo oddania piona bez rekompensaty. Natomiast 5. e3! broni c4 gońcem f1 zanim wyskoczymy skoczkiem na f3. Warstwa 2 (ustępstwo): czarne zagrały 4... c6 wcześnie, więc nie mają już elastycznego przejścia do Tartakowera ani Laskera, a po 5. e3 muszą wracać na nasze tory (Ortodoksyjna lub Cambridge Springs). [%csl Ye3,Yc4] [%cal Bf1c4,Rd5c4] } ( 5. Nf3 dxc4 6. e4 b5 { ZAKAZANA TRANSPOZYCJA (Sekcja 4, reguła 1) — wpuszcza system Botwinnika! Zawsze najpierw 5. e3!. } ) 5... Nbd7 { Najpopularniejsze 5... Nbd7 (77% w Masters), które po 6. Nf3 prowadzi do Ortodoksyjnej (6... Be7) lub Cambridge Springs (6... Qa5). Boczne 5... Be7 (11.9%) i 5... h6 (7.3%) są pokryte w podwariantach RAV poniżej. [%csl Yd7] [%cal Bg1f3] } ( 5... Be7 6. Nf3 O-O 7. Rc1 Nbd7 8. Bd3 { 11.9% w Masters (czarne zdobywają tylko 34.8%) — bezpośrednia transpozycja do głównej pozycji Ortodoksyjnej (linie 1.1–1.4). } ) ( 5... h6 6. Bh4 Nbd7 7. Nf3 Be7 8. Rc1 O-O 9. Bd3 { 7.3% w Masters — czysta transpozycja do linii 1.3 (lub po 7... Qa5 do Cambridge Springs z ...h6). } ) 6. Nf3 Be7 7. Rc1 O-O 8. Bd3 { BRAMA DO GRY ŚRODKOWEJ:
+1. Diagnoza pozycji: Osiągnęliśmy dokładną tabiję Ortodoksyjnej (linie 1.1–1.4) bez dopuszczenia żadnego z ostrych systemów Półsłowiańskiej (Botwinnik, Moskwa, Anty-Moskwa). Stockfish 19 daje +0.14 (WDL 3.2% / 95.8% / 1.0%) — pozycja wyjściowa całego kompleksu.
+2. Mapa pionów [G]: Na 8... dxc4 9. Bxc4 Nd5 przechodzimy do linii 1.1/1.2 (plan Karpowa 13. Bb3!); na 8... a6 (linia 1.5) bijemy 9. cxd5 exd5 (Karlsbad); na 8... h6 9. Bh4 dxc4 przechodzimy do linii 1.3 (13. a4!).
+3. Mapa figur [B]: Wszystkie figury lekkie są harmonijnie rozwinięte (Bd3, Bg5, Nc3, Nf3, Rc1) — w następnym ruchu robimy O-O i dopasowujemy wieże (Rc1, Re1/Rd1) do wyboru czarnych.
+4. Kontrgra czarnych [R]: Główne odpowiedzi czarnych to 8... dxc4 (72%), 8... h6 (12%), 8... a6 (7%) i 8... Re8 (5%) — wszystkie dokładnie rozpisane w liniach 1.1–1.5.
+5. Wymiany i końcówka: Zależnie od wyboru czarnych w 8. ruchu realizujemy sprawdzony schemat z linii 1.1–1.5 (presja na linii e po 13. Bb3, rozbicie ...b5 przez 13. a4, albo czysty Karlsbad po ...a6).
+
+Przykładowe kontynuacje (PV Stockfish 19 / wzorce):
+• 8... dxc4 9. Bxc4 Nd5 10. Bxe7 Qxe7 11. O-O Nxc3 12. Rxc3 e5 13. Bb3 — Dokładne wejście w nasz kręgosłup z linii 1.1–1.2 (plan Karpowa). [%csl Yd3,Yc4] [%cal Be1g1,Rd5c4,Rh7h6] } *
+
+[Event "Repertuar Bialych — Ch1: Klasyczny Gambit Hetmanski (QGD)"]
+[Site "Chess Analysis Architect"]
+[Date "2026.11.21"]
+[Round "24"]
+[White "5.2 Pseudo-Ragozin 4... Bb4: Główny test 7... g5 8. Bg3 Ne4 — Praktyczne 9. a3! i 11. f3!"]
+[Black ""]
+[Result "*"]
+
+{ Bardzo ostre wczesne 4... Bb4 (Pseudo-Ragozin / Westfalia). Po 5. cxd5 exd5 6. e3 h6 7. Bh4 aż 87% mistrzów gra agresywne 7... g5 8. Bg3 Ne4! (w tym mecze Carlsen–Niepomniaszczij). Wybór z Bramki 1: zamiast chaotycznego 9. Ne2 (54% białych w Masters) wybieramy pryncypialne 9. a3! (60.0% białych w Masters, SF19 +0.28), które daje nam parę gońców i strukturę c3/d4/e3/f3 spójną z całym naszym repertuarem Karlsbadu! } 1. d4 d5 2. c4 e6 3. Nc3 Nf6 4. Bg5 Bb4 5. cxd5 exd5 6. e3 h6 7. Bh4 g5 8. Bg3 Ne4 9. a3 $1 { Najbardziej praktyczne i spójne repertuarowo 9. a3! (Masters 60.0% białych na 100 partiach vs 54.0% po 9. Ne2; SF19 +0.32). Warstwa 1 (refutacja odruchu): dlaczego NIE odruchowe 9. Qc2?! Bo 9. Qc2 pozwala czarnym na szybkie ...h5/...Bf5 bez oddawania pary gońców, natomiast 9. a3! od razu wymusza 9... Bxc3+ 10. bxc3 (odejście gońca oddaje nam tempo i centrum). Warstwa 2 (ustępstwo): czarne osłabiły dramatycznie skrzydło królewskie ruchami ...h6 i ...g5, a teraz jeszcze oddają parę gońców! Warstwa 3 (mapa adresów): po 9... Bxc3+ 10. bxc3 h5 gramy 11. f3! (zmuszając skoczka do bicia na g3), a potem c3-c4, Bd3, Ne2 i wykorzystanie osłabionych pól oraz otwartej linii h. Warstwa 4 (profilaktyka): po 10. bxc3 drugim najczęstszym ruchem czarnych jest 10... Nc6 (30.9% w Masters!) — jego dokładną odpowiedź (11. Bd3!) pokazuje podwariant RAV poniżej. [%csl Yb4,Yg5] [%cal Rb4c3,Gb2c3,Gf2f3] } ( 9. Ne2 h5 10. h4 Nxg3 11. Nxg3 gxh4 12. Nxh5 { Główna linia super-GM (Carlsen–Nepo), równie poprawna (+0.36), ale znacznie bardziej chaotyczna i punktująca o 6% niżej w Masters (54% vs 60% dla 9. a3!). } ) 9... Bxc3+ 10. bxc3 h5 { Najczęstsze 10... h5 (64% w Masters, czarne zdobywają tu tylko 33%!), grożące złapaniem gońca przez ...h4. Na drugie najczęstsze 10... Nc6 (30.9% w Masters) rozwijamy spokojnie 11. Bd3! lub 11. c4 — zobacz RAV. [%csl Yh4,Yg3] [%cal Rh5h4,Gf2f3] } ( 10... Nc6 11. Bd3 h5 12. f3 Nxg3 13. hxg3 { 30.9% w Masters — białe płynnie przechodzą do tej samej korzystnej struktury z parą gońców, mocnym centrum i planem c3-c4 + Ne2. } ) 11. f3 $1 { BRAMA DO GRY ŚRODKOWEJ:
+1. Diagnoza pozycji: Ostra, asymetryczna walka z wyraźną przewagą białych — Stockfish 19 daje +0.28 (WDL 3.8% / 95.9% / 0.3%), a praktyczny wynik w Masters to aż 60% białych (i 67% po 10... h5!). Czarny król nie ma bezpiecznego schronienia po ...g5/...h5.
+2. Mapa pionów [G]: Po przymusowym 11... Nxg3 12. hxg3 piony c3-d4-e3-f3 tworzą twardą tarczę centralną; w grze środkowej uderzamy c3-c4! (otwierając pozycję na króla czarnych) albo e3-e4!.
+3. Mapa figur [B]: Po 11... Nxg3 12. hxg3 Nc6 możemy spokojnie zagrać 13. Kf2! (PV SF19 — uwalnia wieżę h1 na otwartą linię h i zabezpiecza króla!), potem Bd3, Ne2, c4 i Rb1.
+4. Kontrgra czarnych [R]: Czarne próbują rozbić skrzydło królewskie przez 12... Nc6 13. Kf2 h4 14. gxh4 gxh4 (otwarcie na białego króla) lub ...Qd6 + ...Bf5 + ...O-O-O. Profilaktyczne Kf2! + c3-c4 utrzymuje króla w bezpieczeństwie i kontratakuje w centrum.
+5. Wymiany i końcówka: W końcówce czarne cierpią z powodu osłabionego skrzydła królewskiego (odcięty pion h4/g5) oraz silniejszej białej masy centralnej i lepszego gońca białopolowego.
+
+Przykładowe kontynuacje (PV Stockfish 19 / wzorce):
+• 11... Nxg3 12. hxg3 Nc6 13. Kf2 h4 14. gxh4 gxh4 — Główna linia SF19 — biały król na f2 łączy wieże, a białe szykują c3-c4 i atak na rozbite czarne centrum. [%csl Yg3,Yf2] [%cal Gh2g3,Gc3c4,Be1f2,Re4g3] } *
+
+[Event "Repertuar Bialych — Ch1: Klasyczny Gambit Hetmanski (QGD)"]
+[Site "Chess Analysis Architect"]
+[Date "2026.11.21"]
+[Round "25"]
+[White "5.3 Pseudo-Ragozin 4... Bb4: Ostre 8... h5! — Jedynie 9. h4!"]
+[Black ""]
+[Result "*"]
+
+{ Krytyczna luka pokrycia wykryta w Bramce 1: po 7... g5 8. Bg3 aż 17.4% mistrzów (75 partii) gra natychmiastowe 8... h5!, zanim wskoczą skoczkiem na e4 — grożąc złapaniem gońca przez ...h4!. Naturalne ruchy z autopilota (9. h3? lub 9. f3?) natychmiast oddają całą przewagę! Jedyną pryncypialną i wygrywającą przestrzeń odpowiedzią jest ostre 9. h4! (SF19 +0.46). } 1. d4 d5 2. c4 e6 3. Nc3 Nf6 4. Bg5 Bb4 5. cxd5 exd5 6. e3 h6 7. Bh4 g5 8. Bg3 h5 9. h4 $1 { Kluczowe, jedyne 9. h4! (SF19 #1, +0.46, WDL 9.9% / 89.9% / 0.2%). Warstwa 1 (refutacja odruchu): dlaczego NIE oczywiste 9. h3?! Bo po 9. h3 Ne4! białe tracą kontrolę nad g3/c3 bez kontrgry na linii h (SF19 -0.12!); podobnie 9. f3?! h4 10. Bf2 oddaje inicjatywę (-0.06). Warstwa 2 (ustępstwo): czarne wypchnęły aż dwa piony przed własnym królem (...g5, ...h5) — 9. h4! natychmiast rozrywa tę strukturę (po 9... gxh4 10. Bxh4 wiązanie na f6 jest mordercze, a na 9... g4 10. Nge2 goniec g3 jest bezpieczny na zawsze i czarne mają dziury na f4/h4). Warstwa 3 (mapa adresów): po wymuszonym 9... Ne4 (100% w Masters) gramy 10. Ne2! (wspierając c3 i odbijając na g3 skoczkiem, co uwalnia atak na h5!). Warstwa 4 (profilaktyka): zmuszamy czarne do wyboru między oddaniem piona h5 a otwarciem własnego króla. [%csl Yh4,Yg5] [%cal Gh4g5,Bg1e2,Rf6e4] } ( 9. h3 Ne4 10. Ne2 h4 11. Bh2 { Odruchowy błąd (-0.12 w SF19) — goniec zostaje uwięziony na h2, a czarne przejmują inicjatywę. } ) ( 9. f3 h4 10. Bf2 c5 { Zbyt pasywne (-0.06) — czarne otwierają centrum przy białym królu na e1. } ) 9... Ne4 10. Ne2 { BRAMA DO GRY ŚRODKOWEJ:
+1. Diagnoza pozycji: Bardzo dynamiczna, konkretna przewaga białych — Stockfish 19 daje +0.37 (WDL 7.0% / 92.6% / 0.4%). Ta pozycja świetnie trenuje Twoje wąskie gardło nr 2 (ostra kalkulacja konkretnych wariantów!).
+2. Mapa pionów [G]: Pion h4 rozbił łańcuch czarnych; po 10... Nxg3 11. Nxg3 gxh4 12. Nxh5 czarny pion h4 jest izolowany i słaby, a nasze piony centrum (d4/e3/f2) są nienaruszone; po ...c6 planujemy a2-a3 i e3-e4 lub Nf4.
+3. Mapa figur [B]: Skoczek po 10... Nxg3 11. Nxg3 gxh4 zbija 12. Nxh5! (grożąc Nf4 i atakiem na d5 oraz f6!), a na 12... Qg5 odpowiadamy 13. Qa4+! Nc6 14. Nf4 z dominacją centralną; goniec f1 rozwija się na e2 lub d3, król ucieka na c1 (O-O-O) lub f1.
+4. Kontrgra czarnych [R]: Czarne liczą na szybką aktywność hetmana (...Qg5) i presję na g2/c3 oraz długą roszadę (...Be6, ...Nd7, ...O-O-O). Profilaktyczne 13. Qa4+! (z tempem na gońca b4!) lub szybkie a2-a3 + Nf4 wygasza kontrgrę.
+5. Wymiany i końcówka: Gdy białe skonsolidują skoczka na f4 (atakując d5 i h4) oraz wymienią hetmany, osłabiona struktura pionowa czarnych (d5, h4, brak tarczy na skrzydle królewskim) daje białym łatwą grę na wygraną.
+
+Przykładowe kontynuacje (PV Stockfish 19 / wzorce):
+• 10... Nxg3 11. Nxg3 gxh4 12. Nxh5 Qg5 13. Qa4+ Nc6 14. Nf4 — Główna linia SF19 (+0.37) — precyzyjny szach 13. Qa4+! wygrywa tempo i cementuje skoczka na f4. [%csl Yh5,Yf4] [%cal Be2g3,Bd1a4,Re4g3] } *
+
+[Event "Repertuar Bialych — Ch1: Klasyczny Gambit Hetmanski (QGD)"]
+[Site "Chess Analysis Architect"]
+[Date "2026.11.21"]
+[Round "26"]
+[White "5.4 Pseudo-Ragozin 4... Bb4: Spokojne 7... O-O — Kontrolowany Karlsbad z 9. Nge2!"]
+[Black ""]
+[Result "*"]
+
+{ Spokojniejsza reakcja czarnych (5% w Masters, ale najczęstsza wśród zawodników klubowych 1800–2000 bojących się ostrego 7... g5!). Bez ...g5 białe dostają wymarzony Karlsbad z planem f2-f3 + e3-e4 i atakiem w centrum (zgodnie z prompt.md, SF19 +0.33, 67% białych w Masters). } 1. d4 d5 2. c4 e6 3. Nc3 Nf6 4. Bg5 Bb4 5. cxd5 exd5 6. e3 h6 7. Bh4 O-O 8. Bd3 c6 9. Ne2 $1 { Książkowe 9. Nge2! (plan Botwinnika/Karpowa w Karlsbadzie). Warstwa 1 (refutacja odruchu): dlaczego NIE automatyczne 9. Nf3? Po 9. Nf3 zamykamy sobie własnego piona f2, rezygnując z najgroźniejszego taranu w Karlsbadzie (f2-f3 + e3-e4!), a ponadto pozwalamy na nieprzyjemne związanie ...Bg4. Warstwa 2 (ustępstwo): czarny goniec na b4 nie kontroluje pola e4 i nie pomaga w obronie skrzydła królewskiego. Warstwa 3 (mapa adresów): 9. Nge2, 10. O-O, następnie Qc2, f3 (po wycofaniu gońca na f2 po ...Bg4 lub po przygotowaniu), e3-e4 oraz ewentualne a2-a3 wymuszające ...Bxc3 Nxc3. Warstwa 4 (profilaktyka): skoczek na e2 broni c3 (czarne nie mogą nam zepsuć pionów po ...Bxc3!), więc w każdej chwili możemy przegonić gońca przez a2-a3. [%csl Ye2,Ye4] [%cal Gf2f3,Ge3e4,Ga2a3] } ( 9. Nf3 Bg4 10. O-O Nbd7 { Rezygnujemy z głównego atutu tej pozycji — ustawienia Nge2 + f3 + e4. } ) 9... Re8 10. O-O { BRAMA DO GRY ŚRODKOWEJ:
+1. Diagnoza pozycji: Książkowy Karlsbad w idealnej wersji z Nge2 — Stockfish 19 daje +0.33 (WDL 6.0% / 93.6% / 0.4%), a białe mają jasny, agresywny plan centralnego walca f3 + e4.
+2. Mapa pionów [G]: Główny plan to f2-f3 (zabezpieczające e4 i uwalniające pole f2 dla gońca h4!) + e3-e4!, wsparte h2-h3 oraz a2-a3 (przeganiającym gońca b4).
+3. Mapa figur [B]: Hetman idzie na c2 (kontrola e4 i c5); goniec h4 w razie ...Nh5/...g5 lub pod e3-e4 może cofnąć się na f2 lub g3; wieże na e1 i d1/c1 wspierają przełom e3-e4.
+4. Kontrgra czarnych [R]: Czarne grają 10... Nbd7 (z ideą ...Be7, ...Nf8, ...Nh5 wymieniającym naszego gońca h4) albo 10... Be7 + ...Ne4. Na 10... Nbd7 odpowiadamy 11. h3 Be7 12. Qc2 (lub 11. Qc2 Be7 12. f3!), utrzymując kontrolę nad e4.
+5. Wymiany i końcówka: Zależy nam na utrzymaniu figur lekkich pod atak po f3 + e4; jeśli czarne oddadzą parę gońców na c3 (po a2-a3 Bxc3 Nxc3), białe mają przewagę dwóch gońców zarówno w grze środkowej, jak i w końcówce.
+
+Przykładowe kontynuacje (PV Stockfish 19 / wzorce):
+• 10... Nbd7 11. h3 Be7 12. Qc2 Nh5 13. Bxe7 Qxe7 14. Rae1 — Główna linia SF19 — białe przygotowują f3 + e4 lub b2-b4 z pełną harmonią figur. [%csl Ye4,Yf2] [%cal Gf2f3,Ge3e4,Bd1c2,Gh2h3,Rb8d7] } *
+
+[Event "Repertuar Bialych — Ch1: Klasyczny Gambit Hetmanski (QGD)"]
+[Site "Chess Analysis Architect"]
+[Date "2026.11.21"]
+[Round "27"]
+[White "5.5 Wczesne 4... dxc4 — Solidne 5. e3! (i RAV na 5... a6)"]
+[Black ""]
+[Result "*"]
+
+{ Wczesne oddanie centrum 4... dxc4 (3.7% po 4. Bg5) — próba ominięcia klasycznego QGD i zagrania w stylu Wiedeńskiego. Zamiast chaotycznego 5. e4 (tylko 19% w Masters) gramy solidne, pryncypialne 5. e3! (79% w Masters, 57.7% białych!), osiągając wysoce aktywną strukturę IQP (a na 5... a6 — 27.8% — gładko odzyskujemy piona w RAV). } 1. d4 d5 2. c4 e6 3. Nc3 Nf6 4. Bg5 dxc4 5. e3 $1 { Spokojne, silne 5. e3! (Masters #1: 78.7%, 57.7% białych; Cloud d55 +0.12). Warstwa 1 (refutacja odruchu): dlaczego NIE ostre 5. e4? Po 5. e4 czarne mają konkretne 5... c5! 6. d5 b5! z ostrym kontratakiem na skrzydle hetmańskim. Warstwa 2 (ustępstwo): oddając centrum w 4. ruchu, czarne ułatwiły białym szybki rozwój i otwarcie przekątnych dla obu gońców bez utraty tempa. Warstwa 3 (mapa adresów): 5. e3 od razu szykuje 6. Bxc4, Nf3, O-O, a po 5... c5 6. Bxc4 cxd4 7. exd4 białe uzyskują modelową, dynamiczną wersję IQP. Warstwa 4 (profilaktyka): nie dajemy czarnym kontruderzenia ...c5/...b5 na rozciągnięte centrum e4+d4, zachowując pełną kontrolę. [%csl Yc4] [%cal Bf1c4,Rc7c5] } ( 5. e4 c5 6. d5 Be7 { Ostre i grywalne (54% w Masters), ale wymaga oddzielnej teorii, podczas gdy 5. e3! daje wyższy wynik (58%) i w pełni spójne struktury IQP. } ) 5... c5 { Główna odpowiedź 5... c5 (65.7% w Masters), natychmiast uderzająca w centrum. Drugie najczęstsze 5... a6 (27.8% w Masters, 60.9% dla białych!) z ideą ...b5 jest pokryte w podwariancie RAV poniżej. [%csl Yc5,Yd4] [%cal Bf1c4] } ( 5... a6 6. Bxc4 b5 7. Be2 Bb7 8. Nf3 Nbd7 9. O-O c5 { 27.8% w Masters — białe cofają gońca spokojnie na e2 (chroniąc f3 i unikając temp po ...c5), potem Rc1 i e3-e4/dxc5 z bardzo zdrową pozycją (61% białych w Masters). } ) 6. Bxc4 cxd4 7. exd4 Be7 8. Nf3 O-O 9. O-O { BRAMA DO GRY ŚRODKOWEJ:
+1. Diagnoza pozycji: Czysty, modelowy IQP białych z idealnym rozwojem (wszystkie figury lekkie grają, goniec c4 celuje w f7, goniec g5 wiąże f6). Stockfish 19 daje uczciwe +0.16 (WDL 2.7% / 96.6% / 0.7%) — pełnowartościowa walka inicjatywy przeciw blokadzie d5.
+2. Mapa pionów [G]: Kluczowy przełom to d4-d5! w momencie, gdy czarne osłabią kontrolę (np. po ...b6/...Bb7 lub gdy wieże staną na e1 i d1); a2-a3/h2-h3 dla zabezpieczenia pozycji.
+3. Mapa figur [B]: Hetman idzie na e2 lub d2/d3 (bateria z Bc4/Bb3 na h7); wieże na e1 i d1 (lub c1); skoczek f3 wskakuje na e5; goniec g5 po ...h6 cofa się na e3 lub f4 (wzmocnienie kontroli nad d5/e5).
+4. Kontrgra czarnych [R]: Czarne grają 9... Nc6 (nacisk na d4), 10... h6, 11... b6/...Bb7 i celują w blokadę d5 (...Nb4-d5 lub ...Na5). Nasza profilaktyka to aktywne Re1, a3 (przeciw ...Nb4) i gotowość na Ne5 lub przełom d4-d5.
+5. Wymiany i końcówka: W IQP unikamy bezcelowych wymian lekkich figur, dopóki nie uzyskamy konkretnego ataku na króla albo nie pozbędziemy się izolowanego piona przez d4-d5.
+
+Przykładowe kontynuacje (PV Stockfish 19 / wzorce):
+• 9... Nc6 10. Qd2 h6 11. Be3 Re8 12. Rfd1 — Główna linia SF19 — pełna mobilizacja białych i gotowość do d4-d5 lub d5/Ne5. [%csl Ye5,Yd5] [%cal Gd4d5,Bf1e1,Bf3e5,Bd1e2,Rb8c6] } *
+
+[Event "Repertuar Bialych — Ch1: Klasyczny Gambit Hetmanski (QGD)"]
+[Site "Chess Analysis Architect"]
+[Date "2026.11.21"]
+[Round "28"]
+[White "6.1 Alatortsew 3... Be7: Wymienny 5. Bf4 c6 — Ostre, przestrzenne 7. g4!"]
+[Black ""]
+[Result "*"]
+
+{ Wariant Alatortsewa 3... Be7 (16.5% po 3. Nc3 — ponad 9 000 partii Masters!): czarne celowo blokują nasze 4. Bg5. Zgodnie z twardą regułą z prompt.md nie gramy 4. Nf3, lecz od razu 4. cxd5 exd5 5. Bf4! (59.9% białych w Masters, Cloud d60 +0.28). Przeciw 5... c6 6. e3 Bf5 odrzucamy remisowe 7. Bd3? (+0.02) i wybieramy ostre, ambitne 7. g4! (SF19 +0.28), ćwiczące kalkulację i grę z przewagą przestrzeni! } 1. d4 d5 2. c4 e6 3. Nc3 Be7 4. cxd5 $1 { Najpryncypialniejsza odpowiedź na Alatortsewa: 4. cxd5! exd5 5. Bf4 (59.9% białych w Masters, Cloud d60 +0.28). Ponieważ czarne nie zagrały jeszcze ...Nf6, biały goniec swobodnie wychodzi na f4 (bez możliwości ...Nh5 z tempem), a my w jednym ruchu przechodzimy do ulepszonego Karlsbadu bez łamania naszej reguły zakazu 4. Nf3. [%csl Yf4] [%cal Bc1f4] } 4... exd5 5. Bf4 c6 6. e3 Bf5 7. g4 $1 { Agresywne, nowoczesne 7. g4! (SF19 +0.28, WDL 4.2% / 95.2% / 0.6%). Warstwa 1 (refutacja odruchu): dlaczego NIE podręcznikowe 7. Bd3? Po 7. Bd3 Bxd3 8. Qxd3 czarne jednym ruchem pozbywają się swojego „złego” białopolowego gońca i stoją całkowicie równo (SF19 +0.02 — kompletna susza!). Warstwa 2 (ustępstwo): czarne wystawiły gońca na f5 przy nierozwiniętym skrzydle królewskim — 7. g4! natychmiast odbiera im wymianę białopolowych i zagarnia potężną przestrzeń na skrzydle królewskim. Warstwa 3 (mapa adresów): 8. h3 (zabezpiecza g4), potem Bd3, Qc2 (lub Qf3), Nge2 (albo Nf3) i O-O-O! z atakiem pionowym na skrzydle królewskim (lub bezpieczne Bd3 + Nf3 + O-O w spokojniejszej wersji). Warstwa 4 (profilaktyka): pilnujemy kontry 8... h5 (na co odpowiadamy 9. gxh5 lub 8... Nd7 9. Bd3 h5 10. gxh5 Ngf6 11. h6! — PV SF19!). [%csl Yg4,Yf5] [%cal Gh2h3,Bf1d3,Rf5e6] } ( 7. Bd3 Bxd3 8. Qxd3 Nf6 { Zbyt łagodne (+0.02 w SF19) — pozwala czarnym za darmo wymienić swojego najgorszego gońca c8! } ) ( 7. Nge2 Nd7 8. h3 Ngf6 9. g4 { Spokojniejsza alternatywa pozycyjna (+0.30) — ta sama idea g4 z opóźnieniem o dwa tempa. } ) 7... Be6 8. h3 { BRAMA DO GRY ŚRODKOWEJ:
+1. Diagnoza pozycji: Ostra, pełna życia walka z przewagą przestrzeni białych na skrzydle królewskim — Stockfish 19 daje +0.24 / +0.28 (WDL 4.2% / 95.2% / 0.6%). Idealna pozycja pod Twój profil: łączy klasyczną strukturę Karlsbadu z konkretną, dynamiczną inicjatywą.
+2. Mapa pionów [G]: Pion g4 jest już ustabilizowany przez h3; jeśli czarne uderzą ...h5, mamy konkretne gxh5 + h5-h6! (rozbijające g7); w centrum zachowujemy elastyczność między f2-f3 + e3-e4 a planem na skrzydle hetmańskim.
+3. Mapa figur [B]: Goniec f1 idzie na d3 (teraz bez wymiany na f5!), hetman na c2 (lub f3), skoczek g1 na f3 lub e2; białe mogą wybrać długą roszadę (O-O-O) dla bezpośredniego szturmu, albo bezpieczne Kf1-g2 w pozycji zamkniętej.
+4. Kontrgra czarnych [R]: Czarne reagują przez 8... Nd7 9. Bd3 h5 (rozbicie naszego klina g4) lub 8... Bd6 (wymuszając wymianę białopolowych na d6, gdzie po 9. Bxd6 Qxd6 białe zyskują tempo na rozwój) albo ...c5. Na ...h5 liczymy dokładnie 10. gxh5 Ngf6 11. h6!.
+5. Wymiany i końcówka: Unikamy przedwczesnej wymiany hetmanów, gdy mamy atak na skrzydle królewskim; jeśli czarne oddadzą strukturę po ...h5 gxh5, nasze aktywne gońce i pion h mogą przesądzić nawet w końcówce.
+
+Przykładowe kontynuacje (PV Stockfish 19 / wzorce):
+• 8... Nd7 9. Bd3 h5 10. gxh5 Ngf6 11. h6 — Główna linia SF19 — taktyczne 11. h6! zmusza czarne do osłabienia struktury króla. [%csl Yg4,Yh5] [%cal Bf1d3,Bd1c2,Bg1f3,Rh7h5,Rb8d7] } *
+
+[Event "Repertuar Bialych — Ch1: Klasyczny Gambit Hetmanski (QGD)"]
+[Site "Chess Analysis Architect"]
+[Date "2026.11.21"]
+[Round "29"]
+[White "6.2 Alatortsew 3... Be7: Wymienny 5. Bf4 Nf6 — Szybki rozwój 6. e3 i 7. Bd3"]
+[Black ""]
+[Result "*"]
+
+{ Drugie główne podejście czarnych po 5. Bf4 (33% w Masters): zamiast solidnego 5... c6 czarne szybko rozwijają 5... Nf6 i uderzają w centrum ruchem 7... c5. W bazie Masters białe zdobywają tu aż 61.5% po 6. e3 (952 partie!) — uzyskujemy dynamiczną grę z parą aktywnych gońców przeciw lekko rozluźnionemu centrum czarnych. } 1. d4 d5 2. c4 e6 3. Nc3 Be7 4. cxd5 exd5 5. Bf4 Nf6 6. e3 O-O 7. Bd3 c5 8. Nf3 $1 { Naturalne 8. Nf3 (SF19 +0.14, WDL 2.8% / 96.3% / 0.9%). Warstwa 1 (refutacja odruchu): dlaczego NIE przedwczesne 8. dxc5? Po 8. dxc5 Bxc5 9. Nf3 Nc6 czarne dostają aktywną wersję IQP bez żadnej straty czasu. Natomiast 8. Nf3 utrzymuje napięcie i czeka, aż czarne same określą strukturę (8... c4 lub 8... Nc6). Warstwa 2 (ustępstwo): po 8... c4 9. Bc2 czarne oddają centrum pod nasze przyszłe e3-e4, a po 8... Nc6 9. dxc5 Bxc5 10. O-O białe mają idealną blokadę pola d4 przed izolowanym pionem d5!
+
+BRAMA DO GRY ŚRODKOWEJ:
+1. Diagnoza pozycji: Elastyczna, zdrowa gra środkowa — Stockfish 19 ocenia pozycję na +0.14 (WDL 2.8% / 96.3% / 0.9%), a w bazie Masters białe punktują bardzo wysoko (61.5% po 6. e3). Czarne muszą wybrać między zamknięciem 8... c4 a grą z izolowanym pionem d5.
+2. Mapa pionów [G]: Po 8... c4 9. Bc2 (główny wybór SF19) planujemy h2-h3, O-O, Ne5 oraz centralny przełom e3-e4! (albo b2-b3 podkopujące łańcuch c4); po 8... Nc6 9. dxc5 Bxc5 10. O-O pilnujemy blokady pola d4 i gramy przeciw IQP d5.
+3. Mapa figur [B]: Goniec d3 po ...c4 cofa się na c2 (utrzymując przekątną b1-h7!); skoczek f3 wskakuje na e5; król na g1 (O-O); wieże zajmują e1 i c1/d1.
+4. Kontrgra czarnych [R]: Po 8... c4 9. Bc2 Bg4 10. h3 Bh5 czarne liczą na ekspansję skrzydła hetmańskiego (...Nc6, ...a6, ...b5) lub presję na d4 po 8... Nc6 9. dxc5 Bxc5 10. O-O Bg4. Na 8... c4 9. Bc2 Bg4 gramy spokojne 10. h3 Bh5 11. O-O i przygotowujemy g4/Ne5 lub e3-e4.
+5. Wymiany i końcówka: W wariancie z 8... Nc6 9. dxc5 Bxc5 wymiana lekkich figur faworyzuje białe (klasyczna gra przeciw IQP d5); w wariancie z 8... c4 zachowujemy figury pod atak na skrzydle królewskim (Ne5, f4, g4).
+
+Przykładowe kontynuacje (PV Stockfish 19 / wzorce):
+• 8... c4 9. Bc2 Bg4 10. h3 Bh5 11. O-O Nc6 — Główna linia SF19 — białe mają pełną kontrolę nad e5 i gotowość na g2-g4 lub e3-e4.
+• 8... Nc6 9. dxc5 Bxc5 10. O-O Bg4 11. h3 Bh5 12. Rc1 — Klasyczna gra przeciw czarnemu IQP d5 z kontrolą linii c i pola d4. [%csl Yd4,Ye4] [%cal Be1g1,Rc5c4] } ( 8. dxc5 Bxc5 9. Nf3 Nc6 10. O-O d4 { Zbyt szybkie — czarne natychmiast pozbywają się piona d5 przez ...d4!. } ) *
+
+[Event "Repertuar Bialych — Ch1: Klasyczny Gambit Hetmanski (QGD)"]
+[Site "Chess Analysis Architect"]
+[Date "2026.11.21"]
+[Round "30"]
+[White "6.3 Trójkątna Słowiańska 3... c6: Gambit Marshalla 4. e4! — Ostre 9. Bd6!"]
+[Black ""]
+[Result "*"]
+
+{ Krytyczne domknięcie luki między Rozdziałem 1 a Rozdziałem 3 (wykryte w Bramce 1!): po 1. d4 d5 2. c4 e6 3. Nc3 aż 21.6% partii Masters (11 817 gier!) to Trójkątna Słowiańska 3... c6. Nie możemy zagrać 4. Nf3 (bo 4... dxc4 wpuszcza Notebooma, zakazanego w Ch3), a 4. e3 wpycha nas w całą teorię Merana i Stonewalla. Dlatego gramy pryncypialny, ostry Gambit Marshalla 4. e4! (SF19 #1, +0.32 po 9. Bd6!), który świetnie trenuje kalkulację i unika wszystkich pułapek kolejnościowych! Przypomnienie na ruch 3: przeciw 3... Bb4 (4.9%) gramy 4. e3 z transpozycją do Ch2 (Nimzowitsch Rubinstein). } 1. d4 d5 2. c4 e6 3. Nc3 c6 4. e4 $1 { Najostrzejsze, najbardziej pryncypialne 4. e4! (Gambit Marshalla — SF19 #1, +0.36). Warstwa 1 (refutacja odruchu): dlaczego NIE spokojne 4. Nf3? Bo po 4. Nf3 dxc4! czarne wchodzą w wariant Notebooma (4... dxc4 5. a4 Bb4), którego nasz repertuar celowo unika. Natomiast 4. e4! wymusza albo 4... dxe4 (87%), albo 4... Bb4 (13%, linia 6.4). Warstwa 2 (ustępstwo): jeśli czarne połkną piona d4 (6... Qxd4), zostają z kompletnie nierozwiniętym skrzydłem hetmańskim i królem na e8 bez czarnych pól! [%csl Ye4,Yd6] [%cal Ge4d5,Rd5e4] } ( 4. Nf3 dxc4 5. a4 Bb4 { Wariant Notebooma — dokładnie tego unikamy przez 4. e4!. } ) 4... dxe4 5. Nxe4 Bb4+ { Główny test 5... Bb4+ (próba zabrania piona d4 z zyskiem tempa). Na ostrożne 5... Nf6 białe po prostu biją 6. Nxf6+! Qxf6 (71% białych w Masters!) i uzyskują komfortową przewagę przestrzeni — zobacz RAV. [%csl Yb4,Yd4] [%cal Bc1d2] } ( 5... Nf6 6. Nxf6+ Qxf6 7. Nf3 Bb4+ 8. Bd2 Bxd2+ 9. Qxd2 { 71% białych w Masters — szybki rozwój, przewaga przestrzeni i pełna kontrola centrum bez żadnych ryzyk. } ) 6. Bd2 Qxd4 7. Bxb4 Qxe4+ 8. Be2 Na6 { Najczęstsza obrona 8... Na6 (80% w Masters na 1 322 partiach), atakująca gońca b4 i rozwijająca figurę. Boczne 8... Nd7 (6.7%) i 8... c5 (6.1%) dają białym silny atak po 9. Bc3 / 9. Bd6 — zobacz RAV. [%csl Yd6,Ye8] [%cal Bb4d6] } ( 8... Nd7 9. Nf3 Ngf6 10. O-O c5 11. Bc3 { 6.7% w Masters — białe mają pełny rozwój i morderczą inicjatywę za piona. } ) ( 8... c5 9. Bc3 Nf6 10. Nf3 O-O 11. O-O { 6.1% w Masters (czarne zdobywają tylko 34%) — potężna para gońców na otwartych przekątnych. } ) 9. Bd6 $1 { Kluczowe, jedyne 9. Bd6! (SF19 #1, +0.32, WDL 4.4% / 95.4% / 0.2%). Warstwa 1 (refutacja odruchu): dlaczego NIE naturalne 9. Bc3?! Po 9. Bc3 f6! czarne szybko budują mur e5+Ne7+O-O i wyrównują (-0.04 w SF19!). Natomiast 9. Bd6! wcina się jak klin w serce pozycji czarnych, odbierając im prawo do krótkiej roszady na zawsze! Warstwa 2 (ustępstwo): czarny król utknął na e8, goniec c8 jest zamurowany, a po 9... Qxg2 10. Qd2 (albo 10. Bf3 Qg6) białe mają gigantyczną przewagę rozwojową i atak na czarnego króla. Warstwa 3 (mapa adresów): na 9... Qxg2 gramy 10. Qd2! Nf6 (10... Qxh1?? 11. O-O-O! z nieuchronnym matem) 11. Bf3 Qg6 12. O-O-O! z pełną mobilizacją wszystkich figur. Warstwa 4 (profilaktyka): poświęcamy nawet drugiego piona g2 w zamian za kompletny paraliż czarnych — idealny trening kalkulacji i gry z inicjatywą!
+
+BRAMA DO GRY ŚRODKOWEJ:
+1. Diagnoza pozycji: Ostra, pełnokrwista inicjatywa gambitowa za 1–2 piony — Stockfish 19 daje +0.32 dla białych (WDL 4.4% / 95.4% / 0.2%)! To nie tania pułapka, lecz obiektywnie najlepszy ruch silnika, w którym czarne muszą chodzić po linie.
+2. Mapa pionów [G]: Piony schodzą na drugi plan — najważniejsze to nie zamykać linii (np. h2-h4-h5 przeciw hetmanowi na g6 po O-O-O) i przygotować przełom c4-c5 tylko wtedy, gdy blokuje ...e5.
+3. Mapa figur [B]: Goniec d6 paraliżuje roszadę czarnych; po 9... Qxg2 gramy 10. Qd2 Nf6 11. Bf3 Qg6 12. O-O-O! (król bezpieczny na c1, wieża na otwartej linii d!) i następnie Ne2-f4 oraz Rhg1.
+4. Kontrgra czarnych [R]: Czarne próbują skonsolidować się przez 9... Qxg2 10. Qd2 Nf6 11. Bf3 Qg6 12. O-O-O e5 (oddając piona z powrotem, by otworzyć gońca c8) albo 9... Ne7 10. Nf3 Nf5 11. Ba3. Pilnujemy, by nie oddać gońca d6 za darmo — a po 10... Qxh1?? 11. O-O-O! Qxh2 12. Bxh2 mamy wygrany atak.
+5. Wymiany i końcówka: Dopóki czarny król stoi w centrum (e8), unikamy wymiany hetmanów! Jeśli czarne oddadzą materiał (np. przez ...e5), przechodzimy z ataku w lepszą grę środkową lub końcówkę z parą gońców.
+
+Przykładowe kontynuacje (PV Stockfish 19 / wzorce):
+• 9... Qxg2 10. Qd2 Nf6 11. Bf3 Qg6 12. O-O-O — Główna linia SF19 (+0.32) — białe kończą rozwój z tempem, wieża na d1 i skoczek Ne2-f4 tworzą potężny atak. [%csl Yd6,Ye8] [%cal Bd6f8,Bd1d2,Be2f3,Re4g2] } ( 9. Bc3 f6 10. Nf3 Ne7 11. O-O O-O { Zbyt łagodne (-0.04 w SF19) — pozwala czarnym bezpiecznie schować króla! Zawsze 9. Bd6!. } ) *
+
+[Event "Repertuar Bialych — Ch1: Klasyczny Gambit Hetmanski (QGD)"]
+[Site "Chess Analysis Architect"]
+[Date "2026.11.21"]
+[Round "31"]
+[White "6.4 Trójkątna Słowiańska 3... c6: Ostrożne 4. e4 Bb4 — Wzmocniona Francuska (5. cxd5!)"]
+[Black ""]
+[Result "*"]
+
+{ Druga najczęstsza odpowiedź po 4. e4! (13% w Masters): czarne boją się Gambitu Marshalla i wiążą skoczka c3 ruchem 4... Bb4. Zamiast wpuszczać zawiłe 5. e5 c5, gramy czyste, pryncypialne 5. cxd5! exd5 6. e5! (SF19 #1, +0.67 po 8. Bd3!) — dostajemy Wariant Wymienny/Zaawansowany Francuskiej z dodatkowymi tempami i źle ustawionym gońcem czarnych na b4. } 1. d4 d5 2. c4 e6 3. Nc3 c6 4. e4 Bb4 5. cxd5 $1 { Najczystsze 5. cxd5! (SF19 #1, +0.52 vs +0.25 dla 5. e5). Warstwa 1 (refutacja odruchu): dlaczego NIE natychmiastowe 5. e5? Bo po 5. e5 c5! czarne zyskują kontratak w centrum (związanego skoczka c3 trudno bronić przy otwartym d4). Natomiast 5. cxd5! exd5 6. e5! natychmiast ustala korzystną strukturę: biały pion e5 zabiera skoczkowi pole f6, a czarny pion c6 stoi pasywnie i blokuje skoczka b8! Warstwa 2 (ustępstwo): czarne nie mają szybkiego ...c5 w jednym tempie (muszą ruszyć pionem c po raz drugi) ani naturalnego ...Nf6. Warstwa 3 (mapa adresów): 7. Nf3, 8. Bd3 (atak na h7!), O-O, a potem a2-a3, Qc2 lub Bg5 z silną inicjatywą na skrzydle królewskim. [%csl Ye5,Yc6] [%cal Ge4e5,Bf1d3] } ( 5. e5 c5 6. cxd5 Qxd5 7. Nf3 Ne7 { Zbyt chaotyczne (+0.25) — 5. cxd5! najpierw wyklucza ...Qxd5 i daje nam czyste +0.67. } ) 5... exd5 6. e5 Ne7 7. Nf3 O-O 8. Bd3 { BRAMA DO GRY ŚRODKOWEJ:
+1. Diagnoza pozycji: Bardzo wyraźna, klarowna przewaga białych — Stockfish 19 daje aż +0.67 (WDL 20.4% / 79.5% / 0.1%). To ulepszona Obrona Francuska, w której mamy ogromną przewagę przestrzeni, silnego gońca na d3 i gotowy atak na króla czarnych.
+2. Mapa pionów [G]: Pion e5 dzieli szachownicę na pół (odbierając obrońców ze skrzydła królewskiego); kluczowe ruchy to a2-a3 (przeganiający gońca b4, po ...Bxc3+ bxc3 białe mają parę gońców i wzmocnione centrum d4!) oraz h2-h4 lub f2-f4 w ataku na króla.
+3. Mapa figur [B]: Goniec d3 celuje w h7 (z klasyczną ofiarą Bxh7+ zawsze w powietrzu, gdy zniknie obrońca f6/f5!); po O-O hetman idzie na c2, a goniec c1 na g5 (lub f4/e3) z paraliżem skoczka e7.
+4. Kontrgra czarnych [R]: Jedyny plan czarnych to 8... c5 9. a3 Bxc3+ 10. bxc3 Nbc6 (atak na d4 i wymiana naszego gońca przez ...Bf5) albo natychmiastowe 8... Bf5. Na 8... c5 gramy 9. a3 Bxc3+ 10. bxc3 Nbc6 11. O-O z trwałym atakiem po obu flankach; na 8... Bf5 spokojnie 9. O-O Bxd3 10. Qxd3 z przewagą przestrzeni i atakiem f4-f5.
+5. Wymiany i końcówka: Z parą gońców i klinem e5 białe chcą atakować króla czarnych w grze środkowej; gdyby jednak czarne wymieniły gońce białopolowe (...Bf5), przewaga przestrzeni i słabe białe pola czarnych (f6/g5) wciąż dają białym lepszą grę.
+
+Przykładowe kontynuacje (PV Stockfish 19 / wzorce):
+• 8... c5 9. a3 Bxc3+ 10. bxc3 Nbc6 11. O-O — Główna linia SF19 (+0.67) — para gońców, nienaruszone centrum i łatwy atak na skrzydle królewskim. [%csl Yh7,Ye5] [%cal Ga2a3,Bd3h7,Be1g1,Bc1g5,Rc6c5] } *
+
+[Event "Repertuar Bialych — Ch1: Klasyczny Gambit Hetmanski (QGD)"]
+[Site "Chess Analysis Architect"]
+[Date "2026.11.21"]
+[Round "32"]
+[White "7.1 Tarrasch: Główna 6. g3 Nf6 — Chirurgiczne oblężenie IQP (Plan Karpowa)"]
+[Black ""]
+[Result "*"]
+
+{ Główny kompleks Obrony Tarrascha (10% po 3. Nc3, 80% 4... exd5, 91% 6... Nf6). Zgodnie z Sekcją 4, regułą 6, jest to JEDYNE poza Ch3 (Słowiańską) fianchetto g3 w białym repertuarze — chirurgiczna broń przeciw izolowanemu pionowi d5! Wzorzec absolutny: partia modelowa Karpov–Illescas 1993 (1-0), gdzie Karpow podręcznikowo blokuje d5 i dusi czarne manewrem Na4-c5. } 1. d4 d5 2. c4 e6 3. Nc3 c5 4. cxd5 exd5 5. Nf3 Nc6 6. g3 $1 { Chirurgiczne 6. g3! (system Rubinsteina–Szlechtera–Karpowa). Warstwa 1 (refutacja odruchu): dlaczego NIE klasyczne 6. e3? Po 6. e3 biały goniec na e2/d3 nie wywiera bezpośredniego nacisku na piona d5, przez co czarne zyskują aktywną grę figurową i swobodne ...c4 lub ...Nf6-...Be7-...O-O-...Bg4. Natomiast goniec z g2 staje się laserem celującym prosto w punkt d5 i w pole b7! Warstwa 2 (ustępstwo): czarne zgodziły się na izolowanego piona d5, który pod ogniem Bg2 + Nc3 + Nxd4 staje się stałym ciężarem. [%csl Yd5,Yg2] [%cal Bf1g2] } ( 6. e3 Nf6 7. Be2 cxd4 8. Nxd4 Bd6 { Zbyt łagodne — bez presji z g2 czarne dostają łatwą grę figurową w typie IQP. } ) 6... Nf6 7. Bg2 Be7 8. O-O O-O 9. Bg5 $1 { Kluczowy nacisk 9. Bg5! (Masters #1: 53.4% częstości i aż 61.3% wyniku białych na 3 539 partiach!). Związujemy obrońcę d5 (skoczka f6) i zmuszamy czarne do ustępstwa: oddania napięcia 9... cxd4 (ta linia), zamknięcia 9... c4 (osobna linia 7.2) albo pasywnego 9... Be6 (pokryte w RAV w linii 7.2). [%csl Yd5,Yf6] [%cal Bg5f6,Bg2d5] } 9... cxd4 10. Nxd4 h6 11. Be3 { BRAMA DO GRY ŚRODKOWEJ:
+1. Diagnoza pozycji: Podręcznikowa, trwała przewaga pozycyjna białych przeciw IQP d5 — Stockfish 19 daje +0.43 (WDL 8.3% / 91.5% / 0.2%), a białe punktują ponad 61% w Masters. Każda wymiana lekkich figur tylko przybliża nas do wygranej końcówki.
+2. Mapa pionów [G]: Struktura jest zamrożona — NIE popychamy bez potrzeby e2-e4 (bo oddajemy pole d4); zamiast tego gramy profilaktyczne h2-h3, a2-a3 i b2-b4 (zabezpieczając placówkę c5 przed ...b6!).
+3. Mapa figur [B]: Klasyczna trasa Karpowa: wieża a1 idzie na c1, skoczek d4 utrzymuje blokadę (lub bije Nxc6 bxc6, zamieniając IQP na wiszące piony z pustym polem c5!), a skoczek c3 wykonuje słynny manewr Nc3-a4-c5! (patrz Karpov–Illescas 1993); goniec e3 kontroluje c5 i d4.
+4. Kontrgra czarnych [R]: Czarne próbują aktywności przez 11... Re8 12. Rc1 Bf8 (lub 11... Bg4 12. h3 Be6), licząc na dynamikę na linii e i przeciw e2/c3. Profilaktyczne Rc1, a3, h3 oraz szybkie Nxc6 bxc6 Bd4/Na4-c5 duszą całą kontrgrę w zarodku.
+5. Wymiany i końcówka: Złota zasada przeciw IQP: każda wymiana lekkich figur (zwłaszcza pary skoczków lub czarnopolowych gońców) sprzyja stronie grającej przeciw izolowanemu pionowi — końcówka ze słabym d5 lub słabymi polami c5/c6 jest wygrana technicznie.
+
+Przykładowe kontynuacje (PV Stockfish 19 / wzorce):
+• 11... Re8 12. Rc1 Bf8 13. a3 Bg4 14. h3 Be6 15. Nxc6 bxc6 16. Bd4 — Dokładny plan z partii modelowej Karpov–Illescas 1993 (1-0) — żelazna kontrola pól c5 i d4! [%csl Yd4,Yc5,Yd5] [%cal Ba1c1,Bc3a4,Bg2d5,Rf8e8] } *
+
+[Event "Repertuar Bialych — Ch1: Klasyczny Gambit Hetmanski (QGD)"]
+[Site "Chess Analysis Architect"]
+[Date "2026.11.21"]
+[Round "33"]
+[White "7.2 Tarrasch: Zamknięcie 9. Bg5 c4 — Skok 10. Ne5! (i RAV 9... Be6)"]
+[Black ""]
+[Result "*"]
+
+{ Krytyczna luka pokrycia domknięta po Bramce 1: po 9. Bg5 aż 23.4% mistrzów (1 263 partie!) zamiast 9... cxd4 zamyka strukturę ruchem 9... c4, próbując stworzyć przewagę przestrzeni na skrzydle hetmańskim. Odpowiadamy głównym, silnym skokiem 10. Ne5! (88.7% w Masters, 58.9% wyniku białych!). W RAV pokryte jest też 9... Be6 (7.7%). } 1. d4 d5 2. c4 e6 3. Nc3 c5 4. cxd5 exd5 5. Nf3 Nc6 6. g3 Nf6 7. Bg2 Be7 8. O-O O-O 9. Bg5 c4 { Najczęstsza alternatywa dla 9... cxd4: 9... c4 (23.4% w Masters). Na 9... Be6 (7.7%) białe zbijają 10. dxc5! Bxc5 11. Rc1 i dostają klasyczną, wyśmienitą wersję gry przeciw IQP — zobacz RAV. [%csl Ye5,Yd5] [%cal Bf3e5] } ( 9... Be6 10. dxc5 Bxc5 11. Rc1 Be7 12. Nd4 { 7.7% w Masters (czarne zdobywają tylko 36%) — modelowa blokada pola d4 przeciw IQP. } ) 10. Ne5 $1 { Kluczowy skok 10. Ne5! (Masters #1: 88.7%, 58.9% białych; SF19 +0.17 po 11. e3). Warstwa 1 (refutacja odruchu): dlaczego NIE pasywne 10. e3?! Bo po 10. e3 bez skoku Ne5 czarne zagrają 10... h6 11. Bxf6 Bxf6 i bezpiecznie bronią d5, planując ...b5. Natomiast 10. Ne5! od razu atakuje d5 i c6, zmuszając czarne do obrony 10... Be6 (bo 10... Nxe5? 11. dxe5 rozbija centrum z tempem na f6!). Warstwa 2 (ustępstwo): pion c4 zwolnił presję na d4 i oddał białym pole e5 na własność, a także wystawił się na przyszły podkop b2-b3!. [%csl Ye5,Yc6] [%cal Be5c6,Bg2d5,Gb2b3] } 10... Be6 11. e3 { BRAMA DO GRY ŚRODKOWEJ:
+1. Diagnoza pozycji: Solidna, długofalowa presja białych na rozciągniętą strukturę c4/d5 — Stockfish 19 daje +0.17 (WDL 3.2% / 96.0% / 0.8%), a w Masters białe zdobywają prawie 59% na ponad tysiącu partii.
+2. Mapa pionów [G]: Główny plan to podkop b2-b3! (rozbijający klin c4 — po ...cxb3 axb3 czarny pion d5 zostaje odizolowany, a białe mają otwartą linię a i silne centrum!) oraz ewentualne f2-f4 w grze środkowej.
+3. Mapa figur [B]: Skoczek e5 (po 11... Nd7) bije 12. Nxc6 bxc6 13. Bxe7 Qxe7, zostawiając czarne z dziurą c5 i słabym łańcuchem c4/c6/d5, po czym natychmiast gramy 14. b3! (PV SF19); wieże zajmują b1 i c1/e1.
+4. Kontrgra czarnych [R]: Czarne grają 11... Nd7 (próbując wymienić natrętnego skoczka e5) lub 11... Qa5 / 11... Rc8 z marszem ...b5. Profilaktyczne 12. Nxc6 bxc6 13. Bxe7 Qxe7 14. b3! (natychmiast rozbijające c4 zanim czarne zdążą zagrać ...b5!) odbiera im cały impet.
+5. Wymiany i końcówka: Wymiana na c6 i e7 (po ...Nd7) zostawia czarnym statyczne słabości c6/d5 i gorszego gońca e6, dzięki czemu gra środkowa bez lekkich figur i końcówka są wyraźnie przyjemniejsze dla białych.
+
+Przykładowe kontynuacje (PV Stockfish 19 / wzorce):
+• 11... Nd7 12. Nxc6 bxc6 13. Bxe7 Qxe7 14. b3 — Główna linia SF19 — natychmiastowy podkop b2-b3 rozbija strukturę c4/c6 czarnych. [%csl Yc4,Yc6] [%cal Gb2b3,Be5c6,Bg5e7,Rf6d7] } *
+
+[Event "Repertuar Bialych — Ch1: Klasyczny Gambit Hetmanski (QGD)"]
+[Site "Chess Analysis Architect"]
+[Date "2026.11.21"]
+[Round "34"]
+[White "7.3 Tarrasch: Wczesne zamknięcie 6... c4 — Natychmiastowy cios 9. e4!"]
+[Black ""]
+[Result "*"]
+
+{ Szwedzki Wariant Tarrascha 6... c4 (8% po 6. g3): czarne natychmiast zamykają skrzydło hetmańskie, by uniknąć gry z IQP. Problem w tym, że zamykając c4 przed roszadą, oddają białym centrum pod potężny, bezpośredni przełom 9. e4! (SF19 +0.59!). } 1. d4 d5 2. c4 e6 3. Nc3 c5 4. cxd5 exd5 5. Nf3 Nc6 6. g3 c4 7. Bg2 Bb4 8. O-O Nge7 9. e4 $1 { Kluczowe uderzenie w centrum 9. e4! (SF19 #1, +0.59, WDL 15.4% / 84.5% / 0.1%). Warstwa 1 (refutacja odruchu): dlaczego NIE powolne 9. Bd2 lub 9. a3? Ponieważ wtedy czarne zdążą zrobić 9... O-O i ustabilizować d5 — a po 9. e4! otwieramy linię e w momencie, gdy czarny król stoi jeszcze na e8! Warstwa 2 (ustępstwo): oddając napięcie w centrum ruchem 6... c4 i grając 8... Nge7 (zamiast ...Nf6), czarne straciły kontrolę nad polem e4. Warstwa 3 (mapa adresów): po 9... dxe4 10. Nxe4 O-O (jeśli 10... Bg4?! 11. h3) gramy 11. Qe2 (atakując c4!) lub 11. a3 + Be3/Qc2, a jeśli czarne nie biją (9... O-O), bijemy 10. exd5 Nxd5 11. Nxd5 Qxd5 12. Ne5! z dominacją po długiej przekątnej h1-a8!
+
+BRAMA DO GRY ŚRODKOWEJ:
+1. Diagnoza pozycji: Bardzo konkretna przewaga białych w centrum i rozwoju — Stockfish 19 daje +0.59 (WDL 15.4% / 84.5% / 0.1%). Czarne muszą bronić się przed natychmiastowym otwarciem linii na swojego króla.
+2. Mapa pionów [G]: Przełom e2-e4 rozbija centrum; po 9... dxe4 10. Nxe4 O-O nasz pion d4 staje się dynamicznym taranem (gotowym do d4-d5 w taktycznym momencie!), a pion a2-a3 przegania gońca b4.
+3. Mapa figur [B]: Skoczek c3 wskakuje po 9... dxe4 na e4 (celując w c5 lub g5/d6); hetman idzie na e2 (atakując bezbronnego piona c4!) lub c2; goniec c1 wychodzi na f4/e3/g5 z wielką aktywnością; goniec g2 rządzi całą przekątną h1-a8.
+4. Kontrgra czarnych [R]: Czarne liczą na 9... dxe4 10. Nxe4 O-O 11. Qe2 Be6 (obrona c4 i rozwój) albo 9... O-O 10. exd5 Nxd5 11. Nxd5 Qxd5. Na 11... Be6 gramy 12. a3 Ba5 13. Rd1 lub 12. Rd1 z silnym naciskiem na d5/c4.
+5. Wymiany i końcówka: Z parą aktywnych skoczków, mocnym gońcem g2 i słabym pionem c4 białe mogą dążyć do konkretnej inicjatywy w grze środkowej, a w razie uproszczeń po zdobyciu piona c4 — do wygranej końcówki.
+
+Przykładowe kontynuacje (PV Stockfish 19 / wzorce):
+• 9... dxe4 10. Nxe4 O-O 11. Qe2 Be6 12. a3 Ba5 13. Rd1 — Główna linia SF19 (+0.59) — pełna dominacja białych w centrum i presja na c4. [%csl Ye4,Yd5] [%cal Ge4d5,Bg2a8,Bc3e4,Rd5e4] } ( 9. a3 Bxc3 10. bxc3 O-O { Zbyt wolne — pozwala czarnym bezpiecznie schować króla zanim otworzymy centrum. } ) *
+
+[Event "Repertuar Bialych — Ch1: Klasyczny Gambit Hetmanski (QGD)"]
+[Site "Chess Analysis Architect"]
+[Date "2026.11.21"]
+[Round "35"]
+[White "7.4 Tarrasch: Gambit Henniga-Schary 4... cxd4 — Chłodne 5. Qa4+! i konsolidacja"]
+[Black ""]
+[Result "*"]
+
+{ Aż 20% partii Tarrascha w Masters (i ulubiona broń taktyczna wielu graczy 1800–2100!): Gambit Henniga-Schary 4... cxd4!. Czarne poświęcają piona za szybki rozwój i otwarte linie. Kluczem do rozbrojenia tego gambitu jest chłodna, zdyscyplinowana konsolidacja: 5. Qa4+! Bd7 6. Qxd4 exd5 7. Qxd5 Nc6 8. Nf3 Nf6 9. Qd1! (Masters 60.8% białych, SF19 +0.53). } 1. d4 d5 2. c4 e6 3. Nc3 c5 4. cxd5 cxd4 5. Qa4+ $1 { Obowiązkowe wtrącenie 5. Qa4+! (Masters #1: 68.4%, 60.8% białych vs tylko 49% po 5. Qxd4!). Dlaczego NIE 5. Qxd4? Bo po 5. Qxd4 Nc6 6. Qd1 exd5 czarne rozwijają gońca c8 aktywnie na f5/g4/e6 bez zatykania linii d. Natomiast 5. Qa4+! zmusza czarnego gońca na niezręczne pole d7 (98% w Masters!), blokując skoczka i wieżę na linii d! [%csl Yd7,Ya4] [%cal Ba4e8,Rc8d7] } ( 5. Qxd4 Nc6 6. Qd1 exd5 7. Qxd5 Bd7 { Oddaje czarnym zbyt swobodny rozwój (tylko 49% białych w Masters) — zawsze najpierw 5. Qa4+!. } ) 5... Bd7 6. Qxd4 exd5 7. Qxd5 Nc6 8. Nf3 Nf6 9. Qd1 $1 { Zimnokrwisty odwrót 9. Qd1! (SF19 +0.53, WDL 11.9% / 88.0% / 0.1%). Warstwa 1 (refutacja odruchu): dlaczego NIE chciwe 9. Qb3 lub 9. Qg5?! Bo na b3 hetman wpada pod tempa ...Be6/...Na5, a na g5 pod ...h6/...g5/...Nb4! Natomiast 9. Qd1 zabiera czarnym wszelkie tempa na hetmana: mamy zdrowego, czystego piona więcej i żadnej słabości! Warstwa 2 (ustępstwo): czarny goniec na d7 blokuje własną linię d i hetmana d8, więc po 10. e3, 11. Be2 i 12. O-O czarna rekompensata za piona po prostu paruje.
+
+BRAMA DO GRY ŚRODKOWEJ:
+1. Diagnoza pozycji: Czysty pion przewagi przy bardzo bezpiecznej, solidnej pozycji — Stockfish 19 daje +0.53 (WDL 11.9% / 88.0% / 0.1%). Warunek zwycięstwa jest prosty: zero zachłanności, pełna konsolidacja króla (e3, Be2, O-O).
+2. Mapa pionów [G]: Skromne, żelazne e2-e3 (otwiera drogę dla Be2 i kontroluje pole d4), a2-a3 (przeciw ...Nb4/...Bb4!) i b2-b4 po zakończeniu rozwoju.
+3. Mapa figur [B]: Kolejne 4 ruchy to niemal automat: e3, Be2, O-O, a potem b3 + Bb2 (albo Bd2 + Rc1) i wymiana ciężkich figur na linii c/d.
+4. Kontrgra czarnych [R]: Czarne rzucą wszystko do ataku rozwojowego: 9... Rc8 (lub 9... Bc5), ...O-O, ...Qe7, ...Rfd8 i ...Bg4/...Ne5. Naszą profilaktyką jest spokojne e3 + Be2 + O-O + a3, nie dając żadnego zaczepu taktycznego.
+5. Wymiany i końcówka: Z całym zdrowym pionem więcej każda wymiana — zwłaszcza hetmanów lub pary lekkich figur — dramatycznie przybliża nas do technicznie wygranej końcówki.
+
+Przykładowe kontynuacje (PV Stockfish 19 / wzorce):
+• 9... Rc8 10. e3 Bc5 11. Be2 O-O 12. O-O — Główna linia SF19 (+0.53) — biały król bezpieczny, a czarne nie mają wystarczającej rekompensaty za piona. [%csl Yd1,Ye2] [%cal Ge2e3,Bf1e2,Be1g1] } ( 9. Qb3 Bc5 10. e3 O-O { Niepotrzebnie zostawia hetmana na celowniku gońca e6 i skoczka a5 — 9. Qd1! jest najczystsze i najskuteczniejsze. } ) *
+
+[Event "Repertuar Bialych — Ch1: Klasyczny Gambit Hetmanski (QGD)"]
+[Site "Chess Analysis Architect"]
+[Date "2026.11.21"]
+[Round "36"]
+[White "8.1 Czigorin: Główna 3... Bg4 — Miażdżące 10. c4! (korekta z Bramki 1 + RAV 6... e6)"]
+[Black ""]
+[Result "*"]
+
+{ Główny wariant Obrony Czigorina (87% 3... Bg4, potem 80% 6... e5; w RAV pokryte też ostrożne 6... e6 — 18%). GIGANTYCZNA KOREKTA SILNIKOWA Z BRAMKI 1: pierwotne 10. Rb1?! traci aż 90 cp (+0.47, WDL 7.3% wygranej!) z powodu 10... Qxa2! 11. Rxb7 O-O z ostrą kontrą czarnych. Natomiast natychmiastowe 10. c4! + 11. d5! daje białym miażdżące +1.25 (WDL 76.7% / 23.3% / 0.0% — prawie wygraną pozycję z debiutu!). } 1. d4 d5 2. c4 Nc6 3. Nf3 Bg4 4. cxd5 Bxf3 5. gxf3 Qxd5 6. e3 e5 { Główna próba rozbicia centrum 6... e5 (80% w Masters). Na ostrożne 6... e6 (18% w Masters) stosujemy dokładnie ten sam, ujednolicony schemat Nc3 + Bd2 + bxc3 + 10. c4! (+1.45 w SF19!) — zobacz RAV. [%csl Ye5] [%cal Bb1c3] } ( 6... e6 7. Nc3 Bb4 8. Bd2 Bxc3 9. bxc3 Nge7 10. c4 Qd6 11. Rb1 { 18% w Masters — ujednolicone 10. c4! (+1.45, WDL 89.7%!) chroni a2 i przegania hetmana zanim zagramy Rb1 lub h4. } ) 7. Nc3 Bb4 8. Bd2 Bxc3 9. bxc3 Nf6 10. c4 $1 { Korekta HARD VETO z Bramki 1: 10. c4! (SF19 #1, +1.25 po 11. d5, WDL 76.7% wygranej!). Warstwa 1 (refutacja odruchu): dlaczego NIE 10. Rb1 z pierwotnych notatek? Po 10. Rb1 czarne odważnie biją 10... Qxa2! 11. Rxb7 O-O i zamiast dominacji mamy chaotyczną walkę z groźbą ...Qa1+ (strata aż 90 cp — spadek z +1.37 do +0.47!). Natomiast 10. c4! natychmiast wygrywa tempo na hetmanie d5, chroni punkt a2 i odpala potężny walec pionowy c4-d5! Warstwa 2 (ustępstwo): czarne oddały OBA gońce za skoczki (4... Bxf3, 8... Bxc3), a nasz ruch 10. c4! zmusza hetmana do odwrotu na d6/d7, po czym 11. d5! odrzuca skoczka c6 na pasywne e7/b8! Warstwa 3 (mapa adresów): 11. d5! Ne7, potem 12. Rb1 (teraz bez ...Qxa2!), Bb4, Bc3 (lub Qa4+), Rg1 i miażdżąca przewaga dwóch gońców + otwartej linii g i b! [%csl Yc4,Yd5] [%cal Gc4d5,Rd5d6] } ( 10. Rb1 Qxa2 11. Rxb7 O-O 12. Qb3 Qa1+ 13. Qb1 { Korekta z Bramki 1 (-90 cp!): 10. Rb1 pozwala na 10... Qxa2! z aktywną kontrą czarnych. Zawsze najpierw 10. c4!. } ) 10... Qd6 11. d5 { BRAMA DO GRY ŚRODKOWEJ:
+1. Diagnoza pozycji: Zmiażdżona pozycja czarnych — Stockfish 19 ocenia pozycję na aż +1.25 (WDL 76.7% / 23.3% / 0.0%!). Mamy parę gońców na otwierającej się szachownicy, potężny klin c4+d5, otwartą linię g i półotwartą linię b.
+2. Mapa pionów [G]: Piony c4+d5 paraliżują obóz czarnych; w przyszłości szykujemy c4-c5 (po ...b6) albo f3-f4! (otwierające długą przekątną dla gońca d2-c3 na króla czarnych!).
+3. Mapa figur [B]: Po 11... Ne7 gramy 12. Rb1! (teraz punkt a2 jest bezpieczny, atakujemy b7!), potem 13. Bb4! (z tempem na hetmana d6, prowokujące ...c5) i 14. Bc3! (albo Qa4+), a goniec f1 wchodzi na h3/d3 i wieża h1 zajmuje linię g (Rg1).
+4. Kontrgra czarnych [R]: Czarne po 11... Ne7 próbują zamknąć pozycję przez 12. Rb1 b6 13. Bb4 c5 (lub 12... O-O 13. Bb4 c5) i kontratakować na skrzydle królewskim przez ...Ng6. Po 12... b6 13. Bb4 c5 14. Bc3 białe mają bezkarny atak f3-f4 + Qa4+ + Bh3.
+5. Wymiany i końcówka: Z parą gońców i potężną przewagą przestrzeni możemy nawet wymienić hetmany, jeśli zdobędziemy wygraną końcówkę z dwoma gońcami i wolnym pionem d5, choć w praktyce atak w grze środkowej (f4 + Bc3 + Rg1) rozstrzyga szybciej.
+
+Przykładowe kontynuacje (PV Stockfish 19 / wzorce):
+• 11... Ne7 12. Rb1 b6 13. Bb4 c5 14. Bc3 — Główna linia SF19 (+1.25) — biały goniec na c3 celuje w e5/g7, a f3-f4 rozrywa centrum czarnych. [%csl Yd5,Yc3] [%cal Ba1b1,Bd2b4,Gf3f4,Rc6e7] } *
+
+[Event "Repertuar Bialych — Ch1: Klasyczny Gambit Hetmanski (QGD)"]
+[Site "Chess Analysis Architect"]
+[Date "2026.11.21"]
+[Round "37"]
+[White "8.2 Czigorin: Przełom 3... e5 — Zimnokrwiste 4. Nxe5! i przestrzenne 7. f4!"]
+[Black ""]
+[Result "*"]
+
+{ Druga najczęstsza odpowiedź po 3. Nf3 w Czigorinie (9% w Masters): gambitowy cios 3... e5. Zamiast 4. dxe5 (60%) wybieramy jeszcze skuteczniejsze 4. Nxe5! (67.7% białych w Masters, Cloud d46 +0.71!). W 7. ruchu wybieramy 7. f4! (+0.60, zaledwie 3 cp za 7. g3 na głębokości 22!) — cementuje piona e5 i w 100% zachowuje regułę 6 bez zbędnego fianchetta g3! } 1. d4 d5 2. c4 Nc6 3. Nf3 e5 4. Nxe5 $1 { Najpryncypialniejsze 4. Nxe5! (Masters 67.7% białych, Cloud d46 +0.71). Wymieniając parę skoczków od razu, pozbawiamy czarne figury do ataku na piona e5 i wykluczamy motywy z ...Nb4. [%csl Ye5] [%cal Rc6e5] } 4... Nxe5 5. dxe5 d4 6. Nd2 Ne7 7. f4 $1 { Silne, spójne repertuarowo 7. f4! (SF19 d22 +0.67 — zaledwie 3 cp za 7. g3, przy pełnej zgodności z Sekcją 4, regułą 6 o dyscyplinie fianchetta!). Warstwa 1 (refutacja odruchu): dlaczego NIE pasywne 7. e3? Bo po 7. e3 dxe3 8. fxe3 Nc6 białe zostają z rozbitymi pionami e3/e5 i oddają czarnym inicjatywę. Warstwa 2 (ustępstwo): czarne poświęciły piona za klin d4, ale 7. f4! betonuje naszego piona e5, przygotowuje Nf3 (atak na d4!) oraz e2-e4/e3 po zabezpieczeniu b4. [%csl Ye5,Yd4] [%cal Bd2f3,Ga2a3] } ( 7. e3 dxe3 8. fxe3 Nc6 { Zbyt pasywne — niszczy białą strukturę na linii e i oddaje piona e5. } ) 7... Bf5 8. Nf3 Nc6 9. a3 { BRAMA DO GRY ŚRODKOWEJ:
+1. Diagnoza pozycji: Solidny, zdrowy pion więcej białych z silnym centrum f4+e5 — Stockfish 19 daje +0.52 (WDL 10.5% / 89.4% / 0.1%). Ruch 9. a3 odebrał czarnym wszelkie szachy i skoki na b4.
+2. Mapa pionów [G]: Po 9... f6 (lub 9... a5) białe otwierają centrum ruchem e2-e4! (albo e2-e3 podkopującym d4) — na 9... f6 10. e4! Bxe4 11. Bd3 mamy potężny rozwój z pionem więcej.
+3. Mapa figur [B]: Goniec f1 wychodzi na d3 (wymieniając aktywnego gońca f5!) lub e2; następnie O-O, b2-b4 (ekspansja na skrzydle hetmańskim) i Bb2 z naciskiem na d4.
+4. Kontrgra czarnych [R]: Czarne próbują rozbić nasze centrum przez 9... f6 (lub 9... a5 10. e3 Bc5), licząc na presję przeciw e3/e5 zanim zrobimy roszadę. Odpowiadamy aktywnym 10. e4! Bxe4 11. Bd3 (po 9... f6) lub 10. e3 dxe3 11. Qxd8+ Rxd8 12. Bxe3 z czystym pionem więcej w końcówce.
+5. Wymiany i końcówka: Mamy zdrowego piona przewagi — każda wymiana lekkich figur (np. Bd3 vs Bf5) oraz hetmanów (po e2-e3 dxe3 Qxd8+) upraszcza realizację przewagi materialnej.
+
+Przykładowe kontynuacje (PV Stockfish 19 / wzorce):
+• 9... f6 10. e4 Bxe4 11. Bd3 Bxd3 12. Qxd3 — Główna linia SF19 (+0.52) — białe pozbywają się najlepszej figury czarnych i kończą rozwój przez O-O. [%csl Ye4,Yd4] [%cal Ge2e4,Bf1d3,Rf7f6,Rf5e4] } *
+
+[Event "Repertuar Bialych — Ch1: Klasyczny Gambit Hetmanski (QGD)"]
+[Site "Chess Analysis Architect"]
+[Date "2026.11.21"]
+[Round "38"]
+[White "9.1 Albin: Główna 5... Nge7 — Spokojne 5. a3! i rozbrojenie klina d4 (bez pułapki Laskera)"]
+[Black ""]
+[Result "*"]
+
+{ Kontrgambit Albina 2... e5 (rzadki u mistrzów 0.7%, ale bardzo częsty wśród agresywnych graczy 1800–2100 szukających pułapek!). Ruchy 4. Nf3! i 5. a3! omijają słynną Pułapkę Laskera (4. e3? Bb4+!) i metodycznie rozbrajają klina d4 (SF19 +0.57, Masters 62.8% białych po 6. b4!). } 1. d4 d5 2. c4 e5 3. dxe5 d4 4. Nf3 $1 { Obowiązkowe 4. Nf3! (zamiast fatalnego 4. e3?, które wpada w klasyczną Pułapkę Laskera z promocją skoczka na g1 — zobacz RAV!). Skoczek f3 kontroluje d4 i e5 oraz przygotowuje spokojne 5. a3!. [%csl Yd4] [%cal Bf3d4] } ( 4. e3 Bb4+ 5. Bd2 dxe3 6. Bxb4 exf2+ 7. Ke2 fxg1=N+ 8. Rxg1 Bg4+ { Słynna Pułapka Laskera! Czarne wygrywają hetmana po promocji skoczka na g1. Zawsze gramy 4. Nf3! i 5. a3!. } ) 4... Nc6 5. a3 Nge7 6. b4 Ng6 7. Bb2 a5 8. b5 Ncxe5 9. Nxe5 Nxe5 10. e3 $1 { Kluczowe rozbrojenie 10. e3! (SF19 +0.57, WDL 12.8% / 87.1% / 0.1%). Warstwa 1 (refutacja odruchu): dlaczego NIE łakome 10. Qxd4? Po 10. Qxd4 Qxd4 11. Bxd4 Nxc4 czarne natychmiast odbijają piona c4 i zyskują równą końcówkę; natomiast 10. e3! (lub 10. Bxd4) zmusza czarne do oddania centrum przy nierozwiniętym skrzydle królewskim i bezbronnym skoczku e5! Warstwa 2 (ustępstwo): pion a5 i skok ...Ng6-...Nxe5 kosztowały czarne mnóstwo temp, a teraz pion d4 pada bez rekompensaty.
+
+BRAMA DO GRY ŚRODKOWEJ:
+1. Diagnoza pozycji: Solidna, klarowna przewaga białych — Stockfish 19 daje +0.57 (WDL 12.8% / 87.1% / 0.1%), a po 6. b4 białe zdobywają 62.8% w Masters. Klin d4 właśnie przestaje istnieć.
+2. Mapa pionów [G]: Pion b5 wiąże skrzydło hetmańskie (odbierając c6 i tworząc docelowy punkt b6/c5); po 10... Bc5 11. Bxd4! Bxd4 12. Qxd4 Qxd4 13. exd4 białe wchodzą w końcówkę z potężną masą pionową w centrum (c4+d4) i przestrzenią.
+3. Mapa figur [B]: Goniec b2 dominuje po przekątnej a1-h8 (bije na d4 po ...Bc5); skoczek b1 idzie na c3 (lub d2), goniec f1 na e2, król robi O-O i wieża a1 wchodzi na c1/d1.
+4. Kontrgra czarnych [R]: Czarne po 10... Bc5 11. Bxd4 Bg4 (lub 11... Qe7) szukają aktywności figurowej przeciw białemu królowi na e1. Spokojne 12. Qd2! Qe7 13. Nc3 (albo 12. Be2!) gasi ostatnie próby ataku.
+5. Wymiany i końcówka: Po likwidacji piona d4 (10... Bc5 11. Bxd4) każda wymiana lekkich figur lub hetmanów eksponuje słabość piona a5, przewagę przestrzeni białych na skrzydle hetmańskim (klin b5+c4) oraz zdrową większość 4 na 3 w centrum i na skrzydle królewskim.
+
+Przykładowe kontynuacje (PV Stockfish 19 / wzorce):
+• 10... Bc5 11. Bxd4 Bg4 12. Qd2 Qe7 13. Nc3 — Główna linia SF19 (+0.57) — biały pion więcej i pełna kontrola centrum. [%csl Yd4,Ye3] [%cal Ge3d4,Bb2d4,Rf8c5] } ( 10. Qxd4 Qxd4 11. Bxd4 Nxc4 12. e3 Nd6 { Zbyt upraszczające — oddaje piona c4 z powrotem i łagodzi kłopoty czarnych. } ) *
+
+[Event "Repertuar Bialych — Ch1: Klasyczny Gambit Hetmanski (QGD)"]
+[Site "Chess Analysis Architect"]
+[Date "2026.11.21"]
+[Round "39"]
+[White "9.2 Albin: Aktywne 5... Bg4 — Miażdżące 6. Nbd2 i 9. Bg5! (korekta + RAV 5... Be6, 5... a5)"]
+[Black ""]
+[Result "*"]
+
+{ Ujednolicone, zabójcze 6. Nbd2! przeciw wszystkim alternatywom czarnych po 5. a3: 5... Bg4 (22%, linia główna), 5... Be6 (10%, RAV) oraz 5... a5 (9.5%, RAV) — jedna prosta odpowiedź 6. Nbd2 załatwia 42% Albina i oszczędza 2 sloty SRS! KLUCZOWA KOREKTA Z BRAMKI 1: w 9. ruchu gramy bezlitosne 9. Bg5! (+1.38 po 10. exf6, WDL 84.4% wygranej!) zamiast powolnego 9. Qd3?! (-86 cp, tracącego piona e5!). } 1. d4 d5 2. c4 e5 3. dxe5 d4 4. Nf3 Nc6 5. a3 Bg4 { Najostrzejsza próba czarnych 5... Bg4 (22% po 5. a3), przygotowująca długą roszadę i atak na e5. Na 5... Be6 (10%) i 5... a5 (9.5%) odpowiadamy dokładnie tym samym ruchem 6. Nbd2! — zobacz podwarianty RAV poniżej. [%csl Yd2] [%cal Bb1d2] } ( 5... Be6 6. Nbd2 Qd7 7. b4 Nge7 8. Bb2 { 10.4% w Masters (70% białych, SF19 +1.66!) — ujednolicone 6. Nbd2 przygotowuje b4-b5 i miażdżącą przewagę przestrzeni. } ) ( 5... a5 6. Nbd2 Nge7 7. Nb3 Nf5 8. e4 { 9.5% w Masters (80% białych, SF19 +0.71!) — 6. Nbd2 -> 7. Nb3 natychmiast atakuje d4 i otwiera centrum. } ) 6. Nbd2 Qe7 7. h3 Bxf3 8. Nxf3 O-O-O 9. Bg5 $1 { Korekta HARD VETO z Bramki 1: 9. Bg5! (SF19 #1, +1.38, WDL 84.4% wygranej!). Warstwa 1 (refutacja odruchu): dlaczego NIE naturalne 9. Qd3 z pierwszego szkicu? Bo po 9. Qd3 czarne od razu odbijają 9... Nxe5! 10. Nxe5 Qxe5 i odzyskały piona z wygodną grą (-86 cp, spadek szans wygranej z 84% do 22%!). Natomiast 9. Bg5! z tempem atakuje hetmana i wieżę d8, zmuszając czarne do rujnującego 9... f6! (bo 9... Qc5? 10. Bxd8 i 9... Nf6? 10. exf6 przegrywają natychmiast!). Warstwa 2 (ustępstwo): po 9... f6 10. exf6 gxf6 czarna struktura skrzydła królewskiego jest w gruzach, a my mamy czystego piona więcej i parę gońców! [%csl Yd8,Yf6] [%cal Bg5d8,Rf7f6] } ( 9. Qd3 Nxe5 10. Nxe5 Qxe5 11. g3 { Korekta z Bramki 1 (-86 cp!): oddaje piona e5 bez walki. Zawsze bezlitosne 9. Bg5!. } ) 9... f6 10. exf6 { BRAMA DO GRY ŚRODKOWEJ:
+1. Diagnoza pozycji: Obiektywnie wygrana przewaga białych już w 10. ruchu — Stockfish 19 daje aż +1.38 (WDL 84.4% / 15.6% / 0.0%!). Mamy zdrowego piona przewagi, parę gońców i zdemolowaną strukturę pionową czarnych po 10... gxf6.
+2. Mapa pionów [G]: Zero pośpiechu w centrum — po 10... gxf6 11. Bd2 (lub Bf4) gramy solidne g2-g3 (albo e2-e3/Qd3), a następnie b2-b4 na czarnego króla c8!
+3. Mapa figur [B]: Goniec g5 cofa się na d2 lub f4 (po 10... gxf6 11. Bd2); goniec f1 rozwija się przez g2 lub e2/d3; hetman idzie na d3/c2 (atak na skrzydło hetmańskie) i po roszadzie (O-O) wieże wchodzą na otwarte linie e i d.
+4. Kontrgra czarnych [R]: Jedyna szansa czarnych to desperacka aktywność przez 10... gxf6 11. Bd2 Nh6 (lub ...Ne5) z próbą ataku na niezroszowanego białego króla. Profilaktyczne 11. Bd2 + 12. g3 + Bg2 + O-O całkowicie neutralizuje atak i pozwala bezkarnie skonsumować przewagę.
+5. Wymiany i końcówka: Z czystym pionem więcej, parą gońców i trzema odizolowanymi pionami czarnych (d4, f6, h7) każda wymiana — zwłaszcza hetmanów — prowadzi do banalnie wygranej końcówki.
+
+Przykładowe kontynuacje (PV Stockfish 19 / wzorce):
+• 10... gxf6 11. Bd2 Nh6 12. g3 Nf5 13. Bg2 — Główna linia SF19 (+1.38) — pełne bezpieczeństwo króla białych i miażdżąca przewaga materialno-strukturalna. [%csl Yf6,Yc8] [%cal Bg5d2,Gb2b4,Bf1g2,Rg7f6] } *
+
+[Event "Villarrobledo op"]
+[Site "Villarrobledo"]
+[Date "1997.??.??"]
+[Round "4"]
+[White "Karpov, Anatoly"]
+[Black "Campora, Daniel Hugo"]
+[Result "1-0"]
+[WhiteElo "2745"]
+[BlackElo "2535"]
+[LichessId "xHyfBV2Y"]
+
+{ M1 [PARTIA MODELOWA — ORTODOKSYJNA 13. Bb3]: Karpov (2745) – Campora (2535), Villarrobledo 1997 (1-0)
+
+PARTIA WZORCOWA NR 1 (zweryfikowana verbatim z Lichess Masters, id=xHyfBV2Y). Klasyczny majstersztyk Anatolija Karpowa pokazujący kompletny plan z linii 1.1: presja na linii e po 13. Bb3 exd4 14. exd4, lift wieży c3 na skrzydło królewskie (17. Rf3!) oraz podręcznikowa realizacja końcówki wieżowej. (Uwaga kolejnościowa: Karpow wszedł tu przez 3. Nf3, nasz repertuar osiąga identyczną pozycję po 14. exd4 przez bezpieczniejsze 3. Nc3 -> 4. Bg5 -> 5. e3.) } 1. d4 Nf6 2. c4 e6 3. Nf3 d5 4. Nc3 Be7 5. Bg5 O-O 6. e3 c6 7. Rc1 Nbd7 8. Bd3 dxc4 9. Bxc4 Nd5 10. Bxe7 Qxe7 11. O-O Nxc3 12. Rxc3 e5 13. Bb3 exd4 14. exd4 { PRZYSTANEK 1 — KONIEC TEORII KURSOWEJ (Linia 1.1, 14. exd4): Dokładna pozycja z naszej Bramy do gry środkowej linii 1.1. Zauważ, jak Karpow realizuje nasz 3-punktowy plan figurowy bez ani jednego zmarnowanego tempa: 15. Re1! (kontrola linii e), 16. Ne5! (centralna placówka) i 17. Rf3! (lift wieży c3 na skrzydło królewskie). [%csl Ye5,Yf7] [%cal Bf1e1,Bf3e5,Bc3f3,Bb3f7] } 14... Nf6 15. Re1 Qd6 16. Ne5 Bf5 17. Rf3 $1 { PRZYSTANEK 2 — KLUCZOWY MANEWR I PRZEŁOM TAKTYCZNY (17. Rf3!): Genialny lift wieży c3-f3 — dokładnie ten motyw, który opisywaliśmy w Bramie linii 1.1! Wieża atakuje gońca f5 i podwaja presję na punkcie f7. Campora wpada w ludzki błąd 17... Bg4?, przeoczając natychmiastową taktykę 18. Rxf6! (korzystającą z przeładowania punktu f7 i otwartej przekątnej b3-g8). [%csl Yf5,Yf7] [%cal Bf3f5,Bf3f7,Bb3f7] } 17... Bg4 18. Rxf6 Qxe5 19. dxe5 Bxd1 20. Bxf7+ Rxf7 21. Rxf7 Kxf7 22. Rxd1 { PRZYSTANEK 3 — LUDZKI PUNKT ZWROTNY (22. Rxd1): Po taktycznej serii 18. Rxf6 Qxe5 19. dxe5 Bxd1 20. Bxf7+ Rxf7 21. Rxf7 Kxf7 22. Rxd1 kurz opadł i Karpow przeszedł w czysto wygraną końcówkę wieżową: ma zdrowego, wolnego piona więcej (e5) oraz miażdżącą większość 4 na 2 na skrzydle królewskim (e5, f2, g2, h2 przeciw g7, h7). Czarny król na f7 jest odcięty, a biała wieża panuje na otwartej linii d. [%csl Ye5,Yd6] [%cal Ge5e6,Gf2f4,Bd1d6,Bg1f2] } 22... Ke6 23. f4 a5 24. Kf2 Ra6 25. Rd6+ Ke7 26. Ke3 Rb6 27. b3 a4 28. Rd3 Ke6 29. g4 c5 30. h4 Rb4 31. h5 h6 32. bxa4 Rxa4 33. Rd6+ Ke7 34. Rb6 Rxa2 35. Rxb7+ Ke6 36. Rb6+ Ke7 37. Rc6 Rg2 38. Kf3 Rc2 39. Ke4 c4 40. Rc7+ Kd8 41. Rxg7 Rd2 42. Ra7 c3 43. Ra3 Re2+ 44. Kf5 Re3 45. Ra4 c2 46. Rc4 Re2 47. g5 $1 { PRZYSTANEK 4 — REALIZACJA KOŃCÓWKI (47. g5!): Podręcznikowa technika końcówkowa Karpowa. Nie broni pasywnie skrzydła hetmańskiego, lecz aktywnie maszeruje królem (Kf5) i rozrywa strukturę ruchem 47. g5!, oddając nawet piona c2 za dwa niepowstrzymane, połączone piony wolne g5+h5. Po 52. Kg6 czarne skapitulowały. [%csl Yg5,Yh6] [%cal Gg5h6,Bf5g6] } 47... hxg5 48. fxg5 Ke7 49. h6 Rh2 50. Rc7+ Kd8 51. Rc5 Ke7 52. Kg6 1-0
+
+[Event "Leon"]
+[Site "Leon"]
+[Date "1993.??.??"]
+[Round "9"]
+[White "Karpov, Anatoly"]
+[Black "Illescas Cordoba, Miguel"]
+[Result "1-0"]
+[WhiteElo "2725"]
+[BlackElo "2615"]
+[LichessId "yS7oILA6"]
+
+{ M2 [PARTIA MODELOWA — TARRASCH 6. g3]: Karpov (2725) – Illescas Cordoba (2615), Leon 1993 (1-0)
+
+PARTIA WZORCOWA NR 2 (zweryfikowana verbatim z Lichess Masters, id=yS7oILA6). Kanoniczna lekcja Anatolija Karpowa z linii 7.1 (Obrona Tarrascha 6. g3 ... 9. Bg5 cxd4 10. Nxd4 h6 11. Be3 — osiągnięta tu z kolejności Partii Angielskiej 1. c4 c5). Zobacz bezbłędną transformację IQP w słabe wiszące piony i słynny marsz skoczka Na4-c5!. } 1. c4 c5 2. Nf3 Nf6 3. Nc3 e6 4. g3 Nc6 5. Bg2 d5 6. cxd5 exd5 7. d4 Be7 8. O-O O-O 9. Bg5 cxd4 10. Nxd4 h6 11. Be3 { PRZYSTANEK 1 — KONIEC TEORII KURSOWEJ (Linia 7.1, 11. Be3): Dokładna pozycja z Bramy linii 7.1. Karpow ma pełną kontrolę nad blokadą d4 i teraz rozwija wzorcowy plan profilaktyki: 12. Rc1, 13. a3, 14. h3 (odbierając czarnym wszystkie aktywne pola i skoki). [%csl Yd4,Yd5] [%cal Ba1c1,Ga2a3,Gh2h3,Bg2d5] } 11... Re8 12. Rc1 Bf8 13. a3 Bg4 14. h3 Be6 15. Nxc6 bxc6 16. Bd4 $1 { PRZYSTANEK 2 — KLUCZOWA WYMIANA STRUKTURALNA (15. Nxc6 bxc6 16. Bd4): Typowo karpowowska decyzja! Zamiast trzymać się kurczowo IQP d5, Karpow bije na c6, zamieniając izolowanego piona na dwa nieruchome, „wiszące” piony c6/d5, ale w zamian zdobywa WIECZNĄ dziurę na polu c5! Teraz pion b4 zabezpieczy ten posterunek, a skoczek c3 ruszy na trasę marzeń. [%csl Yc5,Yc6] [%cal Bc3a4,Gb2b4] } 16... Bd7 17. Qd3 Nh7 18. Be3 Bd6 19. Rfd1 Be6 20. b4 Nf8 21. Na4 Ng6 22. Qc3 Bd7 23. Nc5 $1 { PRZYSTANEK 3 — LUDZKI PUNKT ZWROTNY (23. Nc5!): Kulminacja planu z Bramy linii 7.1: po 20. b4! i 21. Na4! skoczek ląduje na nieusuwalnym polu c5! Zdesperowany Illescas bije gońcem (23... Bxc5 24. Bxc5) i desperacko poświęca jakość 24... Rxe2, ale Karpow zimnokrwistym 25. Be3! i 26. Bf1! łapie wieżę i przechodzi do wygranej technicznie pozycji. [%csl Yc5] [%cal Bc5d7,Bc5e6] } 23... Bxc5 24. Bxc5 Rxe2 25. Be3 Qe7 26. Bf1 Rxe3 27. Qxe3 Qxe3 28. fxe3 Re8 29. Kf2 Ne5 30. Rc5 Re7 31. e4 $1 { PRZYSTANEK 4 — REALIZACJA PRZEWAGI (31. e4!): Mając czystą jakość przewagi, Karpow nie daje czarnym ani cienia blokady po białych polach — natychmiast otwiera centrum przełomem 31. e4! i tworzy wolnego piona d6 (34. d6), który decyduje o partii. [%csl Ye4,Yd6] [%cal Gb4b5,Bc5c6] } 31... Be6 32. b5 cxb5 33. exd5 Bd7 34. d6 Re6 35. Bxb5 Rf6+ 36. Kg2 1-0
+
+[Event "Pamplona"]
+[Site "Pamplona"]
+[Date "2002.12.27"]
+[Round "5"]
+[White "Kasimdzhanov, Rustam"]
+[Black "Bologan, Viktor"]
+[Result "1-0"]
+[WhiteElo "2653"]
+[BlackElo "2627"]
+[LichessId "M1mCKQF0"]
+
+{ M3 [PARTIA MODELOWA — TARTAKOWER 14. Be2]: Kasimdzhanov (2653) – Bologan (2627), Pamplona 2002 (1-0)
+
+PARTIA WZORCOWA NR 3 (zweryfikowana verbatim z Lichess Masters, id=M1mCKQF0). Mistrz świata FIDE Rustam Kasimdzhanov gra dokładnie naszą linię 2.1 (Tartakower z poprawką z Bramki 1: 12. Qa4 c5 13. Qa3 Rc8 14. Be2!) i pokazuje, jak 2600+ GM popełnia typowy ludzki błąd z wiszącymi pionami, oddając nam idealne pole blokady d4 i wygraną końcówkę. } 1. d4 Nf6 2. c4 e6 3. Nf3 d5 4. Nc3 Be7 5. Bg5 h6 6. Bh4 O-O 7. e3 b6 8. cxd5 Nxd5 9. Bxe7 Qxe7 10. Nxd5 exd5 11. Rc1 Be6 12. Qa4 c5 13. Qa3 Rc8 14. Be2 { PRZYSTANEK 1 — KONIEC TEORII KURSOWEJ (Linia 2.1, 14. Be2): Co do ruchu identyczna pozycja z naszą Bramą linii 2.1! Zwróć uwagę na natychmiastową, wzorcową reakcję Kasimdzhanowa na 14... a5 — bez wahania bije 15. dxc5! Rxc5 16. O-O, dokładnie zgodnie z naszą Mapą pionów. [%csl Yc5,Yd4] [%cal Gd4c5,Be1g1,Ba3e7] } 14... a5 15. dxc5 $1 { PRZYSTANEK 2 — KLUCZOWA WYMIANA (15. dxc5!): Likwidacja napięcia w idealnym momencie. Po 15... Rxc5 16. O-O Nc6 17. Qa4 Rc8 18. Rxc5 Qxc5 czarne nie mają już dynamicznej pary wiszących pionów, lecz statycznego izolowanego piona d5 i osłabione białe pola. Teraz biały skoczek f3 zaczyna marzyć o polu d4. [%csl Yd4,Yd5] [%cal Bf3d4,Bc1c5] } 15... Rxc5 16. O-O Nc6 17. Qa4 Rc8 18. Rxc5 Qxc5 19. Bb5 Na7 20. Ba6 Rd8 21. Qh4 Re8 22. Bd3 Nc6 23. a3 b5 24. h3 b4 25. a4 b3 26. Bb5 Rc8 27. Qf4 Qc2 28. Bxc6 Qxc6 29. Nd4 $1 { PRZYSTANEK 3 — LUDZKI PUNKT ZWROTNY (29. Nd4!): Bologan ambitnie pchnął piony skrzydła hetmańskiego (...b5-b4-b3), ale po precyzyjnym 26. Bb5! i 28. Bxc6 Qxc6 biały skoczek zajmuje wymarzone, wieczne pole blokady 29. Nd4!. Pion b3 jest odcięty od armii i wkrótce padnie łupem białych. [%csl Yd4,Yb3] [%cal Bd4c6,Bd4b3] } 29... Qc7 30. Qxc7 Rxc7 31. Ra1 Kf8 32. Nxb3 Rb7 33. Nxa5 Rxb2 34. Nc6 Bd7 35. Nd4 Ke7 36. a5 { PRZYSTANEK 4 — REALIZACJA KOŃCÓWKI (36. a5!): Po zjedzeniu piona b3 (32. Nxb3) i wymianie hetmanów biały skoczek dominuje na d4 przeciw „złej” figurze d7, a wolny pion 36. a5! w połączeniu z aktywną wieżą na linii a/c zmusza Bologana do kapitulacji w 41. ruchu. [%csl Ya5,Yd4] [%cal Ga5a6,Bd4c6] } 36... Kd6 37. g4 Kc7 38. Rc1+ Kd6 39. Ra1 Kc7 40. Kg2 Kb7 41. Rc1 1-0
+
+[Event "Bundesliga 9394"]
+[Site "Germany"]
+[Date "1994.04.17"]
+[Round "13.1"]
+[White "Kramnik, Vladimir"]
+[Black "Lutz, Christopher"]
+[Result "1-0"]
+[WhiteElo "2710"]
+[BlackElo "2595"]
+[LichessId "qnES8oGd"]
+
+{ M4 [PARTIA MODELOWA — LASKER 12. c4]: Kramnik (2710) – Lutz (2595), Bundesliga 1994 (1-0)
+
+PARTIA WZORCOWA NR 4 (zweryfikowana verbatim z Lichess Masters, id=qnES8oGd). Władimir Kramnik rozbija „remisową” Obronę Laskera dokładnie naszą linią 3.1 (11. Qb3 Rd8 12. c4! — tu z transpozycji przez 1. Nf3), demonstrując dominację na linii c, skok Nc6! i mistrzowską technikę w końcówce wieżowo-skoczkowej. } 1. Nf3 d5 2. d4 Nf6 3. c4 e6 4. Nc3 Be7 5. Bg5 h6 6. Bh4 O-O 7. e3 Ne4 8. Bxe7 Qxe7 9. cxd5 Nxc3 10. bxc3 exd5 11. Qb3 Rd8 12. c4 { PRZYSTANEK 1 — KONIEC TEORII KURSOWEJ (Linia 3.1, 12. c4): Dokładna pozycja z naszej Bramy linii 3.1. Zauważ, jak Kramnik po 12... dxc4 13. Bxc4 Nc6 wycofuje gońca 14. Be2! (profilaktyka przed ...Na5) i szybko stawia wieżę na linii c (16. Rac1). [%csl Yc4,Yd5] [%cal Bf1c4,Ba1c1] } 12... dxc4 13. Bxc4 Nc6 14. Be2 b6 15. O-O Bb7 16. Rac1 Na5 17. Qb2 Rac8 18. h3 c5 19. dxc5 $1 { PRZYSTANEK 2 — KLUCZOWY PRZEŁOM NA LINII C (19. dxc5!): Gdy czarne zagrały 18... c5, Kramnik natychmiast zbił 19. dxc5 Rxc5 20. Rxc5 Qxc5 21. Rc1! — zyskując wyłączne panowanie nad otwartą linią c i uwalniając centralną placówkę d4 dla swojego skoczka (22. Nd4!). [%csl Yc5,Yd4] [%cal Bc1c5,Bf3d4] } 19... Rxc5 20. Rxc5 Qxc5 21. Rc1 Qe7 22. Nd4 Qg5 23. Bg4 Qd5 24. Bf3 Qd7 25. Bxb7 Nxb7 26. Nc6 $1 { PRZYSTANEK 3 — LUDZKI PUNKT ZWROTNY (26. Nc6!): Po wymianie gońców białopolowych na b7 biały skoczek wskakuje na paraliżujące pole c6! (z d4 na c6 — dokładnie jak w naszej Mapie figur z linii 3.1!). Skoczek atakuje wieżę d8 (zmuszając ją do pasywnego 26... Ra8) oraz piona a7, wymusza wkrótce wymianę hetmanów i wprowadza białe w technicznie gorszą dla czarnych końcówkę R+N. [%csl Yc6,Yd8] [%cal Bc6d8,Bc1d1] } 26... Ra8 27. Qd4 Nc5 28. Qxd7 Nxd7 29. Rd1 Nc5 30. g4 g6 31. Kg2 Kg7 32. Rd2 a6 33. Rd6 $1 { PRZYSTANEK 4 — REALIZACJA KOŃCÓWKI (33. Rd6!): Aktywność wieży decyduje w końcówkach wieżowo-skoczkowych. Biała wieża wdziera się na 6. linię (współpracując ze skoczkiem c6 i przechodząc przez b6-b5-a5, a potem Rb7!), zbierając słabe piony skrzydła hetmańskiego (a5) i ostatecznie punkt f7 (53. Nxf7!). [%csl Yd6,Ya6] [%cal Bc6d4,Bd6d8] } 33... Rc8 34. Nd4 b5 35. h4 b4 36. Rb6 a5 37. Rb5 Nd3 38. Rxa5 Ne1+ 39. Kg3 Nc2 40. Nb3 Na3 41. Ra4 Rc4 42. Nd4 Nc2 43. Nf3 Rc5 44. Ra7 g5 45. h5 Kg8 46. Nd2 Na3 47. Ne4 Rc2 48. Rb7 Rxa2 49. Rxb4 Rc2 50. Rb6 Kh7 51. Rb7 Kg8 52. Nd6 Rc6 53. Nxf7 Nc4 54. Rd7 Rf6 55. Rd4 1-0
+
+[Event "Tata Steel-A 73rd"]
+[Site "Wijk aan Zee"]
+[Date "2011.01.26"]
+[Round "10"]
+[White "Anand, Viswanathan"]
+[Black "Shirov, Alexei"]
+[Result "1-0"]
+[WhiteElo "2810"]
+[BlackElo "2722"]
+[LichessId "q57ja0Kz"]
+
+{ M5 [PARTIA MODELOWA — CAMBRIDGE SPRINGS 9. Rc1]: Anand (2810) – Shirov (2722), Wijk aan Zee 2011 (1-0)
+
+PARTIA WZORCOWA NR 5 (zweryfikowana verbatim z Lichess Masters, id=q57ja0Kz). Mistrz świata Viswanathan Anand w 26 ruchach rozbija Aleksieja Szyrowa w Cambridge Springs (7. cxd5 Nxd5 8. Qd2 Bb4 9. Rc1 h6 10. Bh4). Precyzyjna uwaga audytorska: wspólna teoria z naszą linią 4.1 kończy się po 10. Bh4 — tutaj Szyrow zagrał ostre 10... c5 (zamiast 10... O-O z linii 4.1, na które gramy 11. a3!), a Anand odpowiedział 11. Bc4 (nie 11. a3!). Świetna lekcja kalkulacji i ostrzeżenie również dla Twojego repertuaru czarnymi! } 1. d4 d5 2. c4 c6 3. Nf3 Nf6 4. Nc3 e6 5. Bg5 Nbd7 6. e3 Qa5 7. cxd5 Nxd5 8. Qd2 Bb4 9. Rc1 h6 10. Bh4 { PRZYSTANEK 1 — KONIEC WSPÓLNEJ TEORII (Linia 4.1, 10. Bh4): Dokładna pozycja z 10. ruchu linii 4.1! Tutaj Szyrow nie gra 10... O-O (na co w linii 4.1 uderzamy 11. a3!), lecz od razu 10... c5, a Anand wybiera dynamiczne 11. Bc4! Nxc3 12. bxc3 Ba3 13. Rb1 (zwróć uwagę na podobieństwo do naszej linii 4.3!). [%csl Yc5,Yb1] [%cal Bf1c4,Bc1b1,Rc6c5] } 10... c5 11. Bc4 Nxc3 12. bxc3 Ba3 13. Rb1 a6 14. Be2 O-O 15. O-O b5 16. c4 $1 { PRZYSTANEK 2 — KLUCZOWY PRZEŁOM W CENTRUM (16. c4!): Szyrow ruszył skrzydłem hetmańskim (...a6, ...b5), próbując zdusić centrum. Anand odpowiada podręcznikowo — kontratakiem w centrum 16. c4! i następnie 19. dxc5!, otwierając linię d dla swojej ciężkiej artylerii. [%csl Yc4,Yd4] [%cal Gc4b5,Gd4c5] } 16... Bb4 17. Qc2 Bb7 18. Rfd1 bxc4 19. dxc5 Nxc5 20. Rd4 Rab8 21. Ne5 $1 { PRZYSTANEK 3 — LUDZKI PUNKT ZWROTNY (21. Ne5!): Po niezwykle eleganckim lifcie wieży 20. Rd4! biały skoczek wskakuje na dominujące pole e5, otwierając przekątną dla gońca h4 (Be7-d6!) i tworząc niszczącą sieć matową na czarnego króla. [%csl Ye5,Yf7] [%cal Bh4e7,Bd4g4] } 21... Bd5 22. Be7 Rfe8 23. Bd6 Rbd8 24. Bh5 Rxd6 25. Bxf7+ $3 { PRZYSTANEK 4 — TAKTYCZNY FINAŁ (25. Bxf7+!): Po 24. Bh5! Rxd6 Anand zadaje decydujący cios na polu f7 — po 25... Kf8 26. Bxe8 białe zostają z czystą jakością więcej (dwie wieże i goniec za wieżę i dwa gońce) oraz miażdżącym atakiem. Idealny wzorzec ostrej kalkulacji w strukturze Cambridge Springs! [%csl Yf7,Ye8] [%cal Bf7e8] } 25... Kf8 26. Bxe8 1-0

@@ -1,0 +1,23 @@
+# Python & Virtual Environment
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# Secrets & Environment
+.env
+
+# Local Binaries & Cache
+bin/
+cache/
+*.zip
+*.db
+*.sqlite3
+
+# OS & Editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

@@ -1,0 +1,289 @@
+[Event "Ch4 KID Gligoric Skeleton v1"]
+[Site "?"]
+[Date "2026.11.21"]
+[Round "?"]
+[White "1.1 Glowna 7...Ng4: 9...Nc6 10.d5 Ne7 11.Nd2 Nh6"]
+[Black ""]
+[Result "*"]
+
+1. d4 Nf6 2. c4 g6 3. Nc3 Bg7 4. e4 d6 5. Nf3 O-O 6. Be2 e5 7. Be3 Ng4 8. Bg5 f6 9. Bh4 Nc6 10. d5 Ne7 11. Nd2 Nh6 12. f3 { [MAIN-THEORY] Closed Gligoric with 9...Nc6; 11.Nd2 prepares f3/Bf2 and queenside c5. Model basis: cQH9Xs4b / Gligoric classics. } *
+
+[Event "Ch4 KID Gligoric Skeleton v1"]
+[Site "?"]
+[Date "2026.11.21"]
+[Round "?"]
+[White "1.2 Glowna 7...Ng4: 9...Nc6 10.d5 Ne7 11.Nd2 f5"]
+[Black ""]
+[Result "*"]
+
+1. d4 Nf6 2. c4 g6 3. Nc3 Bg7 4. e4 d6 5. Nf3 O-O 6. Be2 e5 7. Be3 Ng4 8. Bg5 f6 9. Bh4 Nc6 10. d5 Ne7 11. Nd2 h5 12. h3 { [MAIN-THEORY] Covers 11...h5 (16% after 11.Nd2) and sharp f5 push; 12.h3 forces Nh6 before a4/c5. } *
+
+[Event "Ch4 KID Gligoric Skeleton v1"]
+[Site "?"]
+[Date "2026.11.21"]
+[Round "?"]
+[White "1.3 Glowna 7...Ng4: 9...Nc6 10.d5 Ne7 11.Nd2 f5 (Natychmiastowe ...f5)"]
+[Black ""]
+[Result "*"]
+
+1. d4 Nf6 2. c4 g6 3. Nc3 Bg7 4. e4 d6 5. Nf3 O-O 6. Be2 e5 7. Be3 Ng4 8. Bg5 f6 9. Bh4 Nc6 10. d5 Ne7 11. Nd2 f5 12. h3 { [MAIN-THEORY] 19% after 11.Nd2; 12.h3 Nf6 13.g4 keeps kingside dark squares controlled. } *
+
+[Event "Ch4 KID Gligoric Skeleton v1"]
+[Site "?"]
+[Date "2026.11.21"]
+[Round "?"]
+[White "1.4 Glowna 7...Ng4: 9...g5 10.Bg3 Nh6 (Precyzyjne 11.h3)"]
+[Black ""]
+[Result "*"]
+
+1. d4 Nf6 2. c4 g6 3. Nc3 Bg7 4. e4 d6 5. Nf3 O-O 6. Be2 e5 7. Be3 Ng4 8. Bg5 f6 9. Bh4 g5 10. Bg3 Nh6 11. h3 Nc6 12. d5 { [MAIN-THEORY] 44% after 9.Bh4! 11.h3 (Cloud #1 +0.51, 65%W Masters) locks Nh6 out of f5/g4 before closing center. } *
+
+[Event "Ch4 KID Gligoric Skeleton v1"]
+[Site "?"]
+[Date "2026.11.21"]
+[Round "?"]
+[White "1.5 Glowna 7...Ng4: 9...Nd7 i 9...Qe8"]
+[Black ""]
+[Result "*"]
+
+1. d4 Nf6 2. c4 g6 3. Nc3 Bg7 4. e4 d6 5. Nf3 O-O 6. Be2 e5 7. Be3 Ng4 8. Bg5 f6 9. Bh4 Nd7 10. O-O Nh6 11. d5 { [MAIN-THEORY] 5% reply after 9.Bh4 (merges 9...Qe8 3% as RAV). } *
+
+[Event "Ch4 KID Gligoric Skeleton v1"]
+[Site "?"]
+[Date "2026.11.21"]
+[Round "?"]
+[White "1.6 Glowna 7...Ng4: Boczne 9...Nh6 i 9...h5"]
+[Black ""]
+[Result "*"]
+
+1. d4 Nf6 2. c4 g6 3. Nc3 Bg7 4. e4 d6 5. Nf3 O-O 6. Be2 e5 7. Be3 Ng4 8. Bg5 f6 9. Bh4 Nh6 10. dxe5 fxe5 11. c5 { [AMATEUR-SPECIAL] Punishes premature 9...Nh6 (Cloud +1.63); 10.dxe5 breaks center before Black stabilizes. } *
+
+[Event "Ch4 KID Gligoric Skeleton v1"]
+[Site "?"]
+[Date "2026.11.21"]
+[Round "?"]
+[White "2.1 Otwarty KID 7...exd4: Glowna 8...Re8 9.f3 c6 10.Bf2"]
+[Black ""]
+[Result "*"]
+
+1. d4 Nf6 2. c4 g6 3. Nc3 Bg7 4. e4 d6 5. Nf3 O-O 6. Be2 e5 7. Be3 exd4 8. Nxd4 Re8 9. f3 c6 10. Bf2 d5 11. exd5 cxd5 12. O-O { [MAIN-THEORY] Open KID mainline (83% 9...c6, 65% 10.Bf2); pressure on d5/IQP. Model: Carlsen-Firouzja 2024 (wEYj5za4). } *
+
+[Event "Ch4 KID Gligoric Skeleton v1"]
+[Site "?"]
+[Date "2026.11.21"]
+[Round "?"]
+[White "2.2 Otwarty KID 7...exd4: 9.f3 c6 10.Bf2 a6 (bez ...d5)"]
+[Black ""]
+[Result "*"]
+
+1. d4 Nf6 2. c4 g6 3. Nc3 Bg7 4. e4 d6 5. Nf3 O-O 6. Be2 e5 7. Be3 exd4 8. Nxd4 Re8 9. f3 c6 10. Bf2 a6 11. O-O { [MAIN-THEORY] Slow ...a6/...b5 preparation; SF19 11.O-O (+0.61) maintains grip on d6. } *
+
+[Event "Ch4 KID Gligoric Skeleton v1"]
+[Site "?"]
+[Date "2026.11.21"]
+[Round "?"]
+[White "2.3 Otwarty KID 7...exd4: 9.f3 Nc6"]
+[Black ""]
+[Result "*"]
+
+1. d4 Nf6 2. c4 g6 3. Nc3 Bg7 4. e4 d6 5. Nf3 O-O 6. Be2 e5 7. Be3 exd4 8. Nxd4 Re8 9. f3 Nc6 10. Nc2 Be6 11. O-O { [MAIN-THEORY] 15% after 9.f3; 10.Nc2 (SF19 #1 +0.72) preserves pieces and targets d6. } *
+
+[Event "Ch4 KID Gligoric Skeleton v1"]
+[Site "?"]
+[Date "2026.11.21"]
+[Round "?"]
+[White "2.4 Otwarty KID 7...exd4: Wczesne 8...Nc6"]
+[Black ""]
+[Result "*"]
+
+1. d4 Nf6 2. c4 g6 3. Nc3 Bg7 4. e4 d6 5. Nf3 O-O 6. Be2 e5 7. Be3 exd4 8. Nxd4 Nc6 9. O-O Re8 10. Nxc6 bxc6 11. Qc2 { [COMMON-AMATEUR] 8...Nc6 without ...Re8; O-O + Nxc6/Qc2 or transposes to 2.3. } *
+
+[Event "Ch4 KID Gligoric Skeleton v1"]
+[Site "?"]
+[Date "2026.11.21"]
+[Round "?"]
+[White "2.5 Otwarty KID 7...exd4: Wczesne 8...c6"]
+[Black ""]
+[Result "*"]
+
+1. d4 Nf6 2. c4 g6 3. Nc3 Bg7 4. e4 d6 5. Nf3 O-O 6. Be2 e5 7. Be3 exd4 8. Nxd4 c6 9. f3 d5 10. cxd5 cxd5 11. e5 { [COMMON-AMATEUR] Sharp 8...c6 (threatening ...d5 immediately); 9.f3 d5 10.cxd5 cxd5 11.e5!. } *
+
+[Event "Ch4 KID Gligoric Skeleton v1"]
+[Site "?"]
+[Date "2026.11.21"]
+[Round "?"]
+[White "3.1 Zamkniety klin 7...Nc6: 9...Nd7 10.b4"]
+[Black ""]
+[Result "*"]
+
+1. d4 Nf6 2. c4 g6 3. Nc3 Bg7 4. e4 d6 5. Nf3 O-O 6. Be2 e5 7. Be3 Nc6 8. d5 Ne7 9. Nd2 Nd7 10. b4 f5 11. f3 { [MAIN-THEORY] 38% after 9.Nd2 (73%W Masters after 10.b4!); queenside race + f3/Bf2 prophylaxis. } *
+
+[Event "Ch4 KID Gligoric Skeleton v1"]
+[Site "?"]
+[Date "2026.11.21"]
+[Round "?"]
+[White "3.2 Zamkniety klin 7...Nc6: 9...Ne8 10.O-O (Plan Gligoricia)"]
+[Black ""]
+[Result "*"]
+
+1. d4 Nf6 2. c4 g6 3. Nc3 Bg7 4. e4 d6 5. Nf3 O-O 6. Be2 e5 7. Be3 Nc6 8. d5 Ne7 9. Nd2 Ne8 10. O-O f5 11. f3 f4 12. Bf2 { [MAIN-THEORY] 34% after 9.Nd2; textbook Gligoric c5 race. Model: Gligoric-Tringov 1983 (oUJvXIJ5). } *
+
+[Event "Ch4 KID Gligoric Skeleton v1"]
+[Site "?"]
+[Date "2026.11.21"]
+[Round "?"]
+[White "3.3 Zamkniety klin 7...Nc6: 9...c5 10.g4!"]
+[Black ""]
+[Result "*"]
+
+1. d4 Nf6 2. c4 g6 3. Nc3 Bg7 4. e4 d6 5. Nf3 O-O 6. Be2 e5 7. Be3 Nc6 8. d5 Ne7 9. Nd2 c5 10. g4 Ne8 11. h4 { [MAIN-THEORY] 20% after 9.Nd2; Karpov-style 10.g4! before castling freezes ...f5 (67%W Masters, +0.84). } *
+
+[Event "Ch4 KID Gligoric Skeleton v1"]
+[Site "?"]
+[Date "2026.11.21"]
+[Round "?"]
+[White "4.1 Nowoczesne 7...Na6: 8...Ng4 9.Bg5 f6 10.Bc1! (Plan Karpowa)"]
+[Black ""]
+[Result "*"]
+
+1. d4 Nf6 2. c4 g6 3. Nc3 Bg7 4. e4 d6 5. Nf3 O-O 6. Be2 e5 7. Be3 Na6 8. O-O Ng4 9. Bg5 f6 10. Bc1 Kh8 11. h3 { [MAIN-THEORY] 63% after 8.O-O! Karpov's 10.Bc1 keeps bishop pair and hits f6 weakness. Model: Karpov-Kasparov 1990 (UVT7kO3y). } *
+
+[Event "Ch4 KID Gligoric Skeleton v1"]
+[Site "?"]
+[Date "2026.11.21"]
+[Round "?"]
+[White "4.2 Nowoczesne 7...Na6: 8...c6 9.d5"]
+[Black ""]
+[Result "*"]
+
+1. d4 Nf6 2. c4 g6 3. Nc3 Bg7 4. e4 d6 5. Nf3 O-O 6. Be2 e5 7. Be3 Na6 8. O-O c6 9. d5 Ng4 10. Bg5 f6 11. Bh4 { [MAIN-THEORY] 17% after 8.O-O; 9.d5! (58% Masters, +0.61) gains space before Nc5. } *
+
+[Event "Ch4 KID Gligoric Skeleton v1"]
+[Site "?"]
+[Date "2026.11.21"]
+[Round "?"]
+[White "4.3 Nowoczesne 7...Na6: 8...Qe7"]
+[Black ""]
+[Result "*"]
+
+1. d4 Nf6 2. c4 g6 3. Nc3 Bg7 4. e4 d6 5. Nf3 O-O 6. Be2 e5 7. Be3 Na6 8. O-O Qe7 9. d5 Ng4 10. Bg5 { [MAIN-THEORY] 9% after 8.O-O; 9.d5 keeps c5/e5 under tension and prevents ...exd4 tricks. } *
+
+[Event "Ch4 KID Gligoric Skeleton v1"]
+[Site "?"]
+[Date "2026.11.21"]
+[Round "?"]
+[White "4.4 Nowoczesne 7...Na6: 8...Qe8 i 8...exd4"]
+[Black ""]
+[Result "*"]
+
+1. d4 Nf6 2. c4 g6 3. Nc3 Bg7 4. e4 d6 5. Nf3 O-O 6. Be2 e5 7. Be3 Na6 8. O-O Qe8 9. dxe5 dxe5 10. c5 { [MAIN-THEORY] 6% after 8.O-O (merges 8...exd4 100% 9.Nxd4 as RAV). } *
+
+[Event "Ch4 KID Gligoric Skeleton v1"]
+[Site "?"]
+[Date "2026.11.21"]
+[Round "?"]
+[White "5.1 Boczne 7...c6 8.d5!"]
+[Black ""]
+[Result "*"]
+
+1. d4 Nf6 2. c4 g6 3. Nc3 Bg7 4. e4 d6 5. Nf3 O-O 6. Be2 e5 7. Be3 c6 8. d5 Ng4 9. Bg5 f6 10. Bh4 { [MAIN-THEORY] 8% after 7.Be3; 8.d5! (59% Masters, 61%W, +0.69) grabs queenside space immediately. } *
+
+[Event "Ch4 KID Gligoric Skeleton v1"]
+[Site "?"]
+[Date "2026.11.21"]
+[Round "?"]
+[White "5.2 Boczne 7...Nbd7: 8.O-O"]
+[Black ""]
+[Result "*"]
+
+1. d4 Nf6 2. c4 g6 3. Nc3 Bg7 4. e4 d6 5. Nf3 O-O 6. Be2 e5 7. Be3 Nbd7 8. O-O c6 9. d5 { [MAIN-THEORY] 7% after 7.Be3; 8.O-O (60% Masters) keeps full central tension. } *
+
+[Event "Ch4 KID Gligoric Skeleton v1"]
+[Site "?"]
+[Date "2026.11.21"]
+[Round "?"]
+[White "5.3 Boczne 7...h6 8.O-O"]
+[Black ""]
+[Result "*"]
+
+1. d4 Nf6 2. c4 g6 3. Nc3 Bg7 4. e4 d6 5. Nf3 O-O 6. Be2 e5 7. Be3 h6 8. O-O Ng4 9. Bc1 Nc6 10. d5 { [MAIN-THEORY] 65% Masters (65%W); 9.Bc1 keeps bishop pair and leaves ...h6 looking misplaced. } *
+
+[Event "Ch4 KID Gligoric Skeleton v1"]
+[Site "?"]
+[Date "2026.11.21"]
+[Round "?"]
+[White "5.4 Boczne 7...Qe7 8.dxe5"]
+[Black ""]
+[Result "*"]
+
+1. d4 Nf6 2. c4 g6 3. Nc3 Bg7 4. e4 d6 5. Nf3 O-O 6. Be2 e5 7. Be3 Qe7 8. dxe5 dxe5 9. Nd5 { [AMATEUR-SPECIAL] 52% Masters (70%W!); 8.dxe5 dxe5 9.Nd5! exposes tactical vulnerability on d5/c7. } *
+
+[Event "Ch4 KID Gligoric Skeleton v1"]
+[Site "?"]
+[Date "2026.11.21"]
+[Round "?"]
+[White "6.1 Odchylka 6...Bg4 7.Be3!"]
+[Black ""]
+[Result "*"]
+
+1. d4 Nf6 2. c4 g6 3. Nc3 Bg7 4. e4 d6 5. Nf3 O-O 6. Be2 Bg4 7. Be3 Nfd7 8. Rc1 Nc6 9. d5 { [MAIN-THEORY] 4% after 6.Be2; 7.Be3 (80% Masters, 60%W) keeps bishop pair. Model: Topalov-Piket 1999 (yJBxw9oe). } *
+
+[Event "Ch4 KID Gligoric Skeleton v1"]
+[Site "?"]
+[Date "2026.11.21"]
+[Round "?"]
+[White "6.2 Odchylka 6...c5 7.d5! (Benoni z Be2)"]
+[Black ""]
+[Result "*"]
+
+1. d4 Nf6 2. c4 g6 3. Nc3 Bg7 4. e4 d6 5. Nf3 O-O 6. Be2 c5 7. d5 e6 8. O-O exd5 9. cxd5 { [MAIN-THEORY] 4% after 6.Be2; 7.d5 e6 8.O-O exd5 9.cxd5 (58%W Masters, +0.69) clean Benoni edge. } *
+
+[Event "Ch4 KID Gligoric Skeleton v1"]
+[Site "?"]
+[Date "2026.11.21"]
+[Round "?"]
+[White "6.3 Odchylka 6...Na6 7.O-O (i 6...Nbd7)"]
+[Black ""]
+[Result "*"]
+
+1. d4 Nf6 2. c4 g6 3. Nc3 Bg7 4. e4 d6 5. Nf3 O-O 6. Be2 Na6 7. O-O e5 8. Be3 { [MAIN-THEORY] 6% after 6.Be2 (merges 6...Nbd7 6% as RAV) — clean transposition back to 4.1 / 5.2. } *
+
+[Event "Ch4 KID Gligoric Skeleton v1"]
+[Site "?"]
+[Date "2026.11.21"]
+[Round "?"]
+[White "6.4 Odchylka 5...c5 6.d5! (Przed roszada)"]
+[Black ""]
+[Result "*"]
+
+1. d4 Nf6 2. c4 g6 3. Nc3 Bg7 4. e4 d6 5. Nf3 c5 6. d5 O-O 7. Be2 e6 8. O-O { [COMMON-AMATEUR] Prevents Benko/Morra sidelines; 6.d5 transposes smoothly into 6.2. } *
+
+[Event "Ch4 KID Gligoric Skeleton v1"]
+[Site "?"]
+[Date "2026.11.21"]
+[Round "?"]
+[White "7.1 Pirc 1.d4 d6 2.c4 g6: 4.e4 e5"]
+[Black ""]
+[Result "*"]
+
+1. d4 d6 2. c4 g6 3. Nc3 Bg7 4. e4 e5 5. Nf3 exd4 6. Nxd4 Nc6 7. Be3 Nge7 8. Be2 O-O 9. O-O { [MAIN-THEORY] 24% after 4.e4; 5.Nf3! (59%W Masters) transposes into solid open KID. } *
+
+[Event "Ch4 KID Gligoric Skeleton v1"]
+[Site "?"]
+[Date "2026.11.21"]
+[Round "?"]
+[White "7.2 Pirc 1.d4 d6 2.c4 g6: 4.e4 Nc6 5.d5!"]
+[Black ""]
+[Result "*"]
+
+1. d4 d6 2. c4 g6 3. Nc3 Bg7 4. e4 Nc6 5. d5 Nb8 6. Bd3 Nf6 7. Nf3 O-O 8. h3 { [MAIN-THEORY] 19% after 4.e4; 5.d5! (65%W Masters, SF19 +0.92!) kicks knight and seizes huge space. } *
+
+[Event "Ch4 KID Gligoric Skeleton v1"]
+[Site "?"]
+[Date "2026.11.21"]
+[Round "?"]
+[White "7.3 Pirc 1.d4 d6 2.c4 g6: 4.e4 Nd7 5.Nf3! (i 2...e5)"]
+[Black ""]
+[Result "*"]
+
+1. d4 d6 2. c4 g6 3. Nc3 Bg7 4. e4 Nd7 5. Nf3 e5 6. Be2 Ngf6 7. O-O O-O 8. Be3 { [MAIN-THEORY] 13% after 4.e4; 5.Nf3 (59%W Masters, +0.77) keeps pure classical Gligoric setup. } *
