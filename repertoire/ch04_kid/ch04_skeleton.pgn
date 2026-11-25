@@ -1,289 +1,199 @@
-[Event "Ch4 KID Gligoric Skeleton v1"]
-[Site "?"]
-[Date "2026.11.21"]
-[Round "?"]
-[White "1.1 Glowna 7...Ng4: 9...Nc6 10.d5 Ne7 11.Nd2 Nh6"]
+[Event "Ch4: King's Indian Defense — Makagonov / Karpov System (5.h3 O-O 6.Be3)"]
+[Site "Chessable"]
+[Date "2026.11.25"]
+[Round "1"]
+[White "1.1 Karpov Mainline: 6...e5 7.d5 Na6 8.g4 Nc5 9.f3 a5 10.Qd2"]
 [Black ""]
 [Result "*"]
 
-1. d4 Nf6 2. c4 g6 3. Nc3 Bg7 4. e4 d6 5. Nf3 O-O 6. Be2 e5 7. Be3 Ng4 8. Bg5 f6 9. Bh4 Nc6 10. d5 Ne7 11. Nd2 Nh6 12. f3 { [MAIN-THEORY] Closed Gligoric with 9...Nc6; 11.Nd2 prepares f3/Bf2 and queenside c5. Model basis: cQH9Xs4b / Gligoric classics. } *
+1. d4 Nf6 2. c4 g6 3. Nc3 Bg7 4. e4 d6 ( 4... c5 5. dxc5 Qa5 6. Bd3 { Rare 4...c5 allows 5.dxc5 Qa5 6.Bd3. } ) 5. h3 O-O ( 5... c6 6. Be3 { Transposes or avoids early e5. } ) ( 5... Nc6 6. d5 { Punishes 5...Nc6 immediately by grabbing space with tempo. } ) ( 5... c5 6. d5 { Early Benoni push with h3 included. } ) 6. Be3 e5 ( 6... b6 7. Bd3 { Rare 6...b6 cedes central control to 7.Bd3. } ) 7. d5 Na6 ( 7... c5 8. g4 { Locks queenside and launches kingside expansion. } ) ( 7... Ne8 8. g4 { Passive 7...Ne8 meets immediate 8.g4. } ) 8. g4 Nc5 ( 8... c6 9. f3 { Supports e4 before Qd2 and Nge2. } ) 9. f3 a5 ( 9... c6 10. h4 { Launches immediate h4-g5 kingside storm against early ...c6. } ) ( 9... h5 10. Qd2 { Early ...h5 weakens g5 and king safety. } ) 10. Qd2 c6 ( 10... Ne8 11. O-O-O { Slow 10...Ne8 lets White castle queenside safely and push h4. } ) 11. Nge2 { Mainline Karpov clamp; White prepares O-O-O, Ng3, and h4-h5. } *
 
-[Event "Ch4 KID Gligoric Skeleton v1"]
-[Site "?"]
-[Date "2026.11.21"]
-[Round "?"]
-[White "1.2 Glowna 7...Ng4: 9...Nc6 10.d5 Ne7 11.Nd2 f5"]
+[Event "Ch4: King's Indian Defense — Makagonov / Karpov System (5.h3 O-O 6.Be3)"]
+[Site "Chessable"]
+[Date "2026.11.25"]
+[Round "2"]
+[White "1.2 Karpov 7...a5 8.g4 Na6 9.Nge2 Nc5 10.Ng3"]
 [Black ""]
 [Result "*"]
 
-1. d4 Nf6 2. c4 g6 3. Nc3 Bg7 4. e4 d6 5. Nf3 O-O 6. Be2 e5 7. Be3 Ng4 8. Bg5 f6 9. Bh4 Nc6 10. d5 Ne7 11. Nd2 h5 12. h3 { [MAIN-THEORY] Covers 11...h5 (16% after 11.Nd2) and sharp f5 push; 12.h3 forces Nh6 before a4/c5. } *
+1. d4 Nf6 2. c4 g6 3. Nc3 Bg7 4. e4 d6 5. h3 O-O 6. Be3 e5 7. d5 a5 8. g4 Na6 ( 8... Nfd7 9. Nge2 { Slows Black's queenside counterplay. } ) 9. Nge2 Nc5 10. Ng3 c6 ( 10... Bd7 11. Qd2 { Punishes slow 10...Bd7 with immediate Qd2, Be2, and h4-g5 for +1.48. } ) 11. Qd2 { Stops ...f5, plants Ng3, and prepares O-O-O or Be2+h4. } *
 
-[Event "Ch4 KID Gligoric Skeleton v1"]
-[Site "?"]
-[Date "2026.11.21"]
-[Round "?"]
-[White "1.3 Glowna 7...Ng4: 9...Nc6 10.d5 Ne7 11.Nd2 f5 (Natychmiastowe ...f5)"]
+[Event "Ch4: King's Indian Defense — Makagonov / Karpov System (5.h3 O-O 6.Be3)"]
+[Site "Chessable"]
+[Date "2026.11.25"]
+[Round "3"]
+[White "1.3 Karpov 7...a5 8.g4 Na6 9.Nge2 Nd7 10.Qd2"]
 [Black ""]
 [Result "*"]
 
-1. d4 Nf6 2. c4 g6 3. Nc3 Bg7 4. e4 d6 5. Nf3 O-O 6. Be2 e5 7. Be3 Ng4 8. Bg5 f6 9. Bh4 Nc6 10. d5 Ne7 11. Nd2 f5 12. h3 { [MAIN-THEORY] 19% after 11.Nd2; 12.h3 Nf6 13.g4 keeps kingside dark squares controlled. } *
+1. d4 Nf6 2. c4 g6 3. Nc3 Bg7 4. e4 d6 5. h3 O-O 6. Be3 e5 7. d5 a5 8. g4 Na6 9. Nge2 Nd7 10. Qd2 Ndc5 11. Ng3 { Prevents ...Bf6/...Bh4 pins first with 10.Qd2, then plants Ng3 for +1.07. } *
 
-[Event "Ch4 KID Gligoric Skeleton v1"]
-[Site "?"]
-[Date "2026.11.21"]
-[Round "?"]
-[White "1.4 Glowna 7...Ng4: 9...g5 10.Bg3 Nh6 (Precyzyjne 11.h3)"]
+[Event "Ch4: King's Indian Defense — Makagonov / Karpov System (5.h3 O-O 6.Be3)"]
+[Site "Chessable"]
+[Date "2026.11.25"]
+[Round "4"]
+[White "1.4 Karpov 7...a5 8.g4 Na6 9.Nge2 c6 10.Ng3 cxd5"]
 [Black ""]
 [Result "*"]
 
-1. d4 Nf6 2. c4 g6 3. Nc3 Bg7 4. e4 d6 5. Nf3 O-O 6. Be2 e5 7. Be3 Ng4 8. Bg5 f6 9. Bh4 g5 10. Bg3 Nh6 11. h3 Nc6 12. d5 { [MAIN-THEORY] 44% after 9.Bh4! 11.h3 (Cloud #1 +0.51, 65%W Masters) locks Nh6 out of f5/g4 before closing center. } *
+1. d4 Nf6 2. c4 g6 3. Nc3 Bg7 4. e4 d6 5. h3 O-O 6. Be3 e5 7. d5 a5 8. g4 Na6 9. Nge2 c6 ( 9... h5 10. Bg5 { Pins Nf6 and shuts down kingside counterplay. } ) 10. Ng3 cxd5 11. cxd5 { Keeps d5 clamped and prepares Be2, Qd2, and h4-h5. } *
 
-[Event "Ch4 KID Gligoric Skeleton v1"]
-[Site "?"]
-[Date "2026.11.21"]
-[Round "?"]
-[White "1.5 Glowna 7...Ng4: 9...Nd7 i 9...Qe8"]
+[Event "Ch4: King's Indian Defense — Makagonov / Karpov System (5.h3 O-O 6.Be3)"]
+[Site "Chessable"]
+[Date "2026.11.25"]
+[Round "5"]
+[White "1.5 Karpov 7...c6 8.g4 cxd5 9.cxd5 a6 10.a4"]
 [Black ""]
 [Result "*"]
 
-1. d4 Nf6 2. c4 g6 3. Nc3 Bg7 4. e4 d6 5. Nf3 O-O 6. Be2 e5 7. Be3 Ng4 8. Bg5 f6 9. Bh4 Nd7 10. O-O Nh6 11. d5 { [MAIN-THEORY] 5% reply after 9.Bh4 (merges 9...Qe8 3% as RAV). } *
+1. d4 Nf6 2. c4 g6 3. Nc3 Bg7 4. e4 d6 5. h3 O-O 6. Be3 e5 7. d5 c6 8. g4 cxd5 ( 8... Na6 9. Nge2 { Prepares Ng3 and Be2/h4. } ) ( 8... a5 9. Nge2 { Meets ...a5 with smooth Nge2-g3. } ) 9. cxd5 a6 ( 9... Na6 10. Nf3 { Develops harmoniously and prepares Nd2-c4 or h4. } ) 10. a4 { Freezes ...b5 before developing Nf3, Nd2, and h4. } *
 
-[Event "Ch4 KID Gligoric Skeleton v1"]
-[Site "?"]
-[Date "2026.11.21"]
-[Round "?"]
-[White "1.6 Glowna 7...Ng4: Boczne 9...Nh6 i 9...h5"]
+[Event "Ch4: King's Indian Defense — Makagonov / Karpov System (5.h3 O-O 6.Be3)"]
+[Site "Chessable"]
+[Date "2026.11.25"]
+[Round "6"]
+[White "1.6 Karpov 7...Nbd7 8.g4 Nc5 9.f3 a5 10.Qd2"]
 [Black ""]
 [Result "*"]
 
-1. d4 Nf6 2. c4 g6 3. Nc3 Bg7 4. e4 d6 5. Nf3 O-O 6. Be2 e5 7. Be3 Ng4 8. Bg5 f6 9. Bh4 Nh6 10. dxe5 fxe5 11. c5 { [AMATEUR-SPECIAL] Punishes premature 9...Nh6 (Cloud +1.63); 10.dxe5 breaks center before Black stabilizes. } *
+1. d4 Nf6 2. c4 g6 3. Nc3 Bg7 4. e4 d6 5. h3 O-O 6. Be3 e5 7. d5 Nbd7 8. g4 Nc5 ( 8... a5 9. Nge2 { Prepares Ng3 and h4-h5. } ) ( 8... Ne8 9. h4 { Launches immediate h4-h5 attack against passive retreat. } ) 9. f3 a5 10. Qd2 c6 11. Nge2 { Transposes to the 7...Na6 8.g4 Nc5 9.f3 a5 10.Qd2 complex with Nge2. } *
 
-[Event "Ch4 KID Gligoric Skeleton v1"]
-[Site "?"]
-[Date "2026.11.21"]
-[Round "?"]
-[White "2.1 Otwarty KID 7...exd4: Glowna 8...Re8 9.f3 c6 10.Bf2"]
+[Event "Ch4: King's Indian Defense — Makagonov / Karpov System (5.h3 O-O 6.Be3)"]
+[Site "Chessable"]
+[Date "2026.11.25"]
+[Round "7"]
+[White "1.7 Karpov 7...Nh5 8.Be2 Nf4 9.Bf1"]
 [Black ""]
 [Result "*"]
 
-1. d4 Nf6 2. c4 g6 3. Nc3 Bg7 4. e4 d6 5. Nf3 O-O 6. Be2 e5 7. Be3 exd4 8. Nxd4 Re8 9. f3 c6 10. Bf2 d5 11. exd5 cxd5 12. O-O { [MAIN-THEORY] Open KID mainline (83% 9...c6, 65% 10.Bf2); pressure on d5/IQP. Model: Carlsen-Firouzja 2024 (wEYj5za4). } *
+1. d4 Nf6 2. c4 g6 3. Nc3 Bg7 4. e4 d6 5. h3 O-O 6. Be3 e5 7. d5 Nh5 8. Be2 Nf4 9. Bf1 a5 10. g3 Nh5 11. Be2 { Forces the intruding knight back with a huge +0.95 edge and prepares Bxh5 or h4. } *
 
-[Event "Ch4 KID Gligoric Skeleton v1"]
-[Site "?"]
-[Date "2026.11.21"]
-[Round "?"]
-[White "2.2 Otwarty KID 7...exd4: 9.f3 c6 10.Bf2 a6 (bez ...d5)"]
+[Event "Ch4: King's Indian Defense — Makagonov / Karpov System (5.h3 O-O 6.Be3)"]
+[Site "Chessable"]
+[Date "2026.11.25"]
+[Round "8"]
+[White "2.1 Maroczy 6...c5 7.Nf3 cxd4 8.Nxd4 Nc6 9.Be2"]
 [Black ""]
 [Result "*"]
 
-1. d4 Nf6 2. c4 g6 3. Nc3 Bg7 4. e4 d6 5. Nf3 O-O 6. Be2 e5 7. Be3 exd4 8. Nxd4 Re8 9. f3 c6 10. Bf2 a6 11. O-O { [MAIN-THEORY] Slow ...a6/...b5 preparation; SF19 11.O-O (+0.61) maintains grip on d6. } *
+1. d4 Nf6 2. c4 g6 3. Nc3 Bg7 4. e4 d6 5. h3 O-O 6. Be3 c5 7. Nf3 cxd4 8. Nxd4 Nc6 ( 8... b6 9. Qd2 { Prepares f3 and O-O-O against hedgehog ...b6. } ) 9. Be2 Bd7 ( 9... Nxd4 10. Bxd4 a6 11. O-O { Clean Maroczy bind with Bxd4 centralization. } ) ( 9... a6 10. O-O { Develops cleanly and controls b5/d5. } ) 10. O-O Nxd4 ( 10... Rc8 11. Qd2 { Connects rooks and keeps central Maroczy bind. } ) ( 10... a6 11. Nf3 { Keeps +0.88 Maroczy pressure before Qc2 or Qd2. } ) 11. Bxd4 Bc6 12. Qc2 a5 13. b3 { Solidifies c4 and queenside dark squares while keeping +0.57 Maroczy edge. } *
 
-[Event "Ch4 KID Gligoric Skeleton v1"]
-[Site "?"]
-[Date "2026.11.21"]
-[Round "?"]
-[White "2.3 Otwarty KID 7...exd4: 9.f3 Nc6"]
+[Event "Ch4: King's Indian Defense — Makagonov / Karpov System (5.h3 O-O 6.Be3)"]
+[Site "Chessable"]
+[Date "2026.11.25"]
+[Round "9"]
+[White "2.2 Maroczy Sidelines: 6...c5 7.Nf3 Qa5 8.Bd3"]
 [Black ""]
 [Result "*"]
 
-1. d4 Nf6 2. c4 g6 3. Nc3 Bg7 4. e4 d6 5. Nf3 O-O 6. Be2 e5 7. Be3 exd4 8. Nxd4 Re8 9. f3 Nc6 10. Nc2 Be6 11. O-O { [MAIN-THEORY] 15% after 9.f3; 10.Nc2 (SF19 #1 +0.72) preserves pieces and targets d6. } *
+1. d4 Nf6 2. c4 g6 3. Nc3 Bg7 4. e4 d6 5. h3 O-O 6. Be3 c5 7. Nf3 Qa5 ( 7... Nc6 8. d5 { Punishes 7...Nc6 by closing with tempo on the knight. } ) 8. Bd3 cxd4 9. Nxd4 Nc6 10. O-O { Meets 7...Qa5 with Bd3, maintaining the bind with +0.60+. } *
 
-[Event "Ch4 KID Gligoric Skeleton v1"]
-[Site "?"]
-[Date "2026.11.21"]
-[Round "?"]
-[White "2.4 Otwarty KID 7...exd4: Wczesne 8...Nc6"]
+[Event "Ch4: King's Indian Defense — Makagonov / Karpov System (5.h3 O-O 6.Be3)"]
+[Site "Chessable"]
+[Date "2026.11.25"]
+[Round "10"]
+[White "3.1 6...Nc6 7.d5 Ne5 8.f4 Ned7 9.g4"]
 [Black ""]
 [Result "*"]
 
-1. d4 Nf6 2. c4 g6 3. Nc3 Bg7 4. e4 d6 5. Nf3 O-O 6. Be2 e5 7. Be3 exd4 8. Nxd4 Nc6 9. O-O Re8 10. Nxc6 bxc6 11. Qc2 { [COMMON-AMATEUR] 8...Nc6 without ...Re8; O-O + Nxc6/Qc2 or transposes to 2.3. } *
+1. d4 Nf6 2. c4 g6 3. Nc3 Bg7 4. e4 d6 5. h3 O-O 6. Be3 Nc6 7. d5 Ne5 8. f4 Ned7 9. g4 Nb6 10. a4 { Drives the knight back and claims massive central and kingside space. } *
 
-[Event "Ch4 KID Gligoric Skeleton v1"]
-[Site "?"]
-[Date "2026.11.21"]
-[Round "?"]
-[White "2.5 Otwarty KID 7...exd4: Wczesne 8...c6"]
+[Event "Ch4: King's Indian Defense — Makagonov / Karpov System (5.h3 O-O 6.Be3)"]
+[Site "Chessable"]
+[Date "2026.11.25"]
+[Round "11"]
+[White "3.2 6...Nc6 7.d5 Nb8 8.Nf3"]
 [Black ""]
 [Result "*"]
 
-1. d4 Nf6 2. c4 g6 3. Nc3 Bg7 4. e4 d6 5. Nf3 O-O 6. Be2 e5 7. Be3 exd4 8. Nxd4 c6 9. f3 d5 10. cxd5 cxd5 11. e5 { [COMMON-AMATEUR] Sharp 8...c6 (threatening ...d5 immediately); 9.f3 d5 10.cxd5 cxd5 11.e5!. } *
+1. d4 Nf6 2. c4 g6 3. Nc3 Bg7 4. e4 d6 5. h3 O-O 6. Be3 Nc6 7. d5 Nb8 ( 7... Nb4 8. Nf3 { Calmly prepares a3 to kick the b4-knight. } ) 8. Nf3 e6 ( 8... e5 9. g4 { Enters a favorable closed KID with extra tempo. } ) 9. Bd3 exd5 10. exd5 { Open e-file and strong piece play with +0.65. } *
 
-[Event "Ch4 KID Gligoric Skeleton v1"]
-[Site "?"]
-[Date "2026.11.21"]
-[Round "?"]
-[White "3.1 Zamkniety klin 7...Nc6: 9...Nd7 10.b4"]
+[Event "Ch4: King's Indian Defense — Makagonov / Karpov System (5.h3 O-O 6.Be3)"]
+[Site "Chessable"]
+[Date "2026.11.25"]
+[Round "12"]
+[White "3.3 6...Nbd7 7.Nf3 e5 8.d5 Nc5 9.Nd2"]
 [Black ""]
 [Result "*"]
 
-1. d4 Nf6 2. c4 g6 3. Nc3 Bg7 4. e4 d6 5. Nf3 O-O 6. Be2 e5 7. Be3 Nc6 8. d5 Ne7 9. Nd2 Nd7 10. b4 f5 11. f3 { [MAIN-THEORY] 38% after 9.Nd2 (73%W Masters after 10.b4!); queenside race + f3/Bf2 prophylaxis. } *
+1. d4 Nf6 2. c4 g6 3. Nc3 Bg7 4. e4 d6 5. h3 O-O 6. Be3 Nbd7 7. Nf3 e5 ( 7... c5 8. d5 { Locks the center against ...c5 before Black completes ...e5. } ) 8. d5 Nc5 ( 8... a5 9. Be2 Nc5 10. Nd2 { Transposes to the exact 9...a5 Be2 structure. } ) ( 8... Nh5 9. g3 { Stops ...Nf4 and prepares Be2 + Nd2. } ) ( 8... Ne8 9. g4 { Punishes passive ...Ne8 by clamping f5. } ) 9. Nd2 a5 10. Be2 { Classical Makagonov/Petrosian hybrid with 59.9% Masters / 68.5% Online score. } *
 
-[Event "Ch4 KID Gligoric Skeleton v1"]
-[Site "?"]
-[Date "2026.11.21"]
-[Round "?"]
-[White "3.2 Zamkniety klin 7...Nc6: 9...Ne8 10.O-O (Plan Gligoricia)"]
+[Event "Ch4: King's Indian Defense — Makagonov / Karpov System (5.h3 O-O 6.Be3)"]
+[Site "Chessable"]
+[Date "2026.11.25"]
+[Round "13"]
+[White "3.4 6...c6 7.Nf3 a6 8.Bd3 b5 9.O-O"]
 [Black ""]
 [Result "*"]
 
-1. d4 Nf6 2. c4 g6 3. Nc3 Bg7 4. e4 d6 5. Nf3 O-O 6. Be2 e5 7. Be3 Nc6 8. d5 Ne7 9. Nd2 Ne8 10. O-O f5 11. f3 f4 12. Bf2 { [MAIN-THEORY] 34% after 9.Nd2; textbook Gligoric c5 race. Model: Gligoric-Tringov 1983 (oUJvXIJ5). } *
+1. d4 Nf6 2. c4 g6 3. Nc3 Bg7 4. e4 d6 5. h3 O-O 6. Be3 c6 7. Nf3 a6 ( 7... Nbd7 8. Be2 { Prepares O-O and d5 vs ...e5. } ) ( 7... Na6 8. Be2 { Calmly prepares O-O and d5 vs ...e5. } ) ( 7... Qc7 8. Be2 { Develops cleanly and prepares O-O and d5 or Rc1. } ) ( 7... e5 8. d5 { Closes center cleanly with +0.61. } ) 8. Bd3 b5 9. O-O bxc4 10. Bxc4 { Claims open central lines with +0.78 edge. } *
 
-[Event "Ch4 KID Gligoric Skeleton v1"]
-[Site "?"]
-[Date "2026.11.21"]
-[Round "?"]
-[White "3.3 Zamkniety klin 7...Nc6: 9...c5 10.g4!"]
+[Event "Ch4: King's Indian Defense — Makagonov / Karpov System (5.h3 O-O 6.Be3)"]
+[Site "Chessable"]
+[Date "2026.11.25"]
+[Round "14"]
+[White "3.5 6...Na6 7.g4 c5 8.Nge2 & Move-Order Sidelines"]
 [Black ""]
 [Result "*"]
 
-1. d4 Nf6 2. c4 g6 3. Nc3 Bg7 4. e4 d6 5. Nf3 O-O 6. Be2 e5 7. Be3 Nc6 8. d5 Ne7 9. Nd2 c5 10. g4 Ne8 11. h4 { [MAIN-THEORY] 20% after 9.Nd2; Karpov-style 10.g4! before castling freezes ...f5 (67%W Masters, +0.84). } *
+1. d4 Nf6 2. c4 g6 3. Nc3 Bg7 4. e4 d6 ( 4... O-O 5. h3 c5 6. d5 { If Black omits ...d6 and strikes 5...c5, 6.d5 enters a favorable Benoni. } ) 5. h3 O-O ( 5... Nbd7 6. Be3 e5 7. Nf3 { Meets 5...Nbd7 with 6.Be3 and 7.Nf3, transposing to Line 3.3 after ...O-O. } ) ( 5... e5 6. d5 { Closes immediately against early 5...e5. } ) 6. Be3 Na6 7. g4 c5 ( 7... e5 8. d5 { Transposes directly into the Line 1.1 7...Na6 8.g4 complex. } ) ( 7... c6 8. f3 { Supports e4 and prepares Qd2/Nge2. } ) 8. Nge2 cxd4 9. Nxd4 Nc5 10. f3 { Claims Maroczy-style central clamp with g4 already launched. } *
 
-[Event "Ch4 KID Gligoric Skeleton v1"]
-[Site "?"]
-[Date "2026.11.21"]
-[Round "?"]
-[White "4.1 Nowoczesne 7...Na6: 8...Ng4 9.Bg5 f6 10.Bc1! (Plan Karpowa)"]
+[Event "Ch4: King's Indian Defense — Makagonov / Karpov System (5.h3 O-O 6.Be3)"]
+[Site "Chessable"]
+[Date "2026.11.25"]
+[Round "15"]
+[White "Model Game 1: Salem vs. Amin (2021) — 7...Na6 8.g4 O-O-O & b4 Squeeze"]
 [Black ""]
-[Result "*"]
+[Result "1-0"]
+[LichessId "AbtEaHNG"]
+[StemMoves "1. d4 Nf6 2. c4 g6 3. Nc3 Bg7 4. e4 d6 5. h3 O-O 6. Be3"]
 
-1. d4 Nf6 2. c4 g6 3. Nc3 Bg7 4. e4 d6 5. Nf3 O-O 6. Be2 e5 7. Be3 Na6 8. O-O Ng4 9. Bg5 f6 10. Bc1 Kh8 11. h3 { [MAIN-THEORY] 63% after 8.O-O! Karpov's 10.Bc1 keeps bishop pair and hits f6 weakness. Model: Karpov-Kasparov 1990 (UVT7kO3y). } *
+1. d4 Nf6 2. c4 g6 3. Nc3 Bg7 4. e4 d6 5. h3 O-O 6. Be3 e5 7. d5 Na6 8. g4 Nc5 9. f3 c6 10. Qd2 cxd5 11. cxd5 h5 12. O-O-O Bd7 13. Kb1 a6 14. Nge2 b5 15. b4 Na4 16. Nxa4 bxa4 17. Nc3 a3 18. Ka1 Qc7 19. Be2 Rfc8 20. Rc1 Qb7 21. g5 Ne8 22. Nb1 Rcb8 23. Nxa3 Qxb4 24. Qxb4 Rxb4 25. h4 f5 26. Rc4 a5 27. Rhc1 Bf8 28. Bd2 Rb7 29. R4c2 Be7 30. Rb2 Rxb2 31. Kxb2 Bd8 32. Be3 Rb8+ 33. Ka1 f4 34. Bf2 Kf7 35. Rb1 Rxb1+ 36. Kxb1 Ke7 37. Kc2 Ba4+ 38. Kd2 Nc7 39. Nc4 Na8 40. Bd3 Bd7 41. Ke2 Be8 42. Be1 a4 43. Bb4 Bc7 44. Nxe5 Nb6 45. Nc6+ Bxc6 46. dxc6 Ke6 47. Bd2 d5 48. exd5+ Kxd5 49. Bxg6 Kxc6 50. Bxh5 Kd7 51. Bg4+ Ke7 52. h5 Nc4 53. h6 1-0
 
-[Event "Ch4 KID Gligoric Skeleton v1"]
-[Site "?"]
-[Date "2026.11.21"]
-[Round "?"]
-[White "4.2 Nowoczesne 7...Na6: 8...c6 9.d5"]
+[Event "Ch4: King's Indian Defense — Makagonov / Karpov System (5.h3 O-O 6.Be3)"]
+[Site "Chessable"]
+[Date "2026.11.25"]
+[Round "16"]
+[White "Model Game 2: Ding Liren vs. Amonatov (2017) — 7...a5 8.g4 Nge2-g3 Storm"]
 [Black ""]
-[Result "*"]
+[Result "1-0"]
+[LichessId "uCOuYCIx"]
+[StemMoves "1. d4 Nf6 2. c4 g6 3. Nc3 Bg7 4. e4 d6 5. h3 O-O 6. Be3"]
 
-1. d4 Nf6 2. c4 g6 3. Nc3 Bg7 4. e4 d6 5. Nf3 O-O 6. Be2 e5 7. Be3 Na6 8. O-O c6 9. d5 Ng4 10. Bg5 f6 11. Bh4 { [MAIN-THEORY] 17% after 8.O-O; 9.d5! (58% Masters, +0.61) gains space before Nc5. } *
+1. d4 Nf6 2. c4 g6 3. Nc3 Bg7 4. e4 d6 5. h3 O-O 6. Be3 e5 7. d5 a5 8. g4 Na6 9. Nge2 c6 10. Ng3 Nc5 11. g5 Nfd7 12. h4 cxd5 13. Nxd5 Nb6 14. Nc3 Be6 15. b3 a4 16. Rb1 axb3 17. axb3 Nc8 18. h5 Ne7 19. Bh3 Bxh3 20. Rxh3 Qc8 21. Rh4 Rd8 22. hxg6 hxg6 23. Kf1 Ne6 24. Nb5 Nc6 25. Kg2 Ncd4 26. Nc3 Nf4+ 27. Bxf4 exf4 28. Nd5 f3+ 29. Kf1 Re8 30. Nf6+ Bxf6 31. gxf6 Qc5 32. Qd2 Qe5 33. Rd1 Nxb3 34. Qh6 Qxf6 35. Nf5 Nd2+ 36. Kg1 Nxe4 1-0
 
-[Event "Ch4 KID Gligoric Skeleton v1"]
-[Site "?"]
-[Date "2026.11.21"]
-[Round "?"]
-[White "4.3 Nowoczesne 7...Na6: 8...Qe7"]
+[Event "Ch4: King's Indian Defense — Makagonov / Karpov System (5.h3 O-O 6.Be3)"]
+[Site "Chessable"]
+[Date "2026.11.25"]
+[Round "17"]
+[White "Model Game 3: Cheparinov vs. Mamedov (2019) — 7...c6 8.g4 h4-h5 Breakthrough"]
 [Black ""]
-[Result "*"]
+[Result "1-0"]
+[LichessId "GxIGFMXT"]
+[StemMoves "1. d4 Nf6 2. c4 g6 3. Nc3 Bg7 4. e4 d6 5. h3 O-O 6. Be3"]
 
-1. d4 Nf6 2. c4 g6 3. Nc3 Bg7 4. e4 d6 5. Nf3 O-O 6. Be2 e5 7. Be3 Na6 8. O-O Qe7 9. d5 Ng4 10. Bg5 { [MAIN-THEORY] 9% after 8.O-O; 9.d5 keeps c5/e5 under tension and prevents ...exd4 tricks. } *
+1. d4 Nf6 2. c4 g6 3. Nc3 Bg7 4. e4 d6 5. h3 O-O 6. Be3 e5 7. d5 c6 8. g4 Na6 9. Nge2 Nc5 10. Ng3 a5 11. Be2 cxd5 12. cxd5 Bd7 13. h4 a4 14. g5 Ne8 15. h5 Rc8 16. Qd2 Qa5 17. Nb5 Qb6 18. Na3 Qd8 19. Rc1 f5 20. hxg6 f4 21. Bxc5 dxc5 22. gxh7+ Kh8 23. Nh5 Qxg5 24. Bf3 b5 25. Ke2 Bh6 26. Rcg1 Qe7 27. Rg6 Bg7 28. Rhg1 Rf7 29. Bg4 Qh4 30. Nxg7 Nxg7 31. Bxd7 Rxd7 32. Nxb5 f3+ 33. Kd1 Qxe4 34. Nc3 Qf5 35. Qg5 Qd3+ 36. Qd2 Qf5 37. R6g5 Qh3 38. R5g3 Qf5 39. Qg5 Qd3+ 40. Qd2 Qf5 41. Qe3 a3 42. b3 Rf8 43. Rg5 Qf6 44. Rg6 Qf5 45. R6g5 Qf6 46. Qxe5 Qxe5 47. Rxe5 Nf5 48. Rg8+ Rxg8 49. hxg8=Q+ 1-0
 
-[Event "Ch4 KID Gligoric Skeleton v1"]
-[Site "?"]
-[Date "2026.11.21"]
-[Round "?"]
-[White "4.4 Nowoczesne 7...Na6: 8...Qe8 i 8...exd4"]
+[Event "Ch4: King's Indian Defense — Makagonov / Karpov System (5.h3 O-O 6.Be3)"]
+[Site "Chessable"]
+[Date "2026.11.25"]
+[Round "18"]
+[White "Model Game 4: Caruana vs. Firouzja (2020) — 6...Nc6 7.d5 Ne5 8.f4 & g4"]
 [Black ""]
-[Result "*"]
+[Result "1-0"]
+[LichessId "1hKqbXja"]
+[StemMoves "1. d4 Nf6 2. c4 g6 3. Nc3 Bg7 4. e4 d6 5. h3 O-O 6. Be3"]
 
-1. d4 Nf6 2. c4 g6 3. Nc3 Bg7 4. e4 d6 5. Nf3 O-O 6. Be2 e5 7. Be3 Na6 8. O-O Qe8 9. dxe5 dxe5 10. c5 { [MAIN-THEORY] 6% after 8.O-O (merges 8...exd4 100% 9.Nxd4 as RAV). } *
+1. d4 Nf6 2. c4 g6 3. Nc3 Bg7 4. e4 d6 5. h3 O-O 6. Be3 Nc6 7. d5 Ne5 8. f4 Ned7 9. g4 c6 10. Nf3 cxd5 11. cxd5 b6 12. Nd4 Nc5 13. Qf3 Bb7 14. g5 Nfxe4 15. Nxe4 Bxd5 16. Nf6+ exf6 17. Qxd5 Re8 18. Nc2 fxg5 19. O-O-O gxf4 20. Bd4 Bxd4 21. Qxd4 Ne6 22. Qd2 Qf6 23. Kb1 Rac8 24. Bb5 Red8 25. Nb4 d5 26. Rhf1 Rc5 27. a4 d4 28. Nd3 Rf5 29. Rf3 g5 30. Rg1 Kf8 31. h4 h6 32. hxg5 hxg5 33. Rh3 f3 34. Bc4 Ke7 35. Bxe6 Kxe6 36. Qh2 f2 37. Rf1 Kd7 38. Rh6 Qe7 39. Rxf2 Rxf2 40. Qxf2 Kc8 41. a5 bxa5 42. Qc2+ Kb8 43. Nc5 Rd6 44. Rh8+ Rd8 45. Qb3+ Kc7 46. Qb7+ Kd6 47. Rh6+ f6 48. Ne4+ 1-0
 
-[Event "Ch4 KID Gligoric Skeleton v1"]
-[Site "?"]
-[Date "2026.11.21"]
-[Round "?"]
-[White "5.1 Boczne 7...c6 8.d5!"]
+[Event "Ch4: King's Indian Defense — Makagonov / Karpov System (5.h3 O-O 6.Be3)"]
+[Site "Chessable"]
+[Date "2026.11.25"]
+[Round "19"]
+[White "Model Game 5: Cheparinov vs. Amin (2018) — 6...c5 7.Nf3 Maroczy Bind"]
 [Black ""]
-[Result "*"]
+[Result "1-0"]
+[LichessId "TAi9E67T"]
+[StemMoves "1. d4 Nf6 2. c4 g6 3. Nc3 Bg7 4. e4 d6 5. h3 O-O 6. Be3"]
 
-1. d4 Nf6 2. c4 g6 3. Nc3 Bg7 4. e4 d6 5. Nf3 O-O 6. Be2 e5 7. Be3 c6 8. d5 Ng4 9. Bg5 f6 10. Bh4 { [MAIN-THEORY] 8% after 7.Be3; 8.d5! (59% Masters, 61%W, +0.69) grabs queenside space immediately. } *
-
-[Event "Ch4 KID Gligoric Skeleton v1"]
-[Site "?"]
-[Date "2026.11.21"]
-[Round "?"]
-[White "5.2 Boczne 7...Nbd7: 8.O-O"]
-[Black ""]
-[Result "*"]
-
-1. d4 Nf6 2. c4 g6 3. Nc3 Bg7 4. e4 d6 5. Nf3 O-O 6. Be2 e5 7. Be3 Nbd7 8. O-O c6 9. d5 { [MAIN-THEORY] 7% after 7.Be3; 8.O-O (60% Masters) keeps full central tension. } *
-
-[Event "Ch4 KID Gligoric Skeleton v1"]
-[Site "?"]
-[Date "2026.11.21"]
-[Round "?"]
-[White "5.3 Boczne 7...h6 8.O-O"]
-[Black ""]
-[Result "*"]
-
-1. d4 Nf6 2. c4 g6 3. Nc3 Bg7 4. e4 d6 5. Nf3 O-O 6. Be2 e5 7. Be3 h6 8. O-O Ng4 9. Bc1 Nc6 10. d5 { [MAIN-THEORY] 65% Masters (65%W); 9.Bc1 keeps bishop pair and leaves ...h6 looking misplaced. } *
-
-[Event "Ch4 KID Gligoric Skeleton v1"]
-[Site "?"]
-[Date "2026.11.21"]
-[Round "?"]
-[White "5.4 Boczne 7...Qe7 8.dxe5"]
-[Black ""]
-[Result "*"]
-
-1. d4 Nf6 2. c4 g6 3. Nc3 Bg7 4. e4 d6 5. Nf3 O-O 6. Be2 e5 7. Be3 Qe7 8. dxe5 dxe5 9. Nd5 { [AMATEUR-SPECIAL] 52% Masters (70%W!); 8.dxe5 dxe5 9.Nd5! exposes tactical vulnerability on d5/c7. } *
-
-[Event "Ch4 KID Gligoric Skeleton v1"]
-[Site "?"]
-[Date "2026.11.21"]
-[Round "?"]
-[White "6.1 Odchylka 6...Bg4 7.Be3!"]
-[Black ""]
-[Result "*"]
-
-1. d4 Nf6 2. c4 g6 3. Nc3 Bg7 4. e4 d6 5. Nf3 O-O 6. Be2 Bg4 7. Be3 Nfd7 8. Rc1 Nc6 9. d5 { [MAIN-THEORY] 4% after 6.Be2; 7.Be3 (80% Masters, 60%W) keeps bishop pair. Model: Topalov-Piket 1999 (yJBxw9oe). } *
-
-[Event "Ch4 KID Gligoric Skeleton v1"]
-[Site "?"]
-[Date "2026.11.21"]
-[Round "?"]
-[White "6.2 Odchylka 6...c5 7.d5! (Benoni z Be2)"]
-[Black ""]
-[Result "*"]
-
-1. d4 Nf6 2. c4 g6 3. Nc3 Bg7 4. e4 d6 5. Nf3 O-O 6. Be2 c5 7. d5 e6 8. O-O exd5 9. cxd5 { [MAIN-THEORY] 4% after 6.Be2; 7.d5 e6 8.O-O exd5 9.cxd5 (58%W Masters, +0.69) clean Benoni edge. } *
-
-[Event "Ch4 KID Gligoric Skeleton v1"]
-[Site "?"]
-[Date "2026.11.21"]
-[Round "?"]
-[White "6.3 Odchylka 6...Na6 7.O-O (i 6...Nbd7)"]
-[Black ""]
-[Result "*"]
-
-1. d4 Nf6 2. c4 g6 3. Nc3 Bg7 4. e4 d6 5. Nf3 O-O 6. Be2 Na6 7. O-O e5 8. Be3 { [MAIN-THEORY] 6% after 6.Be2 (merges 6...Nbd7 6% as RAV) — clean transposition back to 4.1 / 5.2. } *
-
-[Event "Ch4 KID Gligoric Skeleton v1"]
-[Site "?"]
-[Date "2026.11.21"]
-[Round "?"]
-[White "6.4 Odchylka 5...c5 6.d5! (Przed roszada)"]
-[Black ""]
-[Result "*"]
-
-1. d4 Nf6 2. c4 g6 3. Nc3 Bg7 4. e4 d6 5. Nf3 c5 6. d5 O-O 7. Be2 e6 8. O-O { [COMMON-AMATEUR] Prevents Benko/Morra sidelines; 6.d5 transposes smoothly into 6.2. } *
-
-[Event "Ch4 KID Gligoric Skeleton v1"]
-[Site "?"]
-[Date "2026.11.21"]
-[Round "?"]
-[White "7.1 Pirc 1.d4 d6 2.c4 g6: 4.e4 e5"]
-[Black ""]
-[Result "*"]
-
-1. d4 d6 2. c4 g6 3. Nc3 Bg7 4. e4 e5 5. Nf3 exd4 6. Nxd4 Nc6 7. Be3 Nge7 8. Be2 O-O 9. O-O { [MAIN-THEORY] 24% after 4.e4; 5.Nf3! (59%W Masters) transposes into solid open KID. } *
-
-[Event "Ch4 KID Gligoric Skeleton v1"]
-[Site "?"]
-[Date "2026.11.21"]
-[Round "?"]
-[White "7.2 Pirc 1.d4 d6 2.c4 g6: 4.e4 Nc6 5.d5!"]
-[Black ""]
-[Result "*"]
-
-1. d4 d6 2. c4 g6 3. Nc3 Bg7 4. e4 Nc6 5. d5 Nb8 6. Bd3 Nf6 7. Nf3 O-O 8. h3 { [MAIN-THEORY] 19% after 4.e4; 5.d5! (65%W Masters, SF19 +0.92!) kicks knight and seizes huge space. } *
-
-[Event "Ch4 KID Gligoric Skeleton v1"]
-[Site "?"]
-[Date "2026.11.21"]
-[Round "?"]
-[White "7.3 Pirc 1.d4 d6 2.c4 g6: 4.e4 Nd7 5.Nf3! (i 2...e5)"]
-[Black ""]
-[Result "*"]
-
-1. d4 d6 2. c4 g6 3. Nc3 Bg7 4. e4 Nd7 5. Nf3 e5 6. Be2 Ngf6 7. O-O O-O 8. Be3 { [MAIN-THEORY] 13% after 4.e4; 5.Nf3 (59%W Masters, +0.77) keeps pure classical Gligoric setup. } *
+1. d4 Nf6 2. c4 g6 3. Nc3 Bg7 4. e4 d6 5. h3 O-O 6. Be3 c5 7. Nf3 cxd4 8. Nxd4 Nc6 9. Be2 Bd7 10. O-O Nxd4 11. Bxd4 Bc6 12. Qc2 a5 13. Rad1 Nd7 14. Bxg7 Kxg7 15. Bg4 Ne5 16. c5 Nxg4 17. hxg4 Qc8 18. cxd6 Qxg4 19. dxe7 Rfe8 20. Nd5 Bxd5 21. Qc3+ Kg8 22. exd5 Rxe7 23. d6 Rd7 24. Rd5 Qb4 25. Qe5 a4 26. a3 Qb6 27. Re1 Rad8 28. Red1 Qc6 29. Kh2 Qc4 30. R1d4 Qc2 31. Rd2 Qb3 32. Qd4 h6 33. Re2 Kh7 34. f4 b5 35. Re4 Qc2 36. Re7 Qc6 37. Qe5 h5 38. f5 Rxe7 39. fxg6+ fxg6 40. Qxe7+ Kh6 41. Qg5+ Kh7 42. Qxd8 Qxd5 43. Qc7+ 1-0

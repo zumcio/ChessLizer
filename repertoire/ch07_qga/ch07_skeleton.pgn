@@ -1,0 +1,269 @@
+[Event "Ch7 Queen's Gambit Accepted 3.e4 Skeleton v1"]
+[Site "?"]
+[Date "2026.11.25"]
+[Round "1"]
+[White "1.1 McDonnell Mainline: 3...e5 4.Nf3 exd4 5.Bxc4 Nc6 6.O-O Be6 — 7.Bxe6 & 12.b3!"]
+[Black ""]
+[Result "*"]
+
+1. d4 d5 2. c4 dxc4 3. e4 e5 ( 3... c6 4. Bxc4 Nf6 5. Nc3
+{ 3...c6 passive: 4.Bxc4 (+1.25) gives White huge central lead. } ) ( 3... a6
+4. Bxc4 c5 5. d5
+{ 3...a6: 4.Bxc4 transposes into comfortable space edge (+0.52). } ) 4. Nf3
+exd4 ( 4... Nf6 5. Bxc4 Bb4+ 6. Bd2
+{ 4...Nf6 allows 5.Bxc4 (+0.81) with clean development. } ) ( 4... Bg4 5. Bxc4
+Qe7 6. Nc3 { 4...Bg4 loses c4 immediately: 5.Bxc4! (+1.43) targets f7. } ) 5.
+Bxc4 Nc6 ( 5... c5 6. Ne5 Be6 7. Bxe6 fxe6 8. Qh5+
+{ 5...c5 (4.3% reach) walks into 6.Ne5! (+1.25) hitting f7 and h5. } ) ( 5...
+Nf6 6. Qb3 Qe7 7. O-O
+{ 5...Nf6 concedes f7 and b7 pressure to 6.Qb3! (+1.09). } ) ( 5... Bc5 6. Ne5
+Bb4+ 7. Kf1 { 5...Bc5?? gets crushed by 6.Ne5! (+3.58) hitting f7. } ) 6. O-O
+Be6 ( 6... Bc5 7. Qb3 Qf6 8. Bg5
+{ 6...Bc5?! allows 7.Qb3! (+0.87) hitting b7 and f7. } ) ( 6... Nf6 7. Qb3 Qe7
+8. Na3 { 6...Nf6 allows 7.Qb3 Qe7 8.Na3 (+1.17) hitting b7 and d4. } ) ( 6...
+Qf6 7. Bg5 Qg6 8. Nbd2 { 6...Qf6 runs into 7.Bg5 (+0.80) tempo gain. } ) 7.
+Bxe6 fxe6 8. Qb3 Qd7 9. Qxb7 Rb8 10. Qa6 Nf6 ( 10... Nge7 11. Nbd2 Ng6 12. Ne1
+{ 10...Nge7 (Le Quang Liem-Aronian): 11.Nbd2 Ng6 12.Ne1 (+0.35) prepares f4. }
+) ( 10... Bd6 11. Nbd2 Nge7 12. Nb3
+{ 10...Bd6 11.Nbd2 Nge7 12.Nb3 (+0.43) hits d4 directly. } ) 11. Nbd2 Bd6 12.
+b3
+{ 7.Bxe6 + 8.Qb3 + 12.b3 (+0.28, 57% online) fractures Black's pawns and prepares Ba3. }
+( 12. b3 O-O 13. Ba3
+{ Natural continuation: Ba3 challenges the d6 bishop and eyes c5/e5. } ) *
+
+[Event "Ch7 Queen's Gambit Accepted 3.e4 Skeleton v1"]
+[Site "?"]
+[Date "2026.11.25"]
+[Round "2"]
+[White "1.2 McDonnell 5...Bb4+: Dynamic 6.Nbd2 & Nb3"]
+[Black ""]
+[Result "*"]
+
+1. d4 d5 2. c4 dxc4 3. e4 e5 4. Nf3 exd4 5. Bxc4 Bb4+ 6. Nbd2 ( 6. Bd2 Bxd2+ 7.
+Nbxd2 Nc6
+{ Solid alternative 6.Bd2 (+0.22), though 6.Nbd2 (+0.41) keeps more pieces. } )
+6... Nc6 7. O-O Nf6 ( 7... Be7 8. Nb3 Nf6 9. Nbxd4
+{ 7...Be7 transposes into Nbxd4 pressure. } ) ( 7... Be6 8. Bxe6 fxe6 9. Qb3
+{ 7...Be6 hands over the 7.Bxe6 Qb3 motif (+0.81). } ) 8. e5 Nd5 9. Nb3 Nb6 (
+9... Be7 10. Nbxd4 Nxd4 11. Qxd4
+{ 9...Be7 allows immediate 10.Nbxd4 (+0.28) central control. } ) 10. Bb5 Qd5
+11. Nbxd4
+{ 6.Nbd2 (+0.41, 66% online) retains the bishop pair and regains d4 with active pieces. }
+*
+
+[Event "Ch7 Queen's Gambit Accepted 3.e4 Skeleton v1"]
+[Site "?"]
+[Date "2026.11.25"]
+[Round "3"]
+[White "1.3 McDonnell Early 4...Bb4+: Practical 5.Nc3 Gambit Play"]
+[Black ""]
+[Result "*"]
+
+1. d4 d5 2. c4 dxc4 3. e4 e5 4. Nf3 Bb4+ 5. Nc3 exd4 ( 5... Nf6 6. Nxe5 b5 7.
+f3 { 5...Nf6 allows 6.Nxe5! b5 7.f3 (+0.52) hitting f7 and stabilizing e4. } )
+( 5... b5 6. dxe5 Qxd1+ 7. Kxd1
+{ 5...b5?? drops the center after 6.dxe5 (+1.23). } ) 6. Nxd4 Nd7 ( 6... Ne7 7.
+a3 Ba5 8. Be3 { 6...Ne7 meets 7.a3 forcing the bishop back (+0.54). } ) ( 6...
+Qe7 7. Bxc4 Nf6 8. O-O
+{ 6...Qe7 gives White easy development with 7.Bxc4 (+0.60). } ) 7. Bxc4 Ngf6 8.
+O-O O-O ( 8... Bxc3 9. bxc3 Ne5 10. Bb5+
+{ 8...Bxc3 gives up the bishop pair and walks into 10.Bb5+! (+3.18). } ) 9. f3
+{ 5.Nc3 (+0.37, 60% online / 61% Masters) gives harmonious development and central control. }
+*
+
+[Event "Ch7 Queen's Gambit Accepted 3.e4 Skeleton v1"]
+[Site "?"]
+[Date "2026.11.25"]
+[Round "4"]
+[White "2.1 Alekhine System: 3...Nf6 4.e5 Nd5 5.Bxc4 Nb6 — 6.Bd3 & 8.f3 Bind"]
+[Black ""]
+[Result "*"]
+
+1. d4 d5 2. c4 dxc4 3. e4 Nf6 4. e5 Nd5 5. Bxc4 Nb6 ( 5... Bf5 6. Nc3 Nb6 7. e6
+Nxc4 8. Qa4+ Nc6 9. exf7+ Kxf7 10. Qxc4+
+{ 5...Bf5?! gets hit by 7.e6! (Firouzja-Nakamura 2025). } ) ( 5... e6 6. Nc3
+Bb4 7. Bd2
+{ 5...e6 (36.7% online) 6.Nc3 Bb4 7.Bd2 (+0.86) shuts down the pin cleanly. } )
+6. Bd3 Nc6 ( 6... g6 7. Ne2 Bg7 8. O-O
+{ 6...g6 gives White an uncontested center (+0.71). } ) ( 6... Be6 7. Nc3 Nc6
+8. Be3 { 6...Be6 meets Nc3 + Be3 (+0.79) cleanly. } ) 7. Ne2 Bg4 ( 7... Be6 8.
+Nbc3 Qd7 9. Ne4 { 7...Be6 lets White centralize with Ne4 (+0.74). } ) ( 7...
+Nb4 8. Be4 f5 9. exf6 { 7...Nb4 runs into 8.Be4 and f3/a3. } ) 8. f3 Be6 ( 8...
+Bh5 9. Be4 e6 10. Nbc3
+{ 8...Bh5 meets 9.Be4 (+0.50) clamping the dark squares. } ) 9. Nbc3 Qd7 10.
+Ne4
+{ 6.Bd3 (+0.54, 65% online / 60% Masters) avoids ...Bf5 and plants Ne4 with central bind. }
+*
+
+[Event "Ch7 Queen's Gambit Accepted 3.e4 Skeleton v1"]
+[Site "?"]
+[Date "2026.11.25"]
+[Round "5"]
+[White "3.1 Greco Variation: 3...b5 4.a4 c6 — Simple 5.Nc3 b4 6.Nb1"]
+[Black ""]
+[Result "*"]
+
+1. d4 d5 2. c4 dxc4 3. e4 b5 4. a4 c6 ( 4... Bb7 5. axb5 Bxe4 6. Nc3
+{ 4...Bb7 5.axb5 Bxe4 6.Nc3 gives White a big lead in development. } ) 5. Nc3
+b4 ( 5... a6 6. axb5 cxb5 7. Nxb5 axb5 8. Rxa8
+{ 5...a6 runs into the classic 7.Nxb5! tactical deflection (+0.64). } ) ( 5...
+Qb6 6. Be3 e6 7. d5 { 5...Qb6 leaves the center exposed to 7.d5! (+2.35). } ) (
+5... Bd7 6. Nf3 e6 7. d5
+{ 5...Bd7 meets 6.Nf3! (+0.94) e6 7.d5 seizing central space. } ) 6. Nb1 Ba6 (
+6... Nf6 7. e5 Nd5 8. Bxc4
+{ 6...Nf6 7.e5 Nd5 transposes to comfortable central bind (+0.66). } ) ( 6...
+e6 7. Bxc4 Nf6 8. e5 { 6...e6 7.Bxc4 recovers c4 directly (+0.66). } ) 7. Qc2
+Qxd4 ( 7... Nf6 8. Nd2 Qxd4 9. Ngf3
+{ 7...Nf6 transposes to similar Bxc4 development (+0.20). } ) ( 7... e5 8. Nf3
+exd4 9. Bxc4 { 7...e5 opens the center in White's favor (+0.22). } ) 8. Nf3 Qd7
+9. Nbd2 Qb7 10. Bxc4 e6 11. Bxa6 Nxa6
+{ 5.Nc3 b4 6.Nb1 (+0.23, 63% online / 61% Masters) avoids messy axb5 lines and recovers c4 smoothly. }
+*
+
+[Event "Ch7 Queen's Gambit Accepted 3.e4 Skeleton v1"]
+[Site "?"]
+[Date "2026.11.25"]
+[Round "6"]
+[White "4.1 Modern Defense: 3...Nc6 4.Nf3 Bg4 5.d5 Ne5 6.Bf4"]
+[Black ""]
+[Result "*"]
+
+1. d4 d5 2. c4 dxc4 3. e4 Nc6 4. Nf3 Bg4 ( 4... Nf6 5. Nc3 Bg4 6. Be3
+{ 4...Nf6 5.Nc3 pins Black down before Bxc4 (+0.67). } ) ( 4... e5 5. d5 Nce7
+6. Nxe5
+{ 4...e5?? drops the e5 pawn immediately to 5.d5 Nce7 6.Nxe5! (+2.16). } ) 5.
+d5 Ne5 6. Bf4 Ng6 ( 6... Nxf3+ 7. gxf3 Bd7 8. Bxc4
+{ 6...Nxf3+ 7.gxf3 concedes the bishop pair and central space. } ) 7. Be3 e5 (
+7... Nf6 8. Bxc4 e5 9. Nc3 a6 10. O-O Bd6
+{ 7...Nf6 (51.9% Masters, Karpov-Milov 1997) transposes into 10.O-O Bd6 (+0.47). }
+) 8. Bxc4 Nf6 9. Nc3 a6 ( 9... Nh4 10. Rg1 Bd6
+{ 9...Nh4 (25.2% Masters) meets 10.Rg1 (+0.44) defending g2 cleanly. } ) ( 9...
+Bd6 10. h3 Bd7 { 9...Bd6 (22.8% Masters) meets 10.h3 Bd7 (+0.55). } ) 10. Be2
+Bd6
+{ 5.d5 + 6.Bf4 (+0.53, 73% online / 64% Masters) drives the knight back and dominates space. }
+*
+
+[Event "Ch7 Queen's Gambit Accepted 3.e4 Skeleton v1"]
+[Site "?"]
+[Date "2026.11.25"]
+[Round "7"]
+[White "5.1 Rubinstein Defense: 3...c5 4.d5 Nf6 5.Nc3 e6 — 8.Qe2+!"]
+[Black ""]
+[Result "*"]
+
+1. d4 d5 2. c4 dxc4 3. e4 c5 4. d5 Nf6 ( 4... e6 5. Nc3 exd5 6. Qxd5 Qxd5 7.
+exd5 { 4...e6 5.Nc3 exd5 6.Qxd5! (+0.74) steers into a pleasant endgame edge. }
+) 5. Nc3 e6 ( 5... b5 6. Bf4 Qa5 7. a4
+{ 5...b5 (Morozevich-Carlsen) meets 6.Bf4! + 7.a4! } ) ( 5... g6 6. Bxc4 Bg7 7.
+Bb5+ { 5...g6 allows 7.Bb5+! (+1.76) disrupting Black's coordination. } ) 6.
+Bxc4 exd5 7. exd5 Bd6 8. Qe2+ Kf8 ( 8... Qe7 9. Nb5 O-O 10. Qxe7 Bxe7 11. Nc7
+{ 8...Qe7?? walks into 9.Nb5! (+1.90) winning the exchange. } ) 9. h3 h6 ( 9...
+a6 10. a4 Bf5 11. Nf3
+{ 9...a6 prepares ...b5; 10.a4 locks down the queenside (+1.25). } ) 10. Nf3
+{ 8.Qe2+! (+1.25) strips Black's castling rights and clamps the d5-square. } *
+
+[Event "Ch7 Queen's Gambit Accepted 3.e4 Skeleton v1"]
+[Site "?"]
+[Date "2026.11.25"]
+[Round "8"]
+[White "6.1 Classical Sidelines: 3...e6 4.Bxc4 Nf6 5.e5 Nd5"]
+[Black ""]
+[Result "*"]
+
+1. d4 d5 2. c4 dxc4 3. e4 e6 4. Bxc4 Nf6 ( 4... c5 5. d5 exd5 6. Bxd5
+{ 4...c5 5.d5 exd5 6.Bxd5! (+0.96) activates the bishop with tempo. } ) ( 4...
+a6 5. Nf3 b5 6. Bb3 { 4...a6 weakens queenside light squares (+1.11). } ) (
+4... Bb4+ 5. Nc3 c5 6. a3 { 4...Bb4+ 5.Nc3 keeps full center (+0.83). } ) 5. e5
+Nd5 6. Nf3 c5 7. O-O Nc6 8. dxc5 Bxc5 9. Nbd2
+{ 4.Bxc4 Nf6 5.e5! (+0.67) seizes space and sets up Ne4 outpost play. } *
+
+[Event "Tata Steel India Rapid"]
+[Site "Kolkata IND"]
+[Date "2021.11.18"]
+[Round "9"]
+[White "Model Game: Le Quang Liem vs Aronian, 2021 | McDonnell 7.Bxe6 Qb3"]
+[Black ""]
+[Result "1-0"]
+[LichessId "J3HdbOUo"]
+[StemMoves "1. d4 d5 2. c4 dxc4 3. e4 e5 4. Nf3 exd4 5. Bxc4 Nc6 6. O-O Be6 7. Bxe6"]
+
+1. d4 d5 2. c4 dxc4 3. e4 e5 4. Nf3 exd4 5. Bxc4 Nc6 6. O-O Be6 7. Bxe6 fxe6 8.
+Qb3 Qd7 9. Qxb7 Rb8 10. Qa6 Nge7 11. Nbd2 Ng6 12. a3 Bd6 13. g3 O-O 14. Ne1 e5
+15. Qe2 a5 16. Nc4 Qc8 17. Nd3 Qa6 18. Qc2 a4 19. Bd2 Rb3 20. Rac1 h5 21. f4
+exf4 22. gxf4 Qb5 23. e5 Be7 24. Be1 Rxd3 25. Qxd3 Nxf4 26. Qe4 Nh3+ 27. Kg2
+Ng5 28. Rxf8+ Bxf8 29. Qf5 Qd5+ 30. Kf1 Nf3 31. Bg3 d3 32. Ne3 d2 33. Rd1 Qb5+
+34. Kg2 Qe2+ 35. Kh1 Ncd4 36. Qe4 h4 37. Bf4 Qe1+ 38. Kg2 Qe2+ 39. Kh1 Qe1+ 40.
+Kg2 Ng1 41. h3 Ndf3 42. Qd5+ Kh7 43. e6 Qe2+ 44. Kh1 Bd6 45. Qh5+ Kg8 46. Qf7+
+Kh7 47. Nf5 1-0
+
+[Event "Saint Louis Rapid 2017"]
+[Site "Saint Louis USA"]
+[Date "2017.08.14"]
+[Round "10"]
+[White "Model Game: Le Quang Liem vs Caruana, 2017 | Alekhine 6.Bd3 Bind"]
+[Black ""]
+[Result "1-0"]
+[LichessId "TAQn8nng"]
+[StemMoves "1. d4 d5 2. c4 dxc4 3. e4 Nf6 4. e5 Nd5 5. Bxc4 Nb6 6. Bd3"]
+
+1. d4 d5 2. c4 dxc4 3. e4 Nf6 4. e5 Nd5 5. Bxc4 Nb6 6. Bd3 Nc6 7. Ne2 Bg4 8. f3
+Bh5 9. Nbc3 e6 10. Be4 Bg6 11. O-O Be7 12. Be3 Bxe4 13. fxe4 O-O 14. Nf4 Bg5
+15. Kh1 Qe7 16. Qh5 h6 17. Rad1 Nc4 18. Bc1 Rad8 19. b3 Nb6 20. Nce2 Rd7 21.
+Rd3 Rfd8 22. Rg3 Nxd4 23. Nxd4 Rxd4 24. Nxe6 fxe6 25. Bxg5 Qe8 26. Qxe8+ Rxe8
+27. Bxh6 Re7 28. Rg4 Nd7 29. Be3 Rd3 30. Bf4 Rd4 31. Re1 c5 32. h3 b5 33. Rg3
+Rf7 34. Bc1 c4 35. Kh2 a5 36. bxc4 Rxc4 37. Bb2 Rc2 38. Bd4 Rxa2 39. Rd1 b4 40.
+Rg6 Nf8 41. Rg3 Rd7 42. Rf3 Ng6 43. Rg3 Kh7 44. Rg5 b3 45. Rh5+ Kg8 46. Rg5 b2
+47. Rxg6 Rxd4 48. Rxd4 b1=Q 49. Rd7 Kf8 50. Rdxg7 Ke8 51. Ra7 Kf8 52. Ra8+ Kf7
+53. Rag8 1-0
+
+[Event "TechM GCL 2025"]
+[Site "Mumbai IND"]
+[Date "2025.12.14"]
+[Round "11"]
+[White "Model Game: Firouzja vs Nakamura, 2025 | Alekhine 5...Bf5 7.e6!"]
+[Black ""]
+[Result "1-0"]
+[LichessId "2WtUVdzS"]
+[StemMoves "1. d4 d5 2. c4 dxc4 3. e4 Nf6 4. e5 Nd5 5. Bxc4 Bf5 6. Nc3 Nb6 7. e6"]
+
+1. d4 d5 2. c4 dxc4 3. e4 Nf6 4. e5 Nd5 5. Bxc4 Bf5 6. Nc3 Nb6 7. e6 Nxc4 8.
+Qa4+ Nc6 9. exf7+ Kxf7 10. Qxc4+ e6 11. Nf3 h6 12. Bf4 Bd6 13. Bg3 Rf8 14. O-O
+Kg8 15. Rfe1 Kh8 16. Re3 Qd7 17. Ne4 Rad8 18. Nc5 Bxc5 19. dxc5 Kh7 20. h3 Qf7
+21. Rae1 Rd5 22. b4 a6 23. a4 Qd7 24. b5 axb5 25. axb5 Nd4 26. Nxd4 Rxd4 27.
+Qc3 Rd3 28. Rxd3 Qxd3 29. Qa5 Rf7 30. Bxc7 Be4 31. Bg3 Bd5 32. Qb4 Qc2 33. Qb1
+Qf5 34. Be5 Kg8 35. Qxf5 exf5 36. Rd1 Rd7 37. Bd6 Be6 38. c6 bxc6 39. bxc6 Ra7
+40. c7 Ra6 41. Re1 1-0
+
+[Event "Biel Credit Suisse"]
+[Site "Biel"]
+[Date "1997.07.31"]
+[Round "12"]
+[White "Model Game: Karpov vs Milov, 1997 | Modern 3...Nc6 5.d5"]
+[Black ""]
+[Result "1-0"]
+[LichessId "jhfhrbKI"]
+[StemMoves "1. d4 d5 2. c4 dxc4 3. e4 Nc6 4. Nf3 Bg4 5. d5 Ne5 6. Bf4"]
+
+1. d4 d5 2. c4 dxc4 3. e4 Nc6 4. Nf3 Bg4 5. d5 Ne5 6. Bf4 Ng6 7. Be3 Nf6 8. Nc3
+e5 9. Bxc4 a6 10. O-O Bd6 11. Be2 O-O 12. Nd2 Bd7 13. Rc1 Qe7 14. a3 b5 15. Nb3
+Nf4 16. Bf3 Kh8 17. Na2 g5 18. Nc5 Rg8 19. Nb4 Rg6 20. Qc2 g4 21. Be2 Rag8 22.
+Rfd1 N6h5 23. g3 Bc8 24. Nc6 Qg5 25. Bf1 Rh6 26. Qc3 Nf6 27. Nd3 Qh5 28. h4
+gxh3 29. Ndxe5 Rg7 30. Bxf4 Nxe4 31. Qe3 Qf5 32. Bxh6 h2+ 33. Kxh2 Nxf2 34.
+Bxg7+ Kxg7 35. Rd4 1-0
+
+[Event "Wch Blitz 5th"]
+[Site "Moscow"]
+[Date "2009.11.17"]
+[Round "13"]
+[White "Model Game: Morozevich vs Carlsen, 2009 | Rubinstein 3...c5 4.d5"]
+[Black ""]
+[Result "1-0"]
+[LichessId "eCT4RoHs"]
+[StemMoves "1. d4 d5 2. c4 dxc4 3. e4 c5 4. d5 Nf6 5. Nc3"]
+
+1. d4 d5 2. c4 dxc4 3. e4 c5 4. d5 Nf6 5. Nc3 b5 6. Bf4 Qa5 7. a4 Nxe4 8. Ne2
+Nd6 9. axb5 Qb6 10. Ng3 Nd7 11. Bxd6 exd6 12. Qe2+ Kd8 13. Qxc4 h5 14. Be2 h4
+15. Nge4 Ne5 16. Qa4 h3 17. g3 c4 18. O-O Be7 19. Nd2 Bd7 20. Nxc4 Nxc4 21.
+Qxc4 Bf6 22. Ra6 Qd4 23. b6 Ke7 24. Re1 Rhe8 25. b7 Rab8 26. Qc7 Be5 27. Bb5
+Kf6 28. Ne4+ Kg6 29. Bxd7 Bxg3 30. Bxe8 Rxe8 31. Rxd6+ f6 32. Rxf6+ Kh5 33.
+Qxg3 Rxe4 34. Qg6+ 1-0

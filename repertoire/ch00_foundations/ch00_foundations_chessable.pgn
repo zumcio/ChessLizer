@@ -1,0 +1,92 @@
+[Event "Ch0: Foundations — White 1. d4 Repertoire"]
+[Site "Chessable"]
+[Date "2026.11.24"]
+[Round "1"]
+[White "Intro: Why 1. d4 + 2. c4 — White Repertoire Roadmap"]
+[Black ""]
+[Result "*"]
+
+{ Welcome to the Foundations chapter of our White repertoire — mark every entry in this chapter as Informational on Chessable.<br><br>Our goal is a coherent, classical 1. d4 repertoire built to outplay club and tournament opposition from 1800 to 2200+ FIDE while training two core skills: planning with a space advantage and sharp calculation.<br><br>Click through the moves below to preview all eight chapters, our five core structures, and our strict move-order rules. } 1. d4 { We open 1. d4 to claim central space and steer into rich middlegames rather than sterile forced draws.<br><br>Against the Dutch Defense — 1... f5 — we switch immediately into an aggressive London setup with Bf4 and e3 before Nf3, keeping the d1-h5 diagonal open for h4-h5 or g4 attacks. } { [%csl Gd4] [%cal Gc2c4,Bc1f4] } 1... f5 ( 1... d5 { When Black answers 1... d5, 2. c4 challenges the center immediately. Here Black faces major Indian setups as well as 2... e6, the Slav, and the Queen's Gambit Accepted. } { [%cal Gc2c4,Rd5c4] } 2. c4 { Against 2. c4, Black's solid alternatives to 2... e6 are the Slav and the QGA. Remember our structural versatility rule: we reserve main-line fianchetto setups for the Slav and the Tarrasch. } { [%cal Gc4d5,Rd5c4] } 2... c6 ( 2... dxc4 3. e4 { — Chapter 7 QGA: central 3. e4 grabs full space and invites sharp open play.<br><br>Now let us lock in our QGD move order: } ) ( 2... e6 3. Nc3 Nf6 4. Bg5 { Move-Order Rule Number 1: always play 4. Bg5 before Nf3! Playing 4. Nf3 allows the Vienna, Classical Ragozin, and Botvinnik complexes.<br><br>Even after 4. Bg5, if Black tries 4... c6, our mandatory safety brake is 5. e3! — never 5. Nf3?. } { [%csl Yg5] [%cal Bg5e7,Bg5h4] } 4... c6 ( 4... Be7 5. e3 O-O 6. Nf3 { We finish Chapter 1's Classical QGD trunk with 6. Nf3. Every chapter in this course follows the same lean standard: roughly 11 moves average depth, clickable inline sidelines, and a clear Plan From Here summary at every leaf.<br><br>On Chessable import, always leave the sub-variation splitting checkbox UNTICKED so sideline links stay embedded inside each line. } { [%csl Ge3,Gf3] [%cal Bg5h4,Bf1d3,Ra1c1] } ) 5. e3 { — Anti-Botvinnik guard: 5. e3! keeps the diagonal closed and steers cleanly into Orthodox or Cambridge Springs.<br><br>Back to 4... Be7: } ) 3. Nf3 Nf6 4. Qc2 { — Chapter 3 Slav Complex: 4. Qc2 followed by g3 is one of only two main-line fianchetto setups alongside the Tarrasch.<br><br>And if Black accepts the gambit?: } ) ( 1... Nf6 2. c4 g6 ( 2... c5 3. d5 e6 4. Nc3 exd5 5. cxd5 d6 6. Nf3 g6 7. Bf4 { — Chapter 6 Modern Benoni: concrete 7. Bf4 pressure on d6, meeting 7... Bg7 with 8. Qa4+ and 7... a6 with 8. a4.<br><br>Back to the Nimzo-Indian: } ) ( 2... e6 3. Nc3 Bb4 4. e3 { — Chapter 2 Nimzo-Indian: the classical Rubinstein 4. e3, 5. Bd3, 6. Nf3 framework.<br><br>Returning to 1... d5 2. c4: } ) 3. Nc3 Bg7 ( 3... d5 4. cxd5 Nxd5 5. e4 Nxc3 6. bxc3 Bg7 7. Nf3 c5 8. Bb5+ { — Chapter 5 Grunfeld Exchange: our signature 8. Bb5+ check disrupts Black's coordination before we consolidate.<br><br>And against 2... c5 or 2... e6 3. Nc3 Bb4?: } ) 4. e4 d6 5. Nf3 O-O 6. Be2 e5 7. d5 { — Chapter 4 King's Indian Defense: we choose the principled Petrosian 7. d5, locking the center cleanly and keeping lively ideas like 8. Bg5 h6 9. Be3!.<br><br>What if Black prefers the Grunfeld or Benoni?: } ) 2. Bf4 Nf6 3. e3 { — Chapter 8 Dutch setup: always play e3 before Nf3 so Qf3-g3 and g4 remain deadly.<br><br>Now back to 1... d5 and 2. c4: } *
+
+[Event "Ch0: Foundations — White 1. d4 Repertoire"]
+[Site "Chessable"]
+[Date "2026.11.24"]
+[Round "2"]
+[White "Intro: Structure 1 — The Carlsbad: Minority Attack vs Central Steamroller"]
+[Black ""]
+[Result "*"]
+
+{ Structure 1 of 5 — Informational Blueprint.<br><br>Whenever White plays cxd5 and Black recaptures exd5, the Carlsbad pawn structure appears. White's queenside pawn tension turns into two crystal-clear long-term plans depending on where the pieces stand. } 1. d4 d5 2. c4 e6 3. Nc3 Nf6 4. Bg5 Be7 5. e3 O-O 6. Nf3 Nbd7 7. Rc1 a6 8. cxd5 { The defining exchange cxd5 freezes the center once Black recaptures on d5, leaving White with a three-versus-two queenside majority against Black's c6 and b7 pawns.<br><br>White trades central tension for an unassailable positional plan: either push b2-b4-b5 to create a backward c6 pawn, or prepare f2-f3 and e3-e4 in the center. } { [%csl Gd5,Rc6] [%cal Gd5e6,Re6d5] } 8... exd5 9. Bd3 c6 10. O-O Re8 11. Qc2 { From this textbook Carlsbad setup, recognize both blueprints at a glance:<br><br>• Plan A — Minority Attack: advance a3, Rb1, and b4-b5 to fracture c6 and leave Black nursing a permanent queenside target.<br><br>• Plan B — Central Steamroller: when Black commits pieces passively or White puts the knight on e2, build f2-f3 and e3-e4 to seize the entire center. } { [%csl Rc6,Ye4] [%cal Ga2a3,Gb2b4,Gf2f3,Ge3e4,Bc1b1] } 11... Nf8 12. Rb1 a5 13. a3 { — Plan A in motion: preparing b2-b4-b5 with rook support. Compare with Plan B when White develops Nge2 in Ch1 Line 5.1. } *
+
+[Event "Ch0: Foundations — White 1. d4 Repertoire"]
+[Site "Chessable"]
+[Date "2026.11.24"]
+[Round "3"]
+[White "Intro: Structure 2 — Hanging Pawns on c5 & d5: Tension, Blockade & Targeting"]
+[Black ""]
+[Result "*"]
+
+{ Structure 2 of 5 — Informational Blueprint.<br><br>In the Tartakower and several Queen's Gambit sidelines, Black exchanges knights and advances ...b6 and ...c5, creating hanging pawns on c5 and d5. Our job is to make those pawns static targets rather than a rolling phalanx. } 1. d4 d5 2. c4 e6 3. Nc3 Nf6 4. Bg5 Be7 5. e3 O-O 6. Nf3 h6 7. Bh4 b6 8. cxd5 Nxd5 9. Bxe7 Qxe7 10. Nxd5 exd5 11. Rc1 Be6 12. Qa4 c5 { 12... c5 puts the hanging pawns on the board. Notice we do NOT rush dxc5 right away — holding the d4-c5 tension denies Black easy piece coordination. } { [%csl Gc5,Gd5] [%cal Gd4c5,Ba4c6] } 13. Qa3 Rc8 14. Be2 { After 14. Be2, every hanging-pawn decision follows two clean rules:<br><br>• Strike dxc5 — when Black loses control of d4 or must recapture with a piece, leaving an isolated d5 pawn and a gorgeous d4 blockade.<br><br>• Meet ...c4 with Bb1 and Qc2 — if Black pushes past, aim a battery straight at h7 and undermine the base with b3 or e4. } { [%csl Yd4,Rh7] [%cal Gd4c5,Ba3c5,Be2d3] } *
+
+[Event "Ch0: Foundations — White 1. d4 Repertoire"]
+[Site "Chessable"]
+[Date "2026.11.24"]
+[Round "4"]
+[White "Intro: Structure 3 — Isolated Queen's Pawn: Attacking With d4 vs Blockading d5"]
+[Black ""]
+[Result "*"]
+
+{ Structure 3 of 5 — Informational Blueprint.<br><br>In 1. d4 openings you play both sides of the Isolated Queen's Pawn. Against the Tarrasch we blockade Black's d5 pawn surgically with 6. g3; when Black concedes early ...dxc4 and ...c5, we happily play WITH the active d4 pawn ourselves. } 1. d4 d5 2. c4 e6 3. Nc3 c5 4. cxd5 exd5 5. Nf3 Nc6 6. g3 Nf6 7. Bg2 Be7 8. O-O O-O 9. Bg5 cxd4 10. Nxd4 { Playing AGAINST Black's IQP on d5 is Karpov territory:<br><br>• Trade minor pieces — fewer attackers mean Black cannot justify the weak d5 pawn.<br><br>• Clamp d4 and c5 — put a piece on d4, aim Bg2 down the long diagonal, and keep e2-e4 in reserve until it wins material or creates a second weakness. } { [%csl Rd5,Bd4,Bc5] [%cal Bg2d5,Bd4c6,Bg5f6] } 10... h6 11. Be3 Re8 12. Rc1 Bf8 { — Karpov's setup: pressure on d5 and c6 with Nc3-a4-c5 in mind. Compare with White's own active d4 IQP in Ch1 Line 5.2. } *
+
+[Event "Ch0: Foundations — White 1. d4 Repertoire"]
+[Site "Chessable"]
+[Date "2026.11.24"]
+[Round "5"]
+[White "Intro: Structure 4 — Closed d5 Space Center: Prophylaxis & Wing Breaks"]
+[Black ""]
+[Result "*"]
+
+{ Structure 4 of 5 — Informational Blueprint.<br><br>In both the King's Indian Petrosian and the Modern Benoni, White plants a wedge on d5 to claim lasting queenside and central space. Winning these structures means respecting opponent counterplay before launching our own break. } 1. d4 Nf6 2. c4 g6 3. Nc3 Bg7 4. e4 d6 5. Nf3 O-O 6. Be2 e5 7. d5 { 7. d5 locks the center immediately. Black's king-side break ...f5 is coming, while White's natural terrain is the queenside via c4-c5 and b2-b4. } { [%csl Gd5,Ye5] [%cal Gc4c5,Gb2b4,Rf7f5] } 7... a5 8. Bg5 h6 9. Be3 { Our lively Petrosian 9. Be3! avoids trading dark-squared bishops and asks Black how they justify ...h6.<br><br>• Prophylaxis first — protect e4, guard against ...f5-f4 or ...Ng4 leaps, and only then break open the queenside with c4-c5 or b2-b4. } { [%csl Ye4,Rh6] [%cal Be3d2,Gf2f3,Gc4c5,Rf7f5] } 9... Ng4 10. Bd2 f5 11. h3 Nf6 12. exf5 gxf5 { — Sharp Petrosian battle: Black keeps kingside tension while White targets the exposed light squares. } *
+
+[Event "Ch0: Foundations — White 1. d4 Repertoire"]
+[Site "Chessable"]
+[Date "2026.11.24"]
+[Round "6"]
+[White "Intro: Structure 5 — Big Open Center e4 + d4: Consolidate Before You Push"]
+[Black ""]
+[Result "*"]
+
+{ Structure 5 of 5 — Informational Blueprint.<br><br>Against the Grunfeld Exchange and the QGA 3. e4, White gets the dream pawn duo on d4 and e4. The number-one mistake at club level is pushing d4-d5 too early and handing Black's g7 bishop an open highway. } 1. d4 Nf6 2. c4 g6 3. Nc3 d5 4. cxd5 Nxd5 5. e4 Nxc3 6. bxc3 Bg7 7. Nf3 c5 8. Bb5+ { With 8. Bb5+ we disrupt Black's pieces first, keeping our d4-e4 center intact.<br><br>• Consolidate before pushing — castle, put rooks on b1 or c1, protect d4 with Be3, and push d4-d5 only when it wins space without hanging c3 or the long diagonal. } { [%csl Gd4,Ge4,Yc3] [%cal Bb5c6,Bc1e3,Ra1b1,Rg7c3] } 8... Nc6 9. Rb1 O-O 10. d5 Ne5 11. O-O { — When Black invites d5 with 8... Nc6, White closes the g7 diagonal with tempo and castles smoothly. Next up: three unannotated GM Model Games showing these blueprints in action. } *
+
+[Event "World Championship 35th-KK5"]
+[Site "Lyon/New York"]
+[Date "1990.10.26"]
+[Round "7"]
+[White "Intro: Model Game — Karpov vs Kasparov, 1990 | Prophylaxis & Space Suffocation"]
+[Black ""]
+[Result "1-0"]
+[LichessId "UVT7kO3y"]
+
+{ Informational Model Game — unannotated: Anatoly Karpov demonstrates patient prophylaxis, Bc1-e3 rerouting, and central f4 counterplay against Garry Kasparov's King's Indian. } 1. d4 Nf6 2. c4 g6 3. Nc3 Bg7 4. e4 d6 5. Nf3 O-O 6. Be2 e5 7. Be3 Na6 8. O-O Ng4 9. Bg5 f6 10. Bc1 Kh8 11. h3 Nh6 12. dxe5 fxe5 13. Be3 Nf7 14. Qd2 Nc5 15. Ng5 Nxg5 16. Bxg5 Bf6 17. Be3 Ne6 18. Bg4 h5 19. Bxe6 Bxe6 20. Nd5 Bh4 21. Rac1 Kh7 22. Rc3 Rf7 23. b3 c6 24. Nb4 Rd7 25. Rcc1 Bf6 26. f4 exf4 27. Bxf4 Qa5 28. Nd5 Qc5+ 29. Kh1 Bxd5 30. cxd5 Qd4 31. dxc6 bxc6 32. Rxc6 Re8 33. Rc4 Qxd2 34. Bxd2 Be5 35. Be3 Bg3 36. Rf3 h4 37. Bf2 Bxf2 38. Rxf2 Rde7 39. Rf4 g5 40. Rf6 Rxe4 41. Rxe4 Rxe4 42. Rxd6 Re7 43. Ra6 Kg7 44. Kg1 1-0
+
+[Event "EU-ch rapid"]
+[Site "Warsaw"]
+[Date "2012.12.16"]
+[Round "8"]
+[White "Intro: Model Game — Bartel vs Deszczynski, 2012 | Closed d5 Clamp & c5-c6 Breakthrough"]
+[Black ""]
+[Result "1-0"]
+[LichessId "jJ7722Kd"]
+
+{ Informational Model Game — unannotated: Mateusz Bartel locks the center with f3, opens the queenside via c5-c6, and crashes through on the kingside. } 1. d4 Nf6 2. c4 g6 3. Nc3 Bg7 4. e4 d6 5. Nf3 O-O 6. Be2 e5 7. Be3 Nc6 8. d5 Ne7 9. Nd2 Ne8 10. f3 f5 11. c5 Kh8 12. Nc4 Ng8 13. h4 Bh6 14. Bf2 Ngf6 15. g4 fxg4 16. fxg4 Bf4 17. g5 Nd7 18. c6 bxc6 19. dxc6 Nb6 20. Nxb6 axb6 21. Nd5 Be6 22. Bc4 Ng7 23. Qd3 Bxd5 24. Bxd5 Qe7 25. Rd1 Ne6 26. Qh3 Nd4 27. h5 1-0
+
+[Event "SpeedChess Final 2024"]
+[Site "Paris FRA"]
+[Date "2024.09.08"]
+[Round "9"]
+[White "Intro: Model Game — Carlsen vs Firouzja, 2024 | Modern Central Domination"]
+[Black ""]
+[Result "1-0"]
+[LichessId "wEYj5za4"]
+
+{ Informational Model Game — unannotated: Magnus Carlsen turns central space and the c5 clamp into a clean technical conversion against Alireza Firouzja. } 1. d4 Nf6 2. c4 g6 3. Nc3 Bg7 4. e4 d6 5. Be2 O-O 6. Nf3 e5 7. Be3 exd4 8. Nxd4 Re8 9. f3 c6 10. Bf2 d5 11. exd5 cxd5 12. O-O Nc6 13. c5 Be6 14. Qd2 Bf8 15. Kh1 Nd7 16. Na4 Nde5 17. Rfe1 Nxd4 18. Bxd4 Nc6 19. Bb5 Nxd4 20. Bxe8 Bg7 21. Bxf7+ Bxf7 22. Qf2 Qa5 23. Nc3 Nc6 24. a3 Bd4 25. Qd2 Qxc5 26. Rad1 Rd8 27. Qg5 Kg7 28. h3 Bf6 29. Ne4 Bxg5 30. Nxc5 Bf6 31. Nxb7 Rb8 32. Nd6 d4 33. Rc1 Ne7 34. Rc7 Rd8 35. Ne4 Nf5 36. Rxa7 d3 37. g4 Nh4 38. Rd1 h6 39. Nc5 Re8 40. Ne4 Rd8 41. Nc5 Re8 42. Ne4 Rc8 43. Rxf7+ 1-0

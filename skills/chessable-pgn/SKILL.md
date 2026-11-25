@@ -13,7 +13,8 @@ Chessable's PGN importer is quirky and strips most HTML/Markdown tags. Everythin
 |---|---|---|
 | Clickable move links inside comments | Real PGN sidelines `( ... )` attached to the comment's own move, imported with **"Import all sub-variations as their own item" UNTICKED**. Moves render as inline blue links. | Typing `(6. Bc4 Qb6)` or `[text]` inside `{}` prose: the importer turns `(` into `@@StartBracket@@` and shows plain text, not a link. |
 | Prose *after* a link, on the same line | Put the prose in the **sideline's own comment** after its last move (e.g., `( 13. Bb3 e4 14. Nd2 { — opis. } )`). Renders inline in black while every move stays clickable. | Prose placed after `)` in the main comment: consecutive comments merge, pushing all text **before** all links. |
-| One trainable line per idea | One PGN game per leaf line (full path from move 1). | Ticking "Import all sub-variations as their own item" turns every tiny link sideline into a separate trainable variation. |
+| Multiple sidelines sharing a starting move | **Flat Sibling RAV Rule:** emit each sideline as its own flat branch on the parent node (`force_new_first=True`), even if two sidelines share prefix moves (e.g., `( 7... h6 ... ) ( 7... b6 ... )`). | Merging sibling RAVs with shared prefixes into **nested sub-variations** inside a RAV: Chessable renders nested sub-variations *before* continuing the outer variation, scrambling inline bridge prose! |
+| One trainable line per idea | One PGN game per leaf line (full path from move 1), capping direct RAVs at `<= 4` per move. | Ticking "Import all sub-variations as their own item" or dumping 8–13 sidelines onto a single move. |
 | Line breaks & spacing | `<br>` (line break), `<br><br>` (paragraph gap), `<br><br><br>` (wide section break). | Raw `\n`, blank lines, `<p>...</p>`, `&#10;`, `&NewLine;`, U+2028, `\r` — all flattened or stripped. |
 | Section headers | ALL CAPS framed with box-drawing bars and generous breaks: `<br><br><br>━━━ SECTION TITLE ━━━<br><br>` | `<h3>`, `<b>`, `<strong>`, `<hr>`, `**bold**`, `[b]bold[/b]` — HTML tags are stripped (often gluing headings to text); Markdown/BBCode render as raw characters. |
 | Bullet lists (ALL lists) | Plain Unicode bullets separated by double breaks: `• Label — text.<br><br>• Label 2 — text.` | `<ul><li>...</li></ul>` (stripped by importer, gluing the first item to the heading!), `- item`, `1)` raw lines. |
@@ -25,8 +26,8 @@ Chessable's PGN importer is quirky and strips most HTML/Markdown tags. Everythin
 ### Additional Importer Rules
 - **Anchor move repetition:** A sideline link always branches from the move it belongs to, so when continuing *after* that move, it repeats the move itself (e.g., `13. Bb3 e4 14. Nd2 ...` attached to `13. Bb3`). This is expected Chessable behavior.
 - **No brackets or braces in prose:** Never use `(`, `)`, `[`, `]`, `{`, or `}` inside prose comments—replace parenthetical remarks with em-dashes (`—`).
-- **One growing line = one sideline:** A single continuous explanation with several moves should be one RAV sideline with inline `{ ... }` comments between moves, rather than multiple separate sidelines repeating the same start.
-- **Inline Interleaving Pattern (links right where explained):** Because Chessable merges consecutive main `{ }` comment blocks *before* all sidelines, NEVER put two separate prose explanations in the main comment and dump two sidelines at the bottom. Instead, place intro prose in the move's main `{ }`, then interleave each sideline with bridge prose inside its own trailing `{ ... }` comment: e.g., `9. Rc1! { Wstęp... } ( 9... Qxa2 10. Nxa2 Bxd2+ 11. Kxd2 { — traci figurę.<br><br>Co z 9. a3?: } ) ( 9. a3 Nxc3 10. axb4 Qxa1+ { — traci wieżę.<br><br>Podsumowanie... } )`. Chessable renders each sideline's trailing `{}` comment inline in black right after that sideline's blue links!
+- **One growing line = one sideline (never nest with bridge prose):** A single continuous explanation with several moves should be one flat RAV sideline. If you need to show two branches from a shared start while using Inline Interleaving bridge prose, emit them as **flat sibling RAVs** (`force_new_first=True`) rather than nesting `( ... ( ... ) ... )`.
+- **Inline Interleaving Pattern (links right where explained):** Because Chessable merges consecutive main `{ }` comment blocks *before* all sidelines, NEVER put two separate prose explanations in the main comment and dump two sidelines at the bottom. Instead, place intro prose in the move's main `{ }`, then interleave each flat sideline with bridge prose inside its own trailing `{ ... }` comment: e.g., `9. Rc1! { Wstęp... } ( 9... Qxa2 10. Nxa2 Bxd2+ 11. Kxd2 { — traci figurę.<br><br>Co z 9. a3?: } ) ( 9. a3 Nxc3 10. axb4 Qxa1+ { — traci wieżę.<br><br>Podsumowanie... } )`. Chessable renders each sideline's trailing `{}` comment inline in black right after that sideline's blue links!
 - **No plain-text move sequences on a move:** Any concrete 2+ move tactical/strategic variation discussed on a move (including opponent traps or refutations like `9... Qxa2?? 10. Nxa2` on `9. Rc1!`) must be emitted as an anchor-repeated (or direct) RAV sideline on that exact move, not written solely as plain text inside `{}`.
 - **Color-coded arrows convention (for repertoire courses):**
   - `G` (Green) — pawns, pawn pushes, and pawn breaks (`Gf2f3`, `Gc4d5`).
@@ -42,7 +43,7 @@ Identify whether the source is an existing PGN/Lichess study to convert or newly
 
 ### 2. Clean & Structure the Prose
 - Preserve the author's voice, tone, and wording when converting existing text; fix typos/punctuation only when requested or clearly broken.
-- Normalize chess notation in prose: one space after move numbers (`14. Nd2`), `11...` never `11....`, castling as `O-O` / `O-O-O` (never `0-0`).
+- Normalize chess notation in prose: one space after move numbers (`14. Nd2`), `11...` never `11....`, castling as `O-O` / `O-O-O` (never `0-0`). Always include the piece letter in piece moves (`Rc3 to c5`, never bare `c3 to c5`).
 - Remove all `(`, `)`, `[`, `]`, `{`, `}`, raw newlines (`\n`), and stripped HTML tags (`<ul>`, `<li>`, `<b>`, `<i>`, `<p>`, etc.) from prose comments.
 - Structure long comments cleanly (never glue multi-point explanations like `Warstwa 1`, `Warstwa 2`, ... into one continuous wall of text — separate every distinct point with `<br><br>` or `• ...<br><br>`):
   - Short paragraphs (2–3 sentences) separated by `<br><br>`.
@@ -50,17 +51,19 @@ Identify whether the source is an existing PGN/Lichess study to convert or newly
   - Lists formatted as `• Label — explanation.<br><br>• Label 2 — explanation.`.
 
 ### 3. Convert Move Mentions to Clickable Sidelines & Add Visuals
-- Turn every concrete 2+ move variation/refutation (including opponent traps and alternatives) into a legal PGN RAV sideline `( ... )` attached directly to the move being commented on, using the **Inline Interleaving Pattern** (trailing explanation + bridge text to the next idea inside each sideline's `{ ... }` comment) so clickable blue links sit right next to their explanations instead of piled at the bottom.
+- Turn every concrete 2+ move variation/refutation (including opponent traps and alternatives) into a flat, legal PGN RAV sideline `( ... )` attached directly to the move being commented on, using the **Inline Interleaving Pattern** (trailing explanation + bridge text to the next idea inside each sideline's `{ ... }` comment) so clickable blue links sit right next to their explanations instead of piled at the bottom.
+- Cap direct RAV sidelines at `<= 4` per move to preserve readability.
 - Mentions without a move sequence (single square/piece references like `e5` or `Nf6`) stay in prose (Chessable auto-bolds them automatically).
 - Place `[%csl ...]` / `[%cal ...]` tags in a dedicated `{ }` block right after the prose comment, before any `( ... )` sidelines.
 - Use descriptive titles in `[White "..."]` with `[Black ""]`, e.g., `1.1 Ortodoksyjna: 7. Rc1 c6 13. Bb3 – Cichy nacisk Karpowa`.
 
-### 4. Verify with `python-chess` (Mandatory When Sandbox Is Available)
-Before handing over the PGN, run a Python verification pass using `python-chess` (`chess.pgn.read_game`) to confirm:
+### 4. Verify with `python-chess` / `validate_chessable.py` (Mandatory When Sandbox Is Available)
+Before handing over the PGN, run `tools/validate_chessable.py --check-claims` (plus `--check-intros` if Informational blueprints are present) to confirm:
 1. Zero PGN parse errors across all games and all RAV sidelines.
 2. Every move in every mainline and sideline is legal from its exact board state.
-3. Every arrow (`[%cal]`) originates from a square occupied by a piece in that exact position (highlights `[%csl]` may target empty squares).
-4. Zero raw newlines, zero `0-0`, zero `( ) [ ]` characters, and zero stripped HTML tags (`<ul>`, `<li>`, `<b>`, `<i>`, `<p>`) inside prose comments.
+3. Zero nested RAV sub-variations carrying prose comments, and `<= 4` direct RAVs per move.
+4. Every arrow (`[%cal]`) originates from a square occupied by a piece in that exact position (highlights `[%csl]` may target empty squares), and zero phantom pin/battery/empty-file-move claims (`--check-claims`).
+5. Zero raw newlines, zero `0-0`, zero `( ) [ ]` characters, and zero stripped HTML tags (`<ul>`, `<li>`, `<b>`, `<i>`, `<p>`) inside prose comments.
 
 Never claim a PGN is verified without actually running this check.
 
@@ -71,6 +74,7 @@ Briefly remind the user to:
 3. Manually set any *Informational* entries, key moves, diagrams, and title-format dropdown (`White vs. Untitled`) in Chessable.
 
 ## Troubleshooting Common Import Issues
+- **Links and bridge sentences appear out of order:** Two sidelines sharing a prefix were merged into a **nested sub-variation** `( 7... h6 ... ( 7... b6 ... ) )` instead of flat sibling RAVs `( 7... h6 ... ) ( 7... b6 ... )`.
 - **Links show as `@@StartBracket@@` or plain text:** Moves or parentheses were left inside `{}` prose instead of real `( ... )` RAV sidelines.
 - **Heading glued to first bullet:** `<ul><li>` tags were used and stripped by Chessable—replace with `<br><br><br>━━━ HEADER ━━━<br><br>• item`.
 - **Entire comment collapsed into one wall of text:** Raw `\n` newlines were used instead of `<br><br>`.

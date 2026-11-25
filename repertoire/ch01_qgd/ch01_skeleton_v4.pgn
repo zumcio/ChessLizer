@@ -1,0 +1,450 @@
+[Event "Ch1 Classical QGD Skeleton v4"]
+[Site "?"]
+[Date "2026.11.24"]
+[Round "1"]
+[White "1.1 Orthodox Mainline: 13.Bb3 exd4 — Karpov's e-File Plan"]
+[Black ""]
+[Result "*"]
+
+1. d4 d5 2. c4 e6 3. Nc3 Nf6 4. Bg5 Be7 5. e3 O-O 6. Nf3 Nbd7 7. Rc1 c6 8. Bd3
+dxc4 ( 8... a6 9. cxd5 exd5 10. O-O Re8 11. Qc2
+{ 7.1% reply; merges into Line 1.4 Carlsbad. } ) 9. Bxc4 Nd5 ( 9... b5 10. Bd3
+{ 8.4% reply; +0.25. } ) 10. Bxe7 Qxe7 11. O-O Nxc3 12. Rxc3 e5 ( 12... b6 13.
+Qc2 c5 14. dxc5 { 7.4% reply; SF19 #1 14.dxc5! (+0.88). } ) 13. Bb3 ( 13. dxe5
+Nxe5 14. Nxe5 Qxe5
+{ Playable alternative (+0.03), though 13.Bb3 (+0.43) keeps stronger tension. }
+) 13... exd4 14. exd4
+{ [MAIN-THEORY] Karpov central initiative: Re1, Ne5, e-file pressure (+0.43). Model: Karpov-Campora 1997 (xHyfBV2Y). }
+*
+
+[Event "Ch1 Classical QGD Skeleton v4"]
+[Site "?"]
+[Date "2026.11.24"]
+[Round "2"]
+[White "1.2 Orthodox Mainline: 13.Bb3 e4 — Closing Center & f3 Break"]
+[Black ""]
+[Result "*"]
+
+1. d4 d5 2. c4 e6 3. Nc3 Nf6 4. Bg5 Be7 5. e3 O-O 6. Nf3 Nbd7 7. Rc1 c6 8. Bd3
+dxc4 9. Bxc4 Nd5 10. Bxe7 Qxe7 11. O-O Nxc3 12. Rxc3 e5 13. Bb3 e4 14. Nd2
+{ [MAIN-THEORY] 40.3% (56.2% since 2015) after 13.Bb3; 14.Nd2! prepares f2-f3 against e4 (+0.26). }
+*
+
+[Event "Ch1 Classical QGD Skeleton v4"]
+[Site "?"]
+[Date "2026.11.24"]
+[Round "3"]
+[White "1.3 Orthodox: 8...h6 9.Bh4 dxc4 — Precise 12.a4!"]
+[Black ""]
+[Result "*"]
+
+1. d4 d5 2. c4 e6 3. Nc3 Nf6 4. Bg5 Be7 5. e3 O-O 6. Nf3 Nbd7 7. Rc1 c6 8. Bd3
+h6 ( 8... Re8 9. O-O dxc4 ( 9... Nf8 10. c5 b6 11. b4
+{ 39.7% reply after 9.O-O; +1.04. } ) 10. Bxc4 Nd5 11. Ne4
+{ 8...Re8 branch; 11.Ne4! (+0.78-+0.87) over 11.Bxe7. } ) 9. Bh4 dxc4 ( 9... a6
+10. c5 e5 11. dxe5 { 8.3% reply; SF19 #1 (+0.42). } ) ( 9... b6 10. cxd5 cxd5
+11. O-O Bb7 { 7.9% reply; SF19 #1 (+0.43). } ) 10. Bxc4 b5 ( 10... Nd5 11. Bg3
+Nxc3 12. bxc3 { 21.3% reply; sound (+0.16). } ) ( 10... a6 11. a4 Nd5 12. Bg3
+{ 11.9% reply; sound (+0.27). } ) 11. Bd3 a6 ( 11... Bb7 12. O-O
+{ 42.3% reply; SF19 #1 (+0.24). } ) 12. a4 bxa4 ( 12... Bb7 13. O-O
+{ 41.2% reply; SF19 #1 (+0.29). } ) ( 12... b4 13. Bxf6 Bxf6 14. Ne4
+{ 3.5% reply; +0.69. } ) ( 12... c5 13. axb5 axb5 14. Bxb5
+{ 3.0% reply; +0.51. } ) 13. Nxa4
+{ [MAIN-THEORY] 12.a4! (+0.28, 63.5%W after 12...bxa4) targets queenside chain cleanly. }
+*
+
+[Event "Ch1 Classical QGD Skeleton v4"]
+[Site "?"]
+[Date "2026.11.24"]
+[Round "4"]
+[White "1.4 Orthodox: Early 7...a6 — Pure Carlsbad"]
+[Black ""]
+[Result "*"]
+
+1. d4 d5 2. c4 e6 3. Nc3 Nf6 4. Bg5 Be7 5. e3 O-O 6. Nf3 Nbd7 ( 6... b6 7. Bd3
+Bb7 ( 7... dxc4 8. Bxc4 Bb7 9. O-O { 16.4% after 7.Bd3; SF19 #1 (+0.04). } ) 8.
+O-O Nbd7 9. Rc1 c5 10. Qe2
+{ 7.7% early 6...b6; 7.Bd3 (+0.09) avoids premature cxd5. } ) 7. Rc1 a6 ( 7...
+dxc4 8. Bxc4 a6 ( 8... c5 9. O-O { 21.5% after 8.Bxc4; active IQP. } ) 9. a4 c5
+10. O-O { 10.3% reply; stops ...b5 and steers to active IQP (+0.15). } ) ( 7...
+h6 8. Bh4 c5 ( 8... a6 9. cxd5 exd5 10. Bd3 c6 11. Qc2
+{ 10.4% after 8.Bh4; improved Carlsbad (+0.27). } ) ( 8... c6 9. Bd3
+{ 37.3% after 8.Bh4; transposes to Line 1.3. } ) ( 8... dxc4 9. Bxc4
+{ 8.0% after 8.Bh4; active IQP. } ) ( 8... b6 9. cxd5 exd5 10. Bd3 Bb7 11. O-O
+{ 6.6% after 8.Bh4; hanging-pawn setup. } ) 9. cxd5 Nxd5 10. Bxe7 Nxe7 11. Bb5
+{ 7.5% 7...h6; 11.Bb5! (+0.15) hits d7/c5. } ) ( 7... b6 8. cxd5 exd5 9. Bd3
+Bb7 10. O-O c5 ( 10... Ne4 11. Bf4 c5 12. Qc2 { 18.3% after 10.O-O; +0.29. } )
+( 10... a6 11. Bf5 Re8 12. Qc2 { 16.7% after 10.O-O; +0.46. } ) 11. Qe2
+{ 3.8% reply; prepares Ba6 (+0.13). } ) 8. cxd5 exd5 9. Bd3 c6 ( 9... Re8 10.
+O-O c6 11. Qc2 { 23.9% move-order transposition. } ) 10. O-O Re8 11. Qc2
+{ [MAIN-THEORY] Pure Carlsbad minority attack (+0.33); folds early move-6/7 Orthodox sidelines cleanly. }
+*
+
+[Event "Ch1 Classical QGD Skeleton v4"]
+[Site "?"]
+[Date "2026.11.24"]
+[Round "5"]
+[White "2.1 Tartakower Mainline: 8.cxd5 Nxd5 — 14.Be2!"]
+[Black ""]
+[Result "*"]
+
+1. d4 d5 2. c4 e6 3. Nc3 Nf6 4. Bg5 Be7 5. e3 O-O 6. Nf3 h6 7. Bh4 b6 8. cxd5
+Nxd5 9. Bxe7 Qxe7 10. Nxd5 exd5 11. Rc1 Be6 ( 11... Bb7 12. Bd3 c5 13. O-O
+{ 5.2% sideline; direct kingside development. } ) 12. Qa4 c5 ( 12... Rc8 13.
+Be2 c5 14. Qa3 { 8.4% move-order transposition. } ) 13. Qa3 Rc8 14. Be2
+{ [MAIN-THEORY] Honest ~0.00 rich hanging-pawn siege; Model: Kasimdzhanov-Bologan 2002 (M1mCKQF0). }
+*
+
+[Event "Ch1 Classical QGD Skeleton v4"]
+[Site "?"]
+[Date "2026.11.24"]
+[Round "6"]
+[White "2.2 Tartakower via 5...h6 & 8...exd5 — 11.Qc2!"]
+[Black ""]
+[Result "*"]
+
+1. d4 d5 2. c4 e6 3. Nc3 Nf6 4. Bg5 Be7 5. e3 h6 ( 5... Nbd7 6. Nf3 O-O
+{ 10.2% after 5.e3; transposes directly to Orthodox 1.1-1.4. } ) 6. Bh4 O-O 7.
+Nf3 b6 8. cxd5 exd5 9. Bd3 Bb7 ( 9... Be6 10. O-O c5 11. Ne5
+{ 18.5% reply; SF19 #1 11.Ne5! (+1.04). } ) 10. O-O Nbd7 ( 10... Ne4 11. Bxe7
+Qxe7 12. Qb3 { 24.5% reply; +0.17-+0.23. } ) ( 10... c5 11. Rc1 Ne4 12. Bxe7
+Qxe7 { 14.2% reply; +0.23. } ) 11. Qc2
+{ [MAIN-THEORY] Covers 5...h6 (3.0% reach) + 8...exd5; 11.Qc2! (+0.36, SF#1) stops ...Ne4. }
+( 11. Qe2 c5 12. Ba6
+{ Playable alternative (+0.12), though 11.Qc2! (+0.36) prevents ...Ne4. } ) *
+
+[Event "Ch1 Classical QGD Skeleton v4"]
+[Site "?"]
+[Date "2026.11.24"]
+[Round "7"]
+[White "3.1 Lasker Mainline: 11.Qb3 Rd8 — Central Ram 12.c4!"]
+[Black ""]
+[Result "*"]
+
+1. d4 d5 2. c4 e6 3. Nc3 Nf6 4. Bg5 Be7 5. e3 O-O 6. Nf3 h6 7. Bh4 Ne4 8. Bxe7
+Qxe7 9. cxd5 Nxc3 10. bxc3 exd5 11. Qb3 Rd8 ( 11... Qd6 12. c4 dxc4 13. Bxc4
+{ 2.3% club reply; fast Bxc4 + O-O (+0.31). } ) 12. c4
+{ [MAIN-THEORY] Honest 0.00 rich endgame pressure; Model: Kramnik-Lutz 1994 (qnES8oGd). }
+*
+
+[Event "Ch1 Classical QGD Skeleton v4"]
+[Site "?"]
+[Date "2026.11.24"]
+[Round "8"]
+[White "3.2 Lasker Solid: 11.Qb3 c6 — Flexible 12.Bd3!"]
+[Black ""]
+[Result "*"]
+
+1. d4 d5 2. c4 e6 3. Nc3 Nf6 4. Bg5 Be7 5. e3 O-O 6. Nf3 h6 7. Bh4 Ne4 8. Bxe7
+Qxe7 9. cxd5 Nxc3 10. bxc3 exd5 11. Qb3 c6 12. Bd3
+{ [MAIN-THEORY] 36.1% since 2015; 12.Bd3! (+0.15, SF#1) keeps flexibility on both flanks. }
+( 12. c4 Be6 13. c5 b6 14. Rc1
+{ Playable alternative (-0.08 to 0.00); 12.Bd3! keeps +0.15 flexibility. } ) *
+
+[Event "Ch1 Classical QGD Skeleton v4"]
+[Site "?"]
+[Date "2026.11.24"]
+[Round "9"]
+[White "4.1 Cambridge Springs: 9.Rc1 h6 10.Bh4 c5 — 11.a3!"]
+[Black ""]
+[Result "*"]
+
+1. d4 d5 2. c4 e6 3. Nc3 Nf6 4. Bg5 Nbd7 5. e3 c6 ( 5... Be7 6. Nf3 O-O 7. Rc1
+{ 31.5% reply; transposes directly to Orthodox. } ) 6. Nf3 Qa5 ( 6... h6 7. Bh4
+Be7 8. Rc1 O-O 9. Bd3 { 5.3% reply; merges into Orthodox. } ) 7. cxd5 Nxd5 (
+7... exd5 8. Nd2 { 24% sideline; 8.Nd2! (+0.44, 69.3%W) kills ...Ne4. } ) 8.
+Qd2 Bb4 ( 8... N7b6 9. Bd3 { 14.5% reply; 9.Bd3! (+0.44, 69.4%W). } ) 9. Rc1 h6
+( 9... O-O 10. a3 Bxc3 ( 10... Bd6 11. e4 f6 12. exd5
+{ 4.8% sideline; e4-e5 fork motif (+0.60). } ) 11. bxc3
+{ 13.0% reply; bishop pair (+0.49). } ) ( 9... Nxc3 10. bxc3 Ba3 11. Rb1
+{ 7% reply; seizes b-file (+0.39). } ) ( 9... c5 10. a3 Bxc3 11. bxc3
+{ 7% reply; bishop pair (+0.26). } ) 10. Bh4 c5 ( 10... b6 11. Bd3 Ba6 12. O-O
+{ 26.4% reply; challenges ...Ba6 cleanly (+0.28). } ) ( 10... O-O 11. a3 Bxc3
+12. bxc3 { 13.0% reply; bishop pair (+0.44). } ) 11. a3 Bxc3 12. bxc3
+{ [MAIN-THEORY] Unified Cambridge Springs hub (Anand-Shirov q57ja0Kz); 11.a3! (+0.31) claims bishop pair. }
+*
+
+[Event "Ch1 Classical QGD Skeleton v4"]
+[Site "?"]
+[Date "2026.11.24"]
+[Round "10"]
+[White "4.2 Anti-Botvinnik 4...c6 5.e3! & Delayed Ragozin 6...Bb4"]
+[Black ""]
+[Result "*"]
+
+1. d4 d5 2. c4 e6 3. Nc3 Nf6 4. Bg5 c6 5. e3 Nbd7 ( 5... Be7 6. Nf3
+{ 11.9% reply; transposes to Orthodox. } ) ( 5... h6 6. Bh4 Nbd7 7. Nf3 Be7
+{ 7.3% reply; transposes to Orthodox. } ) 6. Nf3 Bb4 ( 6... Be7 7. Rc1 O-O 8.
+Bd3 { Mainline Orthodox via 4...c6. } ) ( 6... h6 7. Bh4 g5 8. Bg3
+{ 34.5% sharp thrust; strong center (+0.40). } ) 7. cxd5 exd5 8. Bd3 Qa5 ( 8...
+O-O 9. O-O Re8 10. Qc2
+{ 43% reply; Carlsbad with misplaced b4 bishop (+0.44). } ) 9. Qc2 O-O 10. O-O
+{ [MAIN-THEORY] Mandatory 5.e3! blocks Botvinnik/Anti-Moscow and handles Delayed Ragozin (+0.44-+0.72). }
+*
+
+[Event "Ch1 Classical QGD Skeleton v4"]
+[Site "?"]
+[Date "2026.11.24"]
+[Round "11"]
+[White "5.1 Pseudo-Ragozin 4...Bb4: Controlled Carlsbad 9.Ne2!"]
+[Black ""]
+[Result "*"]
+
+1. d4 d5 2. c4 e6 3. Nc3 Nf6 4. Bg5 Bb4 5. cxd5 exd5 6. e3 h6 7. Bh4 O-O ( 7...
+g5 8. Bg3 Ne4 ( 8... h5 9. h4 Ne4 10. Ne2 Bg4 ( 10... Nxg3 11. Nxg3 gxh4 12.
+Nxh5 { 36.3% after 10.Ne2; +0.35. } ) 11. Qb3
+{ Sharp 8...h5 9.h4!; 11.Qb3! (+0.46). } ) 9. a3 Bxc3+ 10. bxc3 h5 ( 10... Nc6
+11. Bd3 Bf5 12. Ne2 { 30.9% after 10.bxc3; +0.35. } ) 11. f3
+{ Sharp 7...g5 8...Ne4; +0.27 fortress. } ) 8. Bd3 c6 ( 8... c5 9. dxc5 Bxc5
+10. Nf3 { 54.5% after 8.Bd3; active IQP (+0.38). } ) 9. Ne2 Re8 10. O-O
+{ [COMMON-AMATEUR] 2.8% move-4 reply; 9.Ne2 prepares f3+e4 (+0.26) with RAVs covering sharp 7...g5. }
+*
+
+[Event "Ch1 Classical QGD Skeleton v4"]
+[Site "?"]
+[Date "2026.11.24"]
+[Round "12"]
+[White "5.2 Early 4...dxc4 — Solid 5.e3! & Dynamic IQP"]
+[Black ""]
+[Result "*"]
+
+1. d4 d5 2. c4 e6 3. Nc3 Nf6 4. Bg5 dxc4 5. e3 c5 ( 5... a6 6. Bxc4 b5 ( 6...
+c5 7. Nf3 { 50.0% after 6.Bxc4; SF19 #1 (+0.30). } ) 7. Be2 Bb7 8. Bf3
+{ 27.8% reply; 8.Bf3! (+0.82). } ) 6. Bxc4 cxd4 7. exd4 Be7 8. Nf3 O-O ( 8...
+Nc6 9. Qe2 O-O 10. Rd1 { 21.3% reply; +0.19. } ) 9. O-O
+{ [MAIN-THEORY] 9.8% since 2015; 5.e3! (57.7%W) builds an active IQP and refutes 5...a6 with 8.Bf3!. }
+*
+
+[Event "Ch1 Classical QGD Skeleton v4"]
+[Site "?"]
+[Date "2026.11.24"]
+[Round "13"]
+[White "5.3 Early 3...Bb4: Central Exchange 4.cxd5 exd5 5.Bf4"]
+[Black ""]
+[Result "*"]
+
+1. d4 d5 2. c4 e6 3. Nc3 Bb4 4. cxd5 ( 4. e3 Nf6 5. Bd3 O-O
+{ Playable alternative transposing to Ch2 Nimzo Rubinstein (+0.19). } ) 4...
+exd5 5. Bf4 Nf6 ( 5... c6 6. e3 { 37.0% reply; solid Carlsbad (+0.33). } ) (
+5... c5 6. dxc5 Nf6 7. e3 O-O { Active break; plays against d5 (+0.24). } ) (
+5... Ne7 6. e3 { 12.8% reply; SF19 #1 (+0.40). } ) 6. e3 O-O 7. Bd3
+{ [COMMON-AMATEUR] 4.9% move-3 reply; 4.cxd5 exd5 5.Bf4 builds a clean Carlsbad (+0.29). }
+*
+
+[Event "Ch1 Classical QGD Skeleton v4"]
+[Site "?"]
+[Date "2026.11.24"]
+[Round "14"]
+[White "5.4 Janowski 3...a6: Clean Carlsbad 4.cxd5! exd5"]
+[Black ""]
+[Result "*"]
+
+1. d4 d5 2. c4 e6 3. Nc3 a6 4. cxd5 exd5 5. Nf3 Nf6 ( 5... c6 6. Bf4 Bd6 7.
+Bxd6 Qxd6 8. e3 { Early ...c6; trades dark-squared bishops cleanly (+0.34). } )
+6. Bg5 c6 7. e3 h6 8. Bh4 Be7 9. Bd3
+{ [COMMON-AMATEUR] 3.6% move-3 reply; immediate 4.cxd5! (+0.36) exploits ...a6 in a pure Carlsbad (+0.31). }
+*
+
+[Event "Ch1 Classical QGD Skeleton v4"]
+[Site "?"]
+[Date "2026.11.24"]
+[Round "15"]
+[White "6.1 Triangle Slav 3...c6: Marshall Gambit 4.e4! — Sharp 9.Bd6!"]
+[Black ""]
+[Result "*"]
+
+1. d4 d5 2. c4 e6 3. Nc3 c6 4. e4 dxe4 ( 4... Bb4 5. cxd5 exd5 6. e5 Ne7 ( 6...
+c5 7. a3 Bxc3+ 8. bxc3 { 33.0% after 6.e5; bishop pair (+0.57). } ) 7. Nf3 O-O
+8. Bd3 { 12.7% after 4.e4; super-charged Advance French (+0.61). } ) 5. Nxe4
+Bb4+ ( 5... Nf6 6. Nxf6+ Qxf6 7. Nf3 { 71%W in Masters; spacious development. }
+) 6. Bd2 Qxd4 7. Bxb4 Qxe4+ 8. Be2 Na6 ( 8... c5 9. Bxc5 Qxg2 10. Qd6
+{ 6.1% reply; 9.Bxc5! (+0.93). } ) ( 8... Nd7 9. Nf3 c5 ( 9... b6 10. Qd2
+{ 23.6% after 9.Nf3; 10.Qd2! (+1.95). } ) 10. Bc3
+{ 6.7% reply; 10.Bc3! (+0.72). } ) 9. Bd6
+{ [MAIN-THEORY] 21.6% move-3 reply; sidesteps Noteboom with 4.e4! and strands Black's king via 9.Bd6! (+0.26). }
+*
+
+[Event "Ch1 Classical QGD Skeleton v4"]
+[Site "?"]
+[Date "2026.11.24"]
+[Round "16"]
+[White "6.2 Alatortsev 3...Be7: 5.Bf4 c6 6.e3 Bf5 — Space 7.g4!"]
+[Black ""]
+[Result "*"]
+
+1. d4 d5 2. c4 e6 3. Nc3 Be7 4. cxd5 exd5 5. Bf4 c6 6. e3 Bf5 ( 6... Bd6 7.
+Bxd6 Qxd6 8. Bd3 { 20.4% reply; trades dark-squared bishops (+0.39). } ) 7. g4
+Be6 ( 7... Bg6 8. h4 { 10.6% reply; SF19 #1 (+0.59). } ) 8. h3
+{ [MAIN-THEORY] 16.5% move-3 reply (73.9% 5...c6 since 2015); 7.g4! (+0.31) denies ...Bf5xBd3. }
+*
+
+[Event "Ch1 Classical QGD Skeleton v4"]
+[Site "?"]
+[Date "2026.11.24"]
+[Round "17"]
+[White "6.3 Alatortsev 3...Be7: 5.Bf4 Nf6 — Fast 6.e3 & 7.Bd3"]
+[Black ""]
+[Result "*"]
+
+1. d4 d5 2. c4 e6 3. Nc3 Be7 4. cxd5 exd5 5. Bf4 Nf6 6. e3 O-O ( 6... Bf5 7.
+Qb3 { 41.0% reply; sharp 7.Qb3! hits b7/d5 (60.7%W, +0.40). } ) ( 6... c6 7.
+Bd3 { 8.7% reply; merges with 6.2 complex. } ) 7. Bd3 c5 ( 7... c6 8. Qc2
+{ 13.1% reply; +0.31-+0.41. } ) ( 7... b6 8. Nf3
+{ 9.1% reply; SF19 #1 (+0.59). } ) 8. Nf3
+{ [MAIN-THEORY] 6.e3 scores 61.5%W in Masters; RAV covers 6...Bf5 with sharp 7.Qb3! (+0.40). }
+*
+
+[Event "Ch1 Classical QGD Skeleton v4"]
+[Site "?"]
+[Date "2026.11.24"]
+[Round "18"]
+[White "7.1 Tarrasch: Surgical 6.g3 Nf6 — Karpov's IQP Siege"]
+[Black ""]
+[Result "*"]
+
+1. d4 d5 2. c4 e6 3. Nc3 c5 4. cxd5 exd5 ( 4... cxd4 5. Qa4+ Bd7 6. Qxd4 exd5
+7. Qxd5 Nc6 ( 7... Nf6 8. Qd1
+{ 38.9% after 7.Qxd5; clean consolidation (+0.38). } ) 8. Nf3 Nf6 9. Qd1
+{ 20% Hennig-Schara; 9.Qd1! (+0.50). } ) 5. Nf3 Nc6 ( 5... Nf6 6. g3
+{ 7.3% reply; transposes cleanly. } ) 6. g3 Nf6 ( 6... c4 7. Bg2 Bb4 8. O-O
+Nge7 9. e4 { 8.3% Swedish; 9.e4! (+0.56). } ) 7. Bg2 Be7 ( 7... cxd4 8. Nxd4
+{ 13.6% early tension release (+0.23). } ) 8. O-O O-O 9. Bg5 cxd4 ( 9... c4 10.
+Ne5 Be6 11. e3 { 23.4% Advance; 10.Ne5! (+0.22). } ) ( 9... Be6 10. dxc5 Bxc5
+11. Rc1 Be7 ( 11... Bb6 12. b3 { 32.8% after 11.Rc1; SF19 #1 (+0.38). } ) 12.
+Nd4 { 7.7% reply; SF19 #1 (+0.43). } ) 10. Nxd4 h6 ( 10... Re8 11. Be3
+{ 6.1% reply; merges into mainline. } ) 11. Be3
+{ [MAIN-THEORY] 9.9% move-3 reply; surgical 6.g3 vs IQP (+0.38, 61.3%W). Model: Karpov-Illescas 1993 (yS7oILA6). }
+*
+
+[Event "Ch1 Classical QGD Skeleton v4"]
+[Site "?"]
+[Date "2026.11.24"]
+[Round "19"]
+[White "8.1 Chigorin: 3.Nf3 Bg4 4.cxd5 — 9...Qd6 10.Qb3!"]
+[Black ""]
+[Result "*"]
+
+1. d4 d5 2. c4 Nc6 3. Nf3 Bg4 ( 3... e5 4. Nxe5 Nxe5 5. dxe5 d4 ( 5... dxc4 6.
+Qxd8+ Kxd8 7. e4 { 29.5% after 5.dxe5; winning endgame (+1.18). } ) 6. Nd2 Ne7
+7. g3 { 3...e5 gambit; surgical 7.g3! (+0.68). } ) ( 3... e6 4. Nc3 Nf6 5. Bg5
+Be7 6. e3 O-O { 3.3% reply; transposes cleanly into Orthodox QGD (+0.53). } )
+4. cxd5 Bxf3 5. gxf3 Qxd5 6. e3 e5 ( 6... e6 7. Nc3 Qh5 ( 7... Bb4 8. Bd2 Bxc3
+9. bxc3 Nge7 10. c4 Qd6 11. f4 { 13.5% after 7.Nc3; 11.f4! (+1.53). } ) 8. h4
+Nf6 { 18% after 6.e3; 8.h4! (+1.09). } ) 7. Nc3 Bb4 8. Bd2 Bxc3 9. bxc3 Qd6 (
+9... exd4 10. cxd4 { 19.7% center trade; 10.cxd4! (+0.88). } ) ( 9... Nf6 10.
+c4 Qd6 11. d5 { 12.1% reply; 10.c4! (+1.20). } ) ( 9... Nge7 10. c4 Qd6 11. d5
+{ 3.8% reply; 10.c4! (+1.38) drives Qd6 back. } ) 10. Qb3
+{ [MAIN-THEORY] 1.8% move-2 reply; 4.cxd5 + 10.Qb3! (+0.78, 63.2%W) crushes 9...Qd6 cleanly. }
+*
+
+[Event "Ch1 Classical QGD Skeleton v4"]
+[Site "?"]
+[Date "2026.11.24"]
+[Round "20"]
+[White "9.1 Albin: Precise 5.a3! — Disarming the d4 Wedge"]
+[Black ""]
+[Result "*"]
+
+1. d4 d5 2. c4 e5 3. dxe5 d4 ( 3... Ne7 4. cxd5 Qxd5 5. Bd2 Qxe5 6. Nc3
+{ 4.2% sideline; simple development (+0.81). } ) 4. Nf3 Nc6 5. a3 Nge7 ( 5...
+g6 6. Bg5 Be7 7. Bxe7 Ngxe7 8. Nbd2
+{ 2.5% sideline; clean development (+0.82). } ) ( 5... Bg4 6. Nbd2 Qe7 ( 6...
+Nge7 7. h3 Bxf3 8. Nxf3 Ng6 9. e6 { 13.5% after 6.Nbd2; 7.h3! (+1.37). } ) 7.
+h3 Bh5 ( 7... Bxf3 8. Nxf3 O-O-O 9. Bg5 f6 10. exf6
+{ 13.6% after 7.h3; 9.Bg5! (+1.38). } ) 8. g4 Bg6 9. Qa4
+{ Active 5...Bg4; 8.g4 Bg6 9.Qa4! (+1.80). } ) ( 5... Be6 6. Nbd2 Nge7 7. b4
+Ng6 { 10.4% reply; +1.23. } ) ( 5... a5 6. Nbd2 Nge7 7. Nb3 Nf5
+{ 9.5% reply; +0.71. } ) 6. b4 Ng6 7. Bb2 a5 ( 7... Ncxe5 8. Nxe5 Nxe5 9. e3
+{ 8.2% reply; healthy extra pawn (+1.06). } ) 8. b5 Ncxe5 9. Nxe5 Nxe5 10. e3
+Be6 ( 10... Bc5 11. Bxd4 Bxd4 12. Qxd4
+{ 2.4% reply; clean extra pawn (+0.40). } ) 11. Bxd4 Nxc4 12. Qc2
+{ [MAIN-THEORY] 0.7% move-2 reply; 4.Nf3 + 5.a3! avoids Lasker's Trap and holds a healthy extra pawn (+0.61). }
+*
+
+[Event "Villarrobledo op"]
+[Site "Villarrobledo"]
+[Date "1997.??.??"]
+[Round "21"]
+[White "Karpov, Anatoly"]
+[Black "Campora, Daniel Hugo"]
+[Result "1-0"]
+[LichessId "xHyfBV2Y"]
+
+{ Model Game: Karpov vs Campora (1997) — Orthodox 13.Bb3 exd4 } 1. d4 Nf6 2. c4
+e6 3. Nf3 d5 4. Nc3 Be7 5. Bg5 O-O 6. e3 c6 7. Rc1 Nbd7 8. Bd3 dxc4 9. Bxc4 Nd5
+10. Bxe7 Qxe7 11. O-O Nxc3 12. Rxc3 e5 13. Bb3 exd4 14. exd4 Nf6 15. Re1 Qd6
+16. Ne5 Bf5 17. Rf3 Bg4 18. Rxf6 Qxe5 19. dxe5 Bxd1 20. Bxf7+ Rxf7 21. Rxf7
+Kxf7 22. Rxd1 Ke6 23. f4 a5 24. Kf2 Ra6 25. Rd6+ Ke7 26. Ke3 Rb6 27. b3 a4 28.
+Rd3 Ke6 29. g4 c5 30. h4 Rb4 31. h5 h6 32. bxa4 Rxa4 33. Rd6+ Ke7 34. Rb6 Rxa2
+35. Rxb7+ Ke6 36. Rb6+ Ke7 37. Rc6 Rg2 38. Kf3 Rc2 39. Ke4 c4 40. Rc7+ Kd8 41.
+Rxg7 Rd2 42. Ra7 c3 43. Ra3 Re2+ 44. Kf5 Re3 45. Ra4 c2 46. Rc4 Re2 47. g5 hxg5
+48. fxg5 Ke7 49. h6 Rh2 50. Rc7+ Kd8 51. Rc5 Ke7 52. Kg6 1-0
+
+[Event "Leon"]
+[Site "Leon"]
+[Date "1993.??.??"]
+[Round "22"]
+[White "Karpov, Anatoly"]
+[Black "Illescas Cordoba, Miguel"]
+[Result "1-0"]
+[LichessId "yS7oILA6"]
+
+{ Model Game: Karpov vs Illescas (1993) — Tarrasch 6.g3 IQP Siege } 1. c4 c5 2.
+Nf3 Nf6 3. Nc3 e6 4. g3 Nc6 5. Bg2 d5 6. cxd5 exd5 7. d4 Be7 8. O-O O-O 9. Bg5
+cxd4 10. Nxd4 h6 11. Be3 Re8 12. Rc1 Bf8 13. a3 Bg4 14. h3 Be6 15. Nxc6 bxc6
+16. Bd4 Bd7 17. Qd3 Nh7 18. Be3 Bd6 19. Rfd1 Be6 20. b4 Nf8 21. Na4 Ng6 22. Qc3
+Bd7 23. Nc5 Bxc5 24. Bxc5 Rxe2 25. Be3 Qe7 26. Bf1 Rxe3 27. Qxe3 Qxe3 28. fxe3
+Re8 29. Kf2 Ne5 30. Rc5 Re7 31. e4 Be6 32. b5 cxb5 33. exd5 Bd7 34. d6 Re6 35.
+Bxb5 Rf6+ 36. Kg2 1-0
+
+[Event "Pamplona"]
+[Site "Pamplona"]
+[Date "2002.12.27"]
+[Round "23"]
+[White "Kasimdzhanov, Rustam"]
+[Black "Bologan, Viktor"]
+[Result "1-0"]
+[LichessId "M1mCKQF0"]
+
+{ Model Game: Kasimdzhanov vs Bologan (2002) — Tartakower 14.Be2 } 1. d4 Nf6 2.
+c4 e6 3. Nf3 d5 4. Nc3 Be7 5. Bg5 h6 6. Bh4 O-O 7. e3 b6 8. cxd5 Nxd5 9. Bxe7
+Qxe7 10. Nxd5 exd5 11. Rc1 Be6 12. Qa4 c5 13. Qa3 Rc8 14. Be2 a5 15. dxc5 Rxc5
+16. O-O Nc6 17. Qa4 Rc8 18. Rxc5 Qxc5 19. Bb5 Na7 20. Ba6 Rd8 21. Qh4 Re8 22.
+Bd3 Nc6 23. a3 b5 24. h3 b4 25. a4 b3 26. Bb5 Rc8 27. Qf4 Qc2 28. Bxc6 Qxc6 29.
+Nd4 Qc7 30. Qxc7 Rxc7 31. Ra1 Kf8 32. Nxb3 Rb7 33. Nxa5 Rxb2 34. Nc6 Bd7 35.
+Nd4 Ke7 36. a5 Kd6 37. g4 Kc7 38. Rc1+ Kd6 39. Ra1 Kc7 40. Kg2 Kb7 41. Rc1 1-0
+
+[Event "Bundesliga 9394"]
+[Site "Germany"]
+[Date "1994.04.17"]
+[Round "24"]
+[White "Kramnik, Vladimir"]
+[Black "Lutz, Christopher"]
+[Result "1-0"]
+[LichessId "qnES8oGd"]
+
+{ Model Game: Kramnik vs Lutz (1994) — Lasker 12.c4 Endgame } 1. Nf3 d5 2. d4
+Nf6 3. c4 e6 4. Nc3 Be7 5. Bg5 h6 6. Bh4 O-O 7. e3 Ne4 8. Bxe7 Qxe7 9. cxd5
+Nxc3 10. bxc3 exd5 11. Qb3 Rd8 12. c4 dxc4 13. Bxc4 Nc6 14. Be2 b6 15. O-O Bb7
+16. Rac1 Na5 17. Qb2 Rac8 18. h3 c5 19. dxc5 Rxc5 20. Rxc5 Qxc5 21. Rc1 Qe7 22.
+Nd4 Qg5 23. Bg4 Qd5 24. Bf3 Qd7 25. Bxb7 Nxb7 26. Nc6 Ra8 27. Qd4 Nc5 28. Qxd7
+Nxd7 29. Rd1 Nc5 30. g4 g6 31. Kg2 Kg7 32. Rd2 a6 33. Rd6 Rc8 34. Nd4 b5 35. h4
+b4 36. Rb6 a5 37. Rb5 Nd3 38. Rxa5 Ne1+ 39. Kg3 Nc2 40. Nb3 Na3 41. Ra4 Rc4 42.
+Nd4 Nc2 43. Nf3 Rc5 44. Ra7 g5 45. h5 Kg8 46. Nd2 Na3 47. Ne4 Rc2 48. Rb7 Rxa2
+49. Rxb4 Rc2 50. Rb6 Kh7 51. Rb7 Kg8 52. Nd6 Rc6 53. Nxf7 Nc4 54. Rd7 Rf6 55.
+Rd4 1-0
+
+[Event "Tata Steel-A 73rd"]
+[Site "Wijk aan Zee"]
+[Date "2011.01.26"]
+[Round "25"]
+[White "Anand, Viswanathan"]
+[Black "Shirov, Alexei"]
+[Result "1-0"]
+[LichessId "q57ja0Kz"]
+
+{ Model Game: Anand vs Shirov (2011) — Cambridge Springs 9.Rc1 } 1. d4 d5 2. c4
+c6 3. Nf3 Nf6 4. Nc3 e6 5. Bg5 Nbd7 6. e3 Qa5 7. cxd5 Nxd5 8. Qd2 Bb4 9. Rc1 h6
+10. Bh4 c5 11. Bc4 Nxc3 12. bxc3 Ba3 13. Rb1 a6 14. Be2 O-O 15. O-O b5 16. c4
+Bb4 17. Qc2 Bb7 18. Rfd1 bxc4 19. dxc5 Nxc5 20. Rd4 Rab8 21. Ne5 Bd5 22. Be7
+Rfe8 23. Bd6 Rbd8 24. Bh5 Rxd6 25. Bxf7+ Kf8 26. Bxe8 1-0

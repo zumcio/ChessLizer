@@ -1,0 +1,723 @@
+[Event "Ch1 Classical QGD Skeleton v3 (Gate 1 Round 2)"]
+[Site "?"]
+[Date "2026.11.23"]
+[Round "1"]
+[White "0.1 Early 3...Bb4: Central Exchange 4.cxd5 exd5 5.Bf4"]
+[Black ""]
+[Result "*"]
+
+1. d4 d5 2. c4 e6 3. Nc3 Bb4 4. cxd5 ( 4. e3 Nf6 5. Bd3 O-O
+{ Playable alternative transposing to Ch2 Nimzo-Indian Rubinstein 4...d5 (+0.19). }
+) 4... exd5 5. Bf4 Nf6 ( 5... c6 6. e3
+{ 37.0% reply; solid Carlsbad setup, SF19 #1 (+0.33). } ) ( 5... c5 6. dxc5 Nf6
+7. e3 O-O
+{ Active break: White trades c5, develops smoothly, and plays against the d5 pawn (+0.24). }
+) ( 5... Ne7 6. e3 { 12.8% reply; flexible e3 before Nf3, SF19 #1 (+0.40). } )
+6. e3 O-O 7. Bd3
+{ [COMMON-AMATEUR] 4.9% move-3 reply (Black scores 48.4%); 4.cxd5 exd5 5.Bf4 builds a clean Carlsbad (+0.22–+0.34). }
+*
+
+[Event "Ch1 Classical QGD Skeleton v3 (Gate 1 Round 2)"]
+[Site "?"]
+[Date "2026.11.23"]
+[Round "2"]
+[White "1.1 Orthodox: 13.Bb3 exd4 — Karpov's e-File Plan"]
+[Black ""]
+[Result "*"]
+
+1. d4 d5 2. c4 e6 3. Nc3 Nf6 4. Bg5 ( 4. Nf3 Bb4
+{ Prohibited by Chapter 1 move-order rule: allows Classical Ragozin, Vienna, and Botvinnik. }
+) 4... Be7 5. e3 O-O 6. Nf3 Nbd7 7. Rc1 ( 7. Bd3 dxc4 8. Bxc4
+{ Premature bishop move drops a full tempo. } ) 7... c6 8. Bd3 dxc4 ( 8... a6
+9. cxd5 exd5 10. O-O Re8 11. Qc2
+{ 7.1% reply; transposes directly to Line 1.5 Carlsbad. } ) 9. Bxc4 Nd5 ( 9...
+b5 10. Bd3 { 8.4% reply; +0.25. } ) 10. Bxe7 Qxe7 11. O-O Nxc3 12. Rxc3 e5 (
+12... b6 13. Qc2 c5 14. dxc5
+{ 7.4% reply; SF19 #1 14.dxc5! (+0.88) wins structural advantage. } ) 13. Bb3 (
+13. dxe5 Nxe5 14. Nxe5 Qxe5 { Premature release freeing Black's c8 bishop. } )
+13... exd4 14. exd4
+{ [MAIN-THEORY] Karpov central initiative: Re1, Ne5, e-file pressure (+0.43). Model: Karpov-Campora 1997 (xHyfBV2Y; note 17.Bxf7+! improvement). }
+*
+
+[Event "Ch1 Classical QGD Skeleton v3 (Gate 1 Round 2)"]
+[Site "?"]
+[Date "2026.11.23"]
+[Round "3"]
+[White "1.2 Orthodox: 13.Bb3 e4 — Closing Center & f3 Break"]
+[Black ""]
+[Result "*"]
+
+1. d4 d5 2. c4 e6 3. Nc3 Nf6 4. Bg5 Be7 5. e3 O-O 6. Nf3 Nbd7 7. Rc1 c6 8. Bd3
+dxc4 9. Bxc4 Nd5 10. Bxe7 Qxe7 11. O-O Nxc3 12. Rxc3 e5 13. Bb3 e4 14. Nd2
+{ [MAIN-THEORY] 40.3% (56.2% since 2015) after 13.Bb3; 14.Nd2! targets overextended e4 with f2-f3 (+0.26). }
+( 14. Ne1 Nf6 15. f3 Bf5 { Too passive; knight loses touch with c4 and e4. } )
+*
+
+[Event "Ch1 Classical QGD Skeleton v3 (Gate 1 Round 2)"]
+[Site "?"]
+[Date "2026.11.23"]
+[Round "4"]
+[White "1.3 Orthodox: 8...h6 9.Bh4 dxc4 — Precise 12.a4!"]
+[Black ""]
+[Result "*"]
+
+1. d4 d5 2. c4 e6 3. Nc3 Nf6 4. Bg5 Be7 5. e3 O-O 6. Nf3 Nbd7 7. Rc1 c6 8. Bd3
+h6 9. Bh4 dxc4 ( 9... a6 10. c5 e5 11. dxe5 { 8.3% reply; SF19 #1 (+0.42). } )
+( 9... b6 10. cxd5 cxd5 11. O-O Bb7 { 7.9% reply; SF19 #1 (+0.43). } ) 10. Bxc4
+b5 ( 10... Nd5 11. Bg3 Nxc3 12. bxc3
+{ 21.3% reply; sound (+0.16, 9cp behind Bxf6/Bxe7). } ) ( 10... a6 11. a4 Nd5
+12. Bg3 { 11.9% reply; sound (+0.27). } ) 11. Bd3 a6 ( 11... Bb7 12. O-O
+{ 42.3% reply; SF19 #1 (+0.24). } ) 12. a4 ( 12. O-O c5 13. a4 c4
+{ Old move drops edge (-0.06) allowing ...c4!; 12.a4! keeps +0.28. } ) 12...
+bxa4 ( 12... Bb7 13. O-O { 41.2% reply; SF19 #1 (+0.29). } ) ( 12... b4 13.
+Bxf6 Bxf6 14. Ne4 { 3.5% reply; +0.69. } ) ( 12... c5 13. axb5 axb5 14. Bxb5
+{ 3.0% reply; +0.51. } ) 13. Nxa4
+{ [MAIN-THEORY] Gate 1 upgrade 12.a4! (+0.28, 63.5%W after 12...bxa4) over 12.O-O (-0.06); targets queenside chain. }
+*
+
+[Event "Ch1 Classical QGD Skeleton v3 (Gate 1 Round 2)"]
+[Site "?"]
+[Date "2026.11.23"]
+[Round "5"]
+[White "1.4 Orthodox: 8.Bd3 Re8 — Immediate 11.Ne4!"]
+[Black ""]
+[Result "*"]
+
+1. d4 d5 2. c4 e6 3. Nc3 Nf6 4. Bg5 Be7 5. e3 O-O 6. Nf3 Nbd7 7. Rc1 c6 8. Bd3
+Re8 9. O-O dxc4 ( 9... Nf8 10. c5 b6 11. b4 { 39.7% reply; SF19 #1 (+1.04). } )
+10. Bxc4 Nd5 11. Ne4
+{ [MAIN-THEORY] Gate 1 upgrade 11.Ne4! (+0.79–+0.87, SF#1); stronger than 11.Bxe7 Qxe7 12.Ne4. }
+( 11. Bxe7 Qxe7 12. Ne4
+{ Playable (+0.52), but immediate 11.Ne4! reaches +0.81 with double win probability. }
+) *
+
+[Event "Ch1 Classical QGD Skeleton v3 (Gate 1 Round 2)"]
+[Site "?"]
+[Date "2026.11.23"]
+[Round "6"]
+[White "1.5 Orthodox: Early 7...a6 — Pure Carlsbad"]
+[Black ""]
+[Result "*"]
+
+1. d4 d5 2. c4 e6 3. Nc3 Nf6 4. Bg5 Be7 5. e3 O-O 6. Nf3 Nbd7 7. Rc1 a6 8. cxd5
+( 8. Bd3 dxc4 9. Bxc4 b5 10. Bd3 c5
+{ Walks into Black's ideal ...dxc4/...b5/...c5 counterplay. } ) 8... exd5 9.
+Bd3 c6 ( 9... Re8 10. O-O c6 11. Qc2
+{ 23.9% move-order; transposes directly into mainline. } ) 10. O-O Re8 11. Qc2
+{ [MAIN-THEORY] 26.4% after 7.Rc1 (merges 8.Bd3 a6); clean Carlsbad minority attack vs ...a6 (+0.33). }
+*
+
+[Event "Ch1 Classical QGD Skeleton v3 (Gate 1 Round 2)"]
+[Site "?"]
+[Date "2026.11.23"]
+[Round "7"]
+[White "1.6 Orthodox: Early 7...dxc4 8.Bxc4 a6 — 9.a4! & IQP"]
+[Black ""]
+[Result "*"]
+
+1. d4 d5 2. c4 e6 3. Nc3 Nf6 4. Bg5 Be7 5. e3 O-O 6. Nf3 Nbd7 7. Rc1 dxc4 8.
+Bxc4 a6 ( 8... c5 9. O-O
+{ 21.5% reply; leads into active IQP structures (transposes after ...a6 10.a4). }
+) 9. a4 c5 10. O-O
+{ [MAIN-THEORY] Fixes 76.8% Masters gap 8...a6; 9.a4 stops ...b5 and steers into a dynamic IQP after ...cxd4 exd4 (+0.15). }
+*
+
+[Event "Ch1 Classical QGD Skeleton v3 (Gate 1 Round 2)"]
+[Site "?"]
+[Date "2026.11.23"]
+[Round "8"]
+[White "1.7 Orthodox: Early 7...h6 8.Bh4 c5 — 10...Nxe7 & 11.Bb5!"]
+[Black ""]
+[Result "*"]
+
+1. d4 d5 2. c4 e6 3. Nc3 Nf6 4. Bg5 Be7 5. e3 O-O 6. Nf3 Nbd7 7. Rc1 h6 8. Bh4
+c5 ( 8... c6 9. Bd3 { 37.3% reply; transposes directly to Line 1.3. } ) ( 8...
+Re8 9. Bd3 { 5.2% reply; strong (+0.32, 3cp behind Be2). } ) ( 8... dxc4 9.
+Bxc4 { 8.0% reply; leads to active IQP (similar to Line 1.6). } ) ( 8... b6 9.
+cxd5 exd5 10. Bd3 Bb7 11. O-O { 6.6% reply; Tartakower-style hanging pawns. } )
+9. cxd5 Nxd5 10. Bxe7 Nxe7 ( 10... Qxe7 11. Nxd5 exd5 12. dxc5
+{ 2.5% blunderish recapture; isolates d5 pawn (+0.97). } ) 11. Bb5
+{ [MAIN-THEORY] Fixes 97.5% gap 10...Nxe7! (over 2.5% Qxe7); 11.Bb5! (+0.15, SF#1) pressures d7/c5. }
+*
+
+[Event "Ch1 Classical QGD Skeleton v3 (Gate 1 Round 2)"]
+[Site "?"]
+[Date "2026.11.23"]
+[Round "9"]
+[White "1.8 Orthodox: Early 7...h6 8.Bh4 a6 — Prophylactic 9.cxd5!"]
+[Black ""]
+[Result "*"]
+
+1. d4 d5 2. c4 e6 3. Nc3 Nf6 4. Bg5 Be7 5. e3 O-O 6. Nf3 Nbd7 7. Rc1 h6 8. Bh4
+a6 9. cxd5 ( 9. Bd3 dxc4 10. Bxc4 b5 11. Bd3 c5
+{ Grants Black an improved ...b5/...c5 counterattack. } ) 9... exd5 10. Bd3 c6
+11. Qc2
+{ [MAIN-THEORY] 10.4% after 8.Bh4; 9.cxd5 turns ...a6/...h6 into targets in an improved Carlsbad (+0.27). }
+*
+
+[Event "Ch1 Classical QGD Skeleton v3 (Gate 1 Round 2)"]
+[Site "?"]
+[Date "2026.11.23"]
+[Round "10"]
+[White "1.9 Orthodox: Early 7...b6 without ...h6 — Trap 8...Nxd5??"]
+[Black ""]
+[Result "*"]
+
+1. d4 d5 2. c4 e6 3. Nc3 Nf6 4. Bg5 Be7 5. e3 O-O 6. Nf3 Nbd7 7. Rc1 b6 8. cxd5
+exd5 ( 8... Nxd5 9. Nxd5 exd5 10. Bxe7 Qxe7 11. Rxc7
+{ Tactical trap: wins c7 pawn cleanly because White's bishop stayed on g5! } )
+9. Bd3 Bb7 10. O-O c5 ( 10... Ne4 11. Bf4 c5 12. Qc2
+{ 18.3% reply; +0.29 (3cp behind 12.h3 +0.32). } ) ( 10... a6 11. Bf5 Re8 12.
+Qc2 { 16.7% reply; +0.46–+0.52. } ) 11. Qe2
+{ [AMATEUR-SPECIAL] Punishes missing ...h6 via 8...Nxd5?? Rxc7!; 11.Qe2 prepares Ba6 (+0.13). }
+( 11. dxc5 bxc5 { Gives Black healthy hanging pawns without challenging Bb7. }
+) *
+
+[Event "Ch1 Classical QGD Skeleton v3 (Gate 1 Round 2)"]
+[Site "?"]
+[Date "2026.11.23"]
+[Round "11"]
+[White "1.10 Orthodox: Early 6...b6 — Patient 7.Bd3!"]
+[Black ""]
+[Result "*"]
+
+1. d4 d5 2. c4 e6 3. Nc3 Nf6 4. Bg5 Be7 5. e3 O-O 6. Nf3 b6 7. Bd3 ( 7. cxd5
+Nxd5 8. Bxe7 Qxe7
+{ Move-order mistake without Rc1: no Rxc7 tactic, giving Black an improved Tartakower. }
+) 7... Bb7 ( 7... dxc4 8. Bxc4 Bb7 9. O-O { 16.4% reply; SF19 #1 (+0.04). } )
+8. O-O Nbd7 9. Rc1 c5 10. Qe2
+{ [MAIN-THEORY] 7.7% after 6.Nf3; 7.Bd3 avoids premature cxd5 and targets Ba6 (+0.09). }
+*
+
+[Event "Ch1 Classical QGD Skeleton v3 (Gate 1 Round 2)"]
+[Site "?"]
+[Date "2026.11.23"]
+[Round "12"]
+[White "2.1 Tartakower: Mainline 8...Nxd5 — Hanging-Pawn Siege 14.Be2!"]
+[Black ""]
+[Result "*"]
+
+1. d4 d5 2. c4 e6 3. Nc3 Nf6 4. Bg5 Be7 5. e3 O-O 6. Nf3 h6 7. Bh4 b6 8. cxd5
+Nxd5 9. Bxe7 Qxe7 10. Nxd5 exd5 11. Rc1 Be6 ( 11... Bb7 12. Bd3 c5 13. O-O
+{ 5.2% sideline (merged from old 2.3); direct kingside development. } ) 12. Qa4
+( 12. Bd3 c5 13. O-O c4 { Grants Black a dangerous queenside majority. } )
+12... c5 ( 12... Rc8 13. Be2 c5 14. Qa3
+{ 8.4% reply; transposes right back to the mainline. } ) 13. Qa3 Rc8 14. Be2
+{ [MAIN-THEORY] Honest ~0.00 practical hanging-pawn battle; Model: Kasimdzhanov-Bologan 2002 (M1mCKQF0). }
+( 14. Bb5 Qb7 15. dxc5 Rxc5
+{ Overreaches: 14...Qb7! leaves White worse (-0.30). } ) *
+
+[Event "Ch1 Classical QGD Skeleton v3 (Gate 1 Round 2)"]
+[Site "?"]
+[Date "2026.11.23"]
+[Round "13"]
+[White "2.2 Tartakower: Passive 8...exd5 — 11.Qc2!"]
+[Black ""]
+[Result "*"]
+
+1. d4 d5 2. c4 e6 3. Nc3 Nf6 4. Bg5 Be7 5. e3 O-O 6. Nf3 h6 7. Bh4 b6 8. cxd5
+exd5 9. Bd3 Bb7 ( 9... Be6 10. O-O c5 11. Ne5
+{ 18.5% reply; SF19 #1 11.Ne5! (+1.04) replaces softer 11.Rc1. } ) 10. O-O Nbd7
+( 10... Ne4 11. Bxe7 Qxe7 12. Qb3
+{ 24.5% reply; +0.17–+0.23 (11.Ne5/12.Rc1 also strong). } ) ( 10... c5 11. Rc1
+Ne4 12. Bxe7 Qxe7 { 14.2% reply; +0.23 (12.Ne5 also strong). } ) 11. Qc2
+{ [MAIN-THEORY] Gate 1 upgrade 11.Qc2! (+0.36, SF#1) prevents ...Ne4 and prepares Rfd1/Bf5. }
+( 11. Qe2 c5 12. Ba6 { Allows 11...Ne4 easily; 11.Qc2! scores +0.36 vs +0.12. }
+) *
+
+[Event "Ch1 Classical QGD Skeleton v3 (Gate 1 Round 2)"]
+[Site "?"]
+[Date "2026.11.23"]
+[Round "14"]
+[White "3.1 Lasker: Mainline 11...Rd8 — Central Ram 12.c4!"]
+[Black ""]
+[Result "*"]
+
+1. d4 d5 2. c4 e6 3. Nc3 Nf6 4. Bg5 Be7 5. e3 O-O 6. Nf3 h6 7. Bh4 Ne4 8. Bxe7
+Qxe7 9. cxd5 Nxc3 10. bxc3 exd5 11. Qb3 ( 11. c4 Qb4+ 12. Qd2 Qxd2+
+{ Premature queen trade equalizing effortlessly. } ) 11... Rd8 ( 11... Qd6 12.
+c4 dxc4 13. Bxc4
+{ 2.3% club reply (merged from old 3.3); fast Bxc4 + O-O (+0.31). } ) 12. c4
+{ [MAIN-THEORY] Honest 0.00 rich endgame pressure; 75% reply; Model: Kramnik-Lutz 1994 (qnES8oGd). }
+( 12. Be2 c5 13. O-O Nc6 { Cements White's c3 weakness. } ) *
+
+[Event "Ch1 Classical QGD Skeleton v3 (Gate 1 Round 2)"]
+[Site "?"]
+[Date "2026.11.23"]
+[Round "15"]
+[White "3.2 Lasker: Solid 11...c6 — Flexible 12.Bd3!"]
+[Black ""]
+[Result "*"]
+
+1. d4 d5 2. c4 e6 3. Nc3 Nf6 4. Bg5 Be7 5. e3 O-O 6. Nf3 h6 7. Bh4 Ne4 8. Bxe7
+Qxe7 9. cxd5 Nxc3 10. bxc3 exd5 11. Qb3 c6 12. Bd3
+{ [MAIN-THEORY] 36.1% since 2015! Gate 1 upgrade 12.Bd3! (+0.15, SF#1) retains queenside and kingside flexibility. }
+( 12. c4 Be6 13. c5 b6 14. Rc1
+{ Old wedge allows ...b6! equalizing (-0.08 to 0.00); 12.Bd3! keeps +0.15. } )
+*
+
+[Event "Ch1 Classical QGD Skeleton v3 (Gate 1 Round 2)"]
+[Site "?"]
+[Date "2026.11.23"]
+[Round "16"]
+[White "4.1 Cambridge Springs: 9.Rc1 h6 10.Bh4 c5 — 11.a3!"]
+[Black ""]
+[Result "*"]
+
+1. d4 d5 2. c4 e6 3. Nc3 Nf6 4. Bg5 Nbd7 5. e3 c6 6. Nf3 Qa5 ( 6... h6 7. Bh4
+Be7 8. Rc1 O-O 9. Bd3 { 5.3% reply; transposes to Orthodox. } ) 7. cxd5 Nxd5 8.
+Qd2 Bb4 9. Rc1 ( 9. a3 Nxc3 10. axb4 Qxa1+ { Blunder losing the a1 rook. } )
+9... h6 ( 9... Qxa2 10. Nxa2 Bxd2+ 11. Kxd2
+{ Classic Cambridge Springs trap winning a piece. } ) 10. Bh4 c5 ( 10... O-O
+11. a3 Bxc3 12. bxc3 { 13.0% reply; bishop pair + strong center (+0.44). } )
+11. a3 ( 11. Bd3 cxd4 12. Nxd4 { Slower than immediate 11.a3! (+0.31). } )
+11... Bxc3 12. bxc3
+{ [MAIN-THEORY] 54.8% Masters mainline after 10.Bh4 (Anand-Shirov q57ja0Kz); 11.a3! (+0.31) claims bishop pair. }
+*
+
+[Event "Ch1 Classical QGD Skeleton v3 (Gate 1 Round 2)"]
+[Site "?"]
+[Date "2026.11.23"]
+[Round "17"]
+[White "4.2 Cambridge Springs: 9.Rc1 h6 10.Bh4 b6 — 11.Bd3!"]
+[Black ""]
+[Result "*"]
+
+1. d4 d5 2. c4 e6 3. Nc3 Nf6 4. Bg5 Nbd7 5. e3 c6 6. Nf3 Qa5 7. cxd5 Nxd5 8.
+Qd2 Bb4 9. Rc1 h6 10. Bh4 b6 11. Bd3 ( 11. a3 Bxc3 12. bxc3 Ba6
+{ Also playable (+0.30, SF#1); 11.Bd3! (+0.28) challenges ...Ba6 cleanly. } )
+11... Ba6 12. O-O
+{ [MAIN-THEORY] Closes 26.4% Masters gap after 10.Bh4; meets ...Ba6 smoothly with O-O (+0.28). }
+*
+
+[Event "Ch1 Classical QGD Skeleton v3 (Gate 1 Round 2)"]
+[Site "?"]
+[Date "2026.11.23"]
+[Round "18"]
+[White "4.3 Cambridge Springs: Fast 9...O-O — 10.a3! Bxc3+ 11.bxc3"]
+[Black ""]
+[Result "*"]
+
+1. d4 d5 2. c4 e6 3. Nc3 Nf6 4. Bg5 Nbd7 5. e3 c6 6. Nf3 Qa5 7. cxd5 Nxd5 8.
+Qd2 Bb4 9. Rc1 O-O 10. a3 Bxc3 ( 10... Bd6 11. e4 f6 12. exd5
+{ 4.8% sideline refuted by tactical fork motif e4-e5 (+0.60). } ) 11. bxc3
+{ [MAIN-THEORY] Fixes 95.2% Masters reply 10...Bxc3+; White keeps bishop pair and strong center (+0.49). }
+*
+
+[Event "Ch1 Classical QGD Skeleton v3 (Gate 1 Round 2)"]
+[Site "?"]
+[Date "2026.11.23"]
+[Round "19"]
+[White "4.4 Cambridge Springs: Exchange 9...Nxc3 — 11.Rb1!"]
+[Black ""]
+[Result "*"]
+
+1. d4 d5 2. c4 e6 3. Nc3 Nf6 4. Bg5 Nbd7 5. e3 c6 6. Nf3 Qa5 7. cxd5 Nxd5 8.
+Qd2 Bb4 9. Rc1 Nxc3 10. bxc3 Ba3 11. Rb1
+{ [MAIN-THEORY] 7% reply; 11.Rb1 seizes the semi-open b-file and targets e4/c4 expansion (+0.39). }
+( 11. Rc2 b6 12. Bd3 Ba6 { Passive rook placement without b-file pressure. } )
+*
+
+[Event "Ch1 Classical QGD Skeleton v3 (Gate 1 Round 2)"]
+[Site "?"]
+[Date "2026.11.23"]
+[Round "20"]
+[White "4.5 Cambridge Springs: Break 9...c5 — Immediate 10.a3!"]
+[Black ""]
+[Result "*"]
+
+1. d4 d5 2. c4 e6 3. Nc3 Nf6 4. Bg5 Nbd7 5. e3 c6 6. Nf3 Qa5 7. cxd5 Nxd5 8.
+Qd2 Bb4 9. Rc1 c5 10. a3 ( 10. Bd3 cxd4 11. exd4 O-O
+{ Grants comfortable play against d4 without winning the bishop pair. } ) 10...
+Bxc3 11. bxc3
+{ [MAIN-THEORY] 7% reply; 10.a3! scores 67.3% in Masters with bishop pair and c3-c4 break (+0.26). }
+*
+
+[Event "Ch1 Classical QGD Skeleton v3 (Gate 1 Round 2)"]
+[Site "?"]
+[Date "2026.11.23"]
+[Round "21"]
+[White "4.6 Cambridge Springs: Sideline 8.Qd2 N7b6 — 9.Bd3!"]
+[Black ""]
+[Result "*"]
+
+1. d4 d5 2. c4 e6 3. Nc3 Nf6 4. Bg5 Nbd7 5. e3 c6 6. Nf3 Qa5 7. cxd5 Nxd5 8.
+Qd2 N7b6 9. Bd3
+{ [MAIN-THEORY] Closes 14.5% Masters gap after 8.Qd2; 9.Bd3! (69.4%W, +0.44) outclasses 9.Rc1. }
+( 9. Rc1 Nxc3 10. bxc3
+{ Only +0.02 and 40% in Masters; 9.Bd3! scores 69.4% (+0.44). } ) *
+
+[Event "Ch1 Classical QGD Skeleton v3 (Gate 1 Round 2)"]
+[Site "?"]
+[Date "2026.11.23"]
+[Round "22"]
+[White "4.7 Cambridge Springs: 7...exd5 — Superior 8.Nd2!"]
+[Black ""]
+[Result "*"]
+
+1. d4 d5 2. c4 e6 3. Nc3 Nf6 4. Bg5 Nbd7 5. e3 c6 6. Nf3 Qa5 7. cxd5 exd5 8.
+Nd2
+{ [MAIN-THEORY] Gate 1 upgrade 8.Nd2! (+0.44, 69.3%W in Masters) kills 8...Ne4 before it starts. }
+( 8. Bd3 Ne4 9. O-O Nxg5
+{ Allows 8...Ne4 (88.9%!) with mere +0.10; 8.Nd2! keeps +0.44 and scores 69.3%. }
+) *
+
+[Event "Ch1 Classical QGD Skeleton v3 (Gate 1 Round 2)"]
+[Site "?"]
+[Date "2026.11.23"]
+[Round "23"]
+[White "4.8 Delayed Ragozin: 6...Bb4 — 9.Qc2!"]
+[Black ""]
+[Result "*"]
+
+1. d4 d5 2. c4 e6 3. Nc3 Nf6 4. Bg5 Nbd7 5. e3 c6 6. Nf3 Bb4 7. cxd5 exd5 8.
+Bd3 Qa5 ( 8... O-O 9. O-O Re8 10. Qc2
+{ 43% reply; identical Carlsbad with misplaced b4 bishop (+0.44). } ) 9. Qc2 (
+9. a3 Bxc3+ 10. bxc3 Qxc3+ { Blunder dropping the c3 pawn with check. } ) 9...
+O-O 10. O-O
+{ [MAIN-THEORY] 9.Qc2 protects c3 and prepares a3/bxc3 + c4 with bishop pair (+0.72). }
+*
+
+[Event "Ch1 Classical QGD Skeleton v3 (Gate 1 Round 2)"]
+[Site "?"]
+[Date "2026.11.23"]
+[Round "24"]
+[White "5.1 Anti-Botvinnik Guard: 4...c6 5.e3! (Never 5.Nf3?)"]
+[Black ""]
+[Result "*"]
+
+1. d4 d5 2. c4 e6 3. Nc3 Nf6 4. Bg5 c6 5. e3 ( 5. Nf3 dxc4 6. e4 b5
+{ PROHIBITED TRANSPOSITION: walks directly into Botvinnik theory! Always play 5.e3!. }
+) 5... Nbd7 ( 5... Be7 6. Nf3
+{ 11.9% reply; transposes directly to Orthodox mainlines. } ) ( 5... h6 6. Bh4
+Nbd7 7. Nf3 Be7 { 7.3% reply; transposes to Orthodox 1.3 or 1.7–1.8. } ) 6. Nf3
+Be7 ( 6... h6 7. Bh4 g5 8. Bg3
+{ 34.5% sharp thrust after 6...h6 7.Bh4; White gets strong center (+0.40). } )
+7. Rc1 O-O 8. Bd3
+{ [MAIN-THEORY] Hard repertoire rule: 5.e3! keeps Anti-Moscow/Botvinnik locked out and steers to Orthodox/CS (+0.13). }
+*
+
+[Event "Ch1 Classical QGD Skeleton v3 (Gate 1 Round 2)"]
+[Site "?"]
+[Date "2026.11.23"]
+[Round "25"]
+[White "5.2 Pseudo-Ragozin 4...Bb4: 7...g5 8.Bg3 Ne4 — 9.a3! & 11.f3!"]
+[Black ""]
+[Result "*"]
+
+1. d4 d5 2. c4 e6 3. Nc3 Nf6 4. Bg5 Bb4 5. cxd5 exd5 6. e3 h6 7. Bh4 g5 8. Bg3
+Ne4 9. a3 ( 9. Ne2 h5 10. h4
+{ 9.Ne2 (+0.34) transposes cleanly to Line 5.3 after 9...h5 10.h4; 9.a3 scores 60% in Masters. }
+) 9... Bxc3+ 10. bxc3 h5 ( 10... Nc6 11. Bd3 Bf5 12. Ne2
+{ 30.9% reply (90.5% play 11...Bf5); SF19 #1 12.Ne2! (+0.35) fixes old 12.f3 Hard Veto. }
+) 11. f3
+{ [MAIN-THEORY] 9.a3! (+0.27, 60%W Masters) wins bishop pair and builds a solid c3/d4/e3/f3 fortress. }
+*
+
+[Event "Ch1 Classical QGD Skeleton v3 (Gate 1 Round 2)"]
+[Site "?"]
+[Date "2026.11.23"]
+[Round "26"]
+[White "5.3 Pseudo-Ragozin 4...Bb4: Sharp 8...h5! 9.h4! & 11.Qb3!"]
+[Black ""]
+[Result "*"]
+
+1. d4 d5 2. c4 e6 3. Nc3 Nf6 4. Bg5 Bb4 5. cxd5 exd5 6. e3 h6 7. Bh4 g5 8. Bg3
+h5 9. h4 ( 9. h3 Ne4 10. Ne2 h4 11. Bh2
+{ Autopilot error trapping the bishop (-0.12). } ) ( 9. f3 h4 10. Bf2 c5
+{ Passive retreat yielding initiative (-0.06). } ) 9... Ne4 10. Ne2 Bg4 ( 10...
+Nxg3 11. Nxg3 gxh4 12. Nxh5 { 36.3% reply; White hits d5/f6 cleanly (+0.35). }
+) 11. Qb3
+{ [MAIN-THEORY] Closes 62.7% leaf gap 10...Bg4; 11.Qb3! (+0.46) is the ONLY move maintaining White's edge. }
+*
+
+[Event "Ch1 Classical QGD Skeleton v3 (Gate 1 Round 2)"]
+[Site "?"]
+[Date "2026.11.23"]
+[Round "27"]
+[White "5.4 Pseudo-Ragozin 4...Bb4: Quiet 7...O-O — Controlled Carlsbad 9.Ne2!"]
+[Black ""]
+[Result "*"]
+
+1. d4 d5 2. c4 e6 3. Nc3 Nf6 4. Bg5 Bb4 5. cxd5 exd5 6. e3 h6 7. Bh4 O-O 8. Bd3
+c6 ( 8... c5 9. dxc5 Bxc5 10. Nf3
+{ 54.5% reply after 8.Bd3; active IQP pressure (+0.38). } ) 9. Ne2 ( 9. Nf3 Bg4
+10. O-O Nbd7
+{ Blocks the f-pawn and forfeits the thematic f3+e4 Carlsbad plan. } ) 9... Re8
+10. O-O
+{ [COMMON-AMATEUR] Classic club response to 4...Bb4; 9.Ne2 prepares f2-f3 and e3-e4 (+0.26). }
+*
+
+[Event "Ch1 Classical QGD Skeleton v3 (Gate 1 Round 2)"]
+[Site "?"]
+[Date "2026.11.23"]
+[Round "28"]
+[White "5.5 Early 4...dxc4 — Solid 5.e3! & Dynamic IQP"]
+[Black ""]
+[Result "*"]
+
+1. d4 d5 2. c4 e6 3. Nc3 Nf6 4. Bg5 dxc4 5. e3 ( 5. e4 c5 6. d5 Be7
+{ Complex separate theory; 5.e3 scores higher (57.7%W) and keeps IQP harmony. }
+) 5... c5 ( 5... a6 6. Bxc4 b5 ( 6... c5 7. Nf3
+{ 50.0% after 6.Bxc4; SF19 #1 (+0.30). } ) 7. Be2 Bb7 8. Bf3
+{ 27.8% reply; SF19 #1 8.Bf3! (+0.82) replaces soft 8.Nf3. } ) 6. Bxc4 cxd4 7.
+exd4 Be7 8. Nf3 O-O ( 8... Nc6 9. Qe2 O-O 10. Rd1 { 21.3% reply; +0.19. } ) 9.
+O-O
+{ [MAIN-THEORY] 9.8% since 2015! 5.e3! (57.7%W) builds a clean active IQP; RAV covers 5...a6 with 8.Bf3!. }
+*
+
+[Event "Ch1 Classical QGD Skeleton v3 (Gate 1 Round 2)"]
+[Site "?"]
+[Date "2026.11.23"]
+[Round "29"]
+[White "6.1 Alatortsev 3...Be7: 5.Bf4 c6 6.e3 Bf5 — Space-Grabbing 7.g4!"]
+[Black ""]
+[Result "*"]
+
+1. d4 d5 2. c4 e6 3. Nc3 Be7 4. cxd5 exd5 5. Bf4 c6 6. e3 Bf5 7. g4 ( 7. Bd3
+Bxd3 8. Qxd3 Nf6 { Trades Black's light-squared bishop effortlessly (+0.02). }
+) 7... Be6 ( 7... Bg6 8. h4 { 10.6% reply; SF19 #1 (+0.59). } ) 8. h3
+{ [MAIN-THEORY] 7.g4! (+0.31, SF#1) denies ...Bf5xBd3 and seizes kingside space without breaking 4.Nf3 discipline. }
+*
+
+[Event "Ch1 Classical QGD Skeleton v3 (Gate 1 Round 2)"]
+[Site "?"]
+[Date "2026.11.23"]
+[Round "30"]
+[White "6.2 Alatortsev 3...Be7: 5.Bf4 c6 6.e3 Bd6 — 7.Bxd6!"]
+[Black ""]
+[Result "*"]
+
+1. d4 d5 2. c4 e6 3. Nc3 Be7 4. cxd5 exd5 5. Bf4 c6 6. e3 Bd6 7. Bxd6 Qxd6 8.
+Bd3
+{ [MAIN-THEORY] Closes 20.4% Masters gap after 6.e3; trades dark-squared bishops and claims 61.0%W (+0.39). }
+*
+
+[Event "Ch1 Classical QGD Skeleton v3 (Gate 1 Round 2)"]
+[Site "?"]
+[Date "2026.11.23"]
+[Round "31"]
+[White "6.3 Alatortsev 3...Be7: 5.Bf4 Nf6 — Fast 6.e3 & 7.Bd3"]
+[Black ""]
+[Result "*"]
+
+1. d4 d5 2. c4 e6 3. Nc3 Be7 4. cxd5 exd5 5. Bf4 Nf6 6. e3 O-O ( 6... c6 7. Bd3
+{ 8.7% reply; transposes directly to 6.1/6.2 complex. } ) 7. Bd3 c5 ( 7... c6
+8. Qc2 { 13.1% reply; +0.31–+0.41. } ) ( 7... b6 8. Nf3
+{ 9.1% reply; SF19 #1 (+0.59). } ) 8. Nf3
+{ [MAIN-THEORY] 6.e3 scores 61.5% in Masters; keeps healthy tension against ...c4 or Black IQP (+0.17). }
+( 8. dxc5 Bxc5 9. Nf3 Nc6 { Too early; Black activates pieces freely. } ) *
+
+[Event "Ch1 Classical QGD Skeleton v3 (Gate 1 Round 2)"]
+[Site "?"]
+[Date "2026.11.23"]
+[Round "32"]
+[White "6.4 Alatortsev 3...Be7: 5.Bf4 Nf6 6.e3 Bf5 — Sharp 7.Qb3!"]
+[Black ""]
+[Result "*"]
+
+1. d4 d5 2. c4 e6 3. Nc3 Be7 4. cxd5 exd5 5. Bf4 Nf6 6. e3 Bf5 7. Qb3
+{ [MAIN-THEORY] Closes huge 41.0% Masters gap after 6.e3; 7.Qb3! hits b7/d5 (60.7%W, +0.40, SF#1). }
+*
+
+[Event "Ch1 Classical QGD Skeleton v3 (Gate 1 Round 2)"]
+[Site "?"]
+[Date "2026.11.23"]
+[Round "33"]
+[White "6.5 Triangle Slav 3...c6: Marshall Gambit 4.e4! — Sharp 9.Bd6!"]
+[Black ""]
+[Result "*"]
+
+1. d4 d5 2. c4 e6 3. Nc3 c6 4. e4 ( 4. Nf3 dxc4 5. a4 Bb4
+{ Avoided Noteboom territory. } ) 4... dxe4 5. Nxe4 Bb4+ ( 5... Nf6 6. Nxf6+
+Qxf6 7. Nf3 { 71%W in Masters; spacious development. } ) 6. Bd2 Qxd4 7. Bxb4
+Qxe4+ 8. Be2 Na6 ( 8... c5 9. Bxc5 Qxg2 10. Qd6
+{ 6.1% reply; fixes old RAV Hard Veto (9.Bxc5! +0.93). } ) ( 8... Nd7 9. Nf3 c5
+( 9... b6 10. Qd2 { 23.6% after 9.Nf3; SF19 #1 10.Qd2! (+1.95). } ) 10. Bc3
+{ 6.7% reply (72.2% play 9...c5); SF19 #1 10.Bc3! (+0.72). } ) 9. Bd6
+{ [MAIN-THEORY] Closes 21.6% move-3 gap! Avoids Noteboom; 9.Bd6! strands Black's king (+0.26). }
+( 9. Bc3 f6 10. Nf3 Ne7 { Lets Black castle safely (-0.04). } ) *
+
+[Event "Ch1 Classical QGD Skeleton v3 (Gate 1 Round 2)"]
+[Site "?"]
+[Date "2026.11.23"]
+[Round "34"]
+[White "6.6 Triangle Slav 3...c6: Cautious 4.e4 Bb4 — 5.cxd5!"]
+[Black ""]
+[Result "*"]
+
+1. d4 d5 2. c4 e6 3. Nc3 c6 4. e4 Bb4 5. cxd5 ( 5. e5 c5 6. cxd5 Qxd5
+{ Needlessly messy compared to 5.cxd5! (+0.61). } ) 5... exd5 6. e5 Ne7 ( 6...
+c5 7. a3 Bxc3+ 8. bxc3
+{ 33.0% reply; bishop pair and kingside attack (+0.57). } ) 7. Nf3 O-O 8. Bd3
+{ [MAIN-THEORY] 12.7% after 4.e4; 5.cxd5 exd5 6.e5 yields a super-charged Advance French (+0.61). }
+*
+
+[Event "Ch1 Classical QGD Skeleton v3 (Gate 1 Round 2)"]
+[Site "?"]
+[Date "2026.11.23"]
+[Round "35"]
+[White "7.1 Tarrasch: Mainline 6.g3 Nf6 — Karpov's IQP Siege"]
+[Black ""]
+[Result "*"]
+
+1. d4 d5 2. c4 e6 3. Nc3 c5 4. cxd5 exd5 5. Nf3 Nc6 ( 5... Nf6 6. g3
+{ 7.3% reply; 6.g3 transposes cleanly into 7.1/7.2/7.4 complexes (+0.24). } )
+6. g3 ( 6. e3 Nf6 7. Be2 cxd4
+{ Grants Black free IQP activity without g2 laser pressure. } ) 6... Nf6 7. Bg2
+Be7 8. O-O O-O 9. Bg5 cxd4 10. Nxd4 h6 ( 10... Re8 11. Be3
+{ 6.1% reply; transposes cleanly after ...h6. } ) 11. Be3
+{ [MAIN-THEORY] Surgical 6.g3 against Tarrasch IQP (+0.38, 61.3%W). Model: Karpov-Illescas 1993 (yS7oILA6; note 15.Nxe6!). }
+*
+
+[Event "Ch1 Classical QGD Skeleton v3 (Gate 1 Round 2)"]
+[Site "?"]
+[Date "2026.11.23"]
+[Round "36"]
+[White "7.2 Tarrasch: Early Tension Release 7.Bg2 cxd4 8.Nxd4"]
+[Black ""]
+[Result "*"]
+
+1. d4 d5 2. c4 e6 3. Nc3 c5 4. cxd5 exd5 5. Nf3 Nc6 6. g3 Nf6 7. Bg2 cxd4 8.
+Nxd4
+{ [MAIN-THEORY] Closes 13.6% Masters gap (623 games); White targets d5 directly before ...Be7/+O-O (+0.23). }
+*
+
+[Event "Ch1 Classical QGD Skeleton v3 (Gate 1 Round 2)"]
+[Site "?"]
+[Date "2026.11.23"]
+[Round "37"]
+[White "7.3 Tarrasch: Advance 9.Bg5 c4 — 10.Ne5!"]
+[Black ""]
+[Result "*"]
+
+1. d4 d5 2. c4 e6 3. Nc3 c5 4. cxd5 exd5 5. Nf3 Nc6 6. g3 Nf6 7. Bg2 Be7 8. O-O
+O-O 9. Bg5 c4 ( 9... Be6 10. dxc5 Bxc5 11. Rc1 Be7 ( 11... Bb6 12. b3
+{ 32.8% after 11.Rc1; SF19 #1 (+0.38). } ) 12. Nd4
+{ 7.7% reply (+ 11...Be7 66.4%); SF19 #1 (+0.43). } ) 10. Ne5 ( 10. e3 h6 11.
+Bxf6 Bxf6 { Allows solid Black blockade without e5 pressure. } ) 10... Be6 11.
+e3
+{ [MAIN-THEORY] 23.4% after 9.Bg5; 10.Ne5! scores 58.9%W and prepares b2-b3 (+0.22). }
+*
+
+[Event "Ch1 Classical QGD Skeleton v3 (Gate 1 Round 2)"]
+[Site "?"]
+[Date "2026.11.23"]
+[Round "38"]
+[White "7.4 Tarrasch: Swedish Variation 6...c4 — Central Strike 9.e4!"]
+[Black ""]
+[Result "*"]
+
+1. d4 d5 2. c4 e6 3. Nc3 c5 4. cxd5 exd5 5. Nf3 Nc6 6. g3 c4 7. Bg2 Bb4 8. O-O
+Nge7 9. e4
+{ [MAIN-THEORY] 8.3% after 6.g3; 9.e4! hits the uncastled king and centralizes (+0.56). }
+( 9. a3 Bxc3 10. bxc3 O-O { Slow; lets Black castle comfortably. } ) *
+
+[Event "Ch1 Classical QGD Skeleton v3 (Gate 1 Round 2)"]
+[Site "?"]
+[Date "2026.11.23"]
+[Round "39"]
+[White "7.5 Tarrasch: Hennig-Schara Gambit 4...cxd4 — 8...Nc6 9.Qd1!"]
+[Black ""]
+[Result "*"]
+
+1. d4 d5 2. c4 e6 3. Nc3 c5 4. cxd5 cxd4 5. Qa4+ ( 5. Qxd4 Nc6 6. Qd1 exd5
+{ Allows Black's c8 bishop out cleanly; 5.Qa4+! scores 60.8%W. } ) 5... Bd7 6.
+Qxd4 exd5 7. Qxd5 Nc6 8. Nf3 Nf6 9. Qd1
+{ [MAIN-THEORY] 20% after 4.cxd5; 9.Qd1! consolidates a healthy extra pawn (+0.50). }
+( 9. Qb3 Bc5 10. e3 O-O { Leaves queen exposed to ...Be6/...Na5. } ) *
+
+[Event "Ch1 Classical QGD Skeleton v3 (Gate 1 Round 2)"]
+[Site "?"]
+[Date "2026.11.23"]
+[Round "40"]
+[White "7.6 Tarrasch: Hennig-Schara 7...Nf6 8.Qd1!"]
+[Black ""]
+[Result "*"]
+
+1. d4 d5 2. c4 e6 3. Nc3 c5 4. cxd5 cxd4 5. Qa4+ Bd7 6. Qxd4 exd5 7. Qxd5 Nf6
+8. Qd1
+{ [MAIN-THEORY] Closes 38.9% Masters gap after 7.Qxd5; identical clean consolidation (+0.38, 60.0%W). }
+*
+
+[Event "Ch1 Classical QGD Skeleton v3 (Gate 1 Round 2)"]
+[Site "?"]
+[Date "2026.11.23"]
+[Round "41"]
+[White "8.1 Chigorin: Mainline 3...Bg4 — 9...Qd6 10.Qb3!"]
+[Black ""]
+[Result "*"]
+
+1. d4 d5 2. c4 Nc6 3. Nf3 Bg4 4. cxd5 Bxf3 5. gxf3 Qxd5 6. e3 e5 ( 6... e6 7.
+Nc3 Qh5 ( 7... Bb4 8. Bd2 Bxc3 9. bxc3 Nge7 10. c4 Qd6 11. f4
+{ 13.5% after 7.Nc3; 11.f4! (+1.53) fixes old 11.Rb1 Soft Veto. } ) 8. h4 Nf6
+{ 18% after 6.e3 + 74% ...Qh5; SF19 #1 8.h4! (+1.09). } ) 7. Nc3 Bb4 8. Bd2
+Bxc3 9. bxc3 Qd6 ( 9... Nf6 10. c4 Qd6 11. d5
+{ 12.1% reply; 10.c4! (+1.20) avoids 10.Rb1 Qxa2!. } ) 10. Qb3
+{ [MAIN-THEORY] Fixes huge 62.3% hole 9...Qd6; 10.Qb3! (+0.78, SF#1, 63.2%W) hits b7 cleanly. }
+( 10. c4 exd4 11. Bg2 Nge7
+{ CRITICAL TRAP (-1.76): 10.c4?? fails against 9...Qd6 because of 10...exd4!; play 10.Qb3!. }
+) *
+
+[Event "Ch1 Classical QGD Skeleton v3 (Gate 1 Round 2)"]
+[Site "?"]
+[Date "2026.11.23"]
+[Round "42"]
+[White "8.2 Chigorin: Center Trade 9...exd4 — 10.cxd4!"]
+[Black ""]
+[Result "*"]
+
+1. d4 d5 2. c4 Nc6 3. Nf3 Bg4 4. cxd5 Bxf3 5. gxf3 Qxd5 6. e3 e5 7. Nc3 Bb4 8.
+Bd2 Bxc3 9. bxc3 exd4 10. cxd4
+{ [MAIN-THEORY] Fixes 19.7% Masters hole 9...exd4; 10.cxd4! (+0.88, 66.5%W) claims a massive center and bishop pair. }
+( 10. Rb1 dxe3 11. fxe3 O-O-O
+{ TRAP (-0.95): 10.Rb1?? blunders to 10...dxe3!; always recapture 10.cxd4!. } )
+*
+
+[Event "Ch1 Classical QGD Skeleton v3 (Gate 1 Round 2)"]
+[Site "?"]
+[Date "2026.11.23"]
+[Round "43"]
+[White "8.3 Chigorin: Gambit 3...e5 — 4.Nxe5! & Surgical 7.g3!"]
+[Black ""]
+[Result "*"]
+
+1. d4 d5 2. c4 Nc6 3. Nf3 e5 4. Nxe5 Nxe5 5. dxe5 d4 ( 5... dxc4 6. Qxd8+ Kxd8
+7. e4 { 29.5% reply; +1.18 winning endgame, 73.1%W in Masters. } ) 6. Nd2 Ne7
+7. g3
+{ [MAIN-THEORY] Gate 1 surgical upgrade 7.g3! (+0.68, ~1cp from 7.f4 at d20, #1 at leaf) + 5...dxc4 RAV (+1.18). }
+( 7. f4 Bf5 8. Nf3 Nc6
+{ Good non-fianchetto alternative (+0.50), while surgical 7.g3! scores +0.68 SF#1. }
+) ( 7. e3 dxe3 8. fxe3 Nc6 { Ruins White's e-file pawns (-119 cp). } ) *
+
+[Event "Ch1 Classical QGD Skeleton v3 (Gate 1 Round 2)"]
+[Site "?"]
+[Date "2026.11.23"]
+[Round "44"]
+[White "9.1 Albin: Mainline 5...Nge7 — 10.e3 Be6 11.Bxd4!"]
+[Black ""]
+[Result "*"]
+
+1. d4 d5 2. c4 e5 3. dxe5 d4 4. Nf3 ( 4. e3 Bb4+ 5. Bd2 dxe3
+{ Famous Lasker Trap losing material! Always 4.Nf3!. } ) 4... Nc6 5. a3 Nge7 6.
+b4 Ng6 7. Bb2 a5 8. b5 Ncxe5 9. Nxe5 Nxe5 10. e3 Be6 ( 10... Bc5 11. Bxd4 Bxd4
+12. Qxd4 { 2.4% reply; +0.40 clean extra pawn. } ) 11. Bxd4
+{ [MAIN-THEORY] Fixes 90.5% Masters hole 10...Be6; 11.Bxd4! (+0.59) holds a clean extra pawn. }
+( 11. Qxd4 Qxd4 12. Bxd4 Nxc4
+{ TRAP (-0.34): drops c4 pawn back; always take 11.Bxd4! (+0.59). } ) *
+
+[Event "Ch1 Classical QGD Skeleton v3 (Gate 1 Round 2)"]
+[Site "?"]
+[Date "2026.11.23"]
+[Round "45"]
+[White "9.2 Albin: Active 5...Bg4 — Crushing 7...Bh5 8.g4! Bg6 9.Qa4!"]
+[Black ""]
+[Result "*"]
+
+1. d4 d5 2. c4 e5 3. dxe5 d4 4. Nf3 Nc6 5. a3 Bg4 ( 5... Be6 6. Nbd2 Nge7 7. b4
+Ng6 { 10.4% reply (76% play 6...Nge7); +1.23. } ) ( 5... a5 6. Nbd2 Nge7 7. Nb3
+Nf5 { 9.5% reply; +0.71. } ) 6. Nbd2 Qe7 7. h3 Bh5 ( 7... Bxf3 8. Nxf3 O-O-O 9.
+Bg5 f6 10. exf6 { 13.6% reply; 9.Bg5! (+1.38) destroys kingside. } ) 8. g4 Bg6
+9. Qa4
+{ [MAIN-THEORY] Fixes 81.8% Masters reply 7...Bh5; 8.g4 Bg6 9.Qa4! hits +1.80 (96.2%W WDL). }
+*

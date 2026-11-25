@@ -31,6 +31,7 @@ BIN_DIR = ROOT_DIR / "bin" / "stockfish"
 CACHE_DIR = ROOT_DIR / "cache"
 CACHE_DB = CACHE_DIR / "explorer_cache.db"
 ECO_DIR = ROOT_DIR / "data" / "eco"
+LOCAL_ONLINE_DB = Path(os.getenv("LOCAL_ONLINE_DB", "").strip() or (ROOT_DIR / "data" / "lichess_online.db"))
 
 load_dotenv(ROOT_DIR / ".env")
 
@@ -132,6 +133,61 @@ class EngineLine:
     nodes: int
 
 
+ENGINE_CACHE_DB = CACHE_DIR / "engine_cache.db"
+
+
+class EngineCache:
+    """Persistent SQLite cache of Stockfish results keyed by (EPD, searchmoves, depth, multipv).
+
+    A request is served by any stored entry with depth >= requested and multipv >= requested
+    (shallowest sufficient entry first, so repeated runs return identical results).
+    """
+
+    def __init__(self, db_path: Path = ENGINE_CACHE_DB) -> None:
+        self.db_path = db_path
+        self.db_path.parent.mkdir(parents=True, exist_ok=True)
+        self._conn = sqlite3.connect(self.db_path, timeout=30)
+        try:
+            self._conn.execute("PRAGMA journal_mode=WAL")
+        except sqlite3.Error:
+            pass
+        self._conn.execute(
+            "CREATE TABLE IF NOT EXISTS sf_cache (epd TEXT, roots TEXT, depth INTEGER, multipv INTEGER, "
+            "payload TEXT NOT NULL, PRIMARY KEY (epd, roots, depth, multipv))"
+        )
+        self._conn.commit()
+
+    @staticmethod
+    def _roots_key(root_moves: list[chess.Move] | None) -> str:
+        return ",".join(sorted(m.uci() for m in root_moves)) if root_moves else ""
+
+    def get(self, board: chess.Board, root_moves: list[chess.Move] | None, depth: int, multipv: int) -> list[EngineLine] | None:
+        row = self._conn.execute(
+            "SELECT payload FROM sf_cache WHERE epd=? AND roots=? AND depth>=? AND multipv>=? "
+            "ORDER BY depth ASC, multipv ASC LIMIT 1",
+            (board.epd(), self._roots_key(root_moves), depth, multipv),
+        ).fetchone()
+        if not row:
+            return None
+        try:
+            raw = json.loads(row[0])
+            lines = [
+                EngineLine(**{**d, "wdl": tuple(d["wdl"]) if d.get("wdl") else None})  # type: ignore[arg-type]
+                for d in raw
+            ]
+        except (ValueError, TypeError, KeyError):
+            return None
+        return lines[:multipv]
+
+    def put(self, board: chess.Board, root_moves: list[chess.Move] | None, depth: int, multipv: int, lines: list[EngineLine]) -> None:
+        payload = json.dumps([line.__dict__ for line in lines])
+        self._conn.execute(
+            "INSERT OR REPLACE INTO sf_cache (epd, roots, depth, multipv, payload) VALUES (?, ?, ?, ?, ?)",
+            (board.epd(), self._roots_key(root_moves), depth, multipv, payload),
+        )
+        self._conn.commit()
+
+
 class StockfishAnalyzer:
     """Zero-asyncio subprocess UCI wrapper for local Stockfish (works cleanly in Windows sandbox)."""
 
@@ -147,6 +203,10 @@ class StockfishAnalyzer:
         self._proc: subprocess.Popen[str] | None = None
         self._engine_name: str = self.path.name
         self._current_multipv: int = 1
+        # Persistent on-disk cache shared by all tools (disable with SF_PERSIST_CACHE=0)
+        self.persist: EngineCache | None = (
+            None if os.getenv("SF_PERSIST_CACHE", "1").strip() == "0" else EngineCache()
+        )
 
     def __enter__(self) -> StockfishAnalyzer:
         self.open()
@@ -202,7 +262,18 @@ class StockfishAnalyzer:
             except Exception:
                 self._proc.kill()
             finally:
+                for stream in (self._proc.stdin, self._proc.stdout):
+                    if stream is not None:
+                        try:
+                            stream.close()
+                        except Exception:
+                            pass
                 self._proc = None
+        if self.persist is not None:
+            try:
+                self.persist._conn.close()
+            except Exception:
+                pass
 
     @property
     def engine_name(self) -> str:
@@ -264,7 +335,7 @@ class StockfishAnalyzer:
 
         pv_san: list[str] = []
         tmp = board.copy(stack=False)
-        for uci in pv_uci[:10]:
+        for uci in pv_uci[:16]:
             try:
                 mv = chess.Move.from_uci(uci)
             except ValueError:
@@ -306,14 +377,36 @@ class StockfishAnalyzer:
         multipv: int = 3,
         root_moves: list[chess.Move] | None = None,
     ) -> list[EngineLine]:
-        self.open()
-        assert self._proc is not None and self._proc.stdout is not None
-
         legal_count = board.legal_moves.count()
         if legal_count == 0:
             return []
 
         eff_multipv = max(1, min(multipv, len(root_moves) if root_moves else legal_count))
+        eff_depth = max(1, depth or 20)
+        use_persist = time_sec is None and self.persist is not None
+        if use_persist:
+            assert self.persist is not None
+            hit = self.persist.get(board, root_moves, eff_depth, eff_multipv)
+            if hit is not None:
+                return hit
+
+        lines = self._analyze_uncached(board, depth, time_sec, eff_multipv, root_moves)
+        if use_persist and lines:
+            assert self.persist is not None
+            self.persist.put(board, root_moves, eff_depth, eff_multipv, lines)
+        return lines
+
+    def _analyze_uncached(
+        self,
+        board: chess.Board,
+        depth: int | None,
+        time_sec: float | None,
+        eff_multipv: int,
+        root_moves: list[chess.Move] | None,
+    ) -> list[EngineLine]:
+        self.open()
+        assert self._proc is not None and self._proc.stdout is not None
+
         if eff_multipv != self._current_multipv:
             self._send(f"setoption name MultiPV value {eff_multipv}")
             self._current_multipv = eff_multipv
@@ -382,26 +475,31 @@ class ExplorerCache:
     def __init__(self, db_path: Path = CACHE_DB) -> None:
         self.db_path = db_path
         self.db_path.parent.mkdir(parents=True, exist_ok=True)
+        self._conn: sqlite3.Connection | None = None
         self._init_db()
 
+    def _get_conn(self) -> sqlite3.Connection:
+        if self._conn is None:
+            self._conn = sqlite3.connect(self.db_path, timeout=30)
+        return self._conn
+
     def _init_db(self) -> None:
-        with sqlite3.connect(self.db_path) as conn:
-            conn.execute(
-                """
-                CREATE TABLE IF NOT EXISTS api_cache (
-                    cache_key TEXT PRIMARY KEY,
-                    payload TEXT NOT NULL,
-                    fetched_at REAL NOT NULL
-                )
-                """
+        conn = self._get_conn()
+        conn.execute(
+            """
+            CREATE TABLE IF NOT EXISTS api_cache (
+                cache_key TEXT PRIMARY KEY,
+                payload TEXT NOT NULL,
+                fetched_at REAL NOT NULL
             )
-            conn.commit()
+            """
+        )
+        conn.commit()
 
     def get(self, key: str, max_age_sec: float = 30 * 86400) -> dict[str, Any] | None:
-        with sqlite3.connect(self.db_path) as conn:
-            row = conn.execute(
-                "SELECT payload, fetched_at FROM api_cache WHERE cache_key = ?", (key,)
-            ).fetchone()
+        row = self._get_conn().execute(
+            "SELECT payload, fetched_at FROM api_cache WHERE cache_key = ?", (key,)
+        ).fetchone()
         if not row:
             return None
         payload, fetched_at = row
@@ -410,12 +508,12 @@ class ExplorerCache:
         return json.loads(payload)
 
     def set(self, key: str, data: dict[str, Any]) -> None:
-        with sqlite3.connect(self.db_path) as conn:
-            conn.execute(
-                "INSERT OR REPLACE INTO api_cache (cache_key, payload, fetched_at) VALUES (?, ?, ?)",
-                (key, json.dumps(data), time.time()),
-            )
-            conn.commit()
+        conn = self._get_conn()
+        conn.execute(
+            "INSERT OR REPLACE INTO api_cache (cache_key, payload, fetched_at) VALUES (?, ?, ?)",
+            (key, json.dumps(data), time.time()),
+        )
+        conn.commit()
 
 
 @dataclass
@@ -451,6 +549,126 @@ class ExplorerResult:
     from_cache: bool = False
 
 
+class LocalOnlineDB:
+    """Offline SQLite Opening Explorer backend built from Lichess/standard-chess-games Parquet."""
+
+    def __init__(self, db_path: Path = LOCAL_ONLINE_DB, eco_lookup: EcoLookup | None = None) -> None:
+        self.db_path = db_path
+        self._eco = eco_lookup
+        self._avail_bands: set[int] | None = None
+        self._conn: sqlite3.Connection | None = None
+
+    def _get_conn(self) -> sqlite3.Connection:
+        if self._conn is None:
+            self._conn = sqlite3.connect(self.db_path, timeout=30)
+        return self._conn
+
+    def _get_available_bands(self) -> set[int]:
+        if self._avail_bands is not None:
+            return self._avail_bands
+        if not self.db_path.is_file():
+            self._avail_bands = set()
+            return self._avail_bands
+        try:
+            rows = self._get_conn().execute("SELECT DISTINCT band FROM pos_stats").fetchall()
+            self._avail_bands = {int(r[0]) for r in rows}
+        except sqlite3.Error:
+            self._avail_bands = set()
+        return self._avail_bands
+
+    def is_available(self, ratings_csv: str) -> bool:
+        avail = self._get_available_bands()
+        if not avail:
+            return False
+        try:
+            req = {int(x.strip()) for x in ratings_csv.split(",") if x.strip()}
+        except ValueError:
+            return False
+        return bool(req & avail)
+
+    def query(
+        self,
+        board: chess.Board,
+        tier: str,
+        eff_ratings: str,
+        speeds: str,
+        moves: int,
+        ratings_explicit: bool = False,
+    ) -> ExplorerResult:
+        bands = [int(x.strip()) for x in eff_ratings.split(",") if x.strip()]
+        speed_list = [s.strip().lower() for s in speeds.split(",") if s.strip()]
+        if not bands or not speed_list:
+            raise ValueError("Empty ratings or speeds passed to LocalOnlineDB.")
+
+        band_ph = ",".join("?" for _ in bands)
+        speed_ph = ",".join("?" for _ in speed_list)
+        sql = (
+            "SELECT uci, san, SUM(white) AS w, SUM(draws) AS d, SUM(black) AS b, SUM(elo_sum) AS esum "
+            "FROM pos_stats "
+            f"WHERE epd = ? AND band IN ({band_ph}) AND speed IN ({speed_ph}) "
+            "GROUP BY uci, san "
+            "ORDER BY (SUM(white) + SUM(draws) + SUM(black)) DESC"
+        )
+        params: list[Any] = [board.epd(), *bands, *speed_list]
+        rows = self._get_conn().execute(sql, params).fetchall()
+
+        total_w = sum(int(r[2]) for r in rows)
+        total_d = sum(int(r[3]) for r in rows)
+        total_b = sum(int(r[4]) for r in rows)
+        total = total_w + total_d + total_b
+
+        moves_out: list[MoveStat] = []
+        cum = 0.0
+        for uci, san, w_raw, d_raw, b_raw, esum_raw in rows[:moves]:
+            mw, md, mb = int(w_raw), int(d_raw), int(b_raw)
+            mtot = mw + md + mb
+            if mtot == 0:
+                continue
+            play_pct = (mtot / total * 100.0) if total > 0 else 0.0
+            cum += play_pct
+            w_pct = mw / mtot * 100.0
+            d_pct = md / mtot * 100.0
+            b_pct = mb / mtot * 100.0
+            side_score = (mw + 0.5 * md) / mtot * 100.0 if board.turn == chess.WHITE else (mb + 0.5 * md) / mtot * 100.0
+            avg_elo = round(int(esum_raw) / mtot) if esum_raw is not None else None
+            moves_out.append(
+                MoveStat(
+                    san=str(san),
+                    uci=str(uci),
+                    white=mw,
+                    draws=md,
+                    black=mb,
+                    total=mtot,
+                    play_pct=play_pct,
+                    cum_pct=cum,
+                    white_pct=w_pct,
+                    draw_pct=d_pct,
+                    black_pct=b_pct,
+                    side_score_pct=side_score,
+                    average_rating=avg_elo,
+                )
+            )
+
+        if self._eco is None:
+            self._eco = EcoLookup()
+        eco_hit = self._eco.lookup(board)
+        label = f"local-online({eff_ratings})" if ratings_explicit else f"local-online:{tier}({eff_ratings})"
+        return ExplorerResult(
+            source=label,
+            fen=board.fen(),
+            turn="White" if board.turn == chess.WHITE else "Black",
+            total_games=total,
+            white=total_w,
+            draws=total_d,
+            black=total_b,
+            opening_eco=eco_hit[0] if eco_hit else None,
+            opening_name=eco_hit[1] if eco_hit else None,
+            moves=moves_out,
+            top_games=[],
+            from_cache=True,
+        )
+
+
 class LichessClient:
     """Client for Lichess Masters DB, Online DB, Cloud Eval, and Syzygy Tablebase."""
 
@@ -463,10 +681,14 @@ class LichessClient:
         token: str | None = None,
         cache: ExplorerCache | None = None,
         min_delay_sec: float = 0.35,
+        local_online: LocalOnlineDB | None = None,
+        online_source: str | None = None,
     ) -> None:
         self.token = (token if token is not None else os.getenv("LICHESS_API_TOKEN", "")).strip()
         self.cache = cache or ExplorerCache()
         self.min_delay_sec = min_delay_sec
+        self.local_online = local_online or LocalOnlineDB()
+        self.online_source = (online_source or os.getenv("ONLINE_DB_SOURCE", "auto")).strip().lower()
         self._last_net_call = 0.0
         self._session = requests.Session()
         self._session.headers.update({"User-Agent": "ChessAnalysisToolkit/1.0"})
@@ -492,6 +714,7 @@ class LichessClient:
         use_cache: bool = True,
         require_auth: bool = False,
         allow_404: bool = False,
+        norm_cache_key: str | None = None,
     ) -> tuple[dict[str, Any] | None, bool]:
         sorted_items = sorted((k, str(v)) for k, v in params.items() if v is not None)
         cache_key = f"{cache_prefix}|{json.dumps(sorted_items, separators=(',', ':'))}"
@@ -500,6 +723,10 @@ class LichessClient:
             cached = self.cache.get(cache_key)
             if cached is not None:
                 return cached, True
+            if norm_cache_key:
+                norm_cached = self.cache.get(norm_cache_key)
+                if norm_cached is not None:
+                    return norm_cached, True
 
         headers = self._headers(require_auth=require_auth)
 
@@ -526,6 +753,8 @@ class LichessClient:
         data = resp.json()
         if use_cache:
             self.cache.set(cache_key, data)
+            if norm_cache_key:
+                self.cache.set(norm_cache_key, data)
         return data, False
 
     def _parse_explorer(
@@ -601,15 +830,30 @@ class LichessClient:
         until: int | None = None,
         use_cache: bool = True,
     ) -> ExplorerResult:
+        eff_moves = max(moves, 15)
+        eff_top = max(top_games, 5)
+        norm_key = f"masters_epd|{board.epd()}|since={since}|until={until}"
         params: dict[str, Any] = {
             "fen": board.fen(),
-            "moves": moves,
-            "topGames": top_games,
+            "moves": eff_moves,
+            "topGames": eff_top,
         }
         if since is not None:
             params["since"] = since
         if until is not None:
             params["until"] = until
+
+        # Preserve exact legacy cache hit if already stored under caller's original moves/topGames
+        if use_cache and (eff_moves != moves or eff_top != top_games):
+            legacy_params = {"fen": board.fen(), "moves": moves, "topGames": top_games}
+            if since is not None:
+                legacy_params["since"] = since
+            if until is not None:
+                legacy_params["until"] = until
+            legacy_key = f"masters|{json.dumps(sorted((k, str(v)) for k, v in legacy_params.items()), separators=(',', ':'))}"
+            legacy_cached = self.cache.get(legacy_key)
+            if legacy_cached is not None:
+                return self._parse_explorer(legacy_cached, board, source="masters", from_cache=True)
 
         data, from_cache = self._get_json(
             f"{self.EXPLORER_BASE}/masters",
@@ -617,6 +861,7 @@ class LichessClient:
             cache_prefix="masters",
             use_cache=use_cache,
             require_auth=False,
+            norm_cache_key=norm_key,
         )
         assert data is not None
         return self._parse_explorer(data, board, source="masters", from_cache=from_cache)
@@ -633,21 +878,57 @@ class LichessClient:
         use_cache: bool = True,
     ) -> ExplorerResult:
         eff_ratings = ratings or RATING_TIERS.get(tier, tier)
+        eff_moves = max(moves, 15)
+        eff_top = max(top_games, 4)
+
+        if self.online_source in {"auto", "local"}:
+            if self.local_online.is_available(eff_ratings):
+                return self.local_online.query(
+                    board=board,
+                    tier=tier,
+                    eff_ratings=eff_ratings,
+                    speeds=speeds,
+                    moves=eff_moves,
+                    ratings_explicit=ratings is not None,
+                )
+            if self.online_source == "local":
+                raise FileNotFoundError(
+                    f"Local Online DB not ready at {self.local_online.db_path} for ratings={eff_ratings}. "
+                    "Build it via: python tools/import_lichess_dump.py --tier 2000_2500 --max-games 5000000"
+                )
+        norm_key = f"lichess_epd|{board.epd()}|r={eff_ratings}|s={speeds}"
         params: dict[str, Any] = {
             "variant": "standard",
             "fen": board.fen(),
             "speeds": speeds,
             "ratings": eff_ratings,
-            "moves": moves,
-            "topGames": top_games,
+            "moves": eff_moves,
+            "topGames": eff_top,
             "recentGames": recent_games,
         }
+        if use_cache and (eff_moves != moves or eff_top != top_games):
+            legacy_params = {
+                "variant": "standard",
+                "fen": board.fen(),
+                "speeds": speeds,
+                "ratings": eff_ratings,
+                "moves": moves,
+                "topGames": top_games,
+                "recentGames": recent_games,
+            }
+            legacy_key = f"lichess|{json.dumps(sorted((k, str(v)) for k, v in legacy_params.items()), separators=(',', ':'))}"
+            legacy_cached = self.cache.get(legacy_key)
+            if legacy_cached is not None:
+                label = f"online:{tier}({eff_ratings})" if ratings is None else f"online({eff_ratings})"
+                return self._parse_explorer(legacy_cached, board, source=label, from_cache=True)
+
         data, from_cache = self._get_json(
             f"{self.EXPLORER_BASE}/lichess",
             params=params,
             cache_prefix="lichess",
             use_cache=use_cache,
             require_auth=False,
+            norm_cache_key=norm_key,
         )
         assert data is not None
         label = f"online:{tier}({eff_ratings})" if ratings is None else f"online({eff_ratings})"

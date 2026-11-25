@@ -1,0 +1,19 @@
+{
+  "depth": 16,
+  "multipv": 3,
+  "soft_cp": 35,
+  "blunder_cp": 70,
+  "gap_our_cp": 70,
+  "opp_plausible_cp": 60,
+  "opp_expected_cp": 20,
+  "db_min_games": 20,
+  "db_plausible_pct": 5.0,
+  "db_expected_pct": 30.0,
+  "max_gap_plies": 8,
+  "max_tree_gap_plies": 16,
+  "max_perm_mentions": 3,
+  "dismiss_cp": 25,
+  "prevent_cp": 35,
+  "eval_tol_abs": 0.45,
+  "eval_tol_rel": 0.40
+}
